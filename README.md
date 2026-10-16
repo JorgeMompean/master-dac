@@ -1,4 +1,5 @@
-# DAC: Diseño y Adaptación Curricular — Máster en Profesorado
+# DAC: Diseño y Adaptación Curricular — Máster en Profesorado de Educación Secundaria Obligatoria y Bachillerato,
+Formación Profesional y Enseñanza de Idiomas 
 
 Plataforma web interactiva para la asignatura de **Diseño y Adaptación Curricular (DAC)** del **Máster en Formación del Profesorado**. Permite previsualizar de forma integrada todos los documentos y presentaciones del curso, entrenar con un generador inteligente de exámenes tipo test con corrección en tiempo real y consultar un banco de 320 preguntas clasificadas y justificadas teóricamente.
 
