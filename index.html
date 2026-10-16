@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <title>DAC: Diseño y Adaptación Curricular | Máster en Profesorado</title>
+  <meta name="description"
+    content="Plataforma interactiva para la asignatura de Diseño y Adaptación Curricular (DAC) del Máster en Formación del Profesorado: previsualización de documentos (Temas 1, 2, 3 y 4) y generador de exámenes tipo test con corrección instantánea y modo oscuro.">
+  <meta name="theme-color" content="#0a0e17">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="DAC: Diseño y Adaptación Curricular | Máster en Profesorado">
+  <meta property="og:description" content="Plataforma interactiva para la asignatura DAC (Diseño y Adaptación Curricular) del Máster en Profesorado: visor de documentos, 320 preguntas tipo test y modo oscuro.">
+  <meta name="twitter:card" content="summary">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%236366f1' stroke-width='2'><path d='M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1-2.5-2.5Z'/></svg>">
+</head>
+
+<body class="theme-dark">
+
+  <!-- ==========================================
+       APP HEADER & NAVIGATION
+       ========================================== -->
+  <header class="app-header">
+    <div class="header-container">
+      <div class="brand-section">
+        <div class="brand-logo" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round">
+            <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1-2.5-2.5Z" />
+            <path d="M6 6h10" />
+            <path d="M6 10h10" />
+            <path d="M6 14h6" />
+          </svg>
+        </div>
+        <div class="brand-text">
+          <h1>DAC · Diseño y Adaptación Curricular</h1>
+          <p>Máster en Profesorado • Temas 1, 2, 3 y 4</p>
+        </div>
+      </div>
+
+      <!-- Navigation Tabs -->
+      <nav class="nav-tabs" role="tablist" aria-label="Secciones de estudio">
+        <button type="button" class="nav-tab active" data-target="view-content" id="tab-content-btn" role="tab"
+          aria-selected="true">
+          <svg viewBox="0 0 24 24" class="svg-inline" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z" />
+          </svg>
+          <span class="nav-tab-label">Contenido & Documentos</span>
+          <span class="tab-badge">4 Temas</span>
+        </button>
+        <button type="button" class="nav-tab" data-target="view-quiz" id="tab-quiz-btn" role="tab"
+          aria-selected="false">
+          <svg viewBox="0 0 24 24" class="svg-inline" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="9 11 12 14 22 4" />
+            <path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11" />
+          </svg>
+          <span class="nav-tab-label">Generador Exámenes</span>
+          <span class="tab-badge tab-badge-accent">Test</span>
+        </button>
+        <button type="button" class="nav-tab" data-target="view-bank" id="tab-bank-btn" role="tab"
+          aria-selected="false">
+          <svg viewBox="0 0 24 24" class="svg-inline" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" />
+            <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" />
+          </svg>
+          <span class="nav-tab-label">Banco de Estudio</span>
+          <span class="tab-badge">320</span>
+        </button>
+      </nav>
+
+      <!-- Header Controls -->
+      <div class="header-actions">
+        <button type="button" class="theme-toggle-btn" id="theme-toggle-btn" title="Alternar Modo Oscuro / Claro"
+          aria-label="Alternar Modo Oscuro / Claro">
+          <span id="theme-icon-container">
+            <svg viewBox="0 0 24 24" class="svg-inline" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="5" />
+              <line x1="12" y1="1" x2="12" y2="3" />
+              <line x1="12" y1="21" x2="12" y2="23" />
+            </svg>
+          </span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==========================================
+       MAIN CONTENT CONTAINER
+       ========================================== -->
+  <main class="main-content">
+
+    <!-- ==========================================
+         VIEW 1: CONTENIDO Y PREVISUALIZADOR
+         ========================================== -->
+    <section class="view-section active" id="view-content" role="tabpanel" aria-labelledby="tab-content-btn">
+      <div class="content-view-header">
+        <!-- Topic Selector Nav -->
+        <div class="topic-selector-nav" role="navigation" aria-label="Selección de temas">
+          <button type="button" class="topic-pill active" data-topic="1" id="topic-pill-1">
+            <span class="pill-number pill-t1">T1</span>
+            <div class="pill-info">
+              <span class="pill-title">Tema 1: Historia & Leyes</span>
+              <span class="pill-sub">2 archivos (PPT + Figma)</span>
+            </div>
+          </button>
+          <button type="button" class="topic-pill" data-topic="2" id="topic-pill-2">
+            <span class="pill-number pill-t2">T2</span>
+            <div class="pill-info">
+              <span class="pill-title">Tema 2: Diseño Curricular</span>
+              <span class="pill-sub">2 archivos (PPT + Figma)</span>
+            </div>
+          </button>
+          <button type="button" class="topic-pill" data-topic="3" id="topic-pill-3">
+            <span class="pill-number pill-t3">T3</span>
+            <div class="pill-info">
+              <span class="pill-title">Tema 3: Organización Centros</span>
+              <span class="pill-sub">2 archivos (PPT + Figma)</span>
+            </div>
+          </button>
+          <button type="button" class="topic-pill" data-topic="4" id="topic-pill-4">
+            <span class="pill-number pill-t4">T4</span>
+            <div class="pill-info">
+              <span class="pill-title">Tema 4: Planificación Doc.</span>
+              <span class="pill-sub">2 archivos (PPT + Figma)</span>
+            </div>
+          </button>
+        </div>
+
+        <!-- Topic Active Banner -->
+        <div class="topic-detail-banner">
+          <div class="topic-detail-info">
+            <div class="topic-pill-badge" id="active-topic-badge">Leyes Educativas</div>
+            <h2 id="active-topic-title">Tema 1: Evolución del Sistema Educativo Español</h2>
+            <p id="active-topic-desc">Evolución histórica desde la LGE de 1970, Constitución 1978, LOECE, LODE, LOGSE,
+              LOPEGCE, LOCE, LOE, LOMCE, LOMLOE y Ley de FP 2022.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Split Layout: File Sidebar + PDF Inline Viewer -->
+      <div class="content-preview-grid">
+        <!-- Sidebar Files -->
+        <aside class="preview-sidebar">
+          <div>
+            <h3 class="sidebar-block-title">Archivos del Tema</h3>
+            <div class="topic-files-list" id="topic-files-list">
+              <!-- Dynamically populated via JS -->
+            </div>
+          </div>
+
+          <!-- Quick Study Notes -->
+          <div class="topic-quick-notes" id="topic-quick-notes">
+            <!-- Dynamically populated via JS -->
+          </div>
+        </aside>
+
+        <!-- Inline PDF Previewer -->
+        <div class="document-viewer-container" id="document-viewer-container">
+          <div class="viewer-header-toolbar">
+            <div class="viewer-file-meta">
+              <span class="viewer-file-name" id="viewer-file-name">Diapositivas Teóricas (PPT)</span>
+              <span class="viewer-file-size" id="viewer-file-size">9.65 MB • PPT TEMA 1.pptx.pdf</span>
+            </div>
+
+            <!-- Quick switch between topic files -->
+            <div class="viewer-quick-switch" id="viewer-quick-switch">
+              <!-- Populated via JS -->
+            </div>
+
+            <!-- Toolbar Actions -->
+            <div class="viewer-controls-group">
+              <a href="#" class="viewer-btn" id="viewer-download-link" target="_blank" rel="noopener noreferrer"
+                title="Abrir en ventana nativa o descargar">
+                <svg viewBox="0 0 24 24" class="svg-inline" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                  <polyline points="7 10 12 15 17 10" />
+                  <line x1="12" y1="15" x2="12" y2="3" />
+                </svg>
+                <span>Descargar</span>
+              </a>
+              <button type="button" class="viewer-btn" id="viewer-fullscreen-btn"
+                title="Alternar modo pantalla completa">
+                <svg viewBox="0 0 24 24" class="svg-inline" fill="none" stroke="currentColor" stroke-width="2">
+                  <path
+                    d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3" />
+                </svg>
+                <span id="fullscreen-btn-text">Pantalla completa</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Embedded PDF Viewer Frame -->
+          <div class="viewer-frame-wrapper">
+            <iframe id="pdf-viewer-frame" class="pdf-viewer-frame" src=""
+              title="Visor de documentos de estudio"></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         VIEW 2: GENERADOR DE EXÁMENES TIPO TEST
+         ========================================== -->
+    <section class="view-section" id="view-quiz" role="tabpanel" aria-labelledby="tab-quiz-btn">
+
+      <!-- SUBVIEW 1: SETUP / CONFIGURACIÓN -->
+      <div class="quiz-setup-card" id="quiz-setup">
+        <div class="quiz-setup-header">
+          <h2>Generador de Exámenes Tipo Test</h2>
+          <p>Configura tu examen a medida. Las preguntas de los temas seleccionados y sus opciones se mezclarán
+            aleatoriamente en cada intento.</p>
+        </div>
+
+        <div class="quiz-config-grid">
+          <!-- Modo de Examen -->
+          <div class="config-item-group">
+            <label class="config-label">
+              <span>Modo de selección:</span>
+            </label>
+            <div class="mode-toggle-group">
+              <label class="mode-radio-card">
+                <input type="radio" name="quiz-mode" id="mode-all" value="all" checked>
+                <div class="mode-card-icon-wrapper">
+                  <svg viewBox="0 0 24 24" class="svg-mode" fill="none" stroke="currentColor" stroke-width="2">
+                    <polygon points="12 2 2 7 12 12 22 7 12 2" />
+                    <polyline points="2 17 12 22 22 17" />
+                    <polyline points="2 12 12 17 22 12" />
+                  </svg>
+                </div>
+                <div>
+                  <div class="mode-card-title">Todos los temas (con exclusiones)</div>
+                  <div class="mode-card-desc">Preguntas combinadas y barajadas de todos los temas pudiendo excluir los
+                    que desees.</div>
+                </div>
+              </label>
+
+              <label class="mode-radio-card">
+                <input type="radio" name="quiz-mode" id="mode-topic" value="topic">
+                <div class="mode-card-icon-wrapper">
+                  <svg viewBox="0 0 24 24" class="svg-mode" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="10" />
+                    <circle cx="12" cy="12" r="6" />
+                    <circle cx="12" cy="12" r="2" />
+                  </svg>
+                </div>
+                <div>
+                  <div class="mode-card-title">Por tema específico</div>
+                  <div class="mode-card-desc">Focaliza tu estudio en un tema concreto con sus 80 preguntas disponibles.
+                  </div>
+                </div>
+              </label>
+            </div>
+          </div>
+
+          <!-- Exclusiones (Visible en modo "Todos") -->
+          <div class="config-item-group" id="exclusions-container">
+            <label class="config-label">
+              <span>Temas incluidos en el test:</span>
+              <small>(Desmarca cualquier tema que desees excluir)</small>
+            </label>
+            <div class="exclusions-checkboxes" id="exclusions-checkboxes">
+              <!-- Renderizado dinámico -->
+            </div>
+          </div>
+
+          <!-- Selección de tema único (Visible en modo "Por tema") -->
+          <div class="config-item-group" id="topic-select-container" style="display: none;">
+            <label class="config-label">
+              <span>Selecciona el tema a evaluar:</span>
+            </label>
+            <div class="topic-radio-group" id="topic-radio-group">
+              <!-- Renderizado dinámico -->
+            </div>
+          </div>
+
+          <!-- Selector Maquetable de Número de Preguntas (De 5 en 5) -->
+          <div class="config-item-group">
+            <label class="config-label">
+              <span>Número de preguntas del examen:</span>
+              <small id="available-pool-count">(Elige de 5 en 5)</small>
+            </label>
+            <div class="custom-stepper-container">
+              <div class="stepper-controls">
+                <button type="button" class="stepper-btn" id="btn-count-minus" aria-label="Restar 5 preguntas"
+                  title="Restar 5 preguntas">
+                  <svg viewBox="0 0 24 24" class="svg-inline" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <line x1="5" y1="12" x2="19" y2="12" />
+                  </svg>
+                </button>
+                <div class="stepper-value-display">
+                  <span id="question-count-display">20</span>
+                  <small>preguntas</small>
+                </div>
+                <button type="button" class="stepper-btn" id="btn-count-plus" aria-label="Sumar 5 preguntas"
+                  title="Sumar 5 preguntas">
+                  <svg viewBox="0 0 24 24" class="svg-inline" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <line x1="12" y1="5" x2="12" y2="19" />
+                    <line x1="5" y1="12" x2="19" y2="12" />
+                  </svg>
+                </button>
+              </div>
+
+              <!-- Píldoras de Acceso Rápido -->
+              <div class="count-presets-group" id="count-presets-group">
+                <button type="button" class="count-preset-pill" data-count="5">5</button>
+                <button type="button" class="count-preset-pill" data-count="10">10</button>
+                <button type="button" class="count-preset-pill" data-count="15">15</button>
+                <button type="button" class="count-preset-pill active" data-count="20">20</button>
+                <button type="button" class="count-preset-pill" data-count="25">25</button>
+                <button type="button" class="count-preset-pill" data-count="30">30</button>
+                <button type="button" class="count-preset-pill" data-count="40">40</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Botón de Inicio -->
+          <div class="quiz-start-action">
+            <button type="button" class="btn-primary-gradient" id="btn-start-quiz">
+              <svg viewBox="0 0 24 24" class="svg-inline" fill="none" stroke="currentColor" stroke-width="2.2">
+                <polygon points="5 3 19 12 5 21 5 3" />
+              </svg>
+              <span>Comenzar Examen Tipo Test</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- SUBVIEW 2: EXAMEN ACTIVO -->
+      <div class="quiz-active-container" id="quiz-active" style="display: none;">
+        <!-- Live Header Bar -->
+        <div class="quiz-live-header">
+          <div class="quiz-stats-row">
+            <div class="quiz-progress-text" id="quiz-progress-text">
+              Pregunta <strong>1</strong> de <strong>20</strong>
+            </div>
+            <div class="quiz-remaining-badge" id="quiz-remaining-badge">
+              <span>Quedan <strong>19</strong></span>
+            </div>
+            <div class="quiz-live-grade" id="quiz-live-grade">
+              <span class="grade-pill neutral">Nota: - / 10</span>
+            </div>
+            <div class="quiz-timer-pill" id="quiz-timer">00:00</div>
+          </div>
+
+          <!-- Progress Bar -->
+          <div class="quiz-progress-track">
+            <div class="quiz-progress-bar" id="quiz-progress-bar"></div>
+          </div>
+        </div>
+
+        <!-- Question Card -->
+        <div class="quiz-question-card">
+          <div class="quiz-topic-tag" id="quiz-topic-tag">Tema 1</div>
+          <div class="quiz-question-text" id="quiz-question-text">
+            Cargando pregunta...
+          </div>
+
+          <!-- Interactive 4 Options -->
+          <div class="quiz-options-container" id="quiz-options-container">
+            <!-- Buttons populated via JS -->
+          </div>
+
+          <!-- Instant Feedback Drawer -->
+          <div class="quiz-feedback-card" id="quiz-feedback-card" style="display: none;">
+            <div id="quiz-feedback-title"></div>
+            <div id="quiz-feedback-explanation"></div>
+          </div>
+        </div>
+
+        <!-- Footer Actions -->
+        <div class="quiz-footer-actions">
+          <button type="button" class="btn-secondary-quit" id="quiz-btn-quit">
+            <svg viewBox="0 0 24 24" class="svg-inline" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="18" y1="6" x2="6" y2="18" />
+              <line x1="6" y1="6" x2="18" y2="18" />
+            </svg>
+            <span>Abandonar</span>
+          </button>
+          <button type="button" class="btn-quiz-next" id="quiz-btn-next" style="display: none;">
+            <span>Siguiente Pregunta</span>
+            <svg viewBox="0 0 24 24" class="svg-inline" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="5" y1="12" x2="19" y2="12" />
+              <polyline points="12 5 19 12 12 19" />
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- SUBVIEW 3: RESULTADOS DEL EXAMEN -->
+      <div class="quiz-results-container" id="quiz-results" style="display: none;">
+        <div class="results-hero-card">
+          <div class="results-grade-circle">
+            <div class="results-final-grade" id="res-final-grade">0.0</div>
+            <div class="results-max-scale">sobre 10</div>
+          </div>
+          <div class="results-badge badge-pass" id="res-grade-badge">APROBADO</div>
+
+          <!-- Metrics Row -->
+          <div class="results-metrics-grid">
+            <div class="metric-box">
+              <div class="metric-val" id="res-correct-count" style="color: #10b981;">0</div>
+              <div class="metric-label">Aciertos</div>
+            </div>
+            <div class="metric-box">
+              <div class="metric-val" id="res-incorrect-count" style="color: #ef4444;">0</div>
+              <div class="metric-label">Fallos</div>
+            </div>
+            <div class="metric-box">
+              <div class="metric-val" id="res-total-questions">20</div>
+              <div class="metric-label">Preguntas</div>
+            </div>
+            <div class="metric-box">
+              <div class="metric-val" id="res-time-taken">0m 0s</div>
+              <div class="metric-label">Tiempo Total</div>
+            </div>
+          </div>
+
+          <!-- Action Buttons -->
+          <div class="results-actions-row">
+            <button type="button" class="btn-res-new" id="res-btn-new-random">
+              <svg viewBox="0 0 24 24" class="svg-inline" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="16 3 21 3 21 8" />
+                <line x1="4" y1="20" x2="21" y2="3" />
+                <polyline points="21 16 21 21 16 21" />
+                <line x1="15" y1="15" x2="21" y2="21" />
+                <line x1="4" y1="4" x2="9" y2="9" />
+              </svg>
+              <span>Nuevas Preguntas Aleatorias</span>
+            </button>
+            <button type="button" class="btn-res-restart" id="res-btn-restart">
+              <svg viewBox="0 0 24 24" class="svg-inline" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="23 4 23 10 17 10" />
+                <path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10" />
+              </svg>
+              <span>Repetir Este Test</span>
+            </button>
+            <button type="button" class="btn-res-restart" id="res-btn-config">
+              <svg viewBox="0 0 24 24" class="svg-inline" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="3" />
+                <path
+                  d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z" />
+              </svg>
+              <span>Cambiar Configuración</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Breakdown by Topic -->
+        <div class="results-breakdown-card">
+          <h3>Rendimiento por Tema</h3>
+          <div class="results-topic-breakdown" id="res-topic-breakdown">
+            <!-- Populated via JS -->
+          </div>
+        </div>
+
+        <!-- Detailed Review of All Questions -->
+        <div class="results-review-card">
+          <h3>Revisión Detallada de Preguntas</h3>
+          <div class="results-review-list" id="res-review-list">
+            <!-- Populated via JS -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         VIEW 3: BANCO DE ESTUDIO COMPLETO
+         ========================================== -->
+    <section class="view-section" id="view-bank" role="tabpanel" aria-labelledby="tab-bank-btn">
+      <div class="bank-header">
+        <h2>Banco de Preguntas para Estudio Directo</h2>
+        <p>Explora todo el repertorio de 320 preguntas clasificadas por temas, con sus opciones, respuesta correcta y
+          justificación teórica.</p>
+      </div>
+
+      <!-- Toolbar con Selector Maquetable de Píldoras -->
+      <div class="bank-toolbar">
+        <div class="bank-filter-wrapper">
+          <div class="custom-filter-pills" id="bank-filter-pills">
+            <button type="button" class="bank-pill-btn active" data-topic="all">Todos los Temas (320)</button>
+            <button type="button" class="bank-pill-btn" data-topic="1">Tema 1: Historia (80)</button>
+            <button type="button" class="bank-pill-btn" data-topic="2">Tema 2: Currículo (80)</button>
+            <button type="button" class="bank-pill-btn" data-topic="3">Tema 3: Centros (80)</button>
+            <button type="button" class="bank-pill-btn" data-topic="4">Tema 4: Planes (80)</button>
+          </div>
+
+          <div class="search-input-wrapper">
+            <svg viewBox="0 0 24 24" class="svg-inline search-icon" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="11" cy="11" r="8" />
+              <line x1="21" y1="21" x2="16.65" y2="16.65" />
+            </svg>
+            <input type="text" id="bank-search-input" class="bank-search-input"
+              placeholder="Buscar concepto o ley (ej: LOMLOE, PEC, DUA, Consejo Escolar, Decreto 252)...">
+          </div>
+        </div>
+        <div class="bank-count-badge" id="bank-count-badge">320 preguntas</div>
+      </div>
+
+      <!-- Grid of Questions -->
+      <div class="bank-questions-grid" id="bank-questions-grid">
+        <!-- Populated via JS -->
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="app-footer">
+    <p>&copy; 2026 Jorge Mompeán Cabezas. Todos los derechos reservados.</p>
+  </footer>
+
+  <!-- Scripts: questions-data.js cargado de forma síncrona para funcionamiento directo con doble clic sin localhost -->
+  <script src="data/questions-data.js"></script>
+  <script src="js/quiz.js"></script>
+  <script src="js/app.js"></script>
+</body>
+
+</html>

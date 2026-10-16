@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>404 - Página no encontrada | DAC · Máster en Profesorado</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%236366f1' stroke-width='2'><path d='M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1-2.5-2.5Z'/></svg>">
+  <style>
+    .not-found-container {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+      text-align: center;
+    }
+    .not-found-card {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-xl);
+      padding: 3rem 2rem;
+      max-width: 500px;
+      width: 100%;
+      box-shadow: var(--shadow-xl);
+      animation: fadeInUp 0.4s ease-out;
+    }
+    .not-found-code {
+      font-size: 5rem;
+      font-weight: 900;
+      line-height: 1;
+      background: linear-gradient(135deg, var(--color-primary), var(--color-accent));
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 1rem;
+    }
+    .not-found-title {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: var(--text-main);
+      margin-bottom: 0.75rem;
+    }
+    .not-found-desc {
+      font-size: 0.95rem;
+      color: var(--text-muted);
+      margin-bottom: 2rem;
+      line-height: 1.6;
+    }
+    .not-found-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.85rem 1.75rem;
+      border-radius: var(--radius-md);
+      background: linear-gradient(135deg, var(--color-primary), var(--color-primary-hover));
+      color: #fff;
+      font-weight: 600;
+      text-decoration: none;
+      transition: all var(--transition-fast);
+      box-shadow: var(--shadow-md);
+    }
+    .not-found-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: var(--shadow-lg);
+    }
+    .not-found-btn svg {
+      width: 18px;
+      height: 18px;
+    }
+  </style>
+</head>
+<body class="theme-dark">
+  <div class="not-found-container">
+    <div class="not-found-card">
+      <div class="not-found-code">404</div>
+      <h1 class="not-found-title">Página no encontrada</h1>
+      <p class="not-found-desc">La ruta que intentas consultar no existe o ha sido movida. Te redirigimos al inicio de la plataforma.</p>
+      <a href="index.html" class="not-found-btn">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="19" y1="12" x2="5" y2="12"></line>
+          <polyline points="12 19 5 12 12 5"></polyline>
+        </svg>
+        <span>Volver a DAC (Máster en Profesorado)</span>
+      </a>
+    </div>
+  </div>
+
+  <script>
+    // Redirigir automáticamente a index.html después de 4 segundos
+    setTimeout(() => {
+      window.location.href = 'index.html';
+    }, 4000);
+  </script>
+</body>
+</html>
