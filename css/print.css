@@ -1,0 +1,62 @@
+/* =============================================================================
+   ESTILOS DE IMPRESIÓN (EXPORTAR A PDF / IMPRIMIR REPORTE COMPLETO)
+   ============================================================================= */
+@media print {
+  body {
+    background: #ffffff !important;
+    color: #111827 !important;
+  }
+
+  .app-header,
+  .app-footer,
+  .results-actions-row,
+  .review-filter-toolbar,
+  .btn-review-print-secondary,
+  .sync-status-btn,
+  .modal-overlay,
+  #quiz-setup,
+  #quiz-active,
+  #view-content,
+  #view-bank,
+  #view-dashboard {
+    display: none !important;
+  }
+
+  #view-quiz,
+  #quiz-results {
+    display: block !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .results-hero-card {
+    box-shadow: none !important;
+    border: 2px solid #e5e7eb !important;
+    background: #f9fafb !important;
+    page-break-after: avoid;
+  }
+
+  .results-review-card {
+    box-shadow: none !important;
+    border: none !important;
+    padding: 0 !important;
+  }
+
+  .review-item {
+    page-break-inside: avoid;
+    border: 1px solid #d1d5db !important;
+    margin-bottom: 1rem;
+    background: #fff !important;
+  }
+
+  .review-opt.opt-correct {
+    background: #ecfdf5 !important;
+    border-color: #10b981 !important;
+  }
+
+  .review-opt.opt-user-incorrect {
+    background: #fef2f2 !important;
+    border-color: #ef4444 !important;
+  }
+}

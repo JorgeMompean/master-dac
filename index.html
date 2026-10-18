@@ -13,6 +13,18 @@ Formación Profesional y Enseñanza de Idiomas: previsualización de documentos 
   <meta property="og:title" content="DAC | Máster en Profesorado">
   <meta property="og:description" content="Plataforma interactiva para la asignatura DAC (Diseño y Adaptación Curricular) del Máster en Profesorado: visor de documentos, 320 preguntas tipo test y modo oscuro.">
   <meta name="twitter:card" content="summary">
+  <!-- Estilos Modulares Diversificados -->
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/viewer.css">
+  <link rel="stylesheet" href="css/quiz.css">
+  <link rel="stylesheet" href="css/results.css">
+  <link rel="stylesheet" href="css/review.css">
+  <link rel="stylesheet" href="css/bank.css">
+  <link rel="stylesheet" href="css/dashboard.css">
+  <link rel="stylesheet" href="css/sync.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="css/print.css" media="print">
   <link rel="stylesheet" href="css/style.css">
   <link rel="icon"
     href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%236366f1' stroke-width='2'><path d='M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1-2.5-2.5Z'/></svg>">
@@ -69,10 +81,27 @@ Formación Profesional y Enseñanza de Idiomas: previsualización de documentos 
           <span class="nav-tab-label">Banco de Estudio</span>
           <span class="tab-badge">320</span>
         </button>
+        <button type="button" class="nav-tab" data-target="view-dashboard" id="tab-dashboard-btn" role="tab"
+          aria-selected="false">
+          <svg viewBox="0 0 24 24" class="svg-inline" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21.21 15.89A10 10 0 1 1 8 2.83" />
+            <path d="M22 12A10 10 0 0 0 12 2v10z" />
+          </svg>
+          <span class="nav-tab-label">Dashboard & Métricas</span>
+          <span class="tab-badge tab-badge-accent">Progreso</span>
+        </button>
       </nav>
 
       <!-- Header Controls -->
       <div class="header-actions">
+        <button type="button" class="sync-account-btn" id="sync-header-btn" title="Sincronización multi-dispositivo (Tablet/Móvil)" aria-label="Sincronizar progreso entre dispositivos">
+          <span class="sync-indicator-dot"></span>
+          <svg viewBox="0 0 24 24" class="svg-inline" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"/>
+          </svg>
+          <span class="sync-status-text">Sincronizar</span>
+        </button>
+
         <button type="button" class="theme-toggle-btn" id="theme-toggle-btn" title="Alternar Modo Oscuro / Claro"
           aria-label="Alternar Modo Oscuro / Claro">
           <span id="theme-icon-container">
@@ -349,6 +378,22 @@ Formación Profesional y Enseñanza de Idiomas: previsualización de documentos 
           <div class="quiz-progress-track">
             <div class="quiz-progress-bar" id="quiz-progress-bar"></div>
           </div>
+
+          <!-- Question Quick Navigator Bar -->
+          <div class="quiz-nav-container">
+            <div class="quiz-nav-header">
+              <span class="quiz-nav-title">Navegación de Preguntas:</span>
+              <div class="quiz-nav-legend">
+                <span class="nav-legend-item"><span class="legend-dot dot-correct"></span> Acierto</span>
+                <span class="nav-legend-item"><span class="legend-dot dot-incorrect"></span> Fallo</span>
+                <span class="nav-legend-item"><span class="legend-dot dot-skipped"></span> Pasada</span>
+                <span class="nav-legend-item"><span class="legend-dot dot-current"></span> Actual</span>
+              </div>
+            </div>
+            <div class="quiz-nav-pills-track" id="quiz-nav-pills-track">
+              <!-- Renderizado dinámico de píldoras -->
+            </div>
+          </div>
         </div>
 
         <!-- Question Card -->
@@ -370,22 +415,81 @@ Formación Profesional y Enseñanza de Idiomas: previsualización de documentos 
           </div>
         </div>
 
-        <!-- Footer Actions -->
+        <!-- Footer Actions con navegación Anterior, Pasar y Entregar -->
         <div class="quiz-footer-actions">
-          <button type="button" class="btn-secondary-quit" id="quiz-btn-quit">
-            <svg viewBox="0 0 24 24" class="svg-inline" fill="none" stroke="currentColor" stroke-width="2">
-              <line x1="18" y1="6" x2="6" y2="18" />
-              <line x1="6" y1="6" x2="18" y2="18" />
-            </svg>
-            <span>Abandonar</span>
-          </button>
-          <button type="button" class="btn-quiz-next" id="quiz-btn-next" style="display: none;">
-            <span>Siguiente Pregunta</span>
-            <svg viewBox="0 0 24 24" class="svg-inline" fill="none" stroke="currentColor" stroke-width="2">
-              <line x1="5" y1="12" x2="19" y2="12" />
-              <polyline points="12 5 19 12 12 19" />
-            </svg>
-          </button>
+          <div class="quiz-footer-left">
+            <button type="button" class="btn-secondary-quit" id="quiz-btn-quit" title="Abandonar este examen">
+              <svg viewBox="0 0 24 24" class="svg-inline" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="18" y1="6" x2="6" y2="18" />
+                <line x1="6" y1="6" x2="18" y2="18" />
+              </svg>
+              <span>Abandonar</span>
+            </button>
+          </div>
+
+          <div class="quiz-footer-center">
+            <button type="button" class="btn-quiz-nav" id="quiz-btn-prev" title="Volver a la pregunta anterior">
+              <svg viewBox="0 0 24 24" class="svg-inline" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="15 18 9 12 15 6" />
+              </svg>
+              <span>Anterior</span>
+            </button>
+            <button type="button" class="btn-quiz-skip" id="quiz-btn-skip" title="Pasar pregunta para pensarla luego">
+              <svg viewBox="0 0 24 24" class="svg-inline" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10" />
+                <polyline points="12 6 12 12 14 14" />
+              </svg>
+              <span>Pasar Pregunta</span>
+            </button>
+            <button type="button" class="btn-quiz-next" id="quiz-btn-next">
+              <span>Siguiente</span>
+              <svg viewBox="0 0 24 24" class="svg-inline" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="5" y1="12" x2="19" y2="12" />
+                <polyline points="12 5 19 12 12 19" />
+              </svg>
+            </button>
+          </div>
+
+          <div class="quiz-footer-right">
+            <button type="button" class="btn-quiz-finish-direct" id="quiz-btn-finish-direct" title="Finalizar y entregar examen">
+              <svg viewBox="0 0 24 24" class="svg-inline" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="20 6 9 17 4 12" />
+              </svg>
+              <span>Entregar Examen</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Modal de confirmación para preguntas pendientes -->
+        <div class="quiz-modal-backdrop" id="quiz-pending-modal" style="display: none;">
+          <div class="quiz-modal-card">
+            <div class="quiz-modal-icon">
+              <svg viewBox="0 0 24 24" class="svg-modal" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10" />
+                <line x1="12" y1="8" x2="12" y2="12" />
+                <line x1="12" y1="16" x2="12.01" y2="16" />
+              </svg>
+            </div>
+            <h3 class="quiz-modal-title">¿Deseas entregar el examen?</h3>
+            <p class="quiz-modal-desc" id="quiz-pending-modal-desc">
+              Tienes preguntas pendientes sin responder.
+            </p>
+            <div class="quiz-modal-actions">
+              <button type="button" class="btn-modal-secondary" id="modal-btn-review-pending">
+                <svg viewBox="0 0 24 24" class="svg-inline" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="11" cy="11" r="8" />
+                  <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                </svg>
+                <span>Revisar Pendientes</span>
+              </button>
+              <button type="button" class="btn-modal-danger" id="modal-btn-confirm-finish">
+                <svg viewBox="0 0 24 24" class="svg-inline" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="20 6 9 17 4 12" />
+                </svg>
+                <span>Entregar de todos modos</span>
+              </button>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -418,8 +522,15 @@ Formación Profesional y Enseñanza de Idiomas: previsualización de documentos 
             </div>
           </div>
 
-          <!-- Action Buttons -->
+          <!-- Action Buttons con Repetir Fallos y Dashboard -->
           <div class="results-actions-row">
+            <button type="button" class="btn-res-repeat-errors" id="res-btn-repeat-errors" title="Comenzar un test únicamente con las preguntas que fallaste">
+              <svg viewBox="0 0 24 24" class="svg-inline" fill="none" stroke="currentColor" stroke-width="2.2">
+                <polyline points="23 4 23 10 17 10" />
+                <path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10" />
+              </svg>
+              <span id="res-repeat-errors-label">Repetir Solo Fallos</span>
+            </button>
             <button type="button" class="btn-res-new" id="res-btn-new-random">
               <svg viewBox="0 0 24 24" class="svg-inline" fill="none" stroke="currentColor" stroke-width="2">
                 <polyline points="16 3 21 3 21 8" />
@@ -437,6 +548,21 @@ Formación Profesional y Enseñanza de Idiomas: previsualización de documentos 
               </svg>
               <span>Repetir Este Test</span>
             </button>
+            <button type="button" class="btn-res-dashboard" id="res-btn-dashboard" title="Ver análisis histórico y métricas por tema">
+              <svg viewBox="0 0 24 24" class="svg-inline" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21.21 15.89A10 10 0 1 1 8 2.83" />
+                <path d="M22 12A10 10 0 0 0 12 2v10z" />
+              </svg>
+              <span>Ver en Dashboard</span>
+            </button>
+            <button type="button" class="btn-res-print" id="res-btn-print" title="Imprimir informe oficial del examen">
+              <svg viewBox="0 0 24 24" class="svg-inline" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="6 9 6 2 18 2 18 9" />
+                <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2" />
+                <rect x="6" y="14" width="12" height="8" />
+              </svg>
+              <span>Imprimir Reporte</span>
+            </button>
             <button type="button" class="btn-res-restart" id="res-btn-config">
               <svg viewBox="0 0 24 24" class="svg-inline" fill="none" stroke="currentColor" stroke-width="2">
                 <circle cx="12" cy="12" r="3" />
@@ -450,15 +576,46 @@ Formación Profesional y Enseñanza de Idiomas: previsualización de documentos 
 
         <!-- Breakdown by Topic -->
         <div class="results-breakdown-card">
-          <h3>Rendimiento por Tema</h3>
+          <h3>Rendimiento por Tema en este Examen</h3>
           <div class="results-topic-breakdown" id="res-topic-breakdown">
             <!-- Populated via JS -->
           </div>
         </div>
 
-        <!-- Detailed Review of All Questions -->
+        <!-- Detailed Review of All Questions con Filtros y Buscador -->
         <div class="results-review-card">
-          <h3>Revisión Detallada de Preguntas</h3>
+          <div class="review-card-header">
+            <div>
+              <h3>Reporte Detallado de TODAS las Preguntas</h3>
+              <p class="review-card-subtitle">Auditoría completa: revisa tus aciertos, fallos y justificaciones teóricas oficiales para dominar cada concepto.</p>
+            </div>
+            <button type="button" class="btn-review-print-secondary" id="res-btn-print-secondary">
+              <svg viewBox="0 0 24 24" class="svg-inline" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="6 9 6 2 18 2 18 9"/>
+                <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/>
+                <rect x="6" y="14" width="12" height="8"/>
+              </svg>
+              <span>Imprimir Informe</span>
+            </button>
+          </div>
+
+          <!-- Filtros de Reporte y Búsqueda -->
+          <div class="review-filter-toolbar">
+            <div class="review-filter-pills" id="res-review-filter-group">
+              <button type="button" class="rev-filter-pill active" data-filter="all">Todas (<span id="rev-count-all">0</span>)</button>
+              <button type="button" class="rev-filter-pill pill-ok" data-filter="correct">Aciertos (<span id="rev-count-correct">0</span>)</button>
+              <button type="button" class="rev-filter-pill pill-ko" data-filter="incorrect">Fallos (<span id="rev-count-incorrect">0</span>)</button>
+              <button type="button" class="rev-filter-pill pill-skip" data-filter="skipped">Pasadas (<span id="rev-count-skipped">0</span>)</button>
+            </div>
+            <div class="review-search-box">
+              <svg viewBox="0 0 24 24" class="svg-inline" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="11" cy="11" r="8"/>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"/>
+              </svg>
+              <input type="text" id="res-review-search-input" placeholder="Buscar en preguntas o justificaciones...">
+            </div>
+          </div>
+
           <div class="results-review-list" id="res-review-list">
             <!-- Populated via JS -->
           </div>
@@ -505,14 +662,29 @@ Formación Profesional y Enseñanza de Idiomas: previsualización de documentos 
       </div>
     </section>
 
+    <!-- ==========================================
+         VIEW 4: DASHBOARD & MÉTRICAS POR TEMA
+         ========================================== -->
+    <section class="view-section" id="view-dashboard" role="tabpanel" aria-labelledby="tab-dashboard-btn">
+      <!-- Populated via js/stats.js window.dashboardManager.render() -->
+    </section>
+
   </main>
 
   <footer class="app-footer">
     <p>&copy; 2026 Jorge Mompeán Cabezas. Todos los derechos reservados.</p>
   </footer>
 
-  <!-- Scripts: questions-data.js cargado de forma síncrona para funcionamiento directo con doble clic sin localhost -->
+  <!-- Firebase SDK v10 (Compat - funciona en file://, localhost y web sin compiladores) -->
+  <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-auth-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore-compat.js"></script>
+  <script src="js/firebase-config.js"></script>
+
+  <!-- Scripts de la Aplicación -->
   <script src="data/questions-data.js"></script>
+  <script src="js/stats.js"></script>
+  <script src="js/sync.js"></script>
   <script src="js/quiz.js"></script>
   <script src="js/app.js"></script>
 </body>

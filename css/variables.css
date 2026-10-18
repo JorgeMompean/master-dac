@@ -1,0 +1,146 @@
+/* =============================================================================
+   VARIABLES, TEMAS Y RESET BASE - DAC: MÁSTER EN PROFESORADO
+   ============================================================================= */
+
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap');
+
+:root {
+  /* Colores Corporativos */
+  --color-primary: #6366f1;
+  --color-primary-hover: #4f46e5;
+  --color-secondary: #06b6d4;
+  --color-success: #10b981;
+  --color-success-bg: rgba(16, 185, 129, 0.12);
+  --color-warning: #f59e0b;
+  --color-danger: #ef4444;
+  --color-danger-bg: rgba(239, 68, 68, 0.12);
+  --color-accent: #8b5cf6;
+
+  /* Tipografía */
+  --font-main: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  /* Sombras y Radios */
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --radius-xl: 28px;
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.08);
+  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.14);
+  --shadow-lg: 0 16px 40px rgba(0, 0, 0, 0.22);
+  --shadow-glow: 0 0 25px rgba(99, 102, 241, 0.35);
+
+  --transition-fast: 0.18s ease;
+  --transition-normal: 0.28s ease;
+}
+
+/* ==========================================
+   TEMA OSCURO (Por defecto)
+   ========================================== */
+body.theme-dark {
+  --bg-app: #090d16;
+  --bg-surface: #111726;
+  --bg-surface-elevated: #182238;
+  --bg-surface-glass: rgba(17, 23, 38, 0.85);
+  --bg-card: #151d30;
+  --bg-card-hover: #1c2742;
+
+  --border-color: rgba(255, 255, 255, 0.08);
+  --border-color-focus: rgba(99, 102, 241, 0.5);
+  --border-color-subtle: rgba(255, 255, 255, 0.04);
+
+  --text-main: #f1f5f9;
+  --text-muted: #94a3b8;
+  --text-dim: #64748b;
+
+  --badge-bg: rgba(255, 255, 255, 0.06);
+  --option-bg: #141c2e;
+  --option-hover: #1e2942;
+  --option-border: rgba(255, 255, 255, 0.1);
+
+  --viewer-bg: #0b0f19;
+  --header-glass: rgba(9, 13, 22, 0.92);
+}
+
+/* ==========================================
+   TEMA CLARO
+   ========================================== */
+body.theme-light {
+  --bg-app: #f8fafc;
+  --bg-surface: #ffffff;
+  --bg-surface-elevated: #f1f5f9;
+  --bg-surface-glass: rgba(255, 255, 255, 0.94);
+  --bg-card: #ffffff;
+  --bg-card-hover: #f8fafc;
+
+  --border-color: rgba(0, 0, 0, 0.08);
+  --border-color-focus: rgba(99, 102, 241, 0.6);
+  --border-color-subtle: rgba(0, 0, 0, 0.04);
+
+  --text-main: #0f172a;
+  --text-muted: #475569;
+  --text-dim: #94a3b8;
+
+  --badge-bg: rgba(0, 0, 0, 0.05);
+  --option-bg: #f8fafc;
+  --option-hover: #f1f5f9;
+  --option-border: rgba(0, 0, 0, 0.1);
+
+  --viewer-bg: #e2e8f0;
+  --header-glass: rgba(248, 250, 252, 0.94);
+}
+
+/* ==========================================
+   BASE & RESET
+   ========================================== */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: var(--font-main);
+  background-color: var(--bg-app);
+  color: var(--text-main);
+  min-height: 100vh;
+  line-height: 1.6;
+  transition: background-color var(--transition-normal), color var(--transition-normal);
+  overflow-x: hidden;
+  width: 100%;
+}
+
+body.viewer-modal-open {
+  overflow: hidden !important;
+  height: 100vh !important;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  background: none;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.svg-inline {
+  width: 17px;
+  height: 17px;
+  vertical-align: middle;
+  display: inline-block;
+  flex-shrink: 0;
+}

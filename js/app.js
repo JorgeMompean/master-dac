@@ -1,6 +1,6 @@
 // =============================================================================
 // APLICACIÓN PRINCIPAL - DAC: DISEÑO Y ADAPTACIÓN CURRICULAR (MÁSTER EN PROFESORADO)
-// Soporte offline directo (file://) y servidor local
+// Datos y progreso centralizados en Firebase
 // Píldoras de filtro maquetables en el Banco de Estudio
 // =============================================================================
 
@@ -16,6 +16,7 @@ class MasterDACApp {
     this.initElements();
     this.initTheme();
     this.bindEvents();
+    document.addEventListener('dac-questions-ready', () => this.loadData());
     this.loadData();
   }
 
@@ -50,28 +51,20 @@ class MasterDACApp {
 
   async loadData() {
     try {
-      if (window.DAC_DATA) {
-        this.topicsMetadata = window.DAC_DATA.topics;
-        this.questionsData = window.DAC_DATA.questions;
+      if (window.cloudSyncManager?.ready) await window.cloudSyncManager.ready;
+      if (window.cloudSyncManager?.db) {
+        this.questionsData = await window.cloudSyncManager.loadQuestionsFromFirestore();
+        this.topicsMetadata = window.DAC_DATA?.topics || {};
       } else {
-        const res = await fetch('data/questions.json');
-        if (!res.ok) throw new Error("Error HTTP " + res.status);
-        const data = await res.json();
-        this.topicsMetadata = data.topics;
-        this.questionsData = data.questions;
-        window.DAC_DATA = data;
+        throw new Error('Firebase todavía no está inicializado.');
       }
 
       this.renderTopicContent();
       this.renderStudyBank();
+      if (window.dashboardManager) window.dashboardManager.render();
     } catch (e) {
-      console.warn("Fallo en fetch data/questions.json:", e);
-      if (window.DAC_DATA) {
-        this.topicsMetadata = window.DAC_DATA.topics;
-        this.questionsData = window.DAC_DATA.questions;
-        this.renderTopicContent();
-        this.renderStudyBank();
-      }
+      console.warn("Fallo cargando el banco de preguntas desde Firestore:", e);
+      this.questionsData = null;
     }
   }
 
@@ -176,6 +169,10 @@ class MasterDACApp {
 
     if (viewId === 'view-quiz' && window.quizApp) {
       window.quizApp.updateQuestionPoolCount();
+    }
+
+    if (viewId === 'view-dashboard' && window.dashboardManager) {
+      window.dashboardManager.render();
     }
   }
 

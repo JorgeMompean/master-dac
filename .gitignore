@@ -1,0 +1,33 @@
+# La configuración web de Firebase (apiKey, projectId, appId) no es un secreto
+# y debe estar disponible en el despliegue estático de GitHub Pages.
+.env
+.env.*
+
+# Nunca subir credenciales de servidor o claves privadas de Firebase
+serviceAccount*.json
+firebase-adminsdk*.json
+*-service-account*.json
+*.pem
+*.key
+.firebase/
+firebase-debug.log
+
+# Archivos de respaldo y exportaciones con datos personales
+dac-profesorado-backup*.json
+*.backup.json
+
+# Archivos del sistema y logs
+.DS_Store
+Thumbs.db
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Entornos y temporales
+node_modules/
+dist/
+.vscode/
+.idea/
+*.swp
+*.swo

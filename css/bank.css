@@ -1,0 +1,220 @@
+/* =============================================================================
+   VISTA 3: BANCO DE ESTUDIO COMPLETO (320 PREGUNTAS) - DAC
+   ============================================================================= */
+
+.bank-header {
+  margin-bottom: 1.5rem;
+}
+
+.bank-header h2 {
+  font-size: clamp(1.3rem, 3.5vw, 1.6rem);
+  font-weight: 800;
+  margin-bottom: 0.35rem;
+}
+
+.bank-header p {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+.bank-toolbar {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-lg);
+  padding: 1.15rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.bank-filter-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+/* Píldoras de Filtro de Temas */
+.custom-filter-pills {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.bank-pill-btn {
+  padding: 0.5rem 0.95rem;
+  border-radius: var(--radius-sm);
+  background: var(--bg-surface);
+  border: 1px solid var(--border-color);
+  color: var(--text-muted);
+  font-size: 0.82rem;
+  font-weight: 600;
+  transition: all var(--transition-fast);
+}
+
+.bank-pill-btn:hover {
+  color: var(--text-main);
+  border-color: rgba(99, 102, 241, 0.4);
+}
+
+.bank-pill-btn.active {
+  background: var(--color-primary);
+  border-color: var(--color-primary);
+  color: #fff;
+  box-shadow: 0 4px 12px rgba(99, 102, 241, 0.3);
+}
+
+.search-input-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex: 1;
+  min-width: 260px;
+  max-width: 440px;
+}
+
+.search-icon {
+  position: absolute;
+  left: 12px;
+  color: var(--text-dim);
+  pointer-events: none;
+}
+
+.bank-search-input {
+  width: 100%;
+  padding: 0.65rem 1.15rem 0.65rem 2.4rem;
+  border-radius: var(--radius-md);
+  background: var(--bg-surface);
+  border: 1px solid var(--border-color);
+  color: var(--text-main);
+  font-size: 0.88rem;
+  outline: none;
+  transition: border-color var(--transition-fast);
+}
+
+.bank-search-input:focus {
+  border-color: var(--color-primary);
+}
+
+.bank-count-badge {
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--text-dim);
+  background: var(--badge-bg);
+  padding: 0.35rem 0.75rem;
+  border-radius: 20px;
+  align-self: flex-start;
+}
+
+/* Grid de Preguntas del Banco */
+.bank-questions-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.25rem;
+}
+
+.bank-question-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  padding: 1.35rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+  transition: all var(--transition-fast);
+}
+
+.bank-question-card:hover {
+  border-color: rgba(99, 102, 241, 0.35);
+  box-shadow: var(--shadow-sm);
+}
+
+.bank-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bank-card-tag {
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 0.2rem 0.6rem;
+  border-radius: 12px;
+}
+
+.bank-card-num {
+  font-size: 0.8rem;
+  font-weight: 800;
+  color: var(--text-dim);
+}
+
+.bank-card-question {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--text-main);
+  line-height: 1.4;
+}
+
+.bank-card-options {
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+}
+
+.bank-opt {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  padding: 0.4rem 0.65rem;
+  border-radius: 6px;
+  background: var(--bg-surface);
+}
+
+.bank-opt.is-correct-opt {
+  background: var(--color-success-bg);
+  color: #10b981;
+  font-weight: 600;
+}
+
+.opt-bullet {
+  font-weight: 800;
+  font-family: var(--font-mono);
+}
+
+.correct-tag {
+  margin-left: auto;
+  font-size: 0.72rem;
+  font-weight: 800;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.bank-card-details {
+  margin-top: 0.35rem;
+  cursor: pointer;
+}
+
+.bank-card-details summary {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--color-primary);
+  outline: none;
+  user-select: none;
+}
+
+.bank-card-explanation {
+  margin-top: 0.65rem;
+  background: var(--bg-surface);
+  border-radius: var(--radius-sm);
+  padding: 0.75rem;
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  line-height: 1.45;
+  border-left: 3px solid var(--color-primary);
+}

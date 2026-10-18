@@ -35,10 +35,16 @@ Plataforma web interactiva para la asignatura de **Diseño y Adaptación Curricu
 
 ### 3. 📚 Banco de Estudio Directo
 - Repertorio completo de las **320 preguntas** disponibles para lectura y repaso sin necesidad de iniciar un test.
+- Las preguntas se sirven desde la colección pública `questions` de Cloud Firestore para mantenerlas sincronizadas en todos los dispositivos.
 - **Buscador en tiempo real**: Filtra instantáneamente por términos, conceptos o normativas (*LOMLOE, PEC, DUA, Consejo Escolar, Decreto 252, etc.*).
 - **Filtros de Píldoras por Tema**: Botones interactivos con contadores dinámicos de preguntas encontradas.
 
-### 4. 🎨 Diseño Moderno, Accesible y 100% Responsive
+### 4. ☁️ Cuenta y estadísticas sincronizadas
+- Firebase Authentication identifica al usuario.
+- El historial de exámenes, métricas y muro de fallos se guardan en `users/{uid}` dentro de Cloud Firestore.
+- El dashboard no depende de datos locales del navegador.
+
+### 5. 🎨 Diseño Moderno, Accesible y 100% Responsive
 - **Componentes 100% Maquetables en CSS**: Eliminación total de elementos `<select>` nativos del navegador, sustituidos por selectores, steppers y píldoras personalizadas con animaciones fluidas.
 - **Iconografía SVG Vectorial**: Sustitución de emojis por iconos limpios, minimalistas, bicolores y monocolores coordinados con la paleta de colores.
 - **Modo Oscuro / Modo Claro**: Alternador en la barra superior con persistencia de preferencia en `localStorage`.
@@ -98,12 +104,29 @@ master-dac/
 ├── css/
 │   └── style.css                    # Estilos CSS modernos, tokens, glassmorphism y media queries
 ├── data/
-│   └── questions-data.js            # Banco oficial de 320 preguntas (carga instantánea sin latencia)
+│   └── questions-data.js            # Semilla usada para publicar el banco inicial en Firestore
 ├── js/
-│   ├── app.js                       # Lógica de navegación, visor de documentos y banco de estudio
-│   └── quiz.js                      # Motor del examen: barajado, temporizador, corrección y estadísticas
+│   ├── app.js                       # Navegación, visor y banco servido desde Firestore
+│   ├── quiz.js                      # Motor del examen y corrección
+│   ├── stats.js                     # Dashboard y métricas
+│   └── sync.js                      # Firebase Auth, Firestore y publicación inicial del banco
+├── firestore.rules                  # Lectura pública de preguntas y datos privados por usuario
 ├── index.html                       # Página principal con Open Graph meta tags y rutas relativas
 └── README.md                        # Documentación completa del proyecto
+```
+
+### Configuración de Firebase
+
+1. Activa **Authentication > Email/Password** en Firebase.
+2. Crea la base de datos de **Cloud Firestore**.
+3. Publica las reglas incluidas en `firestore.rules`.
+4. Comprueba que `js/firebase-config.js` contiene la configuración web del proyecto.
+5. Inicia sesión en la aplicación. El primer acceso autorizado publica automáticamente las 320 preguntas en `questions`; los accesos posteriores las leen desde Firestore.
+
+Con Firebase CLI, las reglas se publican con:
+
+```bash
+firebase deploy --only firestore:rules
 ```
 
 ---

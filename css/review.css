@@ -1,0 +1,319 @@
+/* =============================================================================
+   REPORTE Y REVISIÓN DETALLADA DE PREGUNTAS (TODAS, ACIERTOS Y FALLOS) - DAC
+   ============================================================================= */
+
+.results-review-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-lg);
+  padding: 1.75rem;
+}
+
+.results-review-card h3 {
+  font-size: 1.15rem;
+  font-weight: 800;
+  margin-bottom: 0.25rem;
+}
+
+.review-card-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 1.25rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.review-card-subtitle {
+  font-size: 0.88rem;
+  color: var(--text-muted);
+  margin-top: 0.25rem;
+  line-height: 1.45;
+}
+
+.btn-review-print-secondary {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.6rem 1rem;
+  border-radius: var(--radius-sm);
+  background: var(--bg-surface);
+  border: 1px solid var(--border-color);
+  color: var(--text-main);
+  font-size: 0.82rem;
+  font-weight: 700;
+  transition: all var(--transition-fast);
+  white-space: nowrap;
+}
+
+.btn-review-print-secondary:hover {
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+}
+
+/* Toolbar de Filtros y Buscador */
+.review-filter-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.review-filter-pills {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  flex-wrap: wrap;
+}
+
+.rev-filter-pill {
+  padding: 0.45rem 0.9rem;
+  border-radius: 20px;
+  background: var(--bg-surface);
+  border: 1px solid var(--border-color);
+  color: var(--text-muted);
+  font-size: 0.82rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.rev-filter-pill:hover {
+  background: var(--bg-surface-elevated);
+  color: var(--text-main);
+}
+
+.rev-filter-pill.active {
+  background: var(--color-primary);
+  border-color: var(--color-primary);
+  color: #fff;
+  box-shadow: 0 2px 8px rgba(99, 102, 241, 0.35);
+}
+
+.rev-filter-pill.pill-ok.active {
+  background: #10b981;
+  border-color: #10b981;
+  color: #fff;
+}
+
+.rev-filter-pill.pill-ko.active {
+  background: #ef4444;
+  border-color: #ef4444;
+  color: #fff;
+}
+
+.rev-filter-pill.pill-skip.active {
+  background: #f59e0b;
+  border-color: #f59e0b;
+  color: #fff;
+}
+
+.review-search-box {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: var(--bg-surface);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  padding: 0.45rem 0.85rem;
+  min-width: 260px;
+  flex: 1;
+  max-width: 360px;
+}
+
+.review-search-box input {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: var(--text-main);
+  font-size: 0.85rem;
+  width: 100%;
+}
+
+.review-search-box input::placeholder {
+  color: var(--text-dim);
+}
+
+/* Lista de Preguntas */
+.results-review-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.15rem;
+}
+
+.review-item {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  padding: 1.35rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+  transition: all var(--transition-fast);
+}
+
+.review-item.was-ok {
+  border-left: 4px solid var(--color-success);
+}
+
+.review-item.was-ko {
+  border-left: 4px solid var(--color-danger);
+}
+
+.review-item.was-skip {
+  border-left: 4px solid var(--color-warning);
+}
+
+.review-item-header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.review-index {
+  font-weight: 800;
+  font-size: 0.82rem;
+  color: var(--text-dim);
+}
+
+.review-status-badge {
+  font-size: 0.75rem;
+  font-weight: 800;
+  padding: 0.2rem 0.65rem;
+  border-radius: 12px;
+}
+
+.review-status-badge.ok {
+  background: var(--color-success-bg);
+  color: #10b981;
+}
+
+.review-status-badge.ko {
+  background: var(--color-danger-bg);
+  color: #ef4444;
+}
+
+.review-status-badge.skip {
+  background: rgba(245, 158, 11, 0.15);
+  color: #f59e0b;
+}
+
+.review-topic-tag {
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.review-question {
+  font-size: 0.98rem;
+  font-weight: 700;
+  line-height: 1.45;
+  color: var(--text-main);
+}
+
+/* Opciones en el Reporte (A, B, C, D) */
+.review-options-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin: 0.5rem 0;
+}
+
+.review-opt {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  padding: 0.65rem 0.95rem;
+  border-radius: var(--radius-sm);
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  font-size: 0.88rem;
+  transition: all var(--transition-fast);
+}
+
+.review-opt .opt-main {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  flex: 1;
+}
+
+.opt-letter-tag {
+  width: 24px;
+  height: 24px;
+  min-width: 24px;
+  border-radius: 6px;
+  background: var(--badge-bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+  font-weight: 800;
+  color: var(--text-dim);
+}
+
+.review-opt.opt-correct {
+  border-color: rgba(16, 185, 129, 0.45);
+  background: rgba(16, 185, 129, 0.08);
+}
+
+.review-opt.opt-correct .opt-letter-tag {
+  background: #10b981;
+  color: #fff;
+}
+
+.review-opt.opt-user-incorrect {
+  border-color: rgba(239, 68, 68, 0.5);
+  background: rgba(239, 68, 68, 0.08);
+}
+
+.review-opt.opt-user-incorrect .opt-letter-tag {
+  background: #ef4444;
+  color: #fff;
+}
+
+.opt-tag {
+  font-size: 0.72rem;
+  font-weight: 800;
+  padding: 0.2rem 0.55rem;
+  border-radius: 12px;
+  white-space: nowrap;
+}
+
+.opt-tag.tag-correct {
+  background: var(--color-success-bg);
+  color: #10b981;
+}
+
+.opt-tag.tag-incorrect {
+  background: var(--color-danger-bg);
+  color: #ef4444;
+}
+
+.review-explanation {
+  background: var(--badge-bg);
+  padding: 0.85rem 1.15rem;
+  border-radius: var(--radius-sm);
+  font-size: 0.84rem;
+  color: var(--text-muted);
+  line-height: 1.5;
+  border-left: 3px solid var(--color-primary);
+}
+
+.review-no-results {
+  text-align: center;
+  padding: 3rem 1.5rem;
+  color: var(--text-dim);
+}
+
+.review-no-results svg {
+  width: 42px;
+  height: 42px;
+  margin-bottom: 0.75rem;
+  opacity: 0.5;
+}

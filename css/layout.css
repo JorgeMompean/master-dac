@@ -1,0 +1,184 @@
+/* =============================================================================
+   LAYOUT, CABECERA, NAVEGACIÓN Y ESTRUCTURA GENERAL - DAC
+   ============================================================================= */
+
+/* Header Fijo con Glassmorphism */
+.app-header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: var(--header-glass);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid var(--border-color);
+  padding: 0.75rem 1.25rem;
+  transition: all var(--transition-normal);
+  width: 100%;
+}
+
+.header-container {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.25rem;
+}
+
+/* Identidad Visual / Logo */
+.brand-section {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  flex-shrink: 0;
+}
+
+.brand-logo {
+  width: 42px;
+  height: 42px;
+  background: linear-gradient(135deg, #6366f1 0%, #06b6d4 100%);
+  border-radius: var(--radius-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 14px rgba(99, 102, 241, 0.4);
+  color: #fff;
+  flex-shrink: 0;
+}
+
+.brand-logo svg {
+  width: 22px;
+  height: 22px;
+}
+
+.brand-text h1 {
+  font-size: 1.15rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+  background: linear-gradient(135deg, var(--text-main) 60%, var(--color-primary) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.brand-text p {
+  font-size: 0.74rem;
+  color: var(--text-muted);
+  font-weight: 500;
+}
+
+/* Pestañas de Navegación */
+.nav-tabs {
+  display: flex;
+  background: var(--bg-surface);
+  border: 1px solid var(--border-color);
+  padding: 0.3rem;
+  border-radius: var(--radius-lg);
+  gap: 0.35rem;
+}
+
+.nav-tab {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.55rem 1.1rem;
+  border-radius: var(--radius-md);
+  font-size: 0.86rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  transition: all var(--transition-fast);
+  white-space: nowrap;
+}
+
+.nav-tab:hover {
+  color: var(--text-main);
+  background: rgba(99, 102, 241, 0.08);
+}
+
+.nav-tab.active {
+  color: #ffffff;
+  background: linear-gradient(135deg, #6366f1 0%, #4f46e5 100%);
+  box-shadow: 0 4px 12px rgba(99, 102, 241, 0.35);
+}
+
+.tab-badge {
+  font-size: 0.72rem;
+  padding: 0.15rem 0.5rem;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  font-weight: 700;
+}
+
+.tab-badge.tab-badge-accent {
+  background: rgba(16, 185, 129, 0.25);
+  color: #10b981;
+}
+
+.nav-tab.active .tab-badge.tab-badge-accent {
+  background: rgba(255, 255, 255, 0.25);
+  color: #fff;
+}
+
+/* Acciones de Cabecera */
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  flex-shrink: 0;
+}
+
+.theme-toggle-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: var(--radius-md);
+  background: var(--bg-surface);
+  border: 1px solid var(--border-color);
+  color: var(--text-main);
+  transition: all var(--transition-fast);
+}
+
+.theme-toggle-btn:hover {
+  transform: scale(1.05);
+  border-color: var(--border-color-focus);
+}
+
+/* Contenedor Principal */
+.main-content {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 1.5rem 1.25rem 4rem;
+  width: 100%;
+}
+
+.view-section {
+  display: none;
+  animation: fadeIn 0.3s ease forwards;
+}
+
+.view-section.active {
+  display: block;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Pie de Página */
+.app-footer {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 1.25rem 1.25rem 2rem;
+  color: var(--text-muted);
+  font-size: 0.78rem;
+  text-align: center;
+  border-top: 1px solid var(--border-color);
+}

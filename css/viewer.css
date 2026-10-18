@@ -1,0 +1,476 @@
+/* =============================================================================
+   VISTA 1: CONTENIDO, DOCUMENTOS Y PREVISUALIZADOR PDF - DAC
+   ============================================================================= */
+
+.content-view-header {
+  margin-bottom: 1.5rem;
+}
+
+/* Píldoras de Selección de Temas */
+.topic-selector-nav {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.85rem;
+  margin-bottom: 1.5rem;
+}
+
+.topic-pill {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  padding: 0.85rem 1.15rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  text-align: left;
+  transition: all var(--transition-normal);
+  position: relative;
+  overflow: hidden;
+}
+
+.topic-pill::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 100%;
+  background: transparent;
+  transition: background var(--transition-fast);
+}
+
+.topic-pill[data-topic="1"]::before { background: #6366f1; }
+.topic-pill[data-topic="2"]::before { background: #06b6d4; }
+.topic-pill[data-topic="3"]::before { background: #10b981; }
+.topic-pill[data-topic="4"]::before { background: #f59e0b; }
+
+.topic-pill:hover {
+  transform: translateY(-2px);
+  border-color: rgba(99, 102, 241, 0.4);
+  box-shadow: var(--shadow-sm);
+}
+
+.topic-pill.active {
+  background: var(--bg-surface-elevated);
+  border-color: var(--color-primary);
+  box-shadow: 0 4px 18px rgba(99, 102, 241, 0.2);
+}
+
+.pill-number {
+  width: 36px;
+  height: 36px;
+  border-radius: var(--radius-sm);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  font-size: 0.95rem;
+  color: #fff;
+  flex-shrink: 0;
+}
+
+.pill-t1 { background: #6366f1; }
+.pill-t2 { background: #06b6d4; }
+.pill-t3 { background: #10b981; }
+.pill-t4 { background: #f59e0b; }
+
+.pill-info {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.pill-title {
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: var(--text-main);
+  line-height: 1.3;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.pill-sub {
+  font-size: 0.74rem;
+  color: var(--text-muted);
+}
+
+/* Banner Informativo del Tema Activo */
+.topic-detail-banner {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-lg);
+  padding: 1.35rem 1.5rem;
+  margin-bottom: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.topic-detail-info h2 {
+  font-size: 1.35rem;
+  font-weight: 800;
+  margin-bottom: 0.35rem;
+}
+
+.topic-detail-info p {
+  color: var(--text-muted);
+  font-size: 0.88rem;
+  max-width: 850px;
+}
+
+.topic-pill-badge {
+  display: inline-block;
+  padding: 0.35rem 0.85rem;
+  border-radius: 30px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  border: 1px solid transparent;
+}
+
+/* Grid de Trabajo: Barra Lateral + Visor PDF */
+.content-preview-grid {
+  display: grid;
+  grid-template-columns: 350px 1fr;
+  gap: 1.5rem;
+  align-items: start;
+}
+
+/* Barra Lateral de Archivos */
+.preview-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.sidebar-block-title {
+  font-size: 0.82rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-dim);
+  margin-bottom: 0.65rem;
+}
+
+.topic-files-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+}
+
+.file-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  cursor: pointer;
+  transition: all var(--transition-normal);
+  position: relative;
+}
+
+.file-card:hover {
+  transform: translateY(-2px);
+  border-color: rgba(99, 102, 241, 0.4);
+  background: var(--bg-card-hover);
+}
+
+.file-card.active {
+  border-color: var(--color-primary);
+  background: var(--bg-surface-elevated);
+  box-shadow: 0 4px 16px rgba(99, 102, 241, 0.18);
+}
+
+.file-card-icon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card-doc-svg {
+  color: var(--color-primary);
+}
+
+.file-type-badge {
+  background: rgba(239, 68, 68, 0.15);
+  color: #ef4444;
+  font-size: 0.72rem;
+  font-weight: 800;
+  padding: 0.2rem 0.55rem;
+  border-radius: 6px;
+  font-family: var(--font-mono);
+}
+
+.file-card-name {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--text-main);
+  line-height: 1.35;
+}
+
+.file-card-meta {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  flex-wrap: wrap;
+}
+
+.file-size-tag {
+  background: var(--badge-bg);
+  padding: 0.15rem 0.45rem;
+  border-radius: 4px;
+  font-family: var(--font-mono);
+}
+
+.file-exact-name {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 190px;
+}
+
+.file-card-desc {
+  font-size: 0.8rem;
+  color: var(--text-dim);
+  line-height: 1.4;
+}
+
+.file-card-action {
+  margin-top: 0.25rem;
+}
+
+.btn-preview-file {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: var(--radius-sm);
+  background: var(--badge-bg);
+  border: 1px solid var(--border-color);
+  color: var(--text-main);
+  font-size: 0.82rem;
+  font-weight: 600;
+  transition: all var(--transition-fast);
+}
+
+.file-card:hover .btn-preview-file {
+  background: rgba(99, 102, 241, 0.15);
+  border-color: rgba(99, 102, 241, 0.3);
+  color: var(--color-primary);
+}
+
+.btn-preview-file.btn-current {
+  background: var(--color-primary);
+  border-color: var(--color-primary);
+  color: #fff;
+}
+
+/* Notas Rápidas del Tema */
+.topic-quick-notes {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  padding: 1.15rem;
+}
+
+.notes-header {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  margin-bottom: 0.75rem;
+  color: var(--color-primary);
+}
+
+.notes-header h4 {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--text-main);
+}
+
+.notes-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+}
+
+.notes-list li {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  line-height: 1.45;
+  position: relative;
+  padding-left: 1rem;
+}
+
+.notes-list li::before {
+  content: '•';
+  position: absolute;
+  left: 0;
+  color: var(--color-primary);
+  font-weight: bold;
+}
+
+/* Visor de Documentos PDF y Pantalla Completa */
+.document-viewer-container {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  box-shadow: var(--shadow-md);
+  transition: all var(--transition-normal);
+  height: 800px;
+  width: 100%;
+}
+
+.viewer-header-toolbar {
+  padding: 0.85rem 1.25rem;
+  background: var(--bg-surface);
+  border-bottom: 1px solid var(--border-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.85rem;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+}
+
+.viewer-file-meta {
+  display: flex;
+  flex-direction: column;
+  min-width: 160px;
+}
+
+.viewer-file-name {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--text-main);
+}
+
+.viewer-file-size {
+  font-size: 0.74rem;
+  color: var(--text-dim);
+}
+
+.viewer-quick-switch {
+  display: flex;
+  gap: 0.4rem;
+  flex-wrap: wrap;
+}
+
+.quick-file-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.4rem 0.85rem;
+  border-radius: var(--radius-sm);
+  background: var(--badge-bg);
+  border: 1px solid var(--border-color);
+  color: var(--text-muted);
+  font-size: 0.78rem;
+  font-weight: 600;
+  transition: all var(--transition-fast);
+}
+
+.quick-file-btn:hover {
+  color: var(--text-main);
+  background: rgba(99, 102, 241, 0.1);
+}
+
+.quick-file-btn.active {
+  background: rgba(99, 102, 241, 0.2);
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+}
+
+.viewer-controls-group {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+}
+
+.viewer-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.45rem 0.85rem;
+  border-radius: var(--radius-sm);
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  color: var(--text-main);
+  font-size: 0.8rem;
+  font-weight: 600;
+  transition: all var(--transition-fast);
+}
+
+.viewer-btn:hover {
+  background: var(--bg-surface-elevated);
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+}
+
+.viewer-frame-wrapper {
+  flex: 1 1 0%;
+  min-height: 0;
+  width: 100%;
+  position: relative;
+  background: var(--viewer-bg);
+  overflow: hidden;
+}
+
+.pdf-viewer-frame {
+  width: 100%;
+  height: 100%;
+  border: none;
+  display: block;
+}
+
+/* Modo Pantalla Completa Adaptativo */
+.document-viewer-container.is-fullscreen {
+  position: fixed !important;
+  inset: 0 !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  max-width: 100% !important;
+  max-height: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  z-index: 999999 !important;
+  border-radius: 0 !important;
+  border: none !important;
+  box-shadow: none !important;
+  display: flex !important;
+  flex-direction: column !important;
+  overflow: hidden !important;
+  box-sizing: border-box !important;
+  background: #090d16 !important;
+}
+
+.document-viewer-container.is-fullscreen .viewer-header-toolbar {
+  padding: 0.85rem 1.5rem !important;
+  background: #0f1524 !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12) !important;
+  flex-shrink: 0 !important;
+}
+
+.document-viewer-container.is-fullscreen .viewer-frame-wrapper {
+  flex: 1 1 0% !important;
+  min-height: 0 !important;
+  height: auto !important;
+  width: 100% !important;
+}
+
+.document-viewer-container.is-fullscreen .pdf-viewer-frame {
+  width: 100% !important;
+  height: 100% !important;
+  display: block !important;
+}
