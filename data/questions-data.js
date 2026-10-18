@@ -87,12 +87,12 @@ var DAC_DATA = {
       "description": "Autonomía de centros (pedagógica, organizativa, gestión), documentos atemporales/plurianuales (PEC, RRI, Proyecto de Gestión) y temporales/anuales (PGA, Programaciones, Memoria, PAM).",
       "files": [
         {
-          "name": "PPT TEMA 1.pptx.pdf",
-          "displayName": "Diapositivas de Referencia (PPT)",
-          "size": "9.65 MB",
-          "path": "assets/tema 4/PPT TEMA 1.pptx.pdf",
+          "name": "TEMA 4-4.pptx.pdf",
+          "displayName": "Diapositivas Teóricas (PPT)",
+          "size": "1.83 MB",
+          "path": "assets/tema 4/TEMA 4-4.pptx.pdf",
           "type": "pdf",
-          "description": "Diapositivas de apoyo y referencia curricular incluidas en el temario de planificación educativa."
+          "description": "Diapositivas de apoyo y referencia curricular sobre la planificación educativa y documentos de centro."
         },
         {
           "name": "TEMA 4-FIGMA.pdf",
