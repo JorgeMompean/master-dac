@@ -16,8 +16,27 @@ class MasterDACApp {
     this.initElements();
     this.initTheme();
     this.bindEvents();
+    this.bindMenu();
     document.addEventListener('dac-questions-ready', () => this.loadData());
     this.loadData();
+  }
+
+  bindMenu() {
+    const menuButton = document.getElementById('menu-toggle-btn');
+    const nav = document.getElementById('main-nav');
+    if (!menuButton || !nav) return;
+
+    menuButton.addEventListener('click', () => {
+      const isOpen = nav.classList.toggle('menu-open');
+      menuButton.setAttribute('aria-expanded', String(isOpen));
+    });
+
+    nav.addEventListener('click', (event) => {
+      if (event.target.closest('.nav-tab')) {
+        nav.classList.remove('menu-open');
+        menuButton.setAttribute('aria-expanded', 'false');
+      }
+    });
   }
 
   initElements() {
@@ -159,6 +178,11 @@ class MasterDACApp {
   }
 
   switchTab(viewId) {
+    if (viewId === 'view-dashboard' && !window.cloudSyncManager?.currentUser) {
+      window.cloudSyncManager?.openModal();
+      return;
+    }
+
     this.navTabs.forEach(tab => {
       tab.classList.toggle('active', tab.dataset.target === viewId);
     });
@@ -467,4 +491,5 @@ class MasterDACApp {
 
 document.addEventListener('DOMContentLoaded', () => {
   window.masterDACApp = new MasterDACApp();
+  window.dacApp = window.masterDACApp;
 });

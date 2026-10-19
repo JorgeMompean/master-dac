@@ -11,7 +11,7 @@
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
   border-bottom: 1px solid var(--border-color);
-  padding: 0.75rem 1.25rem;
+  padding: 0.65rem 1.25rem 0;
   transition: all var(--transition-normal);
   width: 100%;
 }
@@ -23,6 +23,11 @@
   align-items: center;
   justify-content: space-between;
   gap: 1.25rem;
+}
+
+.nav-subheader {
+  max-width: 1440px;
+  margin: 0.65rem auto;
 }
 
 /* Identidad Visual / Logo */
@@ -71,11 +76,10 @@
 /* Pestañas de Navegación */
 .nav-tabs {
   display: flex;
-  background: var(--bg-surface);
-  border: 1px solid var(--border-color);
   padding: 0.3rem;
-  border-radius: var(--radius-lg);
   gap: 0.35rem;
+  width: 100%;
+  justify-content: space-between;
 }
 
 .nav-tab {
@@ -126,6 +130,18 @@
   align-items: center;
   gap: 0.65rem;
   flex-shrink: 0;
+}
+
+.menu-toggle-btn {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: var(--radius-md);
+  background: var(--bg-surface);
+  border: 1px solid var(--border-color);
+  color: var(--text-main);
 }
 
 .theme-toggle-btn {

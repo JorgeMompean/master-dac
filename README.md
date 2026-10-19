@@ -121,9 +121,11 @@ master-dac/
 2. Crea la base de datos de **Cloud Firestore**.
 3. Publica las reglas incluidas en `firestore.rules`.
 4. Comprueba que `js/firebase-config.js` contiene la configuración web del proyecto.
-5. Inicia sesión en la aplicación. El primer acceso autorizado publica automáticamente las 320 preguntas en `questions`; los accesos posteriores las leen desde Firestore.
+5. Inicia sesión en la aplicación. El primer acceso autorizado publica automáticamente las 320 preguntas en `questions`; los accesos posteriores las leen desde Firestore. La publicación del banco está restringida al UID administrador configurado en las reglas.
 
-Con Firebase CLI, las reglas se publican con:
+Cuando se publique una nueva versión del banco, el usuario administrador autorizado sustituirá la colección `questions` y reiniciará las estadísticas para evitar mezclar resultados de bancos distintos.
+
+Las reglas de Firestore no se publican al hacer `git push` ni con GitHub Pages. Si aparece `Missing or insufficient permissions`, hay que desplegarlas desde el directorio del proyecto:
 
 ```bash
 firebase deploy --only firestore:rules

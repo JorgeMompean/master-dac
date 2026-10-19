@@ -324,7 +324,7 @@
   flex-direction: column;
   box-shadow: var(--shadow-md);
   transition: all var(--transition-normal);
-  height: 800px;
+  height: 100%;
   width: 100%;
 }
 

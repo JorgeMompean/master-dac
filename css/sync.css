@@ -19,6 +19,12 @@
   cursor: pointer;
 }
 
+.sync-modal-tabs,
+#sync-tab-firebase-config,
+#sync-tab-backup {
+  display: none !important;
+}
+
 .sync-account-btn:hover {
   border-color: var(--color-primary);
   background: var(--bg-surface-elevated);
@@ -160,6 +166,13 @@
 .sync-tab-btn.active {
   background: var(--color-primary);
   color: #fff;
+}
+
+/* La configuración se sirve desde el código desplegado; el modal solo gestiona la cuenta. */
+#sync-modal-container .sync-modal-tabs,
+#sync-modal-container #sync-tab-firebase-config,
+#sync-modal-container #sync-tab-backup {
+  display: none !important;
   box-shadow: 0 2px 8px rgba(99, 102, 241, 0.35);
 }
 

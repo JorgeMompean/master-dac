@@ -7,7 +7,8 @@
 
 class FirebaseSyncManager {
   constructor() {
-    this.DEFAULT_EMAIL = 'jorge.mompe@gmail.com';
+    this.QUESTION_BANK_VERSION = '2026-10-difficult-v3';
+    this.QUESTION_BANK_ADMIN_UID = '23mqJfdzDtTgNxdhm7GkFfcp3Wu2';
     this.STORAGE_SESSION_KEY = 'dac_firebase_session_v1';
     this.STORAGE_CONFIG_KEY = 'dac_firebase_custom_config_v1';
 
@@ -81,8 +82,8 @@ class FirebaseSyncManager {
       this.db = firebase.firestore();
 
       // Escuchar cambios de estado de autenticación (Login/Logout/Recarga)
-      this.auth.onAuthStateChanged((user) => {
-        this.handleAuthStateChanged(user);
+      this.auth.onAuthStateChanged(async (user) => {
+        await this.handleAuthStateChanged(user);
       });
     } catch (err) {
       console.error('Error inicializando Firebase:', err);
@@ -91,7 +92,7 @@ class FirebaseSyncManager {
     }
   }
 
-  handleAuthStateChanged(user) {
+  async handleAuthStateChanged(user) {
     this.currentUser = user;
 
     if (user) {
@@ -99,7 +100,9 @@ class FirebaseSyncManager {
       this.setupRealtimeListener(user.uid);
       this.updateUI();
       this.showToast(`Conectado a Firebase: ${user.email}`, 'success');
-      this.ensureQuestionBank();
+      await this.ensureQuestionBank();
+      if (window.dacApp) window.dacApp.switchTab('view-dashboard');
+      this.closeModal();
       // Al loguearse, sincronizar automáticamente
       this.syncWithFirestore(false);
     } else {
@@ -108,6 +111,7 @@ class FirebaseSyncManager {
         this.unsubscribeSnapshot();
         this.unsubscribeSnapshot = null;
       }
+      if (window.dacApp) window.dacApp.switchTab('view-content');
       this.updateUI();
     }
   }
@@ -271,23 +275,57 @@ class FirebaseSyncManager {
   }
 
   async ensureQuestionBank() {
-    if (!this.currentUser || !this.db || !window.DAC_DATA?.questions?.length) return;
+    if (!this.currentUser
+      || this.currentUser.uid !== this.QUESTION_BANK_ADMIN_UID
+      || !this.db
+      || !window.DAC_DATA?.questions?.length) return;
 
     try {
       const questionsRef = this.db.collection('questions');
-      const existing = await questionsRef.limit(1).get();
-      if (!existing.empty) return;
+      const metadataRef = this.db.collection('metadata').doc('questionBank');
+      const metadata = await metadataRef.get();
+      const currentVersion = metadata.exists ? metadata.data().version : null;
+      if (currentVersion === this.QUESTION_BANK_VERSION) return;
 
-      const batch = this.db.batch();
-      window.DAC_DATA.questions.forEach((question) => {
+      const existing = await questionsRef.get();
+      let batch = this.db.batch();
+      let operations = 0;
+
+      existing.docs.forEach((doc) => {
+        batch.delete(doc.ref);
+        operations++;
+      });
+
+      for (const question of window.DAC_DATA.questions) {
+        if (operations === 450) {
+          await batch.commit();
+          batch = this.db.batch();
+          operations = 0;
+        }
         batch.set(questionsRef.doc(String(question.id)), question);
+        operations++;
+      }
+
+      batch.set(metadataRef, {
+        version: this.QUESTION_BANK_VERSION,
+        count: window.DAC_DATA.questions.length,
+        updatedAt: firebase.firestore.FieldValue.serverTimestamp()
       });
       await batch.commit();
+
+      if (window.quizStats) {
+        window.quizStats.resetStats();
+        await this.resetRemoteStats();
+      }
       document.dispatchEvent(new CustomEvent('dac-questions-ready'));
-      this.showToast('Banco de preguntas publicado en Firestore.', 'success');
+      this.showToast('Nuevo banco publicado. Se han reiniciado las estadísticas.', 'success');
     } catch (error) {
       console.error('Error publicando el banco de preguntas:', error);
-      this.showToast('No se pudo publicar el banco de preguntas: ' + error.message, 'error');
+      if (error.code === 'permission-denied') {
+        this.showToast('Firebase ha rechazado la publicación. Publica firestore.rules y vuelve a iniciar sesión.', 'error');
+      } else {
+        this.showToast('No se pudo publicar el banco de preguntas: ' + error.message, 'error');
+      }
     }
   }
 
@@ -503,7 +541,7 @@ class FirebaseSyncManager {
                   </svg>
                   <input type="password" id="fb-input-password" class="sync-input" placeholder="Introduce tu contraseña">
                 </div>
-                <span class="sync-help-text">Si es la primera vez que entras, pulsa "Crear Cuenta". Si ya la creaste, pulsa "Iniciar Sesión".</span>
+                <span class="sync-help-text">Introduce tu usuario y contraseña para acceder a tu dashboard.</span>
               </div>
 
               <div class="sync-actions" style="margin-top:1.25rem;">
@@ -514,9 +552,6 @@ class FirebaseSyncManager {
                     <line x1="15" y1="12" x2="3" y2="12"></line>
                   </svg>
                   <span>Iniciar Sesión</span>
-                </button>
-                <button type="button" class="btn-sync-secondary" id="btn-firebase-register">
-                  <span>Crear Cuenta</span>
                 </button>
               </div>
             </div>
@@ -588,13 +623,22 @@ class FirebaseSyncManager {
       </div>
     `;
 
+    modalWrapper.querySelector('.sync-modal-tabs')?.remove();
+    modalWrapper.querySelector('#sync-tab-firebase-config')?.remove();
+    modalWrapper.querySelector('#sync-tab-backup')?.remove();
     document.body.appendChild(modalWrapper);
   }
 
   bindHeaderButton() {
     const btn = document.getElementById('sync-header-btn');
     if (btn) {
-      btn.addEventListener('click', () => this.openModal());
+      btn.addEventListener('click', () => {
+        if (this.currentUser) {
+          this.logout();
+        } else {
+          this.openModal();
+        }
+      });
     }
   }
 
@@ -612,18 +656,8 @@ class FirebaseSyncManager {
       });
     }
 
-    // Pestañas
-    const tabBtns = document.querySelectorAll('.sync-tab-btn');
-    tabBtns.forEach(btn => {
-      btn.addEventListener('click', () => {
-        const targetTab = btn.getAttribute('data-sync-tab');
-        this.switchTab(targetTab);
-      });
-    });
-
-    // Login y Registro
+    // Inicio de sesión
     const loginBtn = document.getElementById('btn-firebase-login');
-    const registerBtn = document.getElementById('btn-firebase-register');
     const emailInput = document.getElementById('fb-input-email');
     const passInput = document.getElementById('fb-input-password');
 
@@ -639,18 +673,6 @@ class FirebaseSyncManager {
       });
     }
 
-    if (registerBtn) {
-      registerBtn.addEventListener('click', () => {
-        const email = emailInput ? emailInput.value.trim() : '';
-        const pass = passInput ? passInput.value : '';
-        if (!email || !pass) {
-          this.showToast('Introduce tu correo y contraseña para registrarte.', 'error');
-          return;
-        }
-        this.registerWithEmail(email, pass);
-      });
-    }
-
     // Logout
     const logoutBtn = document.getElementById('btn-firebase-logout');
     if (logoutBtn) {
@@ -663,27 +685,6 @@ class FirebaseSyncManager {
       syncNowBtn.addEventListener('click', () => this.syncWithFirestore(true));
     }
 
-    // Guardar credenciales de Firebase pegadas
-    const saveConfigBtn = document.getElementById('btn-save-firebase-config');
-    const configTextarea = document.getElementById('fb-config-textarea');
-    if (saveConfigBtn && configTextarea) {
-      saveConfigBtn.addEventListener('click', () => {
-        this.handleSavePastedConfig(configTextarea.value);
-      });
-    }
-
-    // Descarga y carga de Backup
-    const downloadBtn = document.getElementById('btn-backup-download');
-    if (downloadBtn) {
-      downloadBtn.addEventListener('click', () => this.downloadBackupFile());
-    }
-
-    const uploadTrigger = document.getElementById('btn-backup-upload-trigger');
-    const fileInput = document.getElementById('sync-file-input');
-    if (uploadTrigger && fileInput) {
-      uploadTrigger.addEventListener('click', () => fileInput.click());
-      fileInput.addEventListener('change', (e) => this.handleFileSelected(e));
-    }
   }
 
   handleSavePastedConfig(rawText) {
@@ -768,20 +769,31 @@ class FirebaseSyncManager {
     const headerBtn = document.getElementById('sync-header-btn');
     if (headerBtn) {
       const dot = headerBtn.querySelector('.sync-indicator-dot');
-      const label = headerBtn.querySelector('.sync-status-text');
 
       if (isLoggedIn) {
         if (dot) dot.classList.add('synced');
-        if (label) label.textContent = (this.currentUser.email || 'Conectado').split('@')[0];
-        headerBtn.title = `Firebase: ${this.currentUser.email} (master-profesorado)`;
+        headerBtn.innerHTML = `
+          <span class="sync-indicator-dot synced"></span>
+          <svg viewBox="0 0 24 24" class="svg-inline" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <path d="M9 10l-5 2 5 2"/>
+            <path d="M4 12h11"/>
+            <path d="M13 5l6 7-6 7"/>
+          </svg>`;
+        headerBtn.title = 'Cerrar sesión';
+        headerBtn.setAttribute('aria-label', 'Cerrar sesión');
       } else if (isConfigured) {
         if (dot) dot.classList.remove('synced');
-        if (label) label.textContent = 'Iniciar Sesión';
-        headerBtn.title = 'Firebase listo: Inicia sesión para sincronizar';
+        headerBtn.innerHTML = `
+          <span class="sync-indicator-dot"></span>
+          <svg viewBox="0 0 24 24" class="svg-inline" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <circle cx="12" cy="8" r="4"/>
+            <path d="M4 21a8 8 0 0 1 16 0"/>
+          </svg>`;
+        headerBtn.title = 'Iniciar sesión para ver el dashboard';
+        headerBtn.setAttribute('aria-label', 'Iniciar sesión');
       } else {
         if (dot) dot.classList.remove('synced');
-        if (label) label.textContent = 'Configurar Firebase';
-        headerBtn.title = 'Configura las credenciales de Firebase master-profesorado';
+        headerBtn.title = 'Firebase no está disponible';
       }
     }
 
@@ -824,7 +836,7 @@ class FirebaseSyncManager {
       app: 'Master-DAC-Profesorado',
       firebaseProject: 'master-profesorado',
       exportedAt: new Date().toISOString(),
-      userEmail: this.currentUser ? this.currentUser.email : this.DEFAULT_EMAIL,
+      userEmail: this.currentUser ? this.currentUser.email : null,
       stats: window.quizStats ? window.quizStats.stats : null,
       theme: localStorage.getItem('dac_theme') || 'dark'
     };

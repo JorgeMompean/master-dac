@@ -53,8 +53,40 @@ Formación Profesional y Enseñanza de Idiomas: previsualización de documentos 
         </div>
       </div>
 
+      <div class="header-actions">
+        <button type="button" class="sync-account-btn" id="sync-header-btn" title="Iniciar sesión para ver el dashboard" aria-label="Iniciar sesión">
+          <span class="sync-indicator-dot"></span>
+          <svg viewBox="0 0 24 24" class="svg-inline" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="8" r="4"/>
+            <path d="M4 21a8 8 0 0 1 16 0"/>
+          </svg>
+        </button>
+
+        <button type="button" class="theme-toggle-btn" id="theme-toggle-btn" title="Alternar Modo Oscuro / Claro"
+          aria-label="Alternar Modo Oscuro / Claro">
+          <span id="theme-icon-container">
+            <svg viewBox="0 0 24 24" class="svg-inline" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="5" />
+              <line x1="12" y1="1" x2="12" y2="3" />
+              <line x1="12" y1="21" x2="12" y2="23" />
+            </svg>
+          </span>
+        </button>
+
+        <button type="button" class="menu-toggle-btn" id="menu-toggle-btn" aria-controls="main-nav"
+          aria-expanded="false" aria-label="Abrir menú de navegación">
+          <svg viewBox="0 0 24 24" class="svg-inline" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="4" y1="6" x2="20" y2="6" />
+            <line x1="4" y1="12" x2="20" y2="12" />
+            <line x1="4" y1="18" x2="20" y2="18" />
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <div class="nav-subheader">
       <!-- Navigation Tabs -->
-      <nav class="nav-tabs" role="tablist" aria-label="Secciones de estudio">
+      <nav class="nav-tabs" id="main-nav" role="tablist" aria-label="Secciones de estudio">
         <button type="button" class="nav-tab active" data-target="view-content" id="tab-content-btn" role="tab"
           aria-selected="true">
           <svg viewBox="0 0 24 24" class="svg-inline" fill="none" stroke="currentColor" stroke-width="2">
@@ -87,32 +119,10 @@ Formación Profesional y Enseñanza de Idiomas: previsualización de documentos 
             <path d="M21.21 15.89A10 10 0 1 1 8 2.83" />
             <path d="M22 12A10 10 0 0 0 12 2v10z" />
           </svg>
-          <span class="nav-tab-label">Dashboard & Métricas</span>
+          <span class="nav-tab-label">Dashboard & Métricas (cuenta)</span>
           <span class="tab-badge tab-badge-accent">Progreso</span>
         </button>
       </nav>
-
-      <!-- Header Controls -->
-      <div class="header-actions">
-        <button type="button" class="sync-account-btn" id="sync-header-btn" title="Sincronización multi-dispositivo (Tablet/Móvil)" aria-label="Sincronizar progreso entre dispositivos">
-          <span class="sync-indicator-dot"></span>
-          <svg viewBox="0 0 24 24" class="svg-inline" fill="none" stroke="currentColor" stroke-width="2">
-            <path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"/>
-          </svg>
-          <span class="sync-status-text">Sincronizar</span>
-        </button>
-
-        <button type="button" class="theme-toggle-btn" id="theme-toggle-btn" title="Alternar Modo Oscuro / Claro"
-          aria-label="Alternar Modo Oscuro / Claro">
-          <span id="theme-icon-container">
-            <svg viewBox="0 0 24 24" class="svg-inline" fill="none" stroke="currentColor" stroke-width="2">
-              <circle cx="12" cy="12" r="5" />
-              <line x1="12" y1="1" x2="12" y2="3" />
-              <line x1="12" y1="21" x2="12" y2="23" />
-            </svg>
-          </span>
-        </button>
-      </div>
     </div>
   </header>
 

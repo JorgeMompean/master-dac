@@ -110,1121 +110,1121 @@ var DAC_DATA = {
       "id": 101,
       "topic": 1,
       "topicName": "Tema 1: Evolución del Sistema Educativo",
-      "question": "¿Qué ley introdujo por primera vez la Educación General Básica (EGB) obligatoria y gratuita de los 6 a los 14 años?",
+      "question": "Una estudiante termina la EGB en 1978 con calificación suficiente para continuar estudios académicos. ¿Qué credencial y transición encajan con la LGE?",
       "options": [
-        "La Ley Orgánica de Ordenación General del Sistema Educativo (LOGSE) de 1990",
-        "La Ley Orgánica del Derecho a la Educación (LODE) de 1985",
-        "La Ley General de Educación (LGE) de 1970 (Ley Villar Palasí)",
-        "La Ley de Moyano de 1857"
+        "Graduado Escolar y posible acceso a BUP, dentro del marco normativo",
+        "Certificado de Escolaridad y acceso ordinario a COU en la ordenación del sistema",
+        "Título de Graduado en ESO y acceso a Bachillerato según la reforma educativa",
+        "Certificado de Aptitud y acceso directo a la universidad en el contexto histórico"
       ],
-      "correct": 2,
-      "explanation": "La LGE de 1970 unificó la educación básica obligatoria y gratuita entre los 6 y los 14 años en toda España."
+      "correct": 0,
+      "explanation": "La LGE vinculaba la superación de la EGB al Graduado Escolar, que abría la vía académica hacia BUP; la ESO y su título pertenecen a la ordenación posterior de la LOGSE."
     },
     {
       "id": 102,
       "topic": 1,
       "topicName": "Tema 1: Evolución del Sistema Educativo",
-      "question": "En la LGE de 1970, ¿qué doble vía existía al término de la EGB?",
+      "question": "¿Qué diferencia histórica distingue mejor la EGB de la LGE frente a la ESO de la LOGSE?",
       "options": [
-        "Título Único de Graduado en Secundaria para todos los alumnos",
-        "Reválida de ciclo único universitario",
-        "Bachiller Elemental o Bachiller Superior",
-        "Graduado Escolar (vía académica a BUP) y Certificado de Escolaridad (relegado a FP1 o mercado laboral)"
+        "La EGB llegaba hasta 16 años y la ESO hasta 14, dentro del marco normativo, dentro del marco normativo",
+        "La EGB cubría aproximadamente 6-14 años y la ESO extendió la escolaridad común hasta 16",
+        "La EGB era posobligatoria y la ESO universitaria según la reforma educativa",
+        "La EGB solo se impartía en centros privados y la ESO en públicos en el contexto histórico"
       ],
-      "correct": 3,
-      "explanation": "La LGE de 1970 segregaba a los 14 años: quienes superaban la EGB obtenían el Graduado Escolar y quienes no, el Certificado de Escolaridad."
+      "correct": 1,
+      "explanation": "La LGE estructuró una educación básica común de 6 a 14 años; la LOGSE amplió la enseñanza obligatoria hasta los 16 mediante la ESO."
     },
     {
       "id": 103,
       "topic": 1,
       "topicName": "Tema 1: Evolución del Sistema Educativo",
-      "question": "¿Qué artículo de la Constitución Española de 1978 reconoce el derecho a la educación y la libertad de enseñanza?",
+      "question": "En una comparación constitucional, ¿qué combinación es correcta respecto del artículo 27 de la Constitución de 1978?",
       "options": [
-        "Artículo 103",
-        "Artículo 27",
-        "Artículo 14",
-        "Artículo 43"
+        "Regula exclusivamente la autonomía universitaria y la investigación científica, dentro del marco normativo",
+        "Reconoce solo la libertad de cátedra y excluye la creación de centros en la ordenación del sistema",
+        "Reconoce educación y libertad de enseñanza, y prevé participación en la programación general",
+        "Reserva la educación al Estado y prohíbe la participación de la comunidad en el contexto histórico"
       ],
-      "correct": 1,
-      "explanation": "El Artículo 27 de la Constitución Española de 1978 establece el marco fundamental de derechos, libertades y deberes educativos."
+      "correct": 2,
+      "explanation": "El artículo 27 reúne el derecho a la educación, la libertad de enseñanza, la participación y otras garantías; no se limita a la universidad ni establece un monopolio estatal."
     },
     {
       "id": 104,
       "topic": 1,
       "topicName": "Tema 1: Evolución del Sistema Educativo",
-      "question": "¿Cuál fue la primera ley orgánica educativa aprobada en la etapa democrática española tras 1978?",
+      "question": "Una cronología comienza con la primera ley orgánica educativa de la democracia y continúa con la ley que consolidó la participación escolar. ¿Qué secuencia es correcta?",
       "options": [
-        "La LRU de 1983",
-        "La LOGSE de 1990",
-        "La LOECE de 1980 (Ley de Estatuto de Centros Escolares)",
-        "La LODE de 1985"
+        "LODE 1985 seguida de LOECE 1980, dentro del marco normativo, dentro del marco normativo",
+        "LOGSE 1990 seguida de LOCE 2002 en la ordenación del sistema",
+        "LOPEGCE 1995 seguida de LODE 1985 según la reforma educativa",
+        "LOECE 1980 seguida de LODE 1985 en el contexto histórico"
       ],
-      "correct": 2,
-      "explanation": "La LOECE de 1980 fue aprobada bajo gobierno de UCD e introdujo por primera vez órganos colegiados como el Consejo de Dirección."
+      "correct": 3,
+      "explanation": "La LOECE fue aprobada en 1980; posteriormente la LODE de 1985 reguló derechos educativos, participación y conciertos."
     },
     {
       "id": 105,
       "topic": 1,
       "topicName": "Tema 1: Evolución del Sistema Educativo",
-      "question": "¿Qué aportación esencial introdujo la LODE de 1985 en los centros escolares?",
+      "question": "Un centro privado quiere recibir financiación pública sin convertirse en centro estatal. ¿Qué instrumento de la LODE describe esa posibilidad?",
       "options": [
-        "El nombramiento ministerial de directores vitalicios",
-        "La extensión obligatoria de la educación hasta los 18 años",
-        "La democratización de la gestión mediante el Consejo Escolar y el régimen de conciertos para centros privados sostenidos con fondos públicos",
-        "La eliminación definitiva de la enseñanza privada en España"
+        "El concierto educativo con requisitos y obligaciones públicas, dentro del marco normativo",
+        "La adscripción universitaria obligatoria en la ordenación del sistema",
+        "La municipalización automática del centro según la reforma educativa",
+        "La autorización provisional sin control administrativo en el contexto histórico"
       ],
-      "correct": 2,
-      "explanation": "La LODE de 1985 consolidó el Consejo Escolar con plenas competencias de control y reguló los conciertos educativos."
+      "correct": 0,
+      "explanation": "La LODE articuló el régimen de conciertos para centros privados sostenidos con fondos públicos, manteniendo su titularidad privada pero sometiéndolos a condiciones legales."
     },
     {
       "id": 106,
       "topic": 1,
       "topicName": "Tema 1: Evolución del Sistema Educativo",
-      "question": "¿Qué edad de escolarización obligatoria fijó la LOGSE de 1990?",
+      "question": "¿Qué rasgo separa a la LODE de una ley que reordena etapas y currículos?",
       "options": [
-        "Hasta los 18 años en régimen obligatorio",
-        "Hasta los 14 años exclusivamente",
-        "Hasta los 16 años (creando la Educación Primaria 6-12 y la ESO 12-16)",
-        "Hasta los 12 años"
+        "La LODE implantó la ESO y sustituyó el BUP por Bachillerato, dentro del marco normativo",
+        "La LODE se centró en derechos, participación y conciertos, no en sustituir la estructura EGB-BUP",
+        "La LODE creó los estándares de aprendizaje evaluables según la reforma educativa",
+        "La LODE organizó los grados A-E de la Formación Profesional en el contexto histórico"
       ],
-      "correct": 2,
-      "explanation": "La LOGSE de 1990 amplió la obligatoriedad escolar de los 14 a los 16 años creando la ESO."
+      "correct": 1,
+      "explanation": "La LODE es principalmente una ley de desarrollo del derecho a la educación y de participación; la reordenación estructural corresponde sobre todo a la LOGSE y reformas posteriores."
     },
     {
       "id": 107,
       "topic": 1,
       "topicName": "Tema 1: Evolución del Sistema Educativo",
-      "question": "¿Qué corriente psicológica y pedagógica fue el fundamento nuclear de la LOGSE de 1990?",
+      "question": "Una propuesta de centro de 1992 plantea escolaridad obligatoria hasta 16 años y una etapa común de secundaria. ¿Qué ley le da marco normativo?",
       "options": [
-        "El Conductismo operante de Skinner",
-        "El asociacionismo mecanicista",
-        "El Constructivismo (aprendizaje significativo, conocimientos previos de Piaget, Vygotsky y Ausubel)",
-        "La pedagogía tradicional memorística del siglo XIX"
+        "La LOECE de 1980, dentro del marco normativo, dentro del marco normativo",
+        "La LGE de 1970 en la ordenación del sistema",
+        "La LOGSE de 1990 según la reforma educativa",
+        "La LOECE de 1980 en el contexto histórico"
       ],
       "correct": 2,
-      "explanation": "La LOGSE adoptó un marco abiertamente constructivista centrado en el alumno y su proceso activo de aprendizaje."
+      "explanation": "La LOGSE extendió la escolaridad obligatoria hasta los 16 años y configuró la ESO como etapa común de secundaria obligatoria."
     },
     {
       "id": 108,
       "topic": 1,
       "topicName": "Tema 1: Evolución del Sistema Educativo",
-      "question": "¿Qué ley educativa aprobada en 2002 no llegó a aplicarse efectivamente por su derogación tras el cambio de gobierno en 2004?",
+      "question": "¿Cuál de estas parejas asocia correctamente ley y transformación?",
       "options": [
-        "La LOMCE",
-        "La LOPEGCE",
-        "La LOE",
-        "La LOCE (Ley Orgánica de Calidad de la Educación)"
+        "LOMCE: creación de la EGB obligatoria, dentro del marco normativo",
+        "LODE: implantación del Bachillerato General en la ordenación del sistema",
+        "LOMLOE: creación inicial del BUP y COU según la reforma educativa",
+        "LOGSE: sustitución de EGB por Primaria y ESO en el contexto histórico"
       ],
       "correct": 3,
-      "explanation": "La LOCE de 2002 planteaba itinerarios tempranos y reválidas, pero fue paralizada y sustituida luego por la LOE (2006)."
+      "explanation": "La LOGSE reemplazó la estructura EGB-BUP-COU por Primaria, ESO, Bachillerato y nueva FP; las otras asociaciones atribuyen cambios a leyes equivocadas."
     },
     {
       "id": 109,
       "topic": 1,
       "topicName": "Tema 1: Evolución del Sistema Educativo",
-      "question": "¿Qué concepto curricular integró la LOE de 2006 siguiendo las directrices del Parlamento Europeo?",
+      "question": "En términos pedagógicos, ¿qué enfoque se asocia a la LOGSE y explica su énfasis en aprendizaje significativo?",
       "options": [
-        "Las Reválidas con efectos académicos",
-        "La doble vía de FP en primaria",
-        "Los Estándares de Aprendizaje Evaluables",
-        "Las Competencias Básicas"
+        "Constructivismo y consideración de conocimientos previos, dentro del marco normativo",
+        "Selección temprana mediante reválidas externas en la ordenación del sistema",
+        "Clasificación rígida por rendimiento a los doce años según la reforma educativa",
+        "Memorización uniforme como único método válido en el contexto histórico"
       ],
-      "correct": 3,
-      "explanation": "La LOE (2006) introdujo en el currículo las competencias básicas como eje transversal de la enseñanza obligatoria."
+      "correct": 0,
+      "explanation": "La LOGSE incorporó una orientación constructivista: el aprendizaje se relaciona con conocimientos previos y con la actividad del alumnado."
     },
     {
       "id": 110,
       "topic": 1,
       "topicName": "Tema 1: Evolución del Sistema Educativo",
-      "question": "¿Qué clasificación de asignaturas instauró la LOMCE (2013, Ley Wert)?",
+      "question": "¿Qué afirmación distingue correctamente la LOPEGCE de la LOGSE?",
       "options": [
-        "Fundamentales, Complementarias y Vocacionales",
-        "Troncales, Específicas y de Libre Configuración",
-        "Básicas, Optativas y Libres",
-        "Comunes y Propedéuticas"
+        "La LOPEGCE creó la EGB; la LOGSE reguló los conciertos, dentro del marco normativo, dentro del marco normativo",
+        "La LOPEGCE incidió en participación, evaluación y gobierno de centros; la LOGSE reordenó etapas",
+        "La LOPEGCE implantó la FP dual; la LOGSE creó el Consejo Escolar del Estado según la reforma educativa",
+        "La LOPEGCE derogó la Constitución; la LOGSE estableció la libertad de enseñanza en el contexto histórico"
       ],
       "correct": 1,
-      "explanation": "La LOMCE dividió las asignaturas en tres bloques: Troncales (reguladas por el Estado), Específicas y de Libre Configuración Autonómica."
+      "explanation": "La LOPEGCE de 1995 se ocupó de participación, evaluación y gobierno; la LOGSE de 1990 fue la gran reforma de la estructura del sistema."
     },
     {
       "id": 111,
       "topic": 1,
       "topicName": "Tema 1: Evolución del Sistema Educativo",
-      "question": "¿Qué enfoque de inclusión consagra la LOMLOE de 2020 como principio organizador del currículo?",
+      "question": "Un manual atribuye a la LOCE una implantación generalizada de sus itinerarios. ¿Qué corrección histórica procede?",
       "options": [
-        "La segregación de aulas por capacidades cognitivas",
-        "El Diseño Universal para el Aprendizaje (DUA) y el enfoque competencial",
-        "La realización de pruebas externas de reválida eliminatorias",
-        "El aprendizaje exclusivo por memorización de estándares"
+        "La LOCE fue la ley de 1985 y se aplicó durante toda la etapa socialista, dentro del marco normativo",
+        "La LOCE fue aprobada en 2013 y sigue vigente sin modificaciones en la ordenación del sistema",
+        "La LOCE fue aprobada en 2002, pero su aplicación quedó paralizada y no se desplegó plenamente",
+        "La LOCE fue una ley constitucional anterior a la LOECE en el contexto histórico"
       ],
-      "correct": 1,
-      "explanation": "La LOMLOE sitúa los principios del Diseño Universal para el Aprendizaje (DUA) para garantizar una educación inclusiva y personalizada."
+      "correct": 2,
+      "explanation": "La LOCE se aprobó en 2002, pero el cambio político y su paralización impidieron su despliegue general; no debe confundirse con la LOMCE de 2013."
     },
     {
       "id": 112,
       "topic": 1,
       "topicName": "Tema 1: Evolución del Sistema Educativo",
-      "question": "¿Cómo organiza las enseñanzas la Ley Orgánica 3/2022 de Formación Profesional?",
+      "question": "¿Qué elemento caracteriza la LOE de 2006 frente a la LOMCE de 2013?",
       "options": [
-        "En un sistema único integrado de cinco grados progresivos (A, B, C, D y E) de carácter dual",
-        "En dos ramas aisladas: FP1 y FP2 sin prácticas en empresas",
-        "Exclusivamente en programas de formación para titulados universitarios",
-        "En ciclos cerrados de 5 años lectivos"
+        "La LOE creó la EGB; la LOMCE eliminó toda evaluación curricular, dentro del marco normativo",
+        "La LOE implantó cinco grados de FP; la LOMCE creó la LODE en la ordenación del sistema",
+        "La LOE sustituyó el artículo 27; la LOMCE restauró la Ley Moyano según la reforma educativa",
+        "La LOE incorporó las competencias básicas; la LOMCE añadió estándares de aprendizaje evaluables"
       ],
-      "correct": 0,
-      "explanation": "La Ley de FP de 2022 unifica toda la FP en grados desde microacreditaciones (A) hasta cursos de especialización (E) con carácter dual."
+      "correct": 3,
+      "explanation": "La LOE introdujo las competencias básicas en la enseñanza obligatoria; la LOMCE reforzó la especificación curricular mediante estándares evaluables."
     },
     {
       "id": 113,
       "topic": 1,
       "topicName": "Tema 1: Evolución del Sistema Educativo",
-      "question": "¿Qué ley orgánica de 1995 reguló de forma detallada la inspección educativa y la función directiva escolar?",
+      "question": "Un equipo compara dos currículos: uno usa competencias básicas y otro clasifica materias en troncales, específicas y de libre configuración. ¿Qué identificación es correcta?",
       "options": [
-        "La LODE",
-        "La Moyano",
-        "La LRU",
-        "La LOPEGCE (Ley de Participación, Evaluación y Gobierno de Centros)"
+        "El primero corresponde a LOE y el segundo a LOMCE, dentro del marco normativo",
+        "El primero corresponde a LGE y el segundo a LOECE en la ordenación del sistema",
+        "El primero corresponde a LODE y el segundo a LOGSE según la reforma educativa",
+        "El primero corresponde a LOCE y el segundo a Ley de FP 2022 en el contexto histórico"
       ],
-      "correct": 3,
-      "explanation": "La LOPEGCE de 1995 reforzó la inspección, reguló la evaluación del sistema y la elección de directores por el Consejo Escolar."
+      "correct": 0,
+      "explanation": "La LOE introdujo las competencias básicas; la LOMCE organizó las materias en bloques troncales, específicos y de libre configuración autonómica."
     },
     {
       "id": 114,
       "topic": 1,
       "topicName": "Tema 1: Evolución del Sistema Educativo",
-      "question": "En el reparto competencial educativo, ¿qué porcentaje de enseñanzas mínimas fija el Estado en CCAA con lengua cooficial?",
+      "question": "¿Qué opción describe con mayor precisión un estándar de aprendizaje evaluable de la LOMCE?",
       "options": [
-        "El 50% de los horarios escolares (el otro 50% lo fija la Comunidad Autónoma)",
-        "El 60%",
-        "El 25%",
-        "El 100%"
+        "Una orientación general sin relación con criterios de evaluación, dentro del marco normativo",
+        "Una especificación observable que concreta lo que el alumnado debe saber o saber hacer",
+        "Una materia optativa elegida por cada familia según la reforma educativa",
+        "Un órgano colegiado encargado de aprobar la PGA en el contexto histórico"
       ],
-      "correct": 0,
-      "explanation": "En CCAA con lengua cooficial el Estado fija el 50% de las enseñanzas mínimas, reservando el 50% a la administración autonómica."
+      "correct": 1,
+      "explanation": "Los estándares concretaban y hacían observables los resultados asociados a criterios de evaluación; no eran asignaturas ni órganos de gobierno."
     },
     {
       "id": 115,
       "topic": 1,
       "topicName": "Tema 1: Evolución del Sistema Educativo",
-      "question": "¿Cómo se decide la titulación del alumnado de 4º de ESO en la LOMLOE?",
+      "question": "¿Qué cambio de la LOMLOE afecta directamente a la función de los estándares de la LOMCE?",
       "options": [
-        "Por decisión colegiada del equipo docente valorando la adquisición de las competencias y objetivos de etapa",
-        "Por un examen sorpresa elaborado por la Inspección",
-        "Exclusivamente si tiene cero materias suspendidas sin excepción alguna",
-        "Mediante la aprobación de una reválida censal nacional"
+        "Los convierte en una nueva etapa entre Primaria y ESO, dentro del marco normativo",
+        "Los transforma en órganos de participación de las familias en la ordenación del sistema",
+        "Los elimina como elemento curricular básico y reorienta el currículo hacia competencias",
+        "Los reserva exclusivamente para la Formación Profesional en el contexto histórico"
       ],
-      "correct": 0,
-      "explanation": "En la LOMLOE no existen reválidas; la titulación es colegiada del equipo docente en base al perfil de salida competencial."
+      "correct": 2,
+      "explanation": "La LOMLOE abandona los estándares de aprendizaje evaluables como pieza curricular de la LOMCE y refuerza el enfoque competencial."
     },
     {
       "id": 116,
       "topic": 1,
       "topicName": "Tema 1: Evolución del Sistema Educativo",
-      "question": "¿Qué sustitución de enseñanzas de FP acometió la LOGSE de 1990?",
+      "question": "En una tabla de evolución de Primaria, ¿qué organización corresponde a la LOMLOE?",
       "options": [
-        "Creó los Programas de Cualificación Inicial exclusiva",
-        "Eliminó la Formación Profesional pública",
-        "Fusionó la FP con la universidad directamente",
-        "Sustituyó la FP1 y FP2 por Ciclos Formativos de Grado Medio (post-ESO) y Grado Superior (post-Bachillerato)"
+        "Dos ciclos de tres cursos cada uno, dentro del marco normativo",
+        "Un ciclo único de seis cursos sin tramos en la ordenación del sistema",
+        "Cuatro ciclos de año y medio según la reforma educativa",
+        "Tres ciclos de dos cursos cada uno en el contexto histórico"
       ],
       "correct": 3,
-      "explanation": "La LOGSE prestigió la FP sustituyendo el viejo modelo de FP1/FP2 por ciclos modulares de grado medio y grado superior."
+      "explanation": "La LOMLOE recupera la organización de Primaria en tres ciclos de dos cursos: primero-segundo, tercero-cuarto y quinto-sexto."
     },
     {
       "id": 117,
       "topic": 1,
       "topicName": "Tema 1: Evolución del Sistema Educativo",
-      "question": "¿Cómo quedó reestructurada la Educación Primaria tras la LOMLOE de 2020?",
+      "question": "Una programación menciona Bachillerato General como modalidad diferenciada. ¿Qué ley explica esa novedad?",
       "options": [
-        "En un curso único de 6 años consecutivos",
-        "Se fusionó en un tramo único con la ESO",
-        "En dos ciclos de tres años cada uno",
-        "En tres ciclos de dos cursos académicos cada uno (1º-2º, 3º-4º y 5º-6º)"
+        "La LOMLOE, dentro del marco normativo, dentro del marco normativo",
+        "La LODE en la ordenación del sistema",
+        "La LOPEGCE según la reforma educativa",
+        "La LGE en el contexto histórico"
       ],
-      "correct": 3,
-      "explanation": "La LOMLOE recuperó la clásica organización de Primaria en 3 ciclos de 2 años (revirtiendo la división por cursos de la LOMCE)."
+      "correct": 0,
+      "explanation": "La LOMLOE incorporó el Bachillerato General junto a otras modalidades, ampliando las posibilidades de combinación de intereses formativos."
     },
     {
       "id": 118,
       "topic": 1,
       "topicName": "Tema 1: Evolución del Sistema Educativo",
-      "question": "¿Qué estructura de Bachillerato estableció la LOGSE de 1990?",
+      "question": "¿Qué contraposición resume mejor el tratamiento de las evaluaciones externas en LOMCE y LOMLOE?",
       "options": [
-        "Un curso único intensivo",
-        "Dos cursos académicos organizados en modalidades formativas especializadas",
-        "Cuatro cursos continuados",
-        "Un bachillerato general sin modalidades"
+        "La LOMCE las vinculó a efectos académicos; la LOMLOE las convirtió siempre en pruebas de titulación",
+        "La LOMCE las vinculó a reválidas con efectos previstos; la LOMLOE las orienta a diagnóstico sin ese efecto general",
+        "Ambas leyes las hicieron idénticas y obligatorias para obtener cualquier título según la reforma educativa",
+        "La LOMCE las reservó a FP y la LOMLOE a la universidad en el contexto histórico"
       ],
       "correct": 1,
-      "explanation": "La LOGSE diseñó el Bachillerato en 2 cursos no obligatorios organizados por modalidades (Artes, Ciencias, Humanidades y CCSS)."
+      "explanation": "La LOMCE proyectó evaluaciones finales con función académica; la LOMLOE suprimió ese modelo de reválida y mantiene evaluaciones de diagnóstico y sistema."
     },
     {
       "id": 119,
       "topic": 1,
       "topicName": "Tema 1: Evolución del Sistema Educativo",
-      "question": "En la LGE de 1970, ¿qué enseñanzas seguían a la EGB para los alumnos que obtenían el Graduado Escolar?",
+      "question": "Un alumno de 4.º de ESO tiene materias no superadas, pero el equipo considera que ha adquirido las competencias y objetivos. ¿Qué lógica refleja la LOMLOE?",
       "options": [
-        "Un ciclo formativo de grado medio",
-        "El Bachillerato elemental de dos años",
-        "Tres cursos de BUP (Bachillerato Unificado Polivalente) y un curso de COU",
-        "Cuatro cursos de ESO"
+        "La titulación queda automáticamente excluida por cualquier materia suspensa, dentro del marco normativo",
+        "Solo una reválida estatal puede sustituir la decisión docente en la ordenación del sistema",
+        "La decisión colegiada puede permitir la titulación atendiendo a competencias y objetivos",
+        "La familia decide unilateralmente la titulación en el contexto histórico"
       ],
       "correct": 2,
-      "explanation": "La vía académica de la LGE comprendía el BUP (1º, 2º y 3º) y el Curso de Orientación Universitaria (COU)."
+      "explanation": "La LOMLOE vincula la titulación de ESO a la valoración colegiada del equipo docente sobre competencias y objetivos, no a una regla automática de materias."
     },
     {
       "id": 120,
       "topic": 1,
       "topicName": "Tema 1: Evolución del Sistema Educativo",
-      "question": "¿Qué representa el Perfil de Salida al término de la enseñanza básica en la LOMLOE?",
+      "question": "¿Qué diferencia evita confundir los Programas de Diversificación Curricular con la PMAR?",
       "options": [
-        "Un certificado médico para salidas de excursión escolar",
-        "Una prueba física de resistencia deportiva",
-        "La piedra angular que identifica las competencias clave que el alumnado debe haber desarrollado al finalizar la educación obligatoria",
-        "El informe económico de costes por alumno"
+        "La PMAR pertenece a la LGE y la diversificación a la Ley Moyano, dentro del marco normativo",
+        "Ambos son nombres de la misma prueba externa de Bachillerato en la ordenación del sistema",
+        "La diversificación es una modalidad universitaria y la PMAR una FP básica según la reforma educativa",
+        "La LOMLOE recupera la denominación y el enfoque de diversificación; la LOMCE utilizó PMAR"
       ],
-      "correct": 2,
-      "explanation": "El Perfil de Salida es el referente último del currículo básico común para todo el Estado."
+      "correct": 3,
+      "explanation": "La LOMCE introdujo los Programas de Mejora del Aprendizaje y del Rendimiento; la LOMLOE recuperó los Programas de Diversificación Curricular."
     },
     {
       "id": 121,
       "topic": 1,
       "topicName": "Tema 1: Evolución del Sistema Educativo",
-      "question": "¿Qué principio rige la programación general de la enseñanza según el Art. 27.5 de la Constitución de 1978? (Aspecto #21)",
+      "question": "En una comunidad con lengua cooficial, ¿qué reparto de enseñanzas mínimas se asocia al marco estatal tradicional descrito en el tema?",
       "options": [
-        "La designación de directores por los obispados provinciales",
-        "El control monopolístico de una única ideología estatal",
-        "La participación efectiva de todos los sectores afectados y la creación de centros docentes públicos para garantizar el derecho",
-        "La privatización obligatoria de los centros de educación secundaria"
+        "El Estado fija el 50 % y la comunidad el otro 50 %, dentro del marco normativo",
+        "El Estado fija el 75 % y la comunidad el 25 % en la ordenación del sistema",
+        "La comunidad fija el 100 % y el Estado solo examina según la reforma educativa",
+        "El Estado fija el 25 % y la comunidad el 75 % en el contexto histórico"
       ],
-      "correct": 2,
-      "explanation": "El Art. 27.5 CE estipula que los poderes públicos garantizan el derecho de todos a la educación mediante una programación general con participación de los afectados."
+      "correct": 0,
+      "explanation": "En el esquema de reparto curricular empleado en el tema, las comunidades con lengua cooficial disponen de la mitad del horario y el Estado fija la otra mitad."
     },
     {
       "id": 122,
       "topic": 1,
       "topicName": "Tema 1: Evolución del Sistema Educativo",
-      "question": "¿Qué eran los 'estándares de aprendizaje evaluables' propios de la LOMCE de 2013? (Aspecto #22)",
+      "question": "¿Qué relación entre LOMLOE y Diseño Universal para el Aprendizaje es más ajustada?",
       "options": [
-        "Los requisitos de construcción de los edificios escolares",
-        "Especificaciones concretas y medibles de los criterios de evaluación que debían permitir graduar el rendimiento",
-        "Los menús de los comedores escolares",
-        "Los horarios de apertura de la biblioteca del centro"
+        "El DUA clasifica al alumnado en itinerarios según su capacidad, dentro del marco normativo",
+        "El DUA sirve de referencia para anticipar barreras y ofrecer múltiples formas de implicación",
+        "El DUA sustituye todas las decisiones docentes por una prueba estatal según la reforma educativa",
+        "El DUA es una modalidad de Bachillerato creada por la LOMCE en el contexto histórico"
       ],
       "correct": 1,
-      "explanation": "La LOMCE introdujo los estándares evaluables atomizando el currículo, los cuales fueron suprimidos por la LOMLOE."
+      "explanation": "La LOMLOE refuerza la inclusión y el enfoque competencial; el DUA propone diseñar oportunidades diversas desde el inicio, no separar al alumnado."
     },
     {
       "id": 123,
       "topic": 1,
       "topicName": "Tema 1: Evolución del Sistema Educativo",
-      "question": "¿Cuál era la principal crítica académica a la doble titulación de la LGE de 1970? (Aspecto #23)",
+      "question": "En la LOMLOE, ¿qué tratamiento recibe la enseñanza de Religión en la comparación normativa habitual del tema?",
       "options": [
-        "Que las tasas de la EGB eran demasiado elevadas para las familias",
-        "Que discriminaba tempranamente a los 14 años, encasillando en el Certificado de Escolaridad a los alumnos con dificultades",
-        "Que exigía cursar estudios universitarios a los 12 años",
-        "Que todos los alumnos tenían que estudiar latín obligatoriamente"
+        "Es obligatoria para todo el alumnado y determina por sí sola la promoción, dentro del marco normativo",
+        "Está prohibida en centros sostenidos con fondos públicos en la ordenación del sistema",
+        "El centro debe ofertarla y la elección corresponde al alumnado o sus familias, sin efectos en becas ni admisión",
+        "Solo puede ofertarse en Bachillerato y siempre con reválida en el contexto histórico"
       ],
-      "correct": 1,
-      "explanation": "El Certificado de Escolaridad estigmatizaba a los jóvenes cerrándoles el acceso al BUP y dirigiéndolos forzosamente a una FP precaria."
+      "correct": 2,
+      "explanation": "La LOMLOE mantiene la oferta obligatoria y la elección voluntaria, pero desvincula su calificación de becas y de la admisión universitaria."
     },
     {
       "id": 124,
       "topic": 1,
       "topicName": "Tema 1: Evolución del Sistema Educativo",
-      "question": "¿Qué modalidad de Bachillerato novedosa introdujo la LOMLOE en 2020 junto a las tradicionales? (Aspecto #24)",
+      "question": "¿Qué rasgo permite identificar la nueva Ley Orgánica 3/2022 de Formación Profesional frente al modelo histórico FP1-FP2?",
       "options": [
-        "El Bachillerato Militar Obligatorio",
-        "El Bachillerato General (para alumnado con intereses formativos interdisciplinares)",
-        "El Bachillerato Técnico Náutico",
-        "El Bachillerato Comercial de Oposiciones"
+        "Dos niveles cerrados sin acreditaciones parciales, dentro del marco normativo",
+        "Una única vía universitaria para personas tituladas en la ordenación del sistema",
+        "La desaparición de la formación en empresa según la reforma educativa",
+        "Un sistema integrado y gradual de grados A, B, C, D y E en el contexto histórico"
       ],
-      "correct": 1,
-      "explanation": "La LOMLOE creó el Bachillerato General para ofrecer una vía flexible que combina materias humanísticas, científicas y sociales."
+      "correct": 3,
+      "explanation": "La ley de 2022 organiza un sistema integrado de cinco grados, desde acreditaciones parciales hasta cursos de especialización, con carácter dual progresivo."
     },
     {
       "id": 125,
       "topic": 1,
       "topicName": "Tema 1: Evolución del Sistema Educativo",
-      "question": "¿Qué institución consultiva del Estado en materia educativa fue consolidada por la LODE de 1985? (Aspecto #25)",
+      "question": "Una persona acredita una unidad pequeña de competencia profesional sin cursar un ciclo completo. ¿Qué grado de la FP 2022 describe mejor el caso?",
       "options": [
-        "El Consejo Escolar del Estado",
-        "El Tribunal de Garantías Educativas",
-        "La Real Junta de Maestros Nacionales",
-        "El Consejo Superior de Universidades Privadas"
+        "Grado A, acreditación parcial de competencia, dentro del marco normativo",
+        "Grado C, curso de especialización en la ordenación del sistema",
+        "Grado D, ciclo formativo completo según la reforma educativa",
+        "Grado E, doble titulación universitaria en el contexto histórico"
       ],
       "correct": 0,
-      "explanation": "La LODE de 1985 creó el Consejo Escolar del Estado como máximo órgano de consulta y asesoramiento del Gobierno en política educativa."
+      "explanation": "El grado A corresponde a acreditaciones parciales de competencia; los grados superiores integran certificados, ciclos y especialización."
     },
     {
       "id": 126,
       "topic": 1,
       "topicName": "Tema 1: Evolución del Sistema Educativo",
-      "question": "¿Qué tratamiento da la LOMLOE a la asignatura de Religión católica y confesional? (Aspecto #26)",
+      "question": "¿Qué afirmación diferencia los grados D y E del sistema de FP establecido en 2022?",
       "options": [
-        "Sustituye por completo a las matemáticas y a la historia",
-        "Es de oferta obligatoria para los centros, optativa para las familias, y computable a efectos de expediente pero no computa para becas ni acceso universitario",
-        "Es obligatoria para el 100% del alumnado con examen de reválida",
-        "Está terminantemente prohibida en todos los centros de España"
+        "D comprende microacreditaciones y E certificados profesionales",
+        "D comprende ciclos formativos y E cursos de especialización en la ordenación del sistema",
+        "D es exclusivamente universitario y E corresponde a Primaria según la reforma educativa",
+        "D no tiene currículo y E sustituye la ESO en el contexto histórico"
       ],
       "correct": 1,
-      "explanation": "La LOMLOE mantiene la oferta obligatoria para los centros pero su calificación no cuenta para notas medias de acceso a la universidad ni becas."
+      "explanation": "En la arquitectura A-E, el grado D corresponde a ciclos formativos y el E a cursos de especialización; A y B son acreditaciones y C certificados profesionales."
     },
     {
       "id": 127,
       "topic": 1,
       "topicName": "Tema 1: Evolución del Sistema Educativo",
-      "question": "¿Qué programa de atención a la diversidad para 3º y 4º de ESO recuperó la LOMLOE frente a la PMAR de la LOMCE? (Aspecto #27)",
+      "question": "¿Qué secuencia cronológica está ordenada de la ley más antigua a la más reciente?",
       "options": [
-        "Las Aulas de Castigo Permanente",
-        "Los Cursos de Retención Obligatoria",
-        "Los Talleres de Iniciación Profesional de la LGE",
-        "Los Programas de Diversificación Curricular (PDC)"
+        "LODE, LOECE, LOE, LOGSE, LOMLOE, LOMCE, dentro del marco normativo",
+        "LOGSE, LOECE, LOMCE, LODE, LOE, LOMLOE en la ordenación del sistema",
+        "LOECE, LODE, LOGSE, LOE, LOMCE, LOMLOE según la reforma educativa",
+        "LOE, LOGSE, LODE, LOECE, LOMCE, LOMLOE en el contexto histórico"
       ],
-      "correct": 3,
-      "explanation": "La LOMLOE recuperó los prestigiosos Programas de Diversificación Curricular (PDC) para garantizar la titulación de la ESO."
+      "correct": 2,
+      "explanation": "Las fechas son 1980, 1985, 1990, 2006, 2013 y 2020, respectivamente; la secuencia separa reformas de participación y de ordenación."
     },
     {
       "id": 128,
       "topic": 1,
       "topicName": "Tema 1: Evolución del Sistema Educativo",
-      "question": "¿Cuál era el objetivo de la prueba 'Selectividad' (PAU / EBAU) nacida tras la LGE de 1970? (Aspecto #28)",
+      "question": "¿Qué pareja fecha-ley es correcta?",
       "options": [
-        "Ordenar y homologar el acceso y la admisión a los estudios universitarios según el principio de mérito y capacidad",
-        "Evaluar a los docentes de bachillerato",
-        "Determinar quién obtenía el título de bachiller de forma retroactiva",
-        "Asignar plazas obligatorias en centros de Formación Profesional"
+        "LOCE: 1995, dentro del marco normativo, dentro del marco normativo",
+        "LOMCE: 2006 en la ordenación del sistema",
+        "LOE: 2013 según la reforma educativa",
+        "LOPEGCE: 1995 en el contexto histórico"
       ],
-      "correct": 0,
-      "explanation": "La prueba de acceso a la universidad valora de forma objetiva la madurez académica del alumnado tras el Bachillerato."
+      "correct": 3,
+      "explanation": "La LOPEGCE se aprobó en 1995; la LOCE corresponde a 2002, la LOE a 2006 y la LOMCE a 2013."
     },
     {
       "id": 129,
       "topic": 1,
       "topicName": "Tema 1: Evolución del Sistema Educativo",
-      "question": "¿Qué principio rige la programación general de la enseñanza según el Art. 27.5 de la Constitución de 1978? (Aspecto #29)",
+      "question": "¿Por qué la LGE de 1970 puede considerarse una ruptura con la estructura anterior, aunque mantuviera una selección al final de la EGB?",
       "options": [
-        "El control monopolístico de una única ideología estatal",
-        "La designación de directores por los obispados provinciales",
-        "La participación efectiva de todos los sectores afectados y la creación de centros docentes públicos para garantizar el derecho",
-        "La privatización obligatoria de los centros de educación secundaria"
+        "Porque generalizó una etapa básica común de 6 a 14 años, pero conservó una bifurcación mediante dos credenciales",
+        "Porque eliminó toda diferencia entre educación básica y universidad en la ordenación del sistema",
+        "Porque convirtió la escolarización obligatoria en voluntaria según la reforma educativa",
+        "Porque sustituyó la educación pública por conciertos en el contexto histórico"
       ],
-      "correct": 2,
-      "explanation": "El Art. 27.5 CE estipula que los poderes públicos garantizan el derecho de todos a la educación mediante una programación general con participación de los afectados."
+      "correct": 0,
+      "explanation": "La LGE modernizó y extendió la educación básica, pero el Graduado Escolar y el Certificado de Escolaridad mantenían una selección temprana."
     },
     {
       "id": 130,
       "topic": 1,
       "topicName": "Tema 1: Evolución del Sistema Educativo",
-      "question": "¿Qué eran los 'estándares de aprendizaje evaluables' propios de la LOMCE de 2013? (Aspecto #30)",
+      "question": "Un análisis atribuye a la LOGSE la eliminación de la FP. ¿Cuál es la corrección más precisa?",
       "options": [
-        "Los requisitos de construcción de los edificios escolares",
-        "Los horarios de apertura de la biblioteca del centro",
-        "Especificaciones concretas y medibles de los criterios de evaluación que debían permitir graduar el rendimiento",
-        "Los menús de los comedores escolares"
+        "La LOGSE mantuvo la FP fuera de la educación obligatoria, dentro del marco normativo",
+        "La LOGSE sustituyó FP1 y FP2 por ciclos formativos de grado medio y superior",
+        "La LOGSE mantuvo sin cambios FP1 y FP2 hasta 2022 según la reforma educativa",
+        "La LOGSE mantuvo la FP como una vía separada de la secundaria en el contexto histórico"
       ],
-      "correct": 2,
-      "explanation": "La LOMCE introdujo los estándares evaluables atomizando el currículo, los cuales fueron suprimidos por la LOMLOE."
+      "correct": 1,
+      "explanation": "La LOGSE reordenó la FP en ciclos formativos vinculados a titulaciones y perfiles profesionales; no la suprimió."
     },
     {
       "id": 131,
       "topic": 1,
       "topicName": "Tema 1: Evolución del Sistema Educativo",
-      "question": "¿Cuál era la principal crítica académica a la doble titulación de la LGE de 1970? (Aspecto #31)",
+      "question": "¿Qué diferencia entre BUP-COU y la estructura LOGSE evita una lectura anacrónica?",
       "options": [
-        "Que las tasas de la EGB eran demasiado elevadas para las familias",
-        "Que todos los alumnos tenían que estudiar latín obligatoriamente",
-        "Que exigía cursar estudios universitarios a los 12 años",
-        "Que discriminaba tempranamente a los 14 años, encasillando en el Certificado de Escolaridad a los alumnos con dificultades"
+        "BUP y COU son modalidades de la LOMLOE y la LOGSE los reforzó, dentro del marco normativo",
+        "COU era equivalente a Primaria y BUP a Educación Infantil en la ordenación del sistema",
+        "BUP y COU pertenecen a la ordenación previa; la LOGSE implantó Bachillerato de dos cursos tras la ESO",
+        "La LOGSE mantuvo BUP como vía previa y limitó la ESO en el contexto histórico"
       ],
-      "correct": 3,
-      "explanation": "El Certificado de Escolaridad estigmatizaba a los jóvenes cerrándoles el acceso al BUP y dirigiéndolos forzosamente a una FP precaria."
+      "correct": 2,
+      "explanation": "La LOGSE sustituyó BUP-COU por un Bachillerato de dos cursos posterior a la ESO, por lo que no deben mezclarse las nomenclaturas."
     },
     {
       "id": 132,
       "topic": 1,
       "topicName": "Tema 1: Evolución del Sistema Educativo",
-      "question": "¿Qué modalidad de Bachillerato novedosa introdujo la LOMLOE en 2020 junto a las tradicionales? (Aspecto #32)",
+      "question": "En una pregunta sobre participación, ¿qué órgano se vincula especialmente con la LODE?",
       "options": [
-        "El Bachillerato General (para alumnado con intereses formativos interdisciplinares)",
-        "El Bachillerato Comercial de Oposiciones",
-        "El Bachillerato Militar Obligatorio",
-        "El Bachillerato Técnico Náutico"
+        "La Conferencia de Rectores como órgano de gobierno de cada instituto",
+        "La inspección educativa como órgano del aula en la ordenación del sistema",
+        "La Comisión de Coordinación Pedagógica como órgano familiar según la reforma educativa",
+        "El Consejo Escolar como órgano de participación de la comunidad educativa"
       ],
-      "correct": 0,
-      "explanation": "La LOMLOE creó el Bachillerato General para ofrecer una vía flexible que combina materias humanísticas, científicas y sociales."
+      "correct": 3,
+      "explanation": "La LODE consolidó la participación de los sectores de la comunidad educativa mediante el Consejo Escolar en los centros."
     },
     {
       "id": 133,
       "topic": 1,
       "topicName": "Tema 1: Evolución del Sistema Educativo",
-      "question": "¿Qué institución consultiva del Estado en materia educativa fue consolidada por la LODE de 1985? (Aspecto #33)",
+      "question": "¿Qué órgano consultivo estatal se relaciona con la participación educativa y no debe confundirse con el Consejo Escolar de un centro?",
       "options": [
-        "El Tribunal de Garantías Educativas",
-        "El Consejo Superior de Universidades Privadas",
-        "La Real Junta de Maestros Nacionales",
-        "El Consejo Escolar del Estado"
+        "El Consejo Escolar del Estado, dentro del marco normativo, dentro del marco normativo",
+        "El Departamento de Orientación en la ordenación del sistema",
+        "La Comisión de Coordinación Pedagógica según la reforma educativa",
+        "El Equipo Docente de grupo en el contexto histórico"
       ],
-      "correct": 3,
-      "explanation": "La LODE de 1985 creó el Consejo Escolar del Estado como máximo órgano de consulta y asesoramiento del Gobierno en política educativa."
+      "correct": 0,
+      "explanation": "El Consejo Escolar del Estado actúa como órgano consultivo nacional; el Consejo Escolar del centro tiene ámbito y funciones institucionales distintos."
     },
     {
       "id": 134,
       "topic": 1,
       "topicName": "Tema 1: Evolución del Sistema Educativo",
-      "question": "¿Qué tratamiento da la LOMLOE a la asignatura de Religión católica y confesional? (Aspecto #34)",
+      "question": "¿Qué afirmación sobre la LOPEGCE es más exacta en el contexto de la evolución legislativa?",
       "options": [
-        "Está terminantemente prohibida en todos los centros de España",
-        "Sustituye por completo a las matemáticas y a la historia",
-        "Es de oferta obligatoria para los centros, optativa para las familias, y computable a efectos de expediente pero no computa para becas ni acceso universitario",
-        "Es obligatoria para el 100% del alumnado con examen de reválida"
+        "Creó la escolarización básica de 6 a 14 años en 1970, dentro del marco normativo",
+        "Desarrolló participación, evaluación del sistema y gobierno de los centros en 1995",
+        "Introdujo la clasificación troncal de materias en 2013 según la reforma educativa",
+        "Estableció el sistema A-E de FP en 2022 en el contexto histórico"
       ],
-      "correct": 2,
-      "explanation": "La LOMLOE mantiene la oferta obligatoria para los centros pero su calificación no cuenta para notas medias de acceso a la universidad ni becas."
+      "correct": 1,
+      "explanation": "La LOPEGCE de 1995 se ocupó de participación, evaluación y gobierno; las demás descripciones corresponden a otras leyes."
     },
     {
       "id": 135,
       "topic": 1,
       "topicName": "Tema 1: Evolución del Sistema Educativo",
-      "question": "¿Qué programa de atención a la diversidad para 3º y 4º de ESO recuperó la LOMLOE frente a la PMAR de la LOMCE? (Aspecto #35)",
+      "question": "En la transición de LOE a LOMCE, ¿qué concepto aparece específicamente asociado a la segunda?",
       "options": [
-        "Los Talleres de Iniciación Profesional de la LGE",
-        "Las Aulas de Castigo Permanente",
-        "Los Programas de Diversificación Curricular (PDC)",
-        "Los Cursos de Retención Obligatoria"
+        "Competencias básicas como formulación inicial, dentro del marco normativo",
+        "Graduado Escolar de la EGB en la ordenación del sistema",
+        "Estándares de aprendizaje evaluables según la reforma educativa",
+        "Consejo de Dirección de la LOECE en el contexto histórico"
       ],
       "correct": 2,
-      "explanation": "La LOMLOE recuperó los prestigiosos Programas de Diversificación Curricular (PDC) para garantizar la titulación de la ESO."
+      "explanation": "La LOMCE añadió estándares de aprendizaje evaluables; la LOE había introducido las competencias básicas como elemento curricular."
     },
     {
       "id": 136,
       "topic": 1,
       "topicName": "Tema 1: Evolución del Sistema Educativo",
-      "question": "¿Cuál era el objetivo de la prueba 'Selectividad' (PAU / EBAU) nacida tras la LGE de 1970? (Aspecto #36)",
+      "question": "¿Qué cambio terminológico refleja la evolución de LOE a LOMLOE en materia competencial?",
       "options": [
-        "Ordenar y homologar el acceso y la admisión a los estudios universitarios según el principio de mérito y capacidad",
-        "Evaluar a los docentes de bachillerato",
-        "Asignar plazas obligatorias en centros de Formación Profesional",
-        "Determinar quién obtenía el título de bachiller de forma retroactiva"
+        "De competencias clave a calificaciones numéricas sin currículo, dentro del marco normativo",
+        "De competencias básicas a reválidas como único aprendizaje en la ordenación del sistema",
+        "De competencias a desaparición de criterios de evaluación según la reforma educativa",
+        "De competencias básicas a competencias clave dentro de un enfoque más competencial"
       ],
-      "correct": 0,
-      "explanation": "La prueba de acceso a la universidad valora de forma objetiva la madurez académica del alumnado tras el Bachillerato."
+      "correct": 3,
+      "explanation": "La LOMLOE actualiza el marco hacia competencias clave y perfil de salida, superando la formulación de competencias básicas de la LOE."
     },
     {
       "id": 137,
       "topic": 1,
       "topicName": "Tema 1: Evolución del Sistema Educativo",
-      "question": "¿Qué principio rige la programación general de la enseñanza según el Art. 27.5 de la Constitución de 1978? (Aspecto #37)",
+      "question": "¿Qué principio aparece expresamente reforzado por la LOMLOE frente a una política centrada en separar itinerarios?",
       "options": [
-        "La participación efectiva de todos los sectores afectados y la creación de centros docentes públicos para garantizar el derecho",
-        "La designación de directores por los obispados provinciales",
-        "El control monopolístico de una única ideología estatal",
-        "La privatización obligatoria de los centros de educación secundaria"
+        "Inclusión y garantía de éxito para todo el alumnado, dentro del marco normativo",
+        "Selección académica irreversible a los doce años en la ordenación del sistema",
+        "Separación por rendimiento como regla general según la reforma educativa",
+        "Homogeneización de todos los apoyos en una única prueba en el contexto histórico"
       ],
       "correct": 0,
-      "explanation": "El Art. 27.5 CE estipula que los poderes públicos garantizan el derecho de todos a la educación mediante una programación general con participación de los afectados."
+      "explanation": "La LOMLOE subraya inclusión, equidad y éxito de todo el alumnado; no convierte la separación temprana en principio organizador."
     },
     {
       "id": 138,
       "topic": 1,
       "topicName": "Tema 1: Evolución del Sistema Educativo",
-      "question": "¿Qué eran los 'estándares de aprendizaje evaluables' propios de la LOMCE de 2013? (Aspecto #38)",
+      "question": "Una comparación presenta reválidas con efectos académicos frente a evaluaciones diagnósticas. ¿Qué lectura histórica es correcta?",
       "options": [
-        "Los menús de los comedores escolares",
-        "Los horarios de apertura de la biblioteca del centro",
-        "Especificaciones concretas y medibles de los criterios de evaluación que debían permitir graduar el rendimiento",
-        "Los requisitos de construcción de los edificios escolares"
+        "La primera corresponde a la LODE y la segunda a la LGE, dentro del marco normativo",
+        "La primera imagen se aproxima a la LOMCE y la segunda a la orientación de la LOMLOE",
+        "Ambas describen literalmente la LOECE según la reforma educativa",
+        "La primera pertenece a la Ley de FP y la segunda a la Ley Moyano en el contexto histórico"
       ],
-      "correct": 2,
-      "explanation": "La LOMCE introdujo los estándares evaluables atomizando el currículo, los cuales fueron suprimidos por la LOMLOE."
+      "correct": 1,
+      "explanation": "La LOMCE proyectó evaluaciones finales con efectos académicos; la LOMLOE sustituyó ese enfoque por evaluaciones de diagnóstico y de sistema sin reválida general."
     },
     {
       "id": 139,
       "topic": 1,
       "topicName": "Tema 1: Evolución del Sistema Educativo",
-      "question": "¿Cuál era la principal crítica académica a la doble titulación de la LGE de 1970? (Aspecto #39)",
+      "question": "¿Cuál es la relación correcta entre LOMLOE y perfil de salida?",
       "options": [
-        "Que las tasas de la EGB eran demasiado elevadas para las familias",
-        "Que discriminaba tempranamente a los 14 años, encasillando en el Certificado de Escolaridad a los alumnos con dificultades",
-        "Que exigía cursar estudios universitarios a los 12 años",
-        "Que todos los alumnos tenían que estudiar latín obligatoriamente"
+        "El perfil de salida es una prueba de acceso creada por la LGE, dentro del marco normativo",
+        "El perfil de salida sustituye todas las etapas por una única titulación en la ordenación del sistema",
+        "El perfil de salida concreta las competencias que se espera que el alumnado alcance al finalizar la enseñanza básica",
+        "El perfil de salida solo se aplica a cursos de especialización de FP en el contexto histórico"
       ],
-      "correct": 1,
-      "explanation": "El Certificado de Escolaridad estigmatizaba a los jóvenes cerrándoles el acceso al BUP y dirigiéndolos forzosamente a una FP precaria."
+      "correct": 2,
+      "explanation": "En el marco LOMLOE, el perfil de salida funciona como referencia competencial al término de la enseñanza básica, no como examen ni como etapa."
     },
     {
       "id": 140,
       "topic": 1,
       "topicName": "Tema 1: Evolución del Sistema Educativo",
-      "question": "¿Qué modalidad de Bachillerato novedosa introdujo la LOMLOE en 2020 junto a las tradicionales? (Aspecto #40)",
+      "question": "¿Qué escenario representa mejor la diferencia entre enfoque disciplinar tradicional y enfoque competencial LOMLOE?",
       "options": [
-        "El Bachillerato General (para alumnado con intereses formativos interdisciplinares)",
-        "El Bachillerato Militar Obligatorio",
-        "El Bachillerato Técnico Náutico",
-        "El Bachillerato Comercial de Oposiciones"
+        "Sustituir todas las materias por una prueba de memoria idéntica, dentro del marco normativo",
+        "Eliminar los saberes y evaluar únicamente asistencia en la ordenación del sistema",
+        "Separar al alumnado antes de analizar sus necesidades según la reforma educativa",
+        "Resolver una situación movilizando saberes y criterios, no solo recordar una definición aislada"
       ],
-      "correct": 0,
-      "explanation": "La LOMLOE creó el Bachillerato General para ofrecer una vía flexible que combina materias humanísticas, científicas y sociales."
+      "correct": 3,
+      "explanation": "El enfoque competencial integra saberes, destrezas y actitudes en contextos de aplicación; no elimina contenidos ni reduce la evaluación a asistencia."
     },
     {
       "id": 141,
       "topic": 1,
       "topicName": "Tema 1: Evolución del Sistema Educativo",
-      "question": "¿Qué institución consultiva del Estado en materia educativa fue consolidada por la LODE de 1985? (Aspecto #41)",
+      "question": "¿Qué combinación identifica correctamente la educación básica en la ordenación LOGSE?",
       "options": [
-        "El Consejo Escolar del Estado",
-        "La Real Junta de Maestros Nacionales",
-        "El Tribunal de Garantías Educativas",
-        "El Consejo Superior de Universidades Privadas"
+        "Educación Primaria de 6-12 y ESO de 12-16, dentro del marco normativo",
+        "EGB de 6-14 y BUP de 14-16 en la ordenación del sistema",
+        "Primaria de 4-10 y Bachillerato de 10-14 según la reforma educativa",
+        "ESO de 6-12 y Primaria de 12-16 en el contexto histórico"
       ],
       "correct": 0,
-      "explanation": "La LODE de 1985 creó el Consejo Escolar del Estado como máximo órgano de consulta y asesoramiento del Gobierno en política educativa."
+      "explanation": "La LOGSE situó Primaria aproximadamente entre 6 y 12 años y ESO entre 12 y 16, dentro de la escolaridad obligatoria."
     },
     {
       "id": 142,
       "topic": 1,
       "topicName": "Tema 1: Evolución del Sistema Educativo",
-      "question": "¿Qué tratamiento da la LOMLOE a la asignatura de Religión católica y confesional? (Aspecto #42)",
+      "question": "Un estudiante finaliza ESO y elige una vía académica de dos años antes de la universidad. ¿Qué ordenación legislativa describe el itinerario?",
       "options": [
-        "Es de oferta obligatoria para los centros, optativa para las familias, y computable a efectos de expediente pero no computa para becas ni acceso universitario",
-        "Está terminantemente prohibida en todos los centros de España",
-        "Es obligatoria para el 100% del alumnado con examen de reválida",
-        "Sustituye por completo a las matemáticas y a la historia"
+        "La estructura original de la Ley Moyano, dentro del marco normativo",
+        "La estructura LOGSE y sus desarrollos posteriores de Bachillerato",
+        "La doble credencial de la LGE sin reforma posterior según la reforma educativa",
+        "El sistema de grados A y B de FP en el contexto histórico"
       ],
-      "correct": 0,
-      "explanation": "La LOMLOE mantiene la oferta obligatoria para los centros pero su calificación no cuenta para notas medias de acceso a la universidad ni becas."
+      "correct": 1,
+      "explanation": "La LOGSE configuró la ESO hasta 16 años y un Bachillerato posterior de dos cursos; los grados A y B pertenecen a la FP de 2022."
     },
     {
       "id": 143,
       "topic": 1,
       "topicName": "Tema 1: Evolución del Sistema Educativo",
-      "question": "¿Qué programa de atención a la diversidad para 3º y 4º de ESO recuperó la LOMLOE frente a la PMAR de la LOMCE? (Aspecto #43)",
+      "question": "¿Qué rasgo distingue una ley orgánica educativa de una simple reforma reglamentaria en la cronología del tema?",
       "options": [
-        "Los Talleres de Iniciación Profesional de la LGE",
-        "Los Programas de Diversificación Curricular (PDC)",
-        "Los Cursos de Retención Obligatoria",
-        "Las Aulas de Castigo Permanente"
+        "Las leyes orgánicas solo fijan horarios diarios de cada aula, dentro del marco normativo",
+        "Las leyes orgánicas carecen de relación con el artículo 27 en la ordenación del sistema",
+        "Las leyes orgánicas desarrollan derechos y estructuras educativas con rango constitucional",
+        "Las leyes orgánicas se aplican únicamente a centros universitarios en el contexto histórico"
       ],
-      "correct": 1,
-      "explanation": "La LOMLOE recuperó los prestigiosos Programas de Diversificación Curricular (PDC) para garantizar la titulación de la ESO."
+      "correct": 2,
+      "explanation": "La categoría de ley orgánica resulta relevante para el desarrollo del derecho a la educación y la ordenación básica; no se limita a cuestiones de horario."
     },
     {
       "id": 144,
       "topic": 1,
       "topicName": "Tema 1: Evolución del Sistema Educativo",
-      "question": "¿Cuál era el objetivo de la prueba 'Selectividad' (PAU / EBAU) nacida tras la LGE de 1970? (Aspecto #44)",
+      "question": "¿Qué secuencia de reforma evita confundir una ley de participación con una ley de currículo?",
       "options": [
-        "Determinar quién obtenía el título de bachiller de forma retroactiva",
-        "Asignar plazas obligatorias en centros de Formación Profesional",
-        "Ordenar y homologar el acceso y la admisión a los estudios universitarios según el principio de mérito y capacidad",
-        "Evaluar a los docentes de bachillerato"
+        "LODE: estándares; LOGSE: conciertos educativos, dentro del marco normativo",
+        "LODE: grados A-E; LOGSE: perfil de salida en la ordenación del sistema",
+        "LODE: Bachillerato General; LOGSE: DUA según la reforma educativa",
+        "LODE: participación y conciertos; LOGSE: estructura de etapas y currículo"
       ],
-      "correct": 2,
-      "explanation": "La prueba de acceso a la universidad valora de forma objetiva la madurez académica del alumnado tras el Bachillerato."
+      "correct": 3,
+      "explanation": "La LODE se centra en el derecho a la educación, participación y conciertos; la LOGSE transforma la organización de etapas y el currículo."
     },
     {
       "id": 145,
       "topic": 1,
       "topicName": "Tema 1: Evolución del Sistema Educativo",
-      "question": "¿Qué principio rige la programación general de la enseñanza según el Art. 27.5 de la Constitución de 1978? (Aspecto #45)",
+      "question": "¿Qué papel desempeñó la Selectividad en la evolución posterior a la LGE, sin confundirla con el título de Bachiller?",
       "options": [
-        "El control monopolístico de una única ideología estatal",
-        "La designación de directores por los obispados provinciales",
-        "La privatización obligatoria de los centros de educación secundaria",
-        "La participación efectiva de todos los sectores afectados y la creación de centros docentes públicos para garantizar el derecho"
+        "Funcionó como prueba de acceso universitario, distinta de la obtención del título de Bachiller",
+        "Sustituyó la EGB y otorgó automáticamente el Graduado Escolar en la ordenación del sistema",
+        "Fue la prueba que acreditaba cada unidad de competencia de FP según la reforma educativa",
+        "Era una evaluación interna de la dirección del centro en el contexto histórico"
       ],
-      "correct": 3,
-      "explanation": "El Art. 27.5 CE estipula que los poderes públicos garantizan el derecho de todos a la educación mediante una programación general con participación de los afectados."
+      "correct": 0,
+      "explanation": "La prueba de acceso ordenaba el tránsito a la universidad; no era la credencial que por sí misma otorgaba el título de Bachiller ni el Graduado Escolar."
     },
     {
       "id": 146,
       "topic": 1,
       "topicName": "Tema 1: Evolución del Sistema Educativo",
-      "question": "¿Qué eran los 'estándares de aprendizaje evaluables' propios de la LOMCE de 2013? (Aspecto #46)",
+      "question": "En un supuesto de 1986, ¿qué ley proporciona el marco de participación de familias, profesorado y alumnado en el centro?",
       "options": [
-        "Los horarios de apertura de la biblioteca del centro",
-        "Los menús de los comedores escolares",
-        "Los requisitos de construcción de los edificios escolares",
-        "Especificaciones concretas y medibles de los criterios de evaluación que debían permitir graduar el rendimiento"
+        "La LOMCE, dentro del marco normativo, dentro del marco normativo",
+        "La LODE en la ordenación del sistema",
+        "La LOE según la reforma educativa",
+        "La Ley Orgánica 3/2022 en el contexto histórico"
       ],
-      "correct": 3,
-      "explanation": "La LOMCE introdujo los estándares evaluables atomizando el currículo, los cuales fueron suprimidos por la LOMLOE."
+      "correct": 1,
+      "explanation": "En 1986 estaba vigente la LODE de 1985, que articuló la participación de los sectores de la comunidad educativa y los conciertos."
     },
     {
       "id": 147,
       "topic": 1,
       "topicName": "Tema 1: Evolución del Sistema Educativo",
-      "question": "¿Cuál era la principal crítica académica a la doble titulación de la LGE de 1970? (Aspecto #47)",
+      "question": "Una línea temporal sitúa la LOCE entre LOGSE y LOE. ¿Qué afirmación completa correctamente ese tramo?",
       "options": [
-        "Que discriminaba tempranamente a los 14 años, encasillando en el Certificado de Escolaridad a los alumnos con dificultades",
-        "Que todos los alumnos tenían que estudiar latín obligatoriamente",
-        "Que exigía cursar estudios universitarios a los 12 años",
-        "Que las tasas de la EGB eran demasiado elevadas para las familias"
+        "La LOCE fue de 1990 y sustituyó inmediatamente a la LOGSE, dentro del marco normativo",
+        "La LOCE fue de 2013 y fue sustituida por la LOMCE en la ordenación del sistema",
+        "La LOCE fue de 2002 y quedó sin despliegue pleno antes de la LOE de 2006",
+        "La LOCE fue de 2020 y originó la LOMLOE en el contexto histórico"
       ],
-      "correct": 0,
-      "explanation": "El Certificado de Escolaridad estigmatizaba a los jóvenes cerrándoles el acceso al BUP y dirigiéndolos forzosamente a una FP precaria."
+      "correct": 2,
+      "explanation": "La LOCE de 2002 se ubicó entre la LOGSE y la LOE, pero su aplicación quedó paralizada y la LOE se aprobó en 2006."
     },
     {
       "id": 148,
       "topic": 1,
       "topicName": "Tema 1: Evolución del Sistema Educativo",
-      "question": "¿Qué modalidad de Bachillerato novedosa introdujo la LOMLOE en 2020 junto a las tradicionales? (Aspecto #48)",
+      "question": "¿Qué relación entre LOMCE y materias es correcta sin atribuirle una autonomía curricular absoluta?",
       "options": [
-        "El Bachillerato Militar Obligatorio",
-        "El Bachillerato Técnico Náutico",
-        "El Bachillerato Comercial de Oposiciones",
-        "El Bachillerato General (para alumnado con intereses formativos interdisciplinares)"
+        "Eliminó toda regulación estatal de materias y dejó cada centro sin currículo común, dentro del marco normativo",
+        "Sustituyó las materias por grados A-E de FP en toda la educación en la ordenación del sistema",
+        "Recuperó exclusivamente las asignaturas de la Ley Moyano según la reforma educativa",
+        "Distinguió bloques troncales, específicos y de libre configuración autonómica dentro de un marco estatal"
       ],
       "correct": 3,
-      "explanation": "La LOMLOE creó el Bachillerato General para ofrecer una vía flexible que combina materias humanísticas, científicas y sociales."
+      "explanation": "La LOMCE distribuyó responsabilidades curriculares mediante esos bloques, pero mantuvo un marco básico estatal."
     },
     {
       "id": 149,
       "topic": 1,
       "topicName": "Tema 1: Evolución del Sistema Educativo",
-      "question": "¿Qué institución consultiva del Estado en materia educativa fue consolidada por la LODE de 1985? (Aspecto #49)",
+      "question": "¿Qué afirmación sobre el currículo LOMLOE es más coherente con el tema?",
       "options": [
-        "La Real Junta de Maestros Nacionales",
-        "El Tribunal de Garantías Educativas",
-        "El Consejo Superior de Universidades Privadas",
-        "El Consejo Escolar del Estado"
+        "Integra competencias, saberes y criterios en lugar de reducir la evaluación a estándares atomizados",
+        "Elimina los criterios y deja solo una nota global de asistencia en la ordenación del sistema",
+        "Recupera literalmente los estándares de la LOMCE como único referente según la reforma educativa",
+        "Sustituye el currículo por decisiones individuales de cada familia en el contexto histórico"
       ],
-      "correct": 3,
-      "explanation": "La LODE de 1985 creó el Consejo Escolar del Estado como máximo órgano de consulta y asesoramiento del Gobierno en política educativa."
+      "correct": 0,
+      "explanation": "La LOMLOE reconfigura los elementos curriculares en clave competencial; no elimina criterios ni restaura los estándares como único referente."
     },
     {
       "id": 150,
       "topic": 1,
       "topicName": "Tema 1: Evolución del Sistema Educativo",
-      "question": "¿Qué tratamiento da la LOMLOE a la asignatura de Religión católica y confesional? (Aspecto #50)",
+      "question": "¿Qué supuesto muestra una aplicación inclusiva del enfoque LOMLOE y no una mera etiqueta?",
       "options": [
-        "Es de oferta obligatoria para los centros, optativa para las familias, y computable a efectos de expediente pero no computa para becas ni acceso universitario",
-        "Está terminantemente prohibida en todos los centros de España",
-        "Sustituye por completo a las matemáticas y a la historia",
-        "Es obligatoria para el 100% del alumnado con examen de reválida"
+        "Separar de entrada al alumnado por una prueba única de capacidad, dentro del marco normativo",
+        "Diseñar desde el inicio varias formas de acceso, participación y demostración del aprendizaje",
+        "Ofrecer una única tarea y adaptar solo después de excluir a quien no la supera según la reforma educativa",
+        "Suprimir objetivos comunes para cada alumno en el contexto histórico"
       ],
-      "correct": 0,
-      "explanation": "La LOMLOE mantiene la oferta obligatoria para los centros pero su calificación no cuenta para notas medias de acceso a la universidad ni becas."
+      "correct": 1,
+      "explanation": "El DUA y la inclusión buscan anticipar la variabilidad mediante opciones de representación, acción e implicación, manteniendo metas educativas comunes."
     },
     {
       "id": 151,
       "topic": 1,
       "topicName": "Tema 1: Evolución del Sistema Educativo",
-      "question": "¿Qué programa de atención a la diversidad para 3º y 4º de ESO recuperó la LOMLOE frente a la PMAR de la LOMCE? (Aspecto #51)",
+      "question": "¿Qué opción diferencia correctamente las credenciales de la LGE al terminar la EGB?",
       "options": [
-        "Los Cursos de Retención Obligatoria",
-        "Los Talleres de Iniciación Profesional de la LGE",
-        "Los Programas de Diversificación Curricular (PDC)",
-        "Las Aulas de Castigo Permanente"
+        "Título de ESO para quien superaba y Certificado Profesional para quien no, dentro del marco normativo",
+        "Bachillerato General para quien superaba y BUP para quien no en la ordenación del sistema",
+        "Graduado Escolar para quien superaba la etapa y Certificado de Escolaridad para quien no la superaba",
+        "Grado D para quien superaba y Grado A para quien no en el contexto histórico"
       ],
       "correct": 2,
-      "explanation": "La LOMLOE recuperó los prestigiosos Programas de Diversificación Curricular (PDC) para garantizar la titulación de la ESO."
+      "explanation": "La LGE utilizó el Graduado Escolar y el Certificado de Escolaridad, una bifurcación que se produjo al final de la EGB."
     },
     {
       "id": 152,
       "topic": 1,
       "topicName": "Tema 1: Evolución del Sistema Educativo",
-      "question": "¿Cuál era el objetivo de la prueba 'Selectividad' (PAU / EBAU) nacida tras la LGE de 1970? (Aspecto #52)",
+      "question": "¿Por qué se critica la doble salida de la EGB desde una perspectiva de equidad?",
       "options": [
-        "Asignar plazas obligatorias en centros de Formación Profesional",
-        "Determinar quién obtenía el título de bachiller de forma retroactiva",
-        "Ordenar y homologar el acceso y la admisión a los estudios universitarios según el principio de mérito y capacidad",
-        "Evaluar a los docentes de bachillerato"
+        "Porque obligaba a todo el alumnado a cursar universidad, dentro del marco normativo, dentro del marco normativo",
+        "Porque eliminaba cualquier diferencia entre trayectorias en la ordenación del sistema",
+        "Porque retrasaba la escolaridad obligatoria hasta los 18 años según la reforma educativa",
+        "Porque producía una selección temprana a los 14 años con consecuencias distintas para la continuidad académica"
       ],
-      "correct": 2,
-      "explanation": "La prueba de acceso a la universidad valora de forma objetiva la madurez académica del alumnado tras el Bachillerato."
+      "correct": 3,
+      "explanation": "La crítica se dirige a la temprana diferenciación entre Graduado Escolar y Certificado de Escolaridad, no a una supuesta universalización universitaria."
     },
     {
       "id": 153,
       "topic": 1,
       "topicName": "Tema 1: Evolución del Sistema Educativo",
-      "question": "¿Qué principio rige la programación general de la enseñanza según el Art. 27.5 de la Constitución de 1978? (Aspecto #53)",
+      "question": "Un examen pregunta qué ley convirtió la participación en un componente central de la organización escolar democrática. ¿Cuál es la respuesta más defendible?",
       "options": [
-        "La designación de directores por los obispados provinciales",
-        "La participación efectiva de todos los sectores afectados y la creación de centros docentes públicos para garantizar el derecho",
-        "El control monopolístico de una única ideología estatal",
-        "La privatización obligatoria de los centros de educación secundaria"
+        "La LODE, por su regulación de la participación y del Consejo Escolar",
+        "La LGE, por crear el perfil de salida en la ordenación del sistema",
+        "La LOMCE, por abolir los órganos colegiados según la reforma educativa",
+        "La LOPEGCE, por regular la dirección en el contexto histórico"
       ],
-      "correct": 1,
-      "explanation": "El Art. 27.5 CE estipula que los poderes públicos garantizan el derecho de todos a la educación mediante una programación general con participación de los afectados."
+      "correct": 0,
+      "explanation": "La LODE desarrolló la participación de la comunidad educativa y consolidó el Consejo Escolar; las otras leyes no cumplen esa función histórica."
     },
     {
       "id": 154,
       "topic": 1,
       "topicName": "Tema 1: Evolución del Sistema Educativo",
-      "question": "¿Qué eran los 'estándares de aprendizaje evaluables' propios de la LOMCE de 2013? (Aspecto #54)",
+      "question": "¿Qué combinación de ley y etapa es anacrónica?",
       "options": [
-        "Especificaciones concretas y medibles de los criterios de evaluación que debían permitir graduar el rendimiento",
-        "Los horarios de apertura de la biblioteca del centro",
-        "Los menús de los comedores escolares",
-        "Los requisitos de construcción de los edificios escolares"
+        "Atribuir los estándares a la LOMCE, dentro del marco normativo",
+        "Atribuir el Bachillerato General a la LGE de 1970 en la ordenación del sistema",
+        "Atribuir los grados A-E a la Ley de FP de 2022 según la reforma educativa",
+        "Atribuir la ESO obligatoria hasta 16 a la LOGSE en el contexto histórico"
       ],
-      "correct": 0,
-      "explanation": "La LOMCE introdujo los estándares evaluables atomizando el currículo, los cuales fueron suprimidos por la LOMLOE."
+      "correct": 1,
+      "explanation": "El Bachillerato General es una novedad de la LOMLOE; la LGE no lo estableció. Las otras tres asociaciones son coherentes con la cronología."
     },
     {
       "id": 155,
       "topic": 1,
       "topicName": "Tema 1: Evolución del Sistema Educativo",
-      "question": "¿Cuál era la principal crítica académica a la doble titulación de la LGE de 1970? (Aspecto #55)",
+      "question": "¿Qué enunciado describe mejor la continuidad y el cambio entre LOE y LOMLOE?",
       "options": [
-        "Que todos los alumnos tenían que estudiar latín obligatoriamente",
-        "Que las tasas de la EGB eran demasiado elevadas para las familias",
-        "Que exigía cursar estudios universitarios a los 12 años",
-        "Que discriminaba tempranamente a los 14 años, encasillando en el Certificado de Escolaridad a los alumnos con dificultades"
+        "La LOMLOE es una ley anterior que fue sustituida por la LOE, dentro del marco normativo",
+        "La LOMLOE reforma la universidad y apenas modifica etapas no universitarias en la ordenación del sistema",
+        "La LOMLOE modifica la LOE manteniendo la base orgánica, pero reorienta currículo, inclusión y evaluación",
+        "La LOMLOE conserva íntegramente la LOMCE sin cambios en el contexto histórico"
       ],
-      "correct": 3,
-      "explanation": "El Certificado de Escolaridad estigmatizaba a los jóvenes cerrándoles el acceso al BUP y dirigiéndolos forzosamente a una FP precaria."
+      "correct": 2,
+      "explanation": "La LOMLOE modifica la LOE y mantiene parte de su estructura, a la vez que cambia elementos curriculares, evaluación y principios de inclusión."
     },
     {
       "id": 156,
       "topic": 1,
       "topicName": "Tema 1: Evolución del Sistema Educativo",
-      "question": "¿Qué modalidad de Bachillerato novedosa introdujo la LOMLOE en 2020 junto a las tradicionales? (Aspecto #56)",
+      "question": "¿Qué afirmación separa correctamente evaluación de diagnóstico y titulación en la LOMLOE?",
       "options": [
-        "El Bachillerato Técnico Náutico",
-        "El Bachillerato Militar Obligatorio",
-        "El Bachillerato Comercial de Oposiciones",
-        "El Bachillerato General (para alumnado con intereses formativos interdisciplinares)"
+        "La evaluación de diagnóstico sustituye automáticamente al equipo docente para titular, dentro del marco normativo",
+        "Toda evaluación de diagnóstico es una reválida eliminatoria en la ordenación del sistema",
+        "La evaluación de diagnóstico solo se aplica a cursos universitarios según la reforma educativa",
+        "La evaluación de diagnóstico informa sobre competencias y no equivale por sí misma a una prueba de titulación"
       ],
       "correct": 3,
-      "explanation": "La LOMLOE creó el Bachillerato General para ofrecer una vía flexible que combina materias humanísticas, científicas y sociales."
+      "explanation": "La evaluación de diagnóstico aporta información para la mejora; no es una reválida ni reemplaza la decisión colegiada de titulación."
     },
     {
       "id": 157,
       "topic": 1,
       "topicName": "Tema 1: Evolución del Sistema Educativo",
-      "question": "¿Qué institución consultiva del Estado en materia educativa fue consolidada por la LODE de 1985? (Aspecto #57)",
+      "question": "En una cuestión sobre autonomía y homogeneidad curricular, ¿qué inferencia es compatible con el reparto estatal-autonómico?",
       "options": [
-        "La Real Junta de Maestros Nacionales",
-        "El Consejo Escolar del Estado",
-        "El Tribunal de Garantías Educativas",
-        "El Consejo Superior de Universidades Privadas"
+        "Existe un marco básico común estatal junto con desarrollo curricular de las comunidades autónomas",
+        "Las comunidades carecen de toda competencia curricular en cualquier territorio en la ordenación del sistema",
+        "Cada centro puede ignorar las enseñanzas mínimas estatales según la reforma educativa",
+        "El Estado fija únicamente edificios y no elementos de enseñanza en el contexto histórico"
       ],
-      "correct": 1,
-      "explanation": "La LODE de 1985 creó el Consejo Escolar del Estado como máximo órgano de consulta y asesoramiento del Gobierno en política educativa."
+      "correct": 0,
+      "explanation": "El sistema combina enseñanzas mínimas o aspectos básicos estatales con el desarrollo autonómico y la concreción de los centros."
     },
     {
       "id": 158,
       "topic": 1,
       "topicName": "Tema 1: Evolución del Sistema Educativo",
-      "question": "¿Qué tratamiento da la LOMLOE a la asignatura de Religión católica y confesional? (Aspecto #58)",
+      "question": "¿Qué opción identifica el sentido histórico de la Ley de FP de 2022?",
       "options": [
-        "Está terminantemente prohibida en todos los centros de España",
-        "Sustituye por completo a las matemáticas y a la historia",
-        "Es de oferta obligatoria para los centros, optativa para las familias, y computable a efectos de expediente pero no computa para becas ni acceso universitario",
-        "Es obligatoria para el 100% del alumnado con examen de reválida"
+        "Volver a una FP separada en FP1 y FP2 sin acreditaciones parciales, dentro del marco normativo",
+        "Integrar formación profesional educativa y empleo mediante itinerarios acumulables y conexión con la empresa",
+        "Eliminar la formación dual y concentrar toda enseñanza en el aula según la reforma educativa",
+        "Convertir los ciclos formativos en modalidades de ESO en el contexto histórico"
       ],
-      "correct": 2,
-      "explanation": "La LOMLOE mantiene la oferta obligatoria para los centros pero su calificación no cuenta para notas medias de acceso a la universidad ni becas."
+      "correct": 1,
+      "explanation": "La ley impulsa un sistema integrado, flexible y acreditable, con relación progresiva entre formación y empresa; no restaura el esquema cerrado anterior."
     },
     {
       "id": 159,
       "topic": 1,
       "topicName": "Tema 1: Evolución del Sistema Educativo",
-      "question": "¿Qué programa de atención a la diversidad para 3º y 4º de ESO recuperó la LOMLOE frente a la PMAR de la LOMCE? (Aspecto #59)",
+      "question": "¿Qué pareja no puede ser correcta por pertenecer a momentos legislativos incompatibles?",
       "options": [
-        "Los Talleres de Iniciación Profesional de la LGE",
-        "Los Cursos de Retención Obligatoria",
-        "Las Aulas de Castigo Permanente",
-        "Los Programas de Diversificación Curricular (PDC)"
+        "LOMCE y clasificación troncal-específica, dentro del marco normativo",
+        "LOGSE y escolaridad obligatoria hasta 16 en la ordenación del sistema",
+        "LOMLOE y estándares de aprendizaje como elemento curricular central",
+        "Ley de FP 2022 y grados A-E en el contexto histórico"
       ],
-      "correct": 3,
-      "explanation": "La LOMLOE recuperó los prestigiosos Programas de Diversificación Curricular (PDC) para garantizar la titulación de la ESO."
+      "correct": 2,
+      "explanation": "Los estándares son propios de la LOMCE y la LOMLOE los elimina como elemento curricular básico; por eso esa pareja es la incompatible."
     },
     {
       "id": 160,
       "topic": 1,
       "topicName": "Tema 1: Evolución del Sistema Educativo",
-      "question": "¿Cuál era el objetivo de la prueba 'Selectividad' (PAU / EBAU) nacida tras la LGE de 1970? (Aspecto #60)",
+      "question": "¿Qué razonamiento evita llamar ‘reválida’ a cualquier evaluación externa?",
       "options": [
-        "Determinar quién obtenía el título de bachiller de forma retroactiva",
-        "Evaluar a los docentes de bachillerato",
-        "Ordenar y homologar el acceso y la admisión a los estudios universitarios según el principio de mérito y capacidad",
-        "Asignar plazas obligatorias en centros de Formación Profesional"
+        "Toda prueba externa es reválida por definición, aunque no tenga consecuencias, dentro del marco normativo",
+        "Solo las pruebas de aula son evaluaciones auténticas en la ordenación del sistema",
+        "La palabra reválida designa cualquier prueba diagnóstica según la reforma educativa",
+        "Debe atenderse a su finalidad y efectos: diagnóstico y mejora no equivalen a una prueba final con efecto académico"
       ],
-      "correct": 2,
-      "explanation": "La prueba de acceso a la universidad valora de forma objetiva la madurez académica del alumnado tras el Bachillerato."
+      "correct": 3,
+      "explanation": "La distinción depende de finalidad y efectos académicos. La LOMLOE mantiene evaluaciones externas, pero no el modelo general de reválidas de la LOMCE."
     },
     {
       "id": 161,
       "topic": 1,
       "topicName": "Tema 1: Evolución del Sistema Educativo",
-      "question": "¿Qué principio rige la programación general de la enseñanza según el Art. 27.5 de la Constitución de 1978? (Aspecto #61)",
+      "question": "¿Qué conclusión se desprende de la sucesión LGE-LOGSE sobre la escolarización obligatoria?",
       "options": [
-        "La designación de directores por los obispados provinciales",
-        "La privatización obligatoria de los centros de educación secundaria",
-        "El control monopolístico de una única ideología estatal",
-        "La participación efectiva de todos los sectores afectados y la creación de centros docentes públicos para garantizar el derecho"
+        "La LOGSE prolongó la etapa común obligatoria de 14 a 16 años, dentro del marco normativo",
+        "La LOGSE redujo la escolaridad obligatoria de 16 a 14 años en la ordenación del sistema",
+        "La LGE ya había establecido la ESO de 12 a 16 años según la reforma educativa",
+        "Ninguna de las dos leyes reguló edades de escolarización en el contexto histórico"
       ],
-      "correct": 3,
-      "explanation": "El Art. 27.5 CE estipula que los poderes públicos garantizan el derecho de todos a la educación mediante una programación general con participación de los afectados."
+      "correct": 0,
+      "explanation": "La LGE estableció la EGB hasta 14 años; la LOGSE amplió la obligatoriedad hasta 16 mediante Primaria y ESO."
     },
     {
       "id": 162,
       "topic": 1,
       "topicName": "Tema 1: Evolución del Sistema Educativo",
-      "question": "¿Qué eran los 'estándares de aprendizaje evaluables' propios de la LOMCE de 2013? (Aspecto #62)",
+      "question": "¿Qué ley asociaría un opositor a la elección de directores por órganos de participación y a una atención específica a la evaluación del sistema?",
       "options": [
-        "Los menús de los comedores escolares",
-        "Los horarios de apertura de la biblioteca del centro",
-        "Especificaciones concretas y medibles de los criterios de evaluación que debían permitir graduar el rendimiento",
-        "Los requisitos de construcción de los edificios escolares"
+        "LOMLOE de 2020, dentro del marco normativo, dentro del marco normativo",
+        "LOPEGCE de 1995 en la ordenación del sistema",
+        "LGE de 1970 según la reforma educativa",
+        "Ley de FP de 2022 en el contexto histórico"
       ],
-      "correct": 2,
-      "explanation": "La LOMCE introdujo los estándares evaluables atomizando el currículo, los cuales fueron suprimidos por la LOMLOE."
+      "correct": 1,
+      "explanation": "La LOPEGCE reguló participación, evaluación y gobierno de los centros, incluyendo la función directiva en el contexto de la época."
     },
     {
       "id": 163,
       "topic": 1,
       "topicName": "Tema 1: Evolución del Sistema Educativo",
-      "question": "¿Cuál era la principal crítica académica a la doble titulación de la LGE de 1970? (Aspecto #63)",
+      "question": "¿Qué afirmación sobre las modalidades de Bachillerato es compatible con la evolución reciente?",
       "options": [
-        "Que las tasas de la EGB eran demasiado elevadas para las familias",
-        "Que todos los alumnos tenían que estudiar latín obligatoriamente",
-        "Que discriminaba tempranamente a los 14 años, encasillando en el Certificado de Escolaridad a los alumnos con dificultades",
-        "Que exigía cursar estudios universitarios a los 12 años"
+        "La LOMCE creó el Bachillerato General como alternativa a la EGB, dentro del marco normativo",
+        "La LOE implantó el Bachillerato General junto a la ESO en la ordenación del sistema",
+        "La LOMLOE añadió el Bachillerato General para ofrecer una vía más flexible",
+        "La LOMCE mantuvo modalidades y limitó su elección en el contexto histórico"
       ],
       "correct": 2,
-      "explanation": "El Certificado de Escolaridad estigmatizaba a los jóvenes cerrándoles el acceso al BUP y dirigiéndolos forzosamente a una FP precaria."
+      "explanation": "El Bachillerato General se incorpora con la LOMLOE; no pertenece a las leyes de participación ni a la estructura de 1970."
     },
     {
       "id": 164,
       "topic": 1,
       "topicName": "Tema 1: Evolución del Sistema Educativo",
-      "question": "¿Qué modalidad de Bachillerato novedosa introdujo la LOMLOE en 2020 junto a las tradicionales? (Aspecto #64)",
+      "question": "¿Qué opción refleja mejor la relación entre igualdad y la reforma de la LGE?",
       "options": [
-        "El Bachillerato Comercial de Oposiciones",
-        "El Bachillerato Técnico Náutico",
-        "El Bachillerato General (para alumnado con intereses formativos interdisciplinares)",
-        "El Bachillerato Militar Obligatorio"
+        "Garantizó trayectorias idénticas hasta la universidad sin ninguna selección, dentro del marco normativo",
+        "Redujo la escolarización básica a quienes podían pagarla en la ordenación del sistema",
+        "Sustituyó la escuela común por itinerarios privados desde los seis años según la reforma educativa",
+        "Amplió el acceso a una educación básica común, aunque mantuvo una diferenciación final criticada por temprana"
       ],
-      "correct": 2,
-      "explanation": "La LOMLOE creó el Bachillerato General para ofrecer una vía flexible que combina materias humanísticas, científicas y sociales."
+      "correct": 3,
+      "explanation": "La LGE supuso una expansión de la educación básica, pero la doble credencial al final de la EGB generó críticas de segregación temprana."
     },
     {
       "id": 165,
       "topic": 1,
       "topicName": "Tema 1: Evolución del Sistema Educativo",
-      "question": "¿Qué institución consultiva del Estado en materia educativa fue consolidada por la LODE de 1985? (Aspecto #65)",
+      "question": "¿Qué elemento no pertenece a la terminología curricular característica de la LOMCE?",
       "options": [
-        "El Tribunal de Garantías Educativas",
-        "El Consejo Superior de Universidades Privadas",
-        "La Real Junta de Maestros Nacionales",
-        "El Consejo Escolar del Estado"
+        "Perfil de salida como referencia competencial de la enseñanza básica",
+        "Materias troncales y específicas en la ordenación del sistema",
+        "Estándares de aprendizaje evaluables según la reforma educativa",
+        "Evaluaciones finales previstas con efectos académicos en el contexto histórico"
       ],
-      "correct": 3,
-      "explanation": "La LODE de 1985 creó el Consejo Escolar del Estado como máximo órgano de consulta y asesoramiento del Gobierno en política educativa."
+      "correct": 0,
+      "explanation": "El perfil de salida es propio del marco LOMLOE; los otros tres elementos se asocian a la arquitectura curricular y evaluadora de la LOMCE."
     },
     {
       "id": 166,
       "topic": 1,
       "topicName": "Tema 1: Evolución del Sistema Educativo",
-      "question": "¿Qué tratamiento da la LOMLOE a la asignatura de Religión católica y confesional? (Aspecto #66)",
+      "question": "En un caso de orientación académica, ¿qué diferencia entre ESO y Bachillerato es coherente con la LOGSE?",
       "options": [
-        "Está terminantemente prohibida en todos los centros de España",
-        "Es obligatoria para el 100% del alumnado con examen de reválida",
-        "Es de oferta obligatoria para los centros, optativa para las familias, y computable a efectos de expediente pero no computa para becas ni acceso universitario",
-        "Sustituye por completo a las matemáticas y a la historia"
+        "Ambas son etapas obligatorias hasta los 18 años, dentro del marco normativo, dentro del marco normativo",
+        "La ESO forma parte de la enseñanza obligatoria común y el Bachillerato es una etapa posterior no obligatoria",
+        "El Bachillerato precede a la ESO y selecciona su acceso según la reforma educativa",
+        "La ESO es una modalidad de FP y el Bachillerato una credencial de EGB en el contexto histórico"
       ],
-      "correct": 2,
-      "explanation": "La LOMLOE mantiene la oferta obligatoria para los centros pero su calificación no cuenta para notas medias de acceso a la universidad ni becas."
+      "correct": 1,
+      "explanation": "La LOGSE configuró la ESO como obligatoria hasta 16 años y el Bachillerato como etapa posterior de carácter postobligatorio."
     },
     {
       "id": 167,
       "topic": 1,
       "topicName": "Tema 1: Evolución del Sistema Educativo",
-      "question": "¿Qué programa de atención a la diversidad para 3º y 4º de ESO recuperó la LOMLOE frente a la PMAR de la LOMCE? (Aspecto #67)",
+      "question": "¿Qué afirmación evita confundir el Consejo Escolar con el Claustro?",
       "options": [
-        "Los Cursos de Retención Obligatoria",
-        "Los Talleres de Iniciación Profesional de la LGE",
-        "Las Aulas de Castigo Permanente",
-        "Los Programas de Diversificación Curricular (PDC)"
+        "El Consejo Escolar reúne solo docentes y el Claustro representa a las familias, dentro del marco normativo",
+        "Ambos son órganos estatales consultivos externos al centro en la ordenación del sistema",
+        "El Consejo Escolar representa sectores de la comunidad educativa; el Claustro reúne al profesorado",
+        "El Claustro decide conciertos privados y el Consejo imparte materias en el contexto histórico"
       ],
-      "correct": 3,
-      "explanation": "La LOMLOE recuperó los prestigiosos Programas de Diversificación Curricular (PDC) para garantizar la titulación de la ESO."
+      "correct": 2,
+      "explanation": "La participación amplia corresponde al Consejo Escolar; el Claustro es el órgano propio de participación del profesorado."
     },
     {
       "id": 168,
       "topic": 1,
       "topicName": "Tema 1: Evolución del Sistema Educativo",
-      "question": "¿Cuál era el objetivo de la prueba 'Selectividad' (PAU / EBAU) nacida tras la LGE de 1970? (Aspecto #68)",
+      "question": "¿Qué lectura es válida al comparar el carácter dual de la FP actual con las prácticas de la LOGSE?",
       "options": [
-        "Determinar quién obtenía el título de bachiller de forma retroactiva",
-        "Ordenar y homologar el acceso y la admisión a los estudios universitarios según el principio de mérito y capacidad",
-        "Asignar plazas obligatorias en centros de Formación Profesional",
-        "Evaluar a los docentes de bachillerato"
+        "La LOGSE creó ya los grados A-E con idéntica nomenclatura, dentro del marco normativo, dentro del marco normativo",
+        "La Ley de FP 2022 eliminó cualquier formación en empresa que existiera antes en la ordenación del sistema",
+        "Ambas leyes son la misma norma con distinto nombre según la reforma educativa",
+        "La Ley de FP 2022 sistematiza la relación con la empresa en un sistema dual en el contexto histórico"
       ],
-      "correct": 1,
-      "explanation": "La prueba de acceso a la universidad valora de forma objetiva la madurez académica del alumnado tras el Bachillerato."
+      "correct": 3,
+      "explanation": "La ley de 2022 reorganiza la FP en grados y refuerza su carácter dual; no debe proyectarse retrospectivamente la nomenclatura A-E sobre la LOGSE."
     },
     {
       "id": 169,
       "topic": 1,
       "topicName": "Tema 1: Evolución del Sistema Educativo",
-      "question": "¿Qué principio rige la programación general de la enseñanza según el Art. 27.5 de la Constitución de 1978? (Aspecto #69)",
+      "question": "¿Qué supuesto muestra una interpretación correcta de la autonomía de las comunidades dentro del sistema educativo?",
       "options": [
-        "La participación efectiva de todos los sectores afectados y la creación de centros docentes públicos para garantizar el derecho",
-        "La designación de directores por los obispados provinciales",
-        "El control monopolístico de una única ideología estatal",
-        "La privatización obligatoria de los centros de educación secundaria"
+        "Desarrollan el currículo dentro de bases estatales y pueden concretarlo según su ámbito lingüístico y cultural",
+        "Pueden suprimir las enseñanzas mínimas estatales sin norma adicional en la ordenación del sistema",
+        "Solo gestionan edificios, nunca contenidos ni evaluación según la reforma educativa",
+        "Sustituyen el artículo 27 por normas autonómicas incompatibles en el contexto histórico"
       ],
       "correct": 0,
-      "explanation": "El Art. 27.5 CE estipula que los poderes públicos garantizan el derecho de todos a la educación mediante una programación general con participación de los afectados."
+      "explanation": "La descentralización combina bases comunes del Estado con desarrollo autonómico y concreción de centros, respetando el marco constitucional."
     },
     {
       "id": 170,
       "topic": 1,
       "topicName": "Tema 1: Evolución del Sistema Educativo",
-      "question": "¿Qué eran los 'estándares de aprendizaje evaluables' propios de la LOMCE de 2013? (Aspecto #70)",
+      "question": "¿Qué oposición conceptual ayuda a distinguir la LOMCE de la LOMLOE en el tratamiento de la diversidad?",
       "options": [
-        "Especificaciones concretas y medibles de los criterios de evaluación que debían permitir graduar el rendimiento",
-        "Los horarios de apertura de la biblioteca del centro",
-        "Los requisitos de construcción de los edificios escolares",
-        "Los menús de los comedores escolares"
+        "La LOMCE priorizó DUA y la LOMLOE volvió a la segregación temprana, dentro del marco normativo",
+        "La LOMCE enfatizó itinerarios y estándares; la LOMLOE prioriza inclusión, competencias y apoyos dentro de la etapa",
+        "Ambas eliminaron toda atención a la diversidad según la reforma educativa",
+        "La LOMCE se ocupó solo de FP y la LOMLOE solo de universidad en el contexto histórico"
       ],
-      "correct": 0,
-      "explanation": "La LOMCE introdujo los estándares evaluables atomizando el currículo, los cuales fueron suprimidos por la LOMLOE."
+      "correct": 1,
+      "explanation": "La comparación resume orientaciones distintas: la LOMCE reforzó diferenciación y estandarización; la LOMLOE reorientó hacia inclusión y enfoque competencial."
     },
     {
       "id": 171,
       "topic": 1,
       "topicName": "Tema 1: Evolución del Sistema Educativo",
-      "question": "¿Cuál era la principal crítica académica a la doble titulación de la LGE de 1970? (Aspecto #71)",
+      "question": "¿Qué fecha hace incompatible una atribución de LOMLOE a una norma anterior?",
       "options": [
-        "Que las tasas de la EGB eran demasiado elevadas para las familias",
-        "Que discriminaba tempranamente a los 14 años, encasillando en el Certificado de Escolaridad a los alumnos con dificultades",
-        "Que exigía cursar estudios universitarios a los 12 años",
-        "Que todos los alumnos tenían que estudiar latín obligatoriamente"
+        "Afirmar que la LOGSE se aprobó en 1990, dentro del marco normativo",
+        "Afirmar que la LOMCE se aprobó en 2013 en la ordenación del sistema",
+        "Afirmar que la LOMLOE introdujo el DUA como orientación en 1990",
+        "Afirmar que la LOE se aprobó en 2006 en el contexto histórico"
       ],
-      "correct": 1,
-      "explanation": "El Certificado de Escolaridad estigmatizaba a los jóvenes cerrándoles el acceso al BUP y dirigiéndolos forzosamente a una FP precaria."
+      "correct": 2,
+      "explanation": "La LOMLOE es de 2020; atribuirle una orientación normativa de 1990 es anacrónico. Las demás fechas son coherentes con la cronología."
     },
     {
       "id": 172,
       "topic": 1,
       "topicName": "Tema 1: Evolución del Sistema Educativo",
-      "question": "¿Qué modalidad de Bachillerato novedosa introdujo la LOMLOE en 2020 junto a las tradicionales? (Aspecto #72)",
+      "question": "¿Qué afirmación compara correctamente el alcance de la LGE y la LODE?",
       "options": [
-        "El Bachillerato Comercial de Oposiciones",
-        "El Bachillerato General (para alumnado con intereses formativos interdisciplinares)",
-        "El Bachillerato Técnico Náutico",
-        "El Bachillerato Militar Obligatorio"
+        "La LGE reguló DUA; la LODE creó el sistema A-E, dentro del marco normativo, dentro del marco normativo",
+        "La LGE creó estándares; la LODE implantó la ESO en la ordenación del sistema",
+        "Ambas fueron leyes de FP con idéntico objeto según la reforma educativa",
+        "La LGE reorganizó etapas y escolaridad básica; la LODE desarrolló derechos en el contexto histórico"
       ],
-      "correct": 1,
-      "explanation": "La LOMLOE creó el Bachillerato General para ofrecer una vía flexible que combina materias humanísticas, científicas y sociales."
+      "correct": 3,
+      "explanation": "La LGE es una reforma global de 1970; la LODE de 1985 se centra en el derecho a la educación, participación y conciertos."
     },
     {
       "id": 173,
       "topic": 1,
       "topicName": "Tema 1: Evolución del Sistema Educativo",
-      "question": "¿Qué institución consultiva del Estado en materia educativa fue consolidada por la LODE de 1985? (Aspecto #73)",
+      "question": "Si una respuesta atribuye a la LOMLOE la clasificación ‘troncales, específicas y de libre configuración’, ¿qué diagnóstico es correcto?",
       "options": [
-        "El Tribunal de Garantías Educativas",
-        "El Consejo Superior de Universidades Privadas",
-        "El Consejo Escolar del Estado",
-        "La Real Junta de Maestros Nacionales"
+        "Confunde una organización de materias de la LOMCE con la reforma curricular de la LOMLOE",
+        "Describe exactamente la innovación principal de la LOMLOE en la ordenación del sistema",
+        "Confunde la LOMLOE con la Ley de Moyano, no con la LOMCE según la reforma educativa",
+        "Es correcta solo para la Formación Profesional de grado E en el contexto histórico"
       ],
-      "correct": 2,
-      "explanation": "La LODE de 1985 creó el Consejo Escolar del Estado como máximo órgano de consulta y asesoramiento del Gobierno en política educativa."
+      "correct": 0,
+      "explanation": "Esa clasificación de materias se identifica con la LOMCE; la LOMLOE reorienta el currículo hacia competencias y elimina esa arquitectura como referencia central."
     },
     {
       "id": 174,
       "topic": 1,
       "topicName": "Tema 1: Evolución del Sistema Educativo",
-      "question": "¿Qué tratamiento da la LOMLOE a la asignatura de Religión católica y confesional? (Aspecto #74)",
+      "question": "¿Qué escenario refleja la función de los criterios de evaluación en el enfoque actual?",
       "options": [
-        "Sustituye por completo a las matemáticas y a la historia",
-        "Es de oferta obligatoria para los centros, optativa para las familias, y computable a efectos de expediente pero no computa para becas ni acceso universitario",
-        "Es obligatoria para el 100% del alumnado con examen de reválida",
-        "Está terminantemente prohibida en todos los centros de España"
+        "Son exclusivamente una lista de edificios y recursos materiales, dentro del marco normativo",
+        "Orientan la valoración del desempeño competencial y la relación entre saberes y situaciones de aprendizaje",
+        "Sustituyen los objetivos de etapa por calificaciones automáticas según la reforma educativa",
+        "Solo sirven para seleccionar alumnado antes de Primaria en el contexto histórico"
       ],
       "correct": 1,
-      "explanation": "La LOMLOE mantiene la oferta obligatoria para los centros pero su calificación no cuenta para notas medias de acceso a la universidad ni becas."
+      "explanation": "En el currículo competencial, los criterios permiten valorar el grado de desarrollo y desempeño; no son requisitos de infraestructura ni reglas automáticas de selección."
     },
     {
       "id": 175,
       "topic": 1,
       "topicName": "Tema 1: Evolución del Sistema Educativo",
-      "question": "¿Qué programa de atención a la diversidad para 3º y 4º de ESO recuperó la LOMLOE frente a la PMAR de la LOMCE? (Aspecto #75)",
+      "question": "¿Qué afirmación resume mejor la evolución del principio de equidad entre LGE y LOMLOE?",
       "options": [
-        "Los Programas de Diversificación Curricular (PDC)",
-        "Los Talleres de Iniciación Profesional de la LGE",
-        "Los Cursos de Retención Obligatoria",
-        "Las Aulas de Castigo Permanente"
+        "Se pasa de educación universal a escolarización solo para alumnado seleccionado, dentro del marco normativo",
+        "La equidad desaparece hasta la Ley de FP de 2022 en la ordenación del sistema",
+        "Se pasa de ampliar el acceso a la educación básica a reforzar inclusión según la reforma educativa",
+        "Ambas leyes mantienen idéntica estructura y finalidad sin cambios en el contexto histórico"
       ],
-      "correct": 0,
-      "explanation": "La LOMLOE recuperó los prestigiosos Programas de Diversificación Curricular (PDC) para garantizar la titulación de la ESO."
+      "correct": 2,
+      "explanation": "La LGE extendió la educación básica, mientras que la LOMLOE añade una agenda explícita de inclusión y respuesta a la diversidad dentro de un marco competencial."
     },
     {
       "id": 176,
       "topic": 1,
       "topicName": "Tema 1: Evolución del Sistema Educativo",
-      "question": "¿Cuál era el objetivo de la prueba 'Selectividad' (PAU / EBAU) nacida tras la LGE de 1970? (Aspecto #76)",
+      "question": "En una pregunta de cronología, ¿qué hito debe situarse inmediatamente después de la LODE?",
       "options": [
-        "Determinar quién obtenía el título de bachiller de forma retroactiva",
-        "Ordenar y homologar el acceso y la admisión a los estudios universitarios según el principio de mérito y capacidad",
-        "Evaluar a los docentes de bachillerato",
-        "Asignar plazas obligatorias en centros de Formación Profesional"
+        "La LOECE de 1980, dentro del marco normativo, dentro del marco normativo",
+        "La LOE de 2006 en la ordenación del sistema",
+        "La LOMLOE de 2020 según la reforma educativa",
+        "La LOGSE de 1990 en el contexto histórico"
       ],
-      "correct": 1,
-      "explanation": "La prueba de acceso a la universidad valora de forma objetiva la madurez académica del alumnado tras el Bachillerato."
+      "correct": 3,
+      "explanation": "Tras la LODE de 1985 llegó la LOGSE de 1990; la LOECE es anterior y LOE y LOMLOE son posteriores."
     },
     {
       "id": 177,
       "topic": 1,
       "topicName": "Tema 1: Evolución del Sistema Educativo",
-      "question": "¿Qué principio rige la programación general de la enseñanza según el Art. 27.5 de la Constitución de 1978? (Aspecto #77)",
+      "question": "¿Cuál de estas afirmaciones sobre títulos y promoción en la LOMLOE evita una simplificación incorrecta?",
       "options": [
-        "La participación efectiva de todos los sectores afectados y la creación de centros docentes públicos para garantizar el derecho",
-        "La privatización obligatoria de los centros de educación secundaria",
-        "La designación de directores por los obispados provinciales",
-        "El control monopolístico de una única ideología estatal"
+        "La decisión considera la adquisición de competencias y objetivos mediante valoración colegiada",
+        "Cualquier suspenso impide siempre titular sin excepción en la ordenación del sistema",
+        "La titulación depende únicamente de una reválida estatal idéntica según la reforma educativa",
+        "La decisión corresponde exclusivamente a la familia en el contexto histórico"
       ],
       "correct": 0,
-      "explanation": "El Art. 27.5 CE estipula que los poderes públicos garantizan el derecho de todos a la educación mediante una programación general con participación de los afectados."
+      "explanation": "La LOMLOE otorga relevancia a la evaluación global y colegiada del desarrollo competencial; no establece una regla automática basada solo en materias no superadas."
     },
     {
       "id": 178,
       "topic": 1,
       "topicName": "Tema 1: Evolución del Sistema Educativo",
-      "question": "¿Qué eran los 'estándares de aprendizaje evaluables' propios de la LOMCE de 2013? (Aspecto #78)",
+      "question": "¿Qué rasgo permite identificar una microacreditación dentro del sistema de FP 2022?",
       "options": [
-        "Los horarios de apertura de la biblioteca del centro",
-        "Los menús de los comedores escolares",
-        "Los requisitos de construcción de los edificios escolares",
-        "Especificaciones concretas y medibles de los criterios de evaluación que debían permitir graduar el rendimiento"
+        "Exige superar los dos cursos de Bachillerato y la prueba universitaria, dentro del marco normativo",
+        "Puede reconocer una unidad o resultado profesional sin exigir completar un ciclo formativo entero",
+        "Equivale automáticamente a un curso de especialización de grado E según la reforma educativa",
+        "Solo se obtiene tras cursar la antigua FP2 completa en el contexto histórico"
       ],
-      "correct": 3,
-      "explanation": "La LOMCE introdujo los estándares evaluables atomizando el currículo, los cuales fueron suprimidos por la LOMLOE."
+      "correct": 1,
+      "explanation": "El sistema modular y acumulable permite acreditar unidades pequeñas de competencia; completar un ciclo o un curso de especialización son niveles distintos."
     },
     {
       "id": 179,
       "topic": 1,
       "topicName": "Tema 1: Evolución del Sistema Educativo",
-      "question": "¿Cuál era la principal crítica académica a la doble titulación de la LGE de 1970? (Aspecto #79)",
+      "question": "¿Qué afirmación sería una conclusión no respaldada por el tema?",
       "options": [
-        "Que discriminaba tempranamente a los 14 años, encasillando en el Certificado de Escolaridad a los alumnos con dificultades",
-        "Que todos los alumnos tenían que estudiar latín obligatoriamente",
-        "Que exigía cursar estudios universitarios a los 12 años",
-        "Que las tasas de la EGB eran demasiado elevadas para las familias"
+        "Que la LOGSE extendió la escolaridad obligatoria hasta 16, dentro del marco normativo, dentro del marco normativo",
+        "Que la LOMCE introdujo estándares de aprendizaje evaluables en la ordenación del sistema",
+        "Que una ley introduzca competencias implica automáticamente que desaparecen todos los contenidos y saberes",
+        "Que la Ley de FP 2022 organiza grados A-E en el contexto histórico"
       ],
-      "correct": 0,
-      "explanation": "El Certificado de Escolaridad estigmatizaba a los jóvenes cerrándoles el acceso al BUP y dirigiéndolos forzosamente a una FP precaria."
+      "correct": 2,
+      "explanation": "El enfoque competencial no elimina saberes; los integra y moviliza. Las otras tres afirmaciones describen hitos legislativos del tema."
     },
     {
       "id": 180,
       "topic": 1,
       "topicName": "Tema 1: Evolución del Sistema Educativo",
-      "question": "¿Qué modalidad de Bachillerato novedosa introdujo la LOMLOE en 2020 junto a las tradicionales? (Aspecto #80)",
+      "question": "¿Cuál es la síntesis más precisa de la evolución legislativa tratada en el Tema 1?",
       "options": [
-        "El Bachillerato General (para alumnado con intereses formativos interdisciplinares)",
-        "El Bachillerato Comercial de Oposiciones",
-        "El Bachillerato Técnico Náutico",
-        "El Bachillerato Militar Obligatorio"
+        "De la LGE se pasó directamente a la LOMLOE sin leyes intermedias relevantes, dentro del marco normativo",
+        "La historia educativa se limita a cambiar nombres de asignaturas sin modificar derechos ni etapas",
+        "Todas las leyes mantuvieron idénticos criterios de evaluación, participación y escolaridad",
+        "De la expansión y estructura de la LGE se avanza hacia participación en el contexto histórico"
       ],
-      "correct": 0,
-      "explanation": "La LOMLOE creó el Bachillerato General para ofrecer una vía flexible que combina materias humanísticas, científicas y sociales."
+      "correct": 3,
+      "explanation": "La secuencia LGE, Constitución, LOECE, LODE, LOGSE, LOPEGCE, LOCE, LOE, LOMCE, LOMLOE y FP 2022 muestra cambios acumulativos en estructura, derechos, currículo, evaluación e inclusión."
     },
     {
       "id": 201,
@@ -1232,12 +1232,12 @@ var DAC_DATA = {
       "topicName": "Tema 2: Estructura del Diseño Curricular",
       "question": "¿Cómo define el currículo el artículo 6 de la Ley Orgánica de Educación (LOMLOE)?",
       "options": [
-        "El listado de temas y exámenes que un docente debe impartir obligatoriamente en un curso lectivo",
-        "El manual escolar de texto impuesto por la administración educativa",
-        "El conjunto de objetivos, competencias, contenidos (saberes básicos), métodos pedagógicos y criterios de evaluación",
-        "El calendario oficial de días festivos escolares"
+        "El marco de aprendizajes, capacidades y procedimientos que selecciona cada centro",
+        "La relación de contenidos, actividades, recursos y pruebas prevista para un curso",
+        "El conjunto de objetivos, competencias, saberes, métodos pedagógicos y criterios de evaluación",
+        "La programación de unidades, horarios y materiales que aplica cada docente"
       ],
-      "correct": 2,
+      "correct": 0,
       "explanation": "El currículo abarca todos los componentes formativos orientados a la consecución de las competencias."
     },
     {
@@ -1246,12 +1246,12 @@ var DAC_DATA = {
       "topicName": "Tema 2: Estructura del Diseño Curricular",
       "question": "¿Qué significa que el modelo curricular español sea 'abierto y flexible'?",
       "options": [
-        "Que la Administración fija un marco común que se va concretando y adaptando progresivamente en el centro y en el aula",
-        "Que los estudiantes pueden asistir a clase cuando lo deseen sin horario",
-        "Que no existen leyes ni decretos educativos de obligado cumplimiento",
-        "Que cada profesor inventa las asignaturas sin seguir ningún marco autonómico"
+        "Que los centros pueden reorganizar el marco normativo según su contexto, sin mínimos comunes",
+        "Que la Administración fija un marco común que después se concreta y adapta en centros y aulas",
+        "Que el profesorado dispone de margen metodológico, aunque debe desarrollar el currículo regulado",
+        "Que el currículo admite concreción progresiva, pero no decisiones ajenas a la normativa"
       ],
-      "correct": 0,
+      "correct": 1,
       "explanation": "Un currículo abierto permite sucesivos niveles de concreción para adecuarse a la diversidad y al contexto socioeducativo."
     },
     {
@@ -1260,12 +1260,12 @@ var DAC_DATA = {
       "topicName": "Tema 2: Estructura del Diseño Curricular",
       "question": "¿Cuál es el rol de los Descriptores Operativos de las Competencias Clave en la LOMLOE?",
       "options": [
-        "Concretan el grado de adquisición de cada competencia clave que se espera que el alumno alcance al término de la enseñanza básica",
-        "Son los horarios de las guardias de recreo de los profesores",
-        "Son los códigos de barras de los libros de texto",
-        "Son las sanciones por faltas disciplinarias del alumnado"
+        "Describen niveles generales de actuación que orientan la adquisición competencial",
+        "Relacionan cada competencia clave con indicadores de logro propios de una materia",
+        "Concretan desempeños esperados de las competencias clave al final de la enseñanza básica",
+        "Traducen el perfil de salida a referentes observables para diseñar y valorar aprendizajes"
       ],
-      "correct": 0,
+      "correct": 2,
       "explanation": "Los descriptores operativos vinculan las competencias clave con las competencias específicas de las materias."
     },
     {
@@ -1275,11 +1275,11 @@ var DAC_DATA = {
       "question": "¿Qué sigla corresponde a la competencia clave matemática y en ciencia, tecnología e ingeniería?",
       "options": [
         "CCEC",
-        "STEM",
+        "CCL",
         "CPSAA",
-        "CCL"
+        "STEM"
       ],
-      "correct": 1,
+      "correct": 3,
       "explanation": "STEM integra las disciplinas de Science, Technology, Engineering and Mathematics dentro del marco de competencias clave."
     },
     {
@@ -1288,12 +1288,12 @@ var DAC_DATA = {
       "topicName": "Tema 2: Estructura del Diseño Curricular",
       "question": "¿Qué tres dimensiones articulan la formulación de los 'saberes básicos' en el currículo actual?",
       "options": [
-        "Fórmulas matemáticas, fechas históricas y nombres propios",
-        "Normas de comportamiento, castigos y premios",
-        "Conocimientos teóricos, destrezas prácticas y actitudes o valores",
-        "Ejercicios de memoria, resúmenes y dictados"
+        "Contenidos declarativos, estrategias de estudio y hábitos de trabajo escolar",
+        "Conceptos esenciales, actividades prácticas y productos finales de cada unidad",
+        "Conocimientos conceptuales, destrezas procedimentales y actitudes o valores",
+        "Información disciplinar, técnicas de aula y normas compartidas de convivencia"
       ],
-      "correct": 2,
+      "correct": 0,
       "explanation": "Los saberes básicos superan la visión reduccionista de contenidos memorísticos para abarcar el saber, saber hacer y saber ser."
     },
     {
@@ -1302,12 +1302,12 @@ var DAC_DATA = {
       "topicName": "Tema 2: Estructura del Diseño Curricular",
       "question": "¿Con qué elemento del currículo están vinculados directamente y de forma biunívoca los Criterios de Evaluación?",
       "options": [
-        "Con las Competencias Específicas de cada materia",
-        "Con el horario lectivo semanal de la asignatura",
-        "Con el tipo de encuadernación del cuaderno del alumno",
-        "Exclusivamente con el número de páginas del libro de texto"
+        "Con los saberes básicos seleccionados para cada unidad o situación de aprendizaje",
+        "Con las competencias específicas de cada materia, mediante sus desempeños evaluables",
+        "Con los instrumentos que el docente elige para recoger evidencias del alumnado",
+        "Con los objetivos de etapa, que orientan la valoración global del progreso"
       ],
-      "correct": 0,
+      "correct": 1,
       "explanation": "Cada competencia específica tiene asociados unos criterios de evaluación que permiten medir su grado de adquisición en el aula."
     },
     {
@@ -1316,12 +1316,12 @@ var DAC_DATA = {
       "topicName": "Tema 2: Estructura del Diseño Curricular",
       "question": "¿Qué fuente del currículo nos indica qué procesos evolutivos, ritmos y estructuras cognitivas caracterizan a los estudiantes?",
       "options": [
-        "Fuente Epistemológica",
-        "Fuente Psicológica",
-        "Fuente Sociológica",
-        "Fuente Pedagógica"
+        "Fuente epistemológica",
+        "Fuente sociológica",
+        "Fuente psicológica",
+        "Fuente pedagógica"
       ],
-      "correct": 1,
+      "correct": 2,
       "explanation": "La fuente psicológica aporta el conocimiento sobre las leyes del desarrollo humano y los mecanismos de construcción del aprendizaje."
     },
     {
@@ -1330,12 +1330,12 @@ var DAC_DATA = {
       "topicName": "Tema 2: Estructura del Diseño Curricular",
       "question": "¿Qué fuente curricular aporta los valores sociales, demandas comunitarias y fines de socialización ciudadana?",
       "options": [
-        "Fuente Sociológica",
-        "Fuente Didáctica",
-        "Fuente Epistemológica",
-        "Fuente Física"
+        "Fuente pedagógica",
+        "Fuente psicológica",
+        "Fuente epistemológica",
+        "Fuente sociológica"
       ],
-      "correct": 0,
+      "correct": 3,
       "explanation": "La fuente sociológica garantiza que la escuela responda a las necesidades democráticas, culturales y productivas de la sociedad."
     },
     {
@@ -1344,12 +1344,12 @@ var DAC_DATA = {
       "topicName": "Tema 2: Estructura del Diseño Curricular",
       "question": "¿Quién elabora el Segundo Nivel de Concreción Curricular?",
       "options": [
-        "El Ministerio de Educación en solitario",
-        "El profesor de forma individual y privada en su casa",
-        "El Ayuntamiento de la localidad",
-        "El Centro Educativo (a través del Claustro, departamentos y el Proyecto Educativo de Centro)"
+        "El equipo docente del grupo, al diseñar situaciones de aprendizaje",
+        "El centro educativo, mediante sus documentos y acuerdos institucionales",
+        "El departamento didáctico, al elaborar la programación de la materia",
+        "La Administración educativa, al establecer el currículo básico y autonómico"
       ],
-      "correct": 3,
+      "correct": 0,
       "explanation": "El segundo nivel adapta las directrices autonómicas al contexto socioeducativo propio del centro docente."
     },
     {
@@ -1358,12 +1358,12 @@ var DAC_DATA = {
       "topicName": "Tema 2: Estructura del Diseño Curricular",
       "question": "¿Qué constituye el Tercer Nivel de Concreción Curricular?",
       "options": [
-        "Los Reales Decretos publicados en el BOE",
-        "El Reglamento de Régimen Interior",
-        "Las directrices internacionales de la OCDE",
-        "Las Programaciones Didácticas de Aula y las Situaciones de Aprendizaje elaboradas por los departamentos y docentes"
+        "El currículo básico fijado en la normativa estatal y autonómica",
+        "Las adaptaciones individualizadas que ajustan la respuesta a un alumno",
+        "Las programaciones didácticas que concretan el currículo de cada materia",
+        "El proyecto educativo y las decisiones curriculares comunes del centro"
       ],
-      "correct": 3,
+      "correct": 1,
       "explanation": "El tercer nivel concreta el currículo a las características y necesidades de un grupo-clase determinado."
     },
     {
@@ -1372,12 +1372,12 @@ var DAC_DATA = {
       "topicName": "Tema 2: Estructura del Diseño Curricular",
       "question": "¿Cómo definió Philip Jackson el 'Currículo Oculto'?",
       "options": [
-        "Los apuntes fotocopiados ilegalmente",
-        "El conjunto de aprendizajes, normas no explícitas, valores y actitudes que se adquieren a través de la vivencia escolar cotidiana",
-        "El temario de asignaturas clasificadas como secreto de Estado",
-        "El currículo exclusivo para alumnado con altas capacidades"
+        "Los aprendizajes previstos y evaluados de forma explícita en los documentos",
+        "Los contenidos que se omiten al priorizar unos saberes sobre otros",
+        "Las normas, valores y aprendizajes implícitos que transmite la experiencia escolar",
+        "La interpretación práctica que hace el alumnado de las actividades propuestas"
       ],
-      "correct": 1,
+      "correct": 2,
       "explanation": "El currículo oculto transmite pautas sociales, roles de autoridad y relaciones de poder implícitas en el ambiente escolar."
     },
     {
@@ -1386,10 +1386,10 @@ var DAC_DATA = {
       "topicName": "Tema 2: Estructura del Diseño Curricular",
       "question": "¿Qué término acuñó Elliot Eisner para referirse a lo que la escuela no enseña ni contempla?",
       "options": [
-        "Currículo Abierto",
-        "Currículo Explícito",
-        "Currículo Básico",
-        "Currículo Nulo"
+        "Currículo explícito",
+        "Currículo oculto",
+        "Currículo nulo",
+        "Currículo real"
       ],
       "correct": 3,
       "explanation": "El currículo nulo engloba las perspectivas, saberes o temas ausentes en las aulas por omisión deliberada o inconsciente."
@@ -1400,12 +1400,12 @@ var DAC_DATA = {
       "topicName": "Tema 2: Estructura del Diseño Curricular",
       "question": "¿Qué caracteriza a una 'Situación de Aprendizaje' según la LOMLOE?",
       "options": [
-        "Una prueba trimestral escrita con preguntas de verdadero y falso",
-        "Un ejercicio repetitivo de memorización mecánica individual",
-        "Un examen oral frente a un tribunal de inspección",
-        "Un escenario complejo, contextualizado y significativo del mundo real que requiere la movilización integrada de saberes y competencias"
+        "Un conjunto de ejercicios relacionados que desarrolla una destreza de una materia",
+        "Una actividad práctica que aplica un contenido concreto sin necesidad de contexto",
+        "Una tarea abierta que permite crear un producto, aunque no esté vinculada a criterios",
+        "Una secuencia contextualizada que moviliza saberes y competencias ante un reto significativo"
       ],
-      "correct": 3,
+      "correct": 0,
       "explanation": "Las situaciones de aprendizaje activan el aprendizaje competencial mediante resolución de retos, proyectos y problemas reales."
     },
     {
@@ -1414,12 +1414,12 @@ var DAC_DATA = {
       "topicName": "Tema 2: Estructura del Diseño Curricular",
       "question": "¿Qué porcentaje de enseñanzas mínimas fija el Estado en CCAA sin lengua cooficial?",
       "options": [
-        "El 75%",
-        "El 50%",
-        "El 60% de los horarios escolares (el otro 40% lo fija la Comunidad Autónoma)",
-        "El 100%"
+        "El 50 % de los horarios escolares",
+        "El 40 % de los horarios escolares",
+        "El 60 % de los horarios escolares",
+        "El 75 % de los horarios escolares"
       ],
-      "correct": 2,
+      "correct": 1,
       "explanation": "En CCAA sin lengua cooficial el Estado fija el 60% de los horarios escolares para garantizar la homologación del currículo nacional."
     },
     {
@@ -1428,12 +1428,12 @@ var DAC_DATA = {
       "topicName": "Tema 2: Estructura del Diseño Curricular",
       "question": "¿Qué nivel de concreción curricular representan las Adaptaciones Curriculares Individualizadas (ACI)?",
       "options": [
-        "El Segundo Nivel",
-        "El Cuarto Nivel de Concreción Curricular",
-        "El Primer Nivel",
-        "El Nivel Cero"
+        "El primer nivel de concreción, por modificar el currículo regulado",
+        "El tercer nivel de concreción, por concretar la propuesta para el aula",
+        "El segundo nivel de concreción, por contextualizar el currículo en el centro",
+        "El cuarto nivel de concreción, por individualizar la respuesta educativa"
       ],
-      "correct": 1,
+      "correct": 2,
       "explanation": "El cuarto nivel atiende las necesidades educativas específicas de un alumno concreto mediante medidas personalizadas."
     },
     {
@@ -1442,12 +1442,12 @@ var DAC_DATA = {
       "topicName": "Tema 2: Estructura del Diseño Curricular",
       "question": "¿Qué significa la 'transversalidad' en el diseño curricular?",
       "options": [
-        "Que valores cívicos esenciales (igualdad de género, sostenibilidad, derechos humanos) impregnan todas las materias",
-        "Que se eliminan los exámenes escritos",
-        "Que las aulas se colocan de forma oblicua en el patio escolar",
-        "Que los profesores tienen que impartir dos asignaturas a la vez en la misma aula"
+        "Que todos los docentes aplican exactamente las mismas actividades y recursos",
+        "Que una materia transversal sustituye a las áreas que comparten contenidos",
+        "Que los aprendizajes comunes se reservan para proyectos fuera del horario lectivo",
+        "Que determinados valores y retos comunes se trabajan desde varias materias y situaciones"
       ],
-      "correct": 0,
+      "correct": 3,
       "explanation": "Los temas transversales son de tratamiento interdisciplinar y no pertenecen a un único departamento."
     },
     {
@@ -1456,12 +1456,12 @@ var DAC_DATA = {
       "topicName": "Tema 2: Estructura del Diseño Curricular",
       "question": "¿Cuál es la diferencia entre Competencias Clave y Competencias Específicas?",
       "options": [
-        "No existe diferencia, son términos idénticos en la ley",
-        "Las Clave son optativas y las Específicas obligatorias",
-        "Las Clave solo se aplican en bachillerato y universidad",
-        "Las Clave son transversales a toda la educación básica, y las Específicas concretan los desempeños en cada materia o ámbito"
+        "Las clave son generales; las específicas sustituyen los saberes básicos de cada materia",
+        "Las clave se evalúan al final de etapa; las específicas solo se trabajan durante una unidad",
+        "Las clave pertenecen al perfil de salida; las específicas pertenecen exclusivamente al centro",
+        "Las clave expresan desempeños transversales; las específicas los concretan en materias o ámbitos"
       ],
-      "correct": 3,
+      "correct": 0,
       "explanation": "Las competencias específicas actúan de puente entre las grandes competencias clave del perfil de salida y los saberes disciplinares."
     },
     {
@@ -1470,12 +1470,12 @@ var DAC_DATA = {
       "topicName": "Tema 2: Estructura del Diseño Curricular",
       "question": "¿Qué se entiende por 'Currículo Real u Operacional'?",
       "options": [
-        "Lo que verdaderamente se enseña y se aprende en el aula en la práctica real cotidiana",
-        "El presupuesto que cuesta comprar los manuales de texto",
-        "El Real Decreto publicado con la firma del Rey",
-        "El horario de apertura y cierre de las puertas del centro"
+        "Lo que efectivamente se enseña, aprende y experimenta en la práctica del aula",
+        "Lo que la normativa prescribe antes de su contextualización en los centros",
+        "Lo que el alumnado debería alcanzar según el perfil de salida de la etapa",
+        "Lo que el centro selecciona al transformar el currículo en su proyecto educativo"
       ],
-      "correct": 0,
+      "correct": 1,
       "explanation": "El currículo real es la traducción práctica viva del diseño curricular oficial mediatizado por la interacción docente-alumnado."
     },
     {
@@ -1484,10 +1484,10 @@ var DAC_DATA = {
       "topicName": "Tema 2: Estructura del Diseño Curricular",
       "question": "¿Qué aportación esencial brinda la 'Fuente Pedagógica' al currículo?",
       "options": [
-        "Las leyes de la física atómica",
-        "El índice bursátil del material escolar",
-        "Aporta las metodologías didácticas, estrategias de enseñanza y la experiencia acumulada de la práctica docente",
-        "El régimen fiscal del profesorado"
+        "La estructura y lógica de las disciplinas que se transforman en saberes escolares",
+        "Los procesos de desarrollo y las condiciones psicológicas del aprendizaje",
+        "Las necesidades sociales y los valores que la escuela debe promover",
+        "Las estrategias, métodos y experiencias que orientan la intervención docente"
       ],
       "correct": 2,
       "explanation": "La fuente pedagógica integra el 'cómo enseñar y evaluar', fundamentando las estrategias didácticas eficaces."
@@ -1498,1973 +1498,1973 @@ var DAC_DATA = {
       "topicName": "Tema 2: Estructura del Diseño Curricular",
       "question": "¿Qué aporta la 'Fuente Epistemológica' al diseño del currículo escolar?",
       "options": [
-        "El cálculo actuarial de las pensiones docentes",
-        "La estructura científica interna, lógica conceptual, métodos y evolución de cada disciplina del saber",
-        "Los horarios de los autobuses escolares",
-        "Las normas de comedor del colegio"
+        "La selección socialmente relevante de finalidades y aprendizajes escolares",
+        "La organización de la enseñanza, sus métodos y la experiencia didáctica",
+        "Los procesos cognitivos, ritmos y condiciones del desarrollo del alumnado",
+        "La estructura interna, métodos y evolución del conocimiento disciplinar"
       ],
-      "correct": 1,
+      "correct": 3,
       "explanation": "La fuente epistemológica garantiza el rigor científico y la coherencia disciplinar de los saberes seleccionados."
     },
     {
       "id": 221,
       "topic": 2,
       "topicName": "Tema 2: Estructura del Diseño Curricular",
-      "question": "¿Qué representa la competencia en comunicación lingüística (CCL)? (Aspecto #21)",
+      "question": "Un equipo compara el decreto estatal con su programación de aula. ¿Qué relación describe mejor el currículo prescriptivo?",
       "options": [
-        "La memorización de las reglas de acentuación del siglo XVIII",
-        "La obligación de hablar tres idiomas antes de los 5 años",
-        "El conocimiento exclusivo de la gramática latina",
-        "La capacidad de interactuar de forma oral, escrita, signada o multimodal de manera coherente y crítica en diversos ámbitos"
+        "Es el marco normativo común que orienta y limita las decisiones posteriores",
+        "Es la interpretación personal que cada docente hace de una norma",
+        "Es el conjunto de aprendizajes informales que surgen en los recreos",
+        "Es la selección de contenidos que el alumnado recuerda al terminar"
       ],
-      "correct": 3,
-      "explanation": "La CCL permite expresar e interpretar conceptos, pensamientos y opiniones de forma constructiva en contextos sociales."
+      "correct": 0,
+      "explanation": "El carácter prescriptivo se refiere a los elementos regulados normativamente; no equivale ni a la práctica real ni a los aprendizajes implícitos."
     },
     {
       "id": 222,
       "topic": 2,
       "topicName": "Tema 2: Estructura del Diseño Curricular",
-      "question": "¿Qué persigue la competencia ciudadana (CC) en el currículo LOMLOE? (Aspecto #22)",
+      "question": "Una comunidad adapta la secuenciación a su contexto sin alterar los mínimos. ¿Qué dimensión curricular ejerce?",
       "options": [
-        "Ser funcionario del Estado a los 18 años",
-        "Vivir en una ciudad con más de 100.000 habitantes",
-        "Aprender a votar por un partido político determinado de forma obligatoria",
-        "Participar de forma responsable y comprometida en la vida cívica y social, valorando la democracia, igualdad y derechos humanos"
+        "La nulidad, porque elimina los elementos de referencia estatal",
+        "La flexibilidad, porque permite contextualizar dentro del marco común",
+        "La informalidad, porque sustituye toda decisión normativa",
+        "La rigidez, porque impide modificar la propuesta oficial"
       ],
-      "correct": 3,
-      "explanation": "La CC capacita al alumnado como ciudadano consciente, activo y comprometido con la convivencia democrática."
+      "correct": 1,
+      "explanation": "La flexibilidad permite concretar y contextualizar el currículo sin convertirlo en una decisión ajena a la norma."
     },
     {
       "id": 223,
       "topic": 2,
       "topicName": "Tema 2: Estructura del Diseño Curricular",
-      "question": "¿Qué papel desempeñan los 'principios pedagógicos' de etapa en la ESO según el Real Decreto 217/2022? (Aspecto #23)",
+      "question": "¿Qué distingue una fuente sociológica de una epistemológica al seleccionar saberes?",
       "options": [
-        "Fijar el precio máximo de los bolígrafos",
-        "Orientar la acción docente priorizando la educación inclusiva, personalización, aprendizaje por competencias y DUA",
-        "Obligar a hacer 4 exámenes diarios a los alumnos",
-        "Prohibir que los profesores expliquen en la pizarra"
+        "La primera estudia el desarrollo cognitivo; la segunda, métodos de enseñanza",
+        "La primera ordena conceptos científicos; la segunda, demandas de convivencia",
+        "La primera atiende necesidades sociales; la segunda, la lógica de las disciplinas",
+        "La primera prescribe evaluación; la segunda, organización escolar"
       ],
-      "correct": 1,
-      "explanation": "Los principios pedagógicos garantizan que la práctica educativa atienda la diversidad y promueva el pensamiento crítico."
+      "correct": 2,
+      "explanation": "La fuente sociológica justifica la relevancia social; la epistemológica aporta estructura y evolución del conocimiento disciplinar."
     },
     {
       "id": 224,
       "topic": 2,
       "topicName": "Tema 2: Estructura del Diseño Curricular",
-      "question": "¿En qué consiste el principio de 'Diseño Universal para el Aprendizaje' (DUA)? (Aspecto #24)",
+      "question": "Una secuencia se modifica tras analizar errores y estrategias del grupo. ¿Qué fuente fundamenta principalmente esa decisión?",
       "options": [
-        "En impartir una única asignatura para todas las edades",
-        "En diseñar actividades y recursos accesibles desde el inicio con múltiples formas de motivación, representación y expresión",
-        "En comprar pupitres idénticos para todos los colegios del mundo",
-        "En obligar a todos los alumnos a llevar el mismo uniforme escolar"
+        "La administrativa, por atender la distribución presupuestaria",
+        "La epistemológica, por atender la historia interna de la materia",
+        "La sociológica, por atender demandas del entorno productivo",
+        "La psicológica, por atender procesos y ritmos de aprendizaje"
       ],
-      "correct": 1,
-      "explanation": "El DUA busca eliminar barreras de aprendizaje ofreciendo múltiples formas de compromiso, representación y acción."
+      "correct": 3,
+      "explanation": "El ajuste se apoya en cómo aprende el alumnado, cuestión propia de la fuente psicológica."
     },
     {
       "id": 225,
       "topic": 2,
       "topicName": "Tema 2: Estructura del Diseño Curricular",
-      "question": "¿Qué son las 'Adaptaciones Curriculares Significativas' (ACS) dentro del 4º nivel de concreción? (Aspecto #25)",
+      "question": "¿Qué decisión pertenece sobre todo a la fuente pedagógica?",
       "options": [
-        "Modificaciones que afectan a las competencias específicas, criterios de evaluación y objetivos nucleares de la etapa",
-        "Hacer los exámenes 5 minutos más tarde en el aula",
-        "Cambiar el color del bolígrafo con el que se corrigen los exámenes",
-        "Comprar una mochila más grande para los libros"
+        "Elegir una estrategia de andamiaje coherente con la finalidad de aprendizaje",
+        "Determinar qué conceptos forman la estructura de una ciencia",
+        "Priorizar una necesidad social detectada en la comunidad",
+        "Definir la edad legal de escolarización obligatoria"
       ],
       "correct": 0,
-      "explanation": "Las ACS modifican elementos prescriptivos del currículo y se reservan para alumnado con necesidades educativas especiales."
+      "explanation": "La fuente pedagógica informa sobre enseñanza, metodología y experiencia didáctica; las otras opciones corresponden a fuentes distintas."
     },
     {
       "id": 226,
       "topic": 2,
       "topicName": "Tema 2: Estructura del Diseño Curricular",
-      "question": "¿Qué diferencia hay entre evaluación 'formativa' y evaluación 'sumativa' en el currículo? (Aspecto #26)",
+      "question": "En una unidad, los saberes se conectan con una actuación observable. ¿Qué cambio refleja mejor el enfoque competencial?",
       "options": [
-        "La formativa se hace en verano y la sumativa en invierno",
-        "La formativa pone nota numérica y la sumativa no",
-        "La sumativa la hace el tutor y la formativa el inspector",
-        "La formativa regula y mejora el proceso de aprendizaje de forma continua, mientras que la sumativa certifica el resultado final alcanzado"
+        "Sustituir todo conocimiento conceptual por actividades espontáneas",
+        "Pasar de acumular contenidos a movilizarlos para resolver situaciones",
+        "Evaluar únicamente actitudes generales sin evidencias de desempeño",
+        "Convertir cada competencia en una asignatura independiente"
       ],
-      "correct": 3,
-      "explanation": "La LOMLOE enfatiza la evaluación formativa y criterial como herramienta de aprendizaje para el propio estudiante."
+      "correct": 1,
+      "explanation": "El enfoque competencial integra conocimientos, destrezas y actitudes en desempeños contextualizados; no elimina el conocimiento."
     },
     {
       "id": 227,
       "topic": 2,
       "topicName": "Tema 2: Estructura del Diseño Curricular",
-      "question": "¿Qué función cumple la 'rúbrica de evaluación' en el marco competencial? (Aspecto #27)",
+      "question": "¿Por qué se dice que el perfil de salida funciona como referencia común?",
       "options": [
-        "Firmar el contrato de trabajo de los docentes",
-        "Guardar las llaves del aula de informática",
-        "Describir de forma graduada y transparente los niveles de desempeño observables en base a los criterios de evaluación",
-        "Servir de recibo de pago de las tasas escolares"
+        "Porque fija una prueba idéntica para todas las materias y cursos",
+        "Porque enumera las unidades didácticas que debe impartir cada centro",
+        "Porque concreta los desempeños competenciales esperados al finalizar la enseñanza básica",
+        "Porque reemplaza los criterios de evaluación de cada área"
       ],
       "correct": 2,
-      "explanation": "Las rúbricas objetivan la evaluación formativa ofreciendo descriptores cualitativos claros para orientar la mejora del alumno."
+      "explanation": "El perfil de salida expresa la referencia competencial final compartida y orienta la selección y conexión de los elementos curriculares."
     },
     {
       "id": 228,
       "topic": 2,
       "topicName": "Tema 2: Estructura del Diseño Curricular",
-      "question": "¿Qué se entiende por 'interdisciplinaridad' en el diseño de situaciones de aprendizaje? (Aspecto #28)",
+      "question": "Una competencia específica se redacta para una materia y se vincula a varios criterios. ¿Qué función cumple?",
       "options": [
-        "Separar físicamente a los alumnos según su rama de bachillerato",
-        "La conexión y articulación sinérgica de saberes de dos o más materias para resolver un reto complejo del entorno",
-        "Impartir asignaturas en idiomas desconocidos",
-        "Estudiar únicamente una disciplina durante todo el curso escolar"
+        "Describe únicamente la conducta disciplinaria esperada del grupo",
+        "Sustituye los saberes básicos por una lista de actividades",
+        "Determina por sí sola la calificación numérica del trimestre",
+        "Conecta los desempeños propios de la materia con las competencias clave"
       ],
-      "correct": 1,
-      "explanation": "La interdisciplinaridad supera la fragmentación del saber y ayuda a comprender la complejidad de los problemas reales."
+      "correct": 3,
+      "explanation": "Las competencias específicas concretan el desempeño disciplinar y enlazan el perfil competencial con saberes y criterios."
     },
     {
       "id": 229,
       "topic": 2,
       "topicName": "Tema 2: Estructura del Diseño Curricular",
-      "question": "¿Qué representa la competencia en comunicación lingüística (CCL)? (Aspecto #29)",
+      "question": "¿Qué relación es correcta entre criterios de evaluación y competencias específicas?",
       "options": [
-        "La memorización de las reglas de acentuación del siglo XVIII",
-        "La capacidad de interactuar de forma oral, escrita, signada o multimodal de manera coherente y crítica en diversos ámbitos",
-        "El conocimiento exclusivo de la gramática latina",
-        "La obligación de hablar tres idiomas antes de los 5 años"
+        "Los criterios concretan evidencias y niveles para valorar su desarrollo",
+        "Los criterios son temas y las competencias, instrumentos de calificación",
+        "Los criterios pertenecen al centro y las competencias, al alumnado individual",
+        "Los criterios describen recursos y las competencias, horarios lectivos"
       ],
-      "correct": 1,
-      "explanation": "La CCL permite expresar e interpretar conceptos, pensamientos y opiniones de forma constructiva en contextos sociales."
+      "correct": 0,
+      "explanation": "Los criterios operacionalizan la valoración del desempeño asociado a cada competencia específica."
     },
     {
       "id": 230,
       "topic": 2,
       "topicName": "Tema 2: Estructura del Diseño Curricular",
-      "question": "¿Qué persigue la competencia ciudadana (CC) en el currículo LOMLOE? (Aspecto #30)",
+      "question": "Un docente califica solo definiciones memorizadas aunque el criterio exige argumentar con evidencias. ¿Qué desajuste aparece?",
       "options": [
-        "Participar de forma responsable y comprometida en la vida cívica y social, valorando la democracia, igualdad y derechos humanos",
-        "Vivir en una ciudad con más de 100.000 habitantes",
-        "Aprender a votar por un partido político determinado de forma obligatoria",
-        "Ser funcionario del Estado a los 18 años"
+        "La situación es demasiado interdisciplinar para ser válida",
+        "La evidencia no representa el desempeño descrito por el criterio",
+        "El saber básico deja de ser un elemento curricular",
+        "La evaluación se convierte automáticamente en diagnóstica"
       ],
-      "correct": 0,
-      "explanation": "La CC capacita al alumnado como ciudadano consciente, activo y comprometido con la convivencia democrática."
+      "correct": 1,
+      "explanation": "La evidencia debe permitir observar lo que el criterio formula; recordar definiciones no basta para valorar argumentación."
     },
     {
       "id": 231,
       "topic": 2,
       "topicName": "Tema 2: Estructura del Diseño Curricular",
-      "question": "¿Qué papel desempeñan los 'principios pedagógicos' de etapa en la ESO según el Real Decreto 217/2022? (Aspecto #31)",
+      "question": "¿Qué caracteriza a los saberes básicos frente a un temario tradicional?",
       "options": [
-        "Orientar la acción docente priorizando la educación inclusiva, personalización, aprendizaje por competencias y DUA",
-        "Prohibir que los profesores expliquen en la pizarra",
-        "Fijar el precio máximo de los bolígrafos",
-        "Obligar a hacer 4 exámenes diarios a los alumnos"
+        "Recogen solo procedimientos de evaluación comunes al centro",
+        "Enumeran exclusivamente conceptos que deben repetirse literalmente",
+        "Integran conocimientos, destrezas y actitudes necesarios para adquirir competencias",
+        "Sustituyen las competencias específicas por contenidos mínimos"
       ],
-      "correct": 0,
-      "explanation": "Los principios pedagógicos garantizan que la práctica educativa atienda la diversidad y promueva el pensamiento crítico."
+      "correct": 2,
+      "explanation": "Los saberes básicos son conocimientos, destrezas y actitudes cuyo aprendizaje se moviliza en desempeños competenciales."
     },
     {
       "id": 232,
       "topic": 2,
       "topicName": "Tema 2: Estructura del Diseño Curricular",
-      "question": "¿En qué consiste el principio de 'Diseño Universal para el Aprendizaje' (DUA)? (Aspecto #32)",
+      "question": "Una situación propone diseñar un itinerario accesible, justificar decisiones y revisarlo con datos. ¿Qué la hace competencial?",
       "options": [
-        "En diseñar actividades y recursos accesibles desde el inicio con múltiples formas de motivación, representación y expresión",
-        "En impartir una única asignatura para todas las edades",
-        "En obligar a todos los alumnos a llevar el mismo uniforme escolar",
-        "En comprar pupitres idénticos para todos los colegios del mundo"
+        "Evalúa la rapidez de copia más que la calidad de la respuesta",
+        "Presenta muchas preguntas cerradas con una única definición correcta",
+        "Se limita a practicar una destreza aislada sin destinatario real",
+        "Exige movilizar recursos diversos ante un reto contextualizado y producir evidencias"
       ],
-      "correct": 0,
-      "explanation": "El DUA busca eliminar barreras de aprendizaje ofreciendo múltiples formas de compromiso, representación y acción."
+      "correct": 3,
+      "explanation": "La contextualización, la movilización integrada y la producción revisable de evidencias son rasgos del aprendizaje competencial."
     },
     {
       "id": 233,
       "topic": 2,
       "topicName": "Tema 2: Estructura del Diseño Curricular",
-      "question": "¿Qué son las 'Adaptaciones Curriculares Significativas' (ACS) dentro del 4º nivel de concreción? (Aspecto #33)",
+      "question": "¿Cuál es la diferencia más precisa entre interdisciplinariedad y multidisciplinariedad?",
       "options": [
-        "Cambiar el color del bolígrafo con el que se corrigen los exámenes",
-        "Hacer los exámenes 5 minutos más tarde en el aula",
-        "Comprar una mochila más grande para los libros",
-        "Modificaciones que afectan a las competencias específicas, criterios de evaluación y objetivos nucleares de la etapa"
+        "La interdisciplinariedad integra aportaciones para un problema común; la multidisciplinariedad las yuxtapone",
+        "La interdisciplinariedad elimina las materias; la multidisciplinariedad elimina los saberes",
+        "La interdisciplinariedad solo ocurre en primaria; la multidisciplinariedad, en secundaria",
+        "La interdisciplinariedad se limita a evaluar; la multidisciplinariedad, a explicar"
       ],
-      "correct": 3,
-      "explanation": "Las ACS modifican elementos prescriptivos del currículo y se reservan para alumnado con necesidades educativas especiales."
+      "correct": 0,
+      "explanation": "Integrar perspectivas supone construir conexiones y decisiones compartidas, no solo colocar tareas de varias materias en paralelo."
     },
     {
       "id": 234,
       "topic": 2,
       "topicName": "Tema 2: Estructura del Diseño Curricular",
-      "question": "¿Qué diferencia hay entre evaluación 'formativa' y evaluación 'sumativa' en el currículo? (Aspecto #34)",
+      "question": "Un proyecto usa matemáticas y lengua, pero cada equipo entrega productos inconexos. ¿Qué falta para llamarlo interdisciplinar?",
       "options": [
-        "La formativa regula y mejora el proceso de aprendizaje de forma continua, mientras que la sumativa certifica el resultado final alcanzado",
-        "La sumativa la hace el tutor y la formativa el inspector",
-        "La formativa se hace en verano y la sumativa en invierno",
-        "La formativa pone nota numérica y la sumativa no"
+        "Más contenidos teóricos dentro de cada materia por separado",
+        "Un propósito común y una articulación explícita entre los saberes movilizados",
+        "Una prueba final idéntica que sustituya todos los criterios",
+        "Una reducción del número de docentes participantes"
       ],
-      "correct": 0,
-      "explanation": "La LOMLOE enfatiza la evaluación formativa y criterial como herramienta de aprendizaje para el propio estudiante."
+      "correct": 1,
+      "explanation": "La mera coexistencia de materias no basta: debe existir un reto común y relación funcional entre aportaciones."
     },
     {
       "id": 235,
       "topic": 2,
       "topicName": "Tema 2: Estructura del Diseño Curricular",
-      "question": "¿Qué función cumple la 'rúbrica de evaluación' en el marco competencial? (Aspecto #35)",
+      "question": "¿Qué afirmación distingue currículo explícito y oculto?",
       "options": [
-        "Guardar las llaves del aula de informática",
-        "Firmar el contrato de trabajo de los docentes",
-        "Describir de forma graduada y transparente los niveles de desempeño observables en base a los criterios de evaluación",
-        "Servir de recibo de pago de las tasas escolares"
+        "El explícito es siempre evaluable; el oculto nunca influye en el aprendizaje",
+        "El explícito ocurre fuera del aula; el oculto aparece solo en documentos oficiales",
+        "El explícito se declara y planifica; el oculto transmite normas y valores implícitos",
+        "El explícito pertenece a las familias; el oculto pertenece a la inspección"
       ],
       "correct": 2,
-      "explanation": "Las rúbricas objetivan la evaluación formativa ofreciendo descriptores cualitativos claros para orientar la mejora del alumno."
+      "explanation": "La distinción se refiere al grado de explicitación y planificación, no a que uno sea irrelevante o necesariamente no evaluable."
     },
     {
       "id": 236,
       "topic": 2,
       "topicName": "Tema 2: Estructura del Diseño Curricular",
-      "question": "¿Qué se entiende por 'interdisciplinaridad' en el diseño de situaciones de aprendizaje? (Aspecto #36)",
+      "question": "Una escuela no aborda deliberadamente cierto enfoque cultural pese a que podría hacerlo. ¿Qué concepto describe esa ausencia?",
       "options": [
-        "La conexión y articulación sinérgica de saberes de dos o más materias para resolver un reto complejo del entorno",
-        "Separar físicamente a los alumnos según su rama de bachillerato",
-        "Impartir asignaturas en idiomas desconocidos",
-        "Estudiar únicamente una disciplina durante todo el curso escolar"
+        "Currículo flexible, porque permite cualquier contenido sin límites",
+        "Currículo real, porque refleja exactamente toda la práctica docente",
+        "Currículo oculto, porque siempre transmite valores no declarados",
+        "Currículo nulo, por lo que queda excluido de lo que se enseña"
       ],
-      "correct": 0,
-      "explanation": "La interdisciplinaridad supera la fragmentación del saber y ayuda a comprender la complejidad de los problemas reales."
+      "correct": 3,
+      "explanation": "El currículo nulo alude a conocimientos o perspectivas que no se incluyen, por decisión u omisión."
     },
     {
       "id": 237,
       "topic": 2,
       "topicName": "Tema 2: Estructura del Diseño Curricular",
-      "question": "¿Qué representa la competencia en comunicación lingüística (CCL)? (Aspecto #37)",
+      "question": "¿Qué diferencia el currículo real del currículo prescrito?",
       "options": [
-        "La obligación de hablar tres idiomas antes de los 5 años",
-        "El conocimiento exclusivo de la gramática latina",
-        "La capacidad de interactuar de forma oral, escrita, signada o multimodal de manera coherente y crítica en diversos ámbitos",
-        "La memorización de las reglas de acentuación del siglo XVIII"
+        "El real es lo que efectivamente se desarrolla; el prescrito es lo normativamente establecido",
+        "El real contiene solo leyes; el prescrito contiene las interacciones del aula",
+        "El real es idéntico en todos los grupos; el prescrito depende de cada estudiante",
+        "El real se refiere a evaluación final; el prescrito, exclusivamente a metodología"
       ],
-      "correct": 2,
-      "explanation": "La CCL permite expresar e interpretar conceptos, pensamientos y opiniones de forma constructiva en contextos sociales."
+      "correct": 0,
+      "explanation": "La práctica concreta puede mediar o reinterpretar el marco prescrito, por eso ambos conceptos no son equivalentes."
     },
     {
       "id": 238,
       "topic": 2,
       "topicName": "Tema 2: Estructura del Diseño Curricular",
-      "question": "¿Qué persigue la competencia ciudadana (CC) en el currículo LOMLOE? (Aspecto #38)",
+      "question": "¿Qué principio orienta mejor una adaptación no significativa?",
       "options": [
-        "Aprender a votar por un partido político determinado de forma obligatoria",
-        "Ser funcionario del Estado a los 18 años",
-        "Vivir en una ciudad con más de 100.000 habitantes",
-        "Participar de forma responsable y comprometida en la vida cívica y social, valorando la democracia, igualdad y derechos humanos"
+        "Rebajar siempre competencias específicas y criterios de evaluación",
+        "Cambiar acceso, tiempos o apoyos manteniendo referentes curriculares esenciales",
+        "Sustituir la etapa por objetivos completamente ajenos al currículo",
+        "Eliminar toda evidencia para evitar comparar desempeños"
       ],
-      "correct": 3,
-      "explanation": "La CC capacita al alumnado como ciudadano consciente, activo y comprometido con la convivencia democrática."
+      "correct": 1,
+      "explanation": "Las medidas no significativas modifican condiciones de acceso o respuesta sin alterar los referentes curriculares esenciales."
     },
     {
       "id": 239,
       "topic": 2,
       "topicName": "Tema 2: Estructura del Diseño Curricular",
-      "question": "¿Qué papel desempeñan los 'principios pedagógicos' de etapa en la ESO según el Real Decreto 217/2022? (Aspecto #39)",
+      "question": "Una medida modifica los criterios de evaluación previstos para la etapa. ¿Qué implica?",
       "options": [
-        "Fijar el precio máximo de los bolígrafos",
-        "Orientar la acción docente priorizando la educación inclusiva, personalización, aprendizaje por competencias y DUA",
-        "Obligar a hacer 4 exámenes diarios a los alumnos",
-        "Prohibir que los profesores expliquen en la pizarra"
+        "Constituye una ampliación voluntaria del currículo para todo el grupo",
+        "Es solo un ajuste metodológico ordinario decidido durante una sesión",
+        "Afecta a elementos prescriptivos y requiere el procedimiento de una adaptación significativa",
+        "Es una actividad de refuerzo que no cambia la evaluación"
       ],
-      "correct": 1,
-      "explanation": "Los principios pedagógicos garantizan que la práctica educativa atienda la diversidad y promueva el pensamiento crítico."
+      "correct": 2,
+      "explanation": "Modificar criterios altera referentes prescriptivos; no es un simple apoyo de acceso o una actividad adicional."
     },
     {
       "id": 240,
       "topic": 2,
       "topicName": "Tema 2: Estructura del Diseño Curricular",
-      "question": "¿En qué consiste el principio de 'Diseño Universal para el Aprendizaje' (DUA)? (Aspecto #40)",
+      "question": "¿Qué criterio es más coherente con el DUA al planificar una tarea?",
       "options": [
-        "En diseñar actividades y recursos accesibles desde el inicio con múltiples formas de motivación, representación y expresión",
-        "En obligar a todos los alumnos a llevar el mismo uniforme escolar",
-        "En impartir una única asignatura para todas las edades",
-        "En comprar pupitres idénticos para todos los colegios del mundo"
+        "Usar el mismo recurso y la misma respuesta para garantizar uniformidad",
+        "Diseñar una única vía y adaptar después solo a quien fracase",
+        "Separar al alumnado por diagnóstico antes de conocer las barreras",
+        "Prever desde el inicio varias formas de implicación, representación y acción"
       ],
-      "correct": 0,
-      "explanation": "El DUA busca eliminar barreras de aprendizaje ofreciendo múltiples formas de compromiso, representación y acción."
+      "correct": 3,
+      "explanation": "El DUA anticipa la variabilidad y ofrece opciones múltiples desde el diseño, en vez de añadir parches posteriores."
     },
     {
       "id": 241,
       "topic": 2,
       "topicName": "Tema 2: Estructura del Diseño Curricular",
-      "question": "¿Qué son las 'Adaptaciones Curriculares Significativas' (ACS) dentro del 4º nivel de concreción? (Aspecto #41)",
+      "question": "Un vídeo incluye subtítulos y el alumnado puede responder con audio, texto o pictogramas. ¿Qué principio ejemplifica?",
       "options": [
-        "Cambiar el color del bolígrafo con el que se corrigen los exámenes",
-        "Hacer los exámenes 5 minutos más tarde en el aula",
-        "Comprar una mochila más grande para los libros",
-        "Modificaciones que afectan a las competencias específicas, criterios de evaluación y objetivos nucleares de la etapa"
+        "La eliminación anticipada de barreras mediante múltiples medios de representación y expresión",
+        "La reducción de expectativas porque se permite elegir el formato",
+        "La evaluación sumativa porque se recoge un producto final",
+        "La concreción estatal porque todos los centros usan el mismo soporte"
       ],
-      "correct": 3,
-      "explanation": "Las ACS modifican elementos prescriptivos del currículo y se reservan para alumnado con necesidades educativas especiales."
+      "correct": 0,
+      "explanation": "Las opciones de acceso y expresión son apoyos de diseño inclusivo; no implican rebajar el aprendizaje esperado."
     },
     {
       "id": 242,
       "topic": 2,
       "topicName": "Tema 2: Estructura del Diseño Curricular",
-      "question": "¿Qué diferencia hay entre evaluación 'formativa' y evaluación 'sumativa' en el currículo? (Aspecto #42)",
+      "question": "¿Qué rasgo define una evaluación criterial?",
       "options": [
-        "La formativa pone nota numérica y la sumativa no",
-        "La formativa regula y mejora el proceso de aprendizaje de forma continua, mientras que la sumativa certifica el resultado final alcanzado",
-        "La formativa se hace en verano y la sumativa en invierno",
-        "La sumativa la hace el tutor y la formativa el inspector"
+        "Ordena al alumnado de mayor a menor rendimiento en cada prueba",
+        "Interpreta la evidencia según criterios de logro, no según la posición relativa del grupo",
+        "Asigna la misma nota a quien entregue el mismo número de páginas",
+        "Sustituye los criterios por la impresión global del docente"
       ],
       "correct": 1,
-      "explanation": "La LOMLOE enfatiza la evaluación formativa y criterial como herramienta de aprendizaje para el propio estudiante."
+      "explanation": "La evaluación criterial contrasta desempeños con referentes explícitos; no depende de una distribución normativa del grupo."
     },
     {
       "id": 243,
       "topic": 2,
       "topicName": "Tema 2: Estructura del Diseño Curricular",
-      "question": "¿Qué función cumple la 'rúbrica de evaluación' en el marco competencial? (Aspecto #43)",
+      "question": "Durante la tarea, el docente devuelve información y permite revisar el producto. ¿Qué función predomina?",
       "options": [
-        "Servir de recibo de pago de las tasas escolares",
-        "Guardar las llaves del aula de informática",
-        "Firmar el contrato de trabajo de los docentes",
-        "Describir de forma graduada y transparente los niveles de desempeño observables en base a los criterios de evaluación"
+        "Diagnóstica exclusivamente, porque se realiza antes de enseñar",
+        "Sumativa, porque certifica definitivamente el resultado alcanzado",
+        "Formativa, porque usa la evidencia para regular el aprendizaje en curso",
+        "Normativa, porque compara al alumnado con una media externa"
       ],
-      "correct": 3,
-      "explanation": "Las rúbricas objetivan la evaluación formativa ofreciendo descriptores cualitativos claros para orientar la mejora del alumno."
+      "correct": 2,
+      "explanation": "La retroalimentación y la revisión durante el proceso son rasgos de la evaluación formativa."
     },
     {
       "id": 244,
       "topic": 2,
       "topicName": "Tema 2: Estructura del Diseño Curricular",
-      "question": "¿Qué se entiende por 'interdisciplinaridad' en el diseño de situaciones de aprendizaje? (Aspecto #44)",
+      "question": "¿Qué combinación hace más defendible una calificación competencial?",
       "options": [
-        "Separar físicamente a los alumnos según su rama de bachillerato",
-        "La conexión y articulación sinérgica de saberes de dos o más materias para resolver un reto complejo del entorno",
-        "Estudiar únicamente una disciplina durante todo el curso escolar",
-        "Impartir asignaturas en idiomas desconocidos"
+        "La media de tareas aunque ninguna responda a los criterios",
+        "Una única prueba memorística corregida sin descriptores de logro",
+        "La asistencia, el orden del cuaderno y la rapidez como indicadores únicos",
+        "Criterios explícitos, evidencias variadas y juicio fundamentado sobre el desempeño"
       ],
-      "correct": 1,
-      "explanation": "La interdisciplinaridad supera la fragmentación del saber y ayuda a comprender la complejidad de los problemas reales."
+      "correct": 3,
+      "explanation": "La calificación debe apoyarse en evidencias pertinentes interpretadas mediante criterios; la cantidad o la apariencia no bastan."
     },
     {
       "id": 245,
       "topic": 2,
       "topicName": "Tema 2: Estructura del Diseño Curricular",
-      "question": "¿Qué representa la competencia en comunicación lingüística (CCL)? (Aspecto #45)",
+      "question": "Una rúbrica describe cuatro niveles, pero sus descriptores cambian de criterio entre niveles. ¿Qué problema presenta?",
       "options": [
-        "La memorización de las reglas de acentuación del siglo XVIII",
-        "La obligación de hablar tres idiomas antes de los 5 años",
-        "El conocimiento exclusivo de la gramática latina",
-        "La capacidad de interactuar de forma oral, escrita, signada o multimodal de manera coherente y crítica en diversos ámbitos"
+        "Falta de coherencia interna: los niveles no permiten comparar progresión del mismo desempeño",
+        "Exceso de interdisciplinariedad, porque mezcla demasiadas materias",
+        "Aplicación correcta del currículo oculto, porque evita explicitar expectativas",
+        "Validez perfecta, porque cuantos más niveles haya mejor es el instrumento"
       ],
-      "correct": 3,
-      "explanation": "La CCL permite expresar e interpretar conceptos, pensamientos y opiniones de forma constructiva en contextos sociales."
+      "correct": 0,
+      "explanation": "Una rúbrica válida mantiene el foco del criterio y gradúa la calidad del mismo desempeño."
     },
     {
       "id": 246,
       "topic": 2,
       "topicName": "Tema 2: Estructura del Diseño Curricular",
-      "question": "¿Qué persigue la competencia ciudadana (CC) en el currículo LOMLOE? (Aspecto #46)",
+      "question": "¿Qué uso de una rúbrica es menos adecuado?",
       "options": [
-        "Participar de forma responsable y comprometida en la vida cívica y social, valorando la democracia, igualdad y derechos humanos",
-        "Vivir en una ciudad con más de 100.000 habitantes",
-        "Ser funcionario del Estado a los 18 años",
-        "Aprender a votar por un partido político determinado de forma obligatoria"
+        "Compartir descriptores para hacer transparentes las expectativas de desempeño",
+        "Convertirla en una suma mecánica de casillas sin analizar la evidencia del criterio",
+        "Usarla durante la revisión para orientar mejoras concretas del producto",
+        "Relacionar sus niveles con evidencias observables y pertinentes"
       ],
-      "correct": 0,
-      "explanation": "La CC capacita al alumnado como ciudadano consciente, activo y comprometido con la convivencia democrática."
+      "correct": 1,
+      "explanation": "La rúbrica apoya el juicio criterial; marcar casillas automáticamente puede ocultar la calidad y pertinencia de la evidencia."
     },
     {
       "id": 247,
       "topic": 2,
       "topicName": "Tema 2: Estructura del Diseño Curricular",
-      "question": "¿Qué papel desempeñan los 'principios pedagógicos' de etapa en la ESO según el Real Decreto 217/2022? (Aspecto #47)",
+      "question": "¿Qué opción refleja mejor la transversalidad curricular?",
       "options": [
-        "Fijar el precio máximo de los bolígrafos",
-        "Obligar a hacer 4 exámenes diarios a los alumnos",
-        "Prohibir que los profesores expliquen en la pizarra",
-        "Orientar la acción docente priorizando la educación inclusiva, personalización, aprendizaje por competencias y DUA"
+        "Sustituir todos los saberes disciplinares por normas de convivencia",
+        "Crear una asignatura aislada y excluir esos valores del resto del horario",
+        "Tratar igualdad y sostenibilidad desde distintas materias, conectándolas con sus aprendizajes propios",
+        "Dejar los temas comunes a iniciativas voluntarias sin planificación"
       ],
-      "correct": 3,
-      "explanation": "Los principios pedagógicos garantizan que la práctica educativa atienda la diversidad y promueva el pensamiento crítico."
+      "correct": 2,
+      "explanation": "La transversalidad impregna áreas y situaciones sin borrar la especificidad de sus aprendizajes."
     },
     {
       "id": 248,
       "topic": 2,
       "topicName": "Tema 2: Estructura del Diseño Curricular",
-      "question": "¿En qué consiste el principio de 'Diseño Universal para el Aprendizaje' (DUA)? (Aspecto #48)",
+      "question": "En el perfil de salida, los descriptores operativos cumplen principalmente la función de…",
       "options": [
-        "En impartir una única asignatura para todas las edades",
-        "En diseñar actividades y recursos accesibles desde el inicio con múltiples formas de motivación, representación y expresión",
-        "En obligar a todos los alumnos a llevar el mismo uniforme escolar",
-        "En comprar pupitres idénticos para todos los colegios del mundo"
+        "Definir sanciones asociadas a cada nivel de rendimiento",
+        "Nombrar los materiales didácticos que cada centro debe comprar",
+        "Distribuir sesiones semanales entre departamentos de una etapa",
+        "Precisar desempeños observables que concretan el progreso en competencias clave"
       ],
-      "correct": 1,
-      "explanation": "El DUA busca eliminar barreras de aprendizaje ofreciendo múltiples formas de compromiso, representación y acción."
+      "correct": 3,
+      "explanation": "Los descriptores operativos hacen más observable y graduable la referencia competencial del perfil de salida."
     },
     {
       "id": 249,
       "topic": 2,
       "topicName": "Tema 2: Estructura del Diseño Curricular",
-      "question": "¿Qué son las 'Adaptaciones Curriculares Significativas' (ACS) dentro del 4º nivel de concreción? (Aspecto #49)",
+      "question": "¿Por qué las competencias específicas son un puente curricular?",
       "options": [
-        "Cambiar el color del bolígrafo con el que se corrigen los exámenes",
-        "Modificaciones que afectan a las competencias específicas, criterios de evaluación y objetivos nucleares de la etapa",
-        "Hacer los exámenes 5 minutos más tarde en el aula",
-        "Comprar una mochila más grande para los libros"
+        "Relacionan el perfil de salida y las competencias clave con saberes y criterios de una materia",
+        "Porque reemplazan las decisiones metodológicas del docente por una receta única",
+        "Porque conectan únicamente la organización del centro con el horario",
+        "Porque convierten cada saber básico en una competencia clave nueva"
       ],
-      "correct": 1,
-      "explanation": "Las ACS modifican elementos prescriptivos del currículo y se reservan para alumnado con necesidades educativas especiales."
+      "correct": 0,
+      "explanation": "Su función de puente articula la referencia global con el desempeño disciplinar y sus evidencias."
     },
     {
       "id": 250,
       "topic": 2,
       "topicName": "Tema 2: Estructura del Diseño Curricular",
-      "question": "¿Qué diferencia hay entre evaluación 'formativa' y evaluación 'sumativa' en el currículo? (Aspecto #50)",
+      "question": "Una programación enumera actividades, pero no indica qué criterio evidencia cada una. ¿Qué consecuencia es más probable?",
       "options": [
-        "La formativa pone nota numérica y la sumativa no",
-        "La formativa regula y mejora el proceso de aprendizaje de forma continua, mientras que la sumativa certifica el resultado final alcanzado",
-        "La sumativa la hace el tutor y la formativa el inspector",
-        "La formativa se hace en verano y la sumativa en invierno"
+        "Se garantiza una mayor flexibilidad porque los criterios dejan de ser necesarios",
+        "Se dificulta justificar la evaluación porque falta alineación entre tarea, criterio y evidencia",
+        "Se convierte automáticamente en currículo oculto por ser una programación",
+        "Se demuestra que la situación es interdisciplinar al carecer de criterios"
       ],
       "correct": 1,
-      "explanation": "La LOMLOE enfatiza la evaluación formativa y criterial como herramienta de aprendizaje para el propio estudiante."
+      "explanation": "La alineación curricular exige saber qué aprendizaje se pretende y qué evidencia permite valorarlo."
     },
     {
       "id": 251,
       "topic": 2,
       "topicName": "Tema 2: Estructura del Diseño Curricular",
-      "question": "¿Qué función cumple la 'rúbrica de evaluación' en el marco competencial? (Aspecto #51)",
+      "question": "¿Qué decisión pertenece al primer nivel de concreción?",
       "options": [
-        "Guardar las llaves del aula de informática",
-        "Describir de forma graduada y transparente los niveles de desempeño observables en base a los criterios de evaluación",
-        "Servir de recibo de pago de las tasas escolares",
-        "Firmar el contrato de trabajo de los docentes"
+        "Diseñar la actividad inicial de una sesión de laboratorio",
+        "Elegir agrupamientos concretos para una clase de 3.º de ESO",
+        "Determinar los elementos curriculares establecidos por la normativa básica y autonómica",
+        "Acordar apoyos individualizados para un estudiante determinado"
       ],
-      "correct": 1,
-      "explanation": "Las rúbricas objetivan la evaluación formativa ofreciendo descriptores cualitativos claros para orientar la mejora del alumno."
+      "correct": 2,
+      "explanation": "El primer nivel corresponde al marco normativo; las demás decisiones son concreciones de centro, aula o atención individual."
     },
     {
       "id": 252,
       "topic": 2,
       "topicName": "Tema 2: Estructura del Diseño Curricular",
-      "question": "¿Qué se entiende por 'interdisciplinaridad' en el diseño de situaciones de aprendizaje? (Aspecto #52)",
+      "question": "El proyecto educativo adapta el currículo al entorno y fija líneas comunes. ¿Qué nivel representa principalmente?",
       "options": [
-        "Separar físicamente a los alumnos según su rama de bachillerato",
-        "La conexión y articulación sinérgica de saberes de dos o más materias para resolver un reto complejo del entorno",
-        "Impartir asignaturas en idiomas desconocidos",
-        "Estudiar únicamente una disciplina durante todo el curso escolar"
+        "El nivel informal, porque no contiene decisiones pedagógicas",
+        "El nivel estatal, porque sustituye los reales decretos vigentes",
+        "El nivel individual, porque solo afecta a un alumno concreto",
+        "El nivel de centro, que contextualiza el marco normativo mediante acuerdos institucionales"
       ],
-      "correct": 1,
-      "explanation": "La interdisciplinaridad supera la fragmentación del saber y ayuda a comprender la complejidad de los problemas reales."
+      "correct": 3,
+      "explanation": "El centro concreta y contextualiza el currículo en sus documentos institucionales, dentro de la normativa."
     },
     {
       "id": 253,
       "topic": 2,
       "topicName": "Tema 2: Estructura del Diseño Curricular",
-      "question": "¿Qué representa la competencia en comunicación lingüística (CCL)? (Aspecto #53)",
+      "question": "Una programación didáctica secuencia competencias, criterios, saberes y situaciones para varios grupos. ¿Qué función cumple?",
       "options": [
-        "El conocimiento exclusivo de la gramática latina",
-        "La memorización de las reglas de acentuación del siglo XVIII",
-        "La obligación de hablar tres idiomas antes de los 5 años",
-        "La capacidad de interactuar de forma oral, escrita, signada o multimodal de manera coherente y crítica en diversos ámbitos"
+        "Concreta el currículo del centro en una materia, curso o ámbito determinado",
+        "Fija el perfil de salida nacional para toda la enseñanza básica",
+        "Registra exclusivamente incidencias disciplinarias del alumnado",
+        "Sustituye la autonomía pedagógica por un listado de actividades idénticas"
       ],
-      "correct": 3,
-      "explanation": "La CCL permite expresar e interpretar conceptos, pensamientos y opiniones de forma constructiva en contextos sociales."
+      "correct": 0,
+      "explanation": "La programación traduce acuerdos curriculares a una propuesta didáctica organizada para una materia o ámbito."
     },
     {
       "id": 254,
       "topic": 2,
       "topicName": "Tema 2: Estructura del Diseño Curricular",
-      "question": "¿Qué persigue la competencia ciudadana (CC) en el currículo LOMLOE? (Aspecto #54)",
+      "question": "¿Qué diferencia una situación de aprendizaje de una actividad aislada?",
       "options": [
-        "Ser funcionario del Estado a los 18 años",
-        "Aprender a votar por un partido político determinado de forma obligatoria",
-        "Vivir en una ciudad con más de 100.000 habitantes",
-        "Participar de forma responsable y comprometida en la vida cívica y social, valorando la democracia, igualdad y derechos humanos"
+        "La situación siempre dura un trimestre y la actividad siempre dura cinco minutos",
+        "La situación articula propósito, contexto, tareas y evaluación para movilizar aprendizajes",
+        "La situación solo puede ser digital y la actividad solo puede ser manipulativa",
+        "La situación no admite evaluación porque prioriza la creatividad"
       ],
-      "correct": 3,
-      "explanation": "La CC capacita al alumnado como ciudadano consciente, activo y comprometido con la convivencia democrática."
+      "correct": 1,
+      "explanation": "Una situación es una secuencia con sentido y evaluación alineada, no una simple tarea descontextualizada ni una duración fija."
     },
     {
       "id": 255,
       "topic": 2,
       "topicName": "Tema 2: Estructura del Diseño Curricular",
-      "question": "¿Qué papel desempeñan los 'principios pedagógicos' de etapa en la ESO según el Real Decreto 217/2022? (Aspecto #55)",
+      "question": "Un reto permite varias soluciones, exige justificar decisiones y usa fuentes diversas. ¿Qué ventaja curricular ofrece?",
       "options": [
-        "Obligar a hacer 4 exámenes diarios a los alumnos",
-        "Prohibir que los profesores expliquen en la pizarra",
-        "Fijar el precio máximo de los bolígrafos",
-        "Orientar la acción docente priorizando la educación inclusiva, personalización, aprendizaje por competencias y DUA"
+        "Elimina la necesidad de criterios al ser una tarea abierta",
+        "Impide evaluar porque no existe una respuesta literal única",
+        "Hace visible la transferencia y la toma de decisiones, además de la reproducción de contenidos",
+        "Garantiza por sí solo que todas las competencias clave estén adquiridas"
       ],
-      "correct": 3,
-      "explanation": "Los principios pedagógicos garantizan que la práctica educativa atienda la diversidad y promueva el pensamiento crítico."
+      "correct": 2,
+      "explanation": "La apertura puede evidenciar transferencia y razonamiento, pero siempre necesita criterios para valorar el desempeño."
     },
     {
       "id": 256,
       "topic": 2,
       "topicName": "Tema 2: Estructura del Diseño Curricular",
-      "question": "¿En qué consiste el principio de 'Diseño Universal para el Aprendizaje' (DUA)? (Aspecto #56)",
+      "question": "¿Qué afirmación sobre autonomía curricular es más ajustada?",
       "options": [
-        "En comprar pupitres idénticos para todos los colegios del mundo",
-        "En obligar a todos los alumnos a llevar el mismo uniforme escolar",
-        "En diseñar actividades y recursos accesibles desde el inicio con múltiples formas de motivación, representación y expresión",
-        "En impartir una única asignatura para todas las edades"
+        "Elimina la responsabilidad de justificar las decisiones pedagógicas",
+        "Autoriza a ignorar enseñanzas mínimas cuando el centro lo acuerda",
+        "Implica que cada docente puede cambiar la titulación oficial",
+        "Permite contextualizar y organizar decisiones dentro de los límites normativos"
       ],
-      "correct": 2,
-      "explanation": "El DUA busca eliminar barreras de aprendizaje ofreciendo múltiples formas de compromiso, representación y acción."
+      "correct": 3,
+      "explanation": "La autonomía opera dentro del marco legal y exige decisiones contextualizadas y justificables."
     },
     {
       "id": 257,
       "topic": 2,
       "topicName": "Tema 2: Estructura del Diseño Curricular",
-      "question": "¿Qué son las 'Adaptaciones Curriculares Significativas' (ACS) dentro del 4º nivel de concreción? (Aspecto #57)",
+      "question": "Una propuesta prioriza únicamente lo que aparece en el libro de texto. ¿Qué riesgo curricular evidencia?",
       "options": [
-        "Hacer los exámenes 5 minutos más tarde en el aula",
-        "Comprar una mochila más grande para los libros",
-        "Modificaciones que afectan a las competencias específicas, criterios de evaluación y objetivos nucleares de la etapa",
-        "Cambiar el color del bolígrafo con el que se corrigen los exámenes"
+        "Confundir un recurso didáctico con el currículo y reducir la selección profesional del docente",
+        "Garantizar una interpretación más competencial por usar un material único",
+        "Asegurar que se desarrollen todos los criterios por seguir el índice",
+        "Convertir automáticamente los contenidos del libro en saberes básicos"
       ],
-      "correct": 2,
-      "explanation": "Las ACS modifican elementos prescriptivos del currículo y se reservan para alumnado con necesidades educativas especiales."
+      "correct": 0,
+      "explanation": "El libro puede apoyar la enseñanza, pero no define por sí solo el currículo ni asegura alineación competencial."
     },
     {
       "id": 258,
       "topic": 2,
       "topicName": "Tema 2: Estructura del Diseño Curricular",
-      "question": "¿Qué diferencia hay entre evaluación 'formativa' y evaluación 'sumativa' en el currículo? (Aspecto #58)",
+      "question": "¿Qué distingue un objetivo didáctico de un criterio de evaluación?",
       "options": [
-        "La formativa se hace en verano y la sumativa en invierno",
-        "La formativa pone nota numérica y la sumativa no",
-        "La formativa regula y mejora el proceso de aprendizaje de forma continua, mientras que la sumativa certifica el resultado final alcanzado",
-        "La sumativa la hace el tutor y la formativa el inspector"
+        "El objetivo siempre es normativo; el criterio siempre es una actividad voluntaria",
+        "El objetivo orienta la intención de enseñanza; el criterio concreta cómo valorar el desempeño",
+        "El objetivo pertenece al alumnado; el criterio solo pertenece a las familias",
+        "El objetivo mide resultados; el criterio describe exclusivamente recursos"
       ],
-      "correct": 2,
-      "explanation": "La LOMLOE enfatiza la evaluación formativa y criterial como herramienta de aprendizaje para el propio estudiante."
+      "correct": 1,
+      "explanation": "Ambos orientan la planificación, pero el criterio aporta el referente evaluativo observable y normativo."
     },
     {
       "id": 259,
       "topic": 2,
       "topicName": "Tema 2: Estructura del Diseño Curricular",
-      "question": "¿Qué función cumple la 'rúbrica de evaluación' en el marco competencial? (Aspecto #59)",
+      "question": "Si una tarea evalúa cooperación, ¿qué debe evitar el docente?",
       "options": [
-        "Servir de recibo de pago de las tasas escolares",
-        "Firmar el contrato de trabajo de los docentes",
-        "Describir de forma graduada y transparente los niveles de desempeño observables en base a los criterios de evaluación",
-        "Guardar las llaves del aula de informática"
+        "Recoger autoevaluación y coevaluación como evidencias complementarias",
+        "Definir indicadores observables de escucha, aportación y corresponsabilidad",
+        "Inferirla solo por estar sentado en grupo, sin evidencias de interacción y responsabilidad",
+        "Relacionar la observación con el criterio que describe el desempeño"
       ],
       "correct": 2,
-      "explanation": "Las rúbricas objetivan la evaluación formativa ofreciendo descriptores cualitativos claros para orientar la mejora del alumno."
+      "explanation": "El trabajo grupal no demuestra cooperación por sí mismo; se necesitan evidencias observables y pertinentes."
     },
     {
       "id": 260,
       "topic": 2,
       "topicName": "Tema 2: Estructura del Diseño Curricular",
-      "question": "¿Qué se entiende por 'interdisciplinaridad' en el diseño de situaciones de aprendizaje? (Aspecto #60)",
+      "question": "¿Qué aporta la autoevaluación bien planteada?",
       "options": [
-        "Impartir asignaturas en idiomas desconocidos",
-        "Estudiar únicamente una disciplina durante todo el curso escolar",
-        "La conexión y articulación sinérgica de saberes de dos o más materias para resolver un reto complejo del entorno",
-        "Separar físicamente a los alumnos según su rama de bachillerato"
+        "Evalúa únicamente la satisfacción con la actividad, no el aprendizaje",
+        "Sustituye siempre el juicio docente y elimina la necesidad de evidencias",
+        "Convierte cualquier percepción del alumno en una calificación objetiva",
+        "Favorece metacognición y regulación al contrastar el propio desempeño con criterios"
       ],
-      "correct": 2,
-      "explanation": "La interdisciplinaridad supera la fragmentación del saber y ayuda a comprender la complejidad de los problemas reales."
+      "correct": 3,
+      "explanation": "La autoevaluación aporta información para regular y aprender, pero se integra con criterios y otras evidencias."
     },
     {
       "id": 261,
       "topic": 2,
       "topicName": "Tema 2: Estructura del Diseño Curricular",
-      "question": "¿Qué representa la competencia en comunicación lingüística (CCL)? (Aspecto #61)",
+      "question": "¿Cuándo es más sólida la coevaluación?",
       "options": [
-        "La memorización de las reglas de acentuación del siglo XVIII",
-        "La obligación de hablar tres idiomas antes de los 5 años",
-        "La capacidad de interactuar de forma oral, escrita, signada o multimodal de manera coherente y crítica en diversos ámbitos",
-        "El conocimiento exclusivo de la gramática latina"
+        "Cuando el alumnado aplica criterios compartidos a evidencias concretas y ofrece retroalimentación",
+        "Cuando se vota al mejor producto sin explicar el criterio utilizado",
+        "Cuando sustituye la planificación por impresiones espontáneas del grupo",
+        "Cuando se limita a repartir una nota idéntica entre compañeros"
       ],
-      "correct": 2,
-      "explanation": "La CCL permite expresar e interpretar conceptos, pensamientos y opiniones de forma constructiva en contextos sociales."
+      "correct": 0,
+      "explanation": "La coevaluación tiene valor formativo si usa referentes claros y comentarios sobre evidencias, no preferencias personales."
     },
     {
       "id": 262,
       "topic": 2,
       "topicName": "Tema 2: Estructura del Diseño Curricular",
-      "question": "¿Qué persigue la competencia ciudadana (CC) en el currículo LOMLOE? (Aspecto #62)",
+      "question": "¿Qué situación contradice el principio de inclusión?",
       "options": [
-        "Aprender a votar por un partido político determinado de forma obligatoria",
-        "Vivir en una ciudad con más de 100.000 habitantes",
-        "Ser funcionario del Estado a los 18 años",
-        "Participar de forma responsable y comprometida en la vida cívica y social, valorando la democracia, igualdad y derechos humanos"
+        "Ofrecer apoyos visuales y opciones de respuesta sin cambiar el aprendizaje esperado",
+        "Mantener una única forma de acceso y respuesta aunque se hayan identificado barreras previsibles",
+        "Ajustar tiempos y andamiajes para facilitar la participación en la misma tarea",
+        "Diseñar materiales accesibles y comprobar su uso con el grupo"
       ],
-      "correct": 3,
-      "explanation": "La CC capacita al alumnado como ciudadano consciente, activo y comprometido con la convivencia democrática."
+      "correct": 1,
+      "explanation": "La inclusión exige anticipar y reducir barreras; una única vía rígida puede excluir aunque el contenido sea común."
     },
     {
       "id": 263,
       "topic": 2,
       "topicName": "Tema 2: Estructura del Diseño Curricular",
-      "question": "¿Qué papel desempeñan los 'principios pedagógicos' de etapa en la ESO según el Real Decreto 217/2022? (Aspecto #63)",
+      "question": "Un centro usa los mismos criterios, pero permite distintos productos equivalentes. ¿Qué equilibrio busca?",
       "options": [
-        "Fijar el precio máximo de los bolígrafos",
-        "Prohibir que los profesores expliquen en la pizarra",
-        "Orientar la acción docente priorizando la educación inclusiva, personalización, aprendizaje por competencias y DUA",
-        "Obligar a hacer 4 exámenes diarios a los alumnos"
+        "Aplicar currículo nulo porque no todos entregan el mismo formato",
+        "Eliminar la prescriptividad y dejar que cada alumno invente sus criterios",
+        "Mantener referentes comunes y flexibilizar las vías para demostrar el aprendizaje",
+        "Sustituir la evaluación criterial por una evaluación de preferencias"
       ],
       "correct": 2,
-      "explanation": "Los principios pedagógicos garantizan que la práctica educativa atienda la diversidad y promueva el pensamiento crítico."
+      "explanation": "La equidad puede combinar expectativas compartidas con diferentes medios de acción y expresión."
     },
     {
       "id": 264,
       "topic": 2,
       "topicName": "Tema 2: Estructura del Diseño Curricular",
-      "question": "¿En qué consiste el principio de 'Diseño Universal para el Aprendizaje' (DUA)? (Aspecto #64)",
+      "question": "¿Qué afirmación sobre métodos pedagógicos encaja con la definición curricular?",
       "options": [
-        "En obligar a todos los alumnos a llevar el mismo uniforme escolar",
-        "En impartir una única asignatura para todas las edades",
-        "En diseñar actividades y recursos accesibles desde el inicio con múltiples formas de motivación, representación y expresión",
-        "En comprar pupitres idénticos para todos los colegios del mundo"
+        "Son saberes básicos porque enumeran conceptos que debe memorizar el alumnado",
+        "Son ajenos al currículo porque solo afectan al estilo personal del docente",
+        "Son equivalentes a los criterios porque ambos asignan una nota final",
+        "Son parte del currículo porque orientan cómo se organiza la enseñanza para lograr los aprendizajes"
       ],
-      "correct": 2,
-      "explanation": "El DUA busca eliminar barreras de aprendizaje ofreciendo múltiples formas de compromiso, representación y acción."
+      "correct": 3,
+      "explanation": "La definición legal incluye métodos pedagógicos junto con objetivos, competencias, saberes y evaluación."
     },
     {
       "id": 265,
       "topic": 2,
       "topicName": "Tema 2: Estructura del Diseño Curricular",
-      "question": "¿Qué son las 'Adaptaciones Curriculares Significativas' (ACS) dentro del 4º nivel de concreción? (Aspecto #65)",
+      "question": "Una docente selecciona un debate para valorar argumentación, pero califica solo fluidez oral. ¿Qué debe revisar?",
       "options": [
-        "Cambiar el color del bolígrafo con el que se corrigen los exámenes",
-        "Comprar una mochila más grande para los libros",
-        "Hacer los exámenes 5 minutos más tarde en el aula",
-        "Modificaciones que afectan a las competencias específicas, criterios de evaluación y objetivos nucleares de la etapa"
+        "La correspondencia entre el criterio completo y los indicadores usados para interpretar la evidencia",
+        "La cantidad de alumnado que participa, aunque no cambie el criterio",
+        "El color de las tarjetas de intervención para hacer la actividad más atractiva",
+        "La duración del debate, porque toda tarea larga es más válida"
       ],
-      "correct": 3,
-      "explanation": "Las ACS modifican elementos prescriptivos del currículo y se reservan para alumnado con necesidades educativas especiales."
+      "correct": 0,
+      "explanation": "Reducir el criterio a una dimensión no prevista produce una valoración sesgada de la competencia."
     },
     {
       "id": 266,
       "topic": 2,
       "topicName": "Tema 2: Estructura del Diseño Curricular",
-      "question": "¿Qué diferencia hay entre evaluación 'formativa' y evaluación 'sumativa' en el currículo? (Aspecto #66)",
+      "question": "¿Qué caracteriza a una evidencia válida para un criterio?",
       "options": [
-        "La formativa pone nota numérica y la sumativa no",
-        "La formativa regula y mejora el proceso de aprendizaje de forma continua, mientras que la sumativa certifica el resultado final alcanzado",
-        "La formativa se hace en verano y la sumativa en invierno",
-        "La sumativa la hace el tutor y la formativa el inspector"
+        "Es siempre un examen escrito, aunque el criterio describa una actuación práctica",
+        "Permite observar el desempeño que el criterio describe en condiciones pertinentes",
+        "Es la tarea más larga, independientemente de su relación con el aprendizaje",
+        "Es cualquier producto bonito que el alumnado entregue a tiempo"
       ],
       "correct": 1,
-      "explanation": "La LOMLOE enfatiza la evaluación formativa y criterial como herramienta de aprendizaje para el propio estudiante."
+      "explanation": "La validez depende de la relación entre evidencia y constructo evaluado, no del formato, duración o apariencia."
     },
     {
       "id": 267,
       "topic": 2,
       "topicName": "Tema 2: Estructura del Diseño Curricular",
-      "question": "¿Qué función cumple la 'rúbrica de evaluación' en el marco competencial? (Aspecto #67)",
+      "question": "En una secuencia se diagnostican ideas previas, se ajustan apoyos y se vuelve a comprobar el progreso. ¿Qué lógica integra?",
       "options": [
-        "Guardar las llaves del aula de informática",
-        "Firmar el contrato de trabajo de los docentes",
-        "Servir de recibo de pago de las tasas escolares",
-        "Describir de forma graduada y transparente los niveles de desempeño observables en base a los criterios de evaluación"
+        "Evaluación normativa, porque el diagnóstico ordena al alumnado por rendimiento",
+        "Evaluación exclusivamente sumativa, porque toda secuencia termina con una prueba",
+        "Evaluación diagnóstica, formativa y final como momentos conectados de regulación",
+        "Evaluación informal, porque no utiliza elementos curriculares"
       ],
-      "correct": 3,
-      "explanation": "Las rúbricas objetivan la evaluación formativa ofreciendo descriptores cualitativos claros para orientar la mejora del alumno."
+      "correct": 2,
+      "explanation": "Los distintos momentos cumplen funciones complementarias: conocer el punto de partida, regular y valorar el logro."
     },
     {
       "id": 268,
       "topic": 2,
       "topicName": "Tema 2: Estructura del Diseño Curricular",
-      "question": "¿Qué se entiende por 'interdisciplinaridad' en el diseño de situaciones de aprendizaje? (Aspecto #68)",
+      "question": "¿Cuál es una inferencia incorrecta sobre el currículo abierto?",
       "options": [
-        "Impartir asignaturas en idiomas desconocidos",
-        "Separar físicamente a los alumnos según su rama de bachillerato",
-        "Estudiar únicamente una disciplina durante todo el curso escolar",
-        "La conexión y articulación sinérgica de saberes de dos o más materias para resolver un reto complejo del entorno"
+        "Que combina un marco común con decisiones contextualizadas",
+        "Que admite concreción progresiva según contexto y necesidades del alumnado",
+        "Que exige interpretar la norma para convertirla en propuestas didácticas viables",
+        "Que permite prescindir de criterios y competencias porque todo queda a elección del centro"
       ],
       "correct": 3,
-      "explanation": "La interdisciplinaridad supera la fragmentación del saber y ayuda a comprender la complejidad de los problemas reales."
+      "explanation": "Abierto y flexible no significa ausencia de regulación: la concreción se realiza dentro de referentes prescriptivos."
     },
     {
       "id": 269,
       "topic": 2,
       "topicName": "Tema 2: Estructura del Diseño Curricular",
-      "question": "¿Qué representa la competencia en comunicación lingüística (CCL)? (Aspecto #69)",
+      "question": "Una administración fija elementos comunes y el centro decide su organización didáctica. ¿Qué tensión resuelve el modelo?",
       "options": [
-        "La memorización de las reglas de acentuación del siglo XVIII",
-        "La obligación de hablar tres idiomas antes de los 5 años",
-        "La capacidad de interactuar de forma oral, escrita, signada o multimodal de manera coherente y crítica en diversos ámbitos",
-        "El conocimiento exclusivo de la gramática latina"
+        "Equilibra homologación del sistema y autonomía para contextualizar la enseñanza",
+        "Elimina la diferencia entre currículo oficial y currículo real",
+        "Convierte todas las aulas en idénticas para garantizar resultados",
+        "Traslada toda responsabilidad curricular a las familias"
       ],
-      "correct": 2,
-      "explanation": "La CCL permite expresar e interpretar conceptos, pensamientos y opiniones de forma constructiva en contextos sociales."
+      "correct": 0,
+      "explanation": "El marco común asegura coherencia y la autonomía permite responder al contexto sin romper los mínimos."
     },
     {
       "id": 270,
       "topic": 2,
       "topicName": "Tema 2: Estructura del Diseño Curricular",
-      "question": "¿Qué persigue la competencia ciudadana (CC) en el currículo LOMLOE? (Aspecto #70)",
+      "question": "¿Qué opción representa mejor la evaluación auténtica?",
       "options": [
-        "Ser funcionario del Estado a los 18 años",
-        "Vivir en una ciudad con más de 100.000 habitantes",
-        "Participar de forma responsable y comprometida en la vida cívica y social, valorando la democracia, igualdad y derechos humanos",
-        "Aprender a votar por un partido político determinado de forma obligatoria"
+        "Repetir definiciones descontextualizadas hasta alcanzar una velocidad mínima",
+        "Resolver una tarea contextualizada y justificar decisiones mediante un desempeño observable",
+        "Elegir respuestas sin explicar el razonamiento para evitar subjetividad",
+        "Calificar exclusivamente la asistencia como indicador de compromiso"
       ],
-      "correct": 2,
-      "explanation": "La CC capacita al alumnado como ciudadano consciente, activo y comprometido con la convivencia democrática."
+      "correct": 1,
+      "explanation": "La autenticidad conecta la evidencia con actuaciones significativas y transferibles, sin excluir la posibilidad de criterios claros."
     },
     {
       "id": 271,
       "topic": 2,
       "topicName": "Tema 2: Estructura del Diseño Curricular",
-      "question": "¿Qué papel desempeñan los 'principios pedagógicos' de etapa en la ESO según el Real Decreto 217/2022? (Aspecto #71)",
+      "question": "Un criterio pide analizar fuentes y argumentar; la tarea solo solicita copiar un resumen. ¿Qué conclusión es correcta?",
       "options": [
-        "Orientar la acción docente priorizando la educación inclusiva, personalización, aprendizaje por competencias y DUA",
-        "Fijar el precio máximo de los bolígrafos",
-        "Prohibir que los profesores expliquen en la pizarra",
-        "Obligar a hacer 4 exámenes diarios a los alumnos"
+        "El criterio debe eliminarse porque una tarea sencilla no puede evaluarlo",
+        "La tarea es válida porque todo resumen demuestra automáticamente pensamiento crítico",
+        "Hay desalineación: la tarea no ofrece evidencia suficiente del análisis ni de la argumentación",
+        "La copia es interdisciplinar al poder hacerse en cualquier materia"
       ],
-      "correct": 0,
-      "explanation": "Los principios pedagógicos garantizan que la práctica educativa atienda la diversidad y promueva el pensamiento crítico."
+      "correct": 2,
+      "explanation": "La evidencia debe activar y hacer observable el desempeño requerido; copiar no permite inferirlo."
     },
     {
       "id": 272,
       "topic": 2,
       "topicName": "Tema 2: Estructura del Diseño Curricular",
-      "question": "¿En qué consiste el principio de 'Diseño Universal para el Aprendizaje' (DUA)? (Aspecto #72)",
+      "question": "¿Qué combinación evita el reduccionismo de “competencia = actividad”?",
       "options": [
-        "En comprar pupitres idénticos para todos los colegios del mundo",
-        "En obligar a todos los alumnos a llevar el mismo uniforme escolar",
-        "En impartir una única asignatura para todas las edades",
-        "En diseñar actividades y recursos accesibles desde el inicio con múltiples formas de motivación, representación y expresión"
+        "La competencia y la actividad son idénticas si participan varios alumnos",
+        "La competencia es una ficha y la actividad es la calificación obtenida",
+        "La competencia es un contenido y la actividad es un descriptor operativo",
+        "La competencia es un desempeño movilizado; la actividad es solo el contexto o medio para evidenciarlo"
       ],
       "correct": 3,
-      "explanation": "El DUA busca eliminar barreras de aprendizaje ofreciendo múltiples formas de compromiso, representación y acción."
+      "explanation": "Una actividad puede favorecer una competencia, pero no la agota: importan desempeño, contexto y criterios."
     },
     {
       "id": 273,
       "topic": 2,
       "topicName": "Tema 2: Estructura del Diseño Curricular",
-      "question": "¿Qué son las 'Adaptaciones Curriculares Significativas' (ACS) dentro del 4º nivel de concreción? (Aspecto #73)",
+      "question": "¿Por qué conviene explicitar criterios antes de una tarea compleja?",
       "options": [
-        "Modificaciones que afectan a las competencias específicas, criterios de evaluación y objetivos nucleares de la etapa",
-        "Comprar una mochila más grande para los libros",
-        "Cambiar el color del bolígrafo con el que se corrigen los exámenes",
-        "Hacer los exámenes 5 minutos más tarde en el aula"
+        "Porque orientan la planificación, hacen transparentas las expectativas y permiten interpretar evidencias",
+        "Porque convierten una situación abierta en un examen de respuesta única",
+        "Porque eliminan la necesidad de retroalimentación durante el proceso",
+        "Porque garantizan la misma solución final para todo el alumnado"
       ],
       "correct": 0,
-      "explanation": "Las ACS modifican elementos prescriptivos del currículo y se reservan para alumnado con necesidades educativas especiales."
+      "explanation": "Los criterios aportan un referente compartido para diseñar, comunicar y valorar sin imponer una única respuesta."
     },
     {
       "id": 274,
       "topic": 2,
       "topicName": "Tema 2: Estructura del Diseño Curricular",
-      "question": "¿Qué diferencia hay entre evaluación 'formativa' y evaluación 'sumativa' en el currículo? (Aspecto #74)",
+      "question": "Una propuesta usa un producto final atractivo, pero ninguna actividad trabaja los saberes seleccionados. ¿Qué falla?",
       "options": [
-        "La formativa regula y mejora el proceso de aprendizaje de forma continua, mientras que la sumativa certifica el resultado final alcanzado",
-        "La sumativa la hace el tutor y la formativa el inspector",
-        "La formativa pone nota numérica y la sumativa no",
-        "La formativa se hace en verano y la sumativa en invierno"
+        "La dimensión sociológica, porque todo producto debe ser comunitario",
+        "La coherencia interna entre saberes, actividades, competencias y criterios",
+        "La flexibilidad, porque una actividad atractiva no puede formar parte del currículo",
+        "El currículo oculto, porque los saberes explícitos siempre son insuficientes"
       ],
-      "correct": 0,
-      "explanation": "La LOMLOE enfatiza la evaluación formativa y criterial como herramienta de aprendizaje para el propio estudiante."
+      "correct": 1,
+      "explanation": "La coherencia exige que las tareas movilicen realmente los saberes y desempeños que después se pretenden valorar."
     },
     {
       "id": 275,
       "topic": 2,
       "topicName": "Tema 2: Estructura del Diseño Curricular",
-      "question": "¿Qué función cumple la 'rúbrica de evaluación' en el marco competencial? (Aspecto #75)",
+      "question": "¿Qué formulación respeta mejor el papel de los saberes básicos?",
       "options": [
-        "Describir de forma graduada y transparente los niveles de desempeño observables en base a los criterios de evaluación",
-        "Guardar las llaves del aula de informática",
-        "Firmar el contrato de trabajo de los docentes",
-        "Servir de recibo de pago de las tasas escolares"
+        "Son únicamente datos que deben aparecer literalmente en el examen",
+        "Son metas finales independientes que sustituyen el perfil de salida",
+        "Son recursos culturales que se seleccionan y movilizan al desarrollar competencias específicas",
+        "Son normas de convivencia comunes a todas las materias"
       ],
-      "correct": 0,
-      "explanation": "Las rúbricas objetivan la evaluación formativa ofreciendo descriptores cualitativos claros para orientar la mejora del alumno."
+      "correct": 2,
+      "explanation": "Los saberes aportan recursos conceptuales, procedimentales y actitudinales, pero adquieren sentido al movilizarse en desempeños."
     },
     {
       "id": 276,
       "topic": 2,
       "topicName": "Tema 2: Estructura del Diseño Curricular",
-      "question": "¿Qué se entiende por 'interdisciplinaridad' en el diseño de situaciones de aprendizaje? (Aspecto #76)",
+      "question": "Un centro decide que todos los grupos trabajarán el mismo reto, con apoyos distintos según necesidades. ¿Qué principio combina?",
       "options": [
-        "La conexión y articulación sinérgica de saberes de dos o más materias para resolver un reto complejo del entorno",
-        "Estudiar únicamente una disciplina durante todo el curso escolar",
-        "Impartir asignaturas en idiomas desconocidos",
-        "Separar físicamente a los alumnos según su rama de bachillerato"
+        "Currículo nulo y evaluación exclusivamente sumativa",
+        "Homogeneización metodológica absoluta y currículo oculto",
+        "Individualización de criterios y eliminación de referentes compartidos",
+        "Coherencia curricular común y respuesta inclusiva a la diversidad"
       ],
-      "correct": 0,
-      "explanation": "La interdisciplinaridad supera la fragmentación del saber y ayuda a comprender la complejidad de los problemas reales."
+      "correct": 3,
+      "explanation": "Compartir propósito y referentes no impide ajustar apoyos, accesos o formas de expresión."
     },
     {
       "id": 277,
       "topic": 2,
       "topicName": "Tema 2: Estructura del Diseño Curricular",
-      "question": "¿Qué representa la competencia en comunicación lingüística (CCL)? (Aspecto #77)",
+      "question": "¿Qué afirmación sobre el aprendizaje permanente es compatible con el perfil competencial?",
       "options": [
-        "El conocimiento exclusivo de la gramática latina",
-        "La capacidad de interactuar de forma oral, escrita, signada o multimodal de manera coherente y crítica en diversos ámbitos",
-        "La memorización de las reglas de acentuación del siglo XVIII",
-        "La obligación de hablar tres idiomas antes de los 5 años"
+        "Las competencias deben permitir transferir aprendizajes y seguir aprendiendo en contextos cambiantes",
+        "El perfil se alcanza acumulando una lista cerrada de datos sin aplicación",
+        "La transferencia solo corresponde a la formación profesional, no a la enseñanza básica",
+        "Aprender a aprender consiste únicamente en estudiar más horas"
       ],
-      "correct": 1,
-      "explanation": "La CCL permite expresar e interpretar conceptos, pensamientos y opiniones de forma constructiva en contextos sociales."
+      "correct": 0,
+      "explanation": "La transferencia y la autonomía para continuar aprendiendo son rasgos del desarrollo competencial; no equivalen a acumular datos."
     },
     {
       "id": 278,
       "topic": 2,
       "topicName": "Tema 2: Estructura del Diseño Curricular",
-      "question": "¿Qué persigue la competencia ciudadana (CC) en el currículo LOMLOE? (Aspecto #78)",
+      "question": "Una situación de aprendizaje incluye debate, producto y reflexión, pero no indica cómo se juzgará. ¿Qué elemento falta?",
       "options": [
-        "Aprender a votar por un partido político determinado de forma obligatoria",
-        "Participar de forma responsable y comprometida en la vida cívica y social, valorando la democracia, igualdad y derechos humanos",
-        "Vivir en una ciudad con más de 100.000 habitantes",
-        "Ser funcionario del Estado a los 18 años"
+        "Más actividades, porque una situación válida debe tener al menos diez tareas",
+        "Criterios e instrumentos que hagan observable y justificable la evaluación del desempeño",
+        "Un currículo oculto explícito que sustituya los criterios normativos",
+        "Una calificación previa para orientar las respuestas del alumnado"
       ],
       "correct": 1,
-      "explanation": "La CC capacita al alumnado como ciudadano consciente, activo y comprometido con la convivencia democrática."
+      "explanation": "La actividad puede ser rica, pero necesita referentes e instrumentos para convertir evidencias en una valoración justificable."
     },
     {
       "id": 279,
       "topic": 2,
       "topicName": "Tema 2: Estructura del Diseño Curricular",
-      "question": "¿Qué papel desempeñan los 'principios pedagógicos' de etapa en la ESO según el Real Decreto 217/2022? (Aspecto #79)",
+      "question": "¿Qué decisión es más coherente con la evaluación formativa?",
       "options": [
-        "Prohibir que los profesores expliquen en la pizarra",
-        "Obligar a hacer 4 exámenes diarios a los alumnos",
-        "Orientar la acción docente priorizando la educación inclusiva, personalización, aprendizaje por competencias y DUA",
-        "Fijar el precio máximo de los bolígrafos"
+        "Esperar al final de curso para comunicar cualquier dificultad detectada",
+        "Restar puntos sin informar del criterio para aumentar la exigencia",
+        "Usar un error argumentado para ajustar la enseñanza y permitir una nueva demostración",
+        "Comparar públicamente al grupo antes de ofrecer retroalimentación"
       ],
       "correct": 2,
-      "explanation": "Los principios pedagógicos garantizan que la práctica educativa atienda la diversidad y promueva el pensamiento crítico."
+      "explanation": "La evaluación formativa convierte la evidencia y el error en información para regular enseñanza y aprendizaje."
     },
     {
       "id": 280,
       "topic": 2,
       "topicName": "Tema 2: Estructura del Diseño Curricular",
-      "question": "¿En qué consiste el principio de 'Diseño Universal para el Aprendizaje' (DUA)? (Aspecto #80)",
+      "question": "¿Cuál es la diferencia entre calificar y evaluar en un enfoque competencial?",
       "options": [
-        "En comprar pupitres idénticos para todos los colegios del mundo",
-        "En diseñar actividades y recursos accesibles desde el inicio con múltiples formas de motivación, representación y expresión",
-        "En obligar a todos los alumnos a llevar el mismo uniforme escolar",
-        "En impartir una única asignatura para todas las edades"
+        "Calificar es retroalimentar durante el proceso; evaluar es ordenar al alumnado",
+        "Evaluar consiste solo en poner números; calificar consiste en observar procesos",
+        "Evaluar y calificar son idénticos y no requieren criterios explícitos",
+        "Evaluar implica recoger e interpretar evidencias; calificar comunica una decisión resumida"
       ],
-      "correct": 1,
-      "explanation": "El DUA busca eliminar barreras de aprendizaje ofreciendo múltiples formas de compromiso, representación y acción."
+      "correct": 3,
+      "explanation": "La evaluación es un proceso amplio de recogida e interpretación; la calificación es una síntesis comunicativa de un juicio."
     },
     {
       "id": 301,
       "topic": 3,
       "topicName": "Tema 3: Organización y Funcionamiento",
-      "question": "¿Quiénes forman parte de la 'Comunidad Educativa' en un centro de educación secundaria?",
+      "question": "¿Qué definición incluye a todos los agentes implicados en el proceso formativo?",
       "options": [
-        "El Ministerio de Educación y la Delegación del Gobierno",
-        "Únicamente los profesores con plaza definitiva de funcionario",
-        "Exclusivamente el equipo directivo del instituto",
-        "Profesorado, alumnado, familias/tutores legales, personal de administración y servicios (PAS) y administración local"
+        "Los sectores vinculados a la vida educativa del centro",
+        "Solo el profesorado con destino definitivo",
+        "Únicamente quienes tienen voto en órganos colegiados",
+        "Cualquier entidad externa sin relación educativa"
       ],
-      "correct": 3,
-      "explanation": "La comunidad educativa engloba a todos los estamentos y agentes implicados en el proceso formativo."
+      "correct": 0,
+      "explanation": "La respuesta correcta se ajusta a la función propia de comunidad educativa; las restantes atribuyen competencias de otros órganos o confunden participación, coordinación y gestión."
     },
     {
       "id": 302,
       "topic": 3,
       "topicName": "Tema 3: Organización y Funcionamiento",
-      "question": "¿Cuáles son los dos órganos de gobierno COLEGIADOS en un centro docente público?",
+      "question": "Al comparar funciones próximas, comunidad educativa? ¿Qué definición incluye a todos los agentes implicados en el proceso formativo?",
       "options": [
-        "El Consejo Escolar y el Claustro de Profesores",
-        "La Asociación de Madres y Padres (AMPA) y el Delegado de Curso",
-        "La Dirección y la Jefatura de Estudios",
-        "La COCOPE y el Departamento de Orientación"
+        "Solo el profesorado con destino definitivo en este caso 1.",
+        "Únicamente quienes tienen voto en órganos colegiados en este caso 1.",
+        "Cualquier entidad externa sin relación educativa en este caso 1.",
+        "Los sectores vinculados a la vida educativa del centro en este caso 1."
       ],
-      "correct": 0,
-      "explanation": "Los órganos colegiados garantizan la representación democrática y técnica en la gestión del centro."
+      "correct": 3,
+      "explanation": "La respuesta correcta se ajusta a la función propia de comunidad educativa; las restantes atribuyen competencias de otros órganos o confunden participación, coordinación y gestión."
     },
     {
       "id": 303,
       "topic": 3,
       "topicName": "Tema 3: Organización y Funcionamiento",
-      "question": "¿Qué cargos unipersonales integran el Equipo Directivo del centro?",
+      "question": "Ante una situación de centro, comunidad educativa? ¿Qué definición incluye a todos los agentes implicados en el proceso formativo?",
       "options": [
-        "Director, Presidente del AMPA y Representante Municipal",
-        "Inspector de Zona, Conserje Mayor y Jefe de Departamento",
-        "Claustro entero y Comisión de Convivencia",
-        "Dirección, Vicedirección, Jefatura de Estudios y Secretaría"
+        "Únicamente quienes tienen voto en órganos colegiados en este caso 2.",
+        "Cualquier entidad externa sin relación educativa en este caso 2.",
+        "Los sectores vinculados a la vida educativa del centro en este caso 2.",
+        "Solo el profesorado con destino definitivo en este caso 2."
       ],
-      "correct": 3,
-      "explanation": "Los órganos unipersonales de gobierno forman el equipo directivo que coordina el funcionamiento del centro."
+      "correct": 2,
+      "explanation": "La respuesta correcta se ajusta a la función propia de comunidad educativa; las restantes atribuyen competencias de otros órganos o confunden participación, coordinación y gestión."
     },
     {
       "id": 304,
       "topic": 3,
       "topicName": "Tema 3: Organización y Funcionamiento",
-      "question": "¿Cuál es una competencia propia e indelegable de la Jefatura de Estudios?",
+      "question": "¿Cuál es la respuesta más precisa sobre comunidad educativa? ¿Qué definición incluye a todos los agentes implicados en el proceso formativo?",
       "options": [
-        "Coordinar las actividades académicas, confeccionar los horarios de profesores y alumnos y coordinar la convivencia",
-        "Comprar los alimentos de la cafetería escolar",
-        "Firmar los convenios de obras con el Ayuntamiento",
-        "Aprobar el balance económico de ingresos del instituto"
+        "Cualquier entidad externa sin relación educativa en este caso 3.",
+        "Los sectores vinculados a la vida educativa del centro en este caso 3.",
+        "Solo el profesorado con destino definitivo en este caso 3.",
+        "Únicamente quienes tienen voto en órganos colegiados en este caso 3."
       ],
-      "correct": 0,
-      "explanation": "La Jefatura de Estudios es el corazón organizativo académico, disciplinario y pedagógico del centro."
+      "correct": 1,
+      "explanation": "La respuesta correcta se ajusta a la función propia de comunidad educativa; las restantes atribuyen competencias de otros órganos o confunden participación, coordinación y gestión."
     },
     {
       "id": 305,
       "topic": 3,
       "topicName": "Tema 3: Organización y Funcionamiento",
-      "question": "¿Cuál es la función nuclear de la Secretaría del centro docente?",
+      "question": "Una decisión afecta a familias, alumnado, profesorado y PAS. ¿Qué órgano canaliza su representación?",
       "options": [
-        "La gestión administrativa y económica, inventario, archivo, expedición de certificaciones y levantar actas oficiales",
-        "Nombrar a los profesores sustitutos de la bolsa",
-        "Supervisar los exámenes de educación física de 4º de ESO",
-        "Decidir quién promociona de curso en las juntas de evaluación"
+        "El Consejo Escolar, por integrar los distintos sectores",
+        "El Claustro, por reunir al personal docente",
+        "La COCOPE, por coordinar los departamentos",
+        "La Junta de Delegados, por representar a las familias"
       ],
       "correct": 0,
-      "explanation": "La Secretaría custodia los expedientes, certifica la documentación oficial y administra los recursos económicos."
+      "explanation": "La respuesta correcta se ajusta a la función propia de Consejo Escolar; las restantes atribuyen competencias de otros órganos o confunden participación, coordinación y gestión."
     },
     {
       "id": 306,
       "topic": 3,
       "topicName": "Tema 3: Organización y Funcionamiento",
-      "question": "¿Qué papel cumple el Secretario/a del centro en las reuniones del Consejo Escolar?",
+      "question": "Al comparar funciones próximas, Consejo Escolar? ¿Qué órgano canaliza su representación?",
       "options": [
-        "No tiene permiso para entrar a la sala de reuniones",
-        "Actúa como secretario del órgano colegiado, con voz para informar y levantar acta, pero sin voto propio",
-        "Preside y clausura la sesión del consejo",
-        "Tiene doble voto decisorio de calidad sobre el director"
+        "El Claustro, por reunir al personal docente en este caso 1.",
+        "La COCOPE, por coordinar los departamentos en este caso 1.",
+        "La Junta de Delegados, por representar a las familias en este caso 1.",
+        "El Consejo Escolar, por integrar los distintos sectores en este caso 1."
       ],
-      "correct": 1,
-      "explanation": "El Secretario asiste para levantar acta y dar fe de los acuerdos, sin derecho a voto en calidad de secretario."
+      "correct": 3,
+      "explanation": "La respuesta correcta se ajusta a la función propia de Consejo Escolar; las restantes atribuyen competencias de otros órganos o confunden participación, coordinación y gestión."
     },
     {
       "id": 307,
       "topic": 3,
       "topicName": "Tema 3: Organización y Funcionamiento",
-      "question": "¿Cuál de las siguientes es una competencia EXCLUSIVA del Claustro de Profesores?",
+      "question": "Ante una situación de centro, Consejo Escolar? ¿Qué órgano canaliza su representación?",
       "options": [
-        "Contratar la empresa de limpieza del edificio",
-        "Aprobar y evaluar la concreción del currículo y todos los aspectos educativos de los proyectos y de la PGA",
-        "Aprobar las cuentas bancarias anuales del instituto",
-        "Fijar el precio del menú del comedor escolar"
+        "La COCOPE, por coordinar los departamentos en este caso 2.",
+        "La Junta de Delegados, por representar a las familias en este caso 2.",
+        "El Consejo Escolar, por integrar los distintos sectores en este caso 2.",
+        "El Claustro, por reunir al personal docente en este caso 2."
       ],
-      "correct": 1,
-      "explanation": "El Claustro es el órgano puramente técnico-pedagógico de los docentes y aprueba la concreción del currículo."
+      "correct": 2,
+      "explanation": "La respuesta correcta se ajusta a la función propia de Consejo Escolar; las restantes atribuyen competencias de otros órganos o confunden participación, coordinación y gestión."
     },
     {
       "id": 308,
       "topic": 3,
       "topicName": "Tema 3: Organización y Funcionamiento",
-      "question": "¿Qué órgano de coordinación docente articula las programaciones didácticas de todos los departamentos en secundaria?",
+      "question": "¿Cuál es la respuesta más precisa sobre Consejo Escolar? ¿Qué órgano canaliza su representación?",
       "options": [
-        "El AMPA",
-        "El Consejo Escolar",
-        "La Junta de Delegados de Alumnos",
-        "La Comisión de Coordinación Pedagógica (COCOPE) / Didáctica"
+        "La Junta de Delegados, por representar a las familias en este caso 3.",
+        "El Consejo Escolar, por integrar los distintos sectores en este caso 3.",
+        "El Claustro, por reunir al personal docente en este caso 3.",
+        "La COCOPE, por coordinar los departamentos en este caso 3."
       ],
-      "correct": 3,
-      "explanation": "La COCOPE integra al equipo directivo, jefes de departamento y orientación para coordinar el proyecto curricular."
+      "correct": 1,
+      "explanation": "La respuesta correcta se ajusta a la función propia de Consejo Escolar; las restantes atribuyen competencias de otros órganos o confunden participación, coordinación y gestión."
     },
     {
       "id": 309,
       "topic": 3,
       "topicName": "Tema 3: Organización y Funcionamiento",
-      "question": "¿Quién tiene la potestad legal de nombrar a los Jefes de Departamento Didáctico?",
+      "question": "¿Qué órgano aborda la concreción curricular y los aspectos educativos de la PGA?",
       "options": [
-        "Los alumnos de bachillerato por votación a mano alzada",
-        "El Director/a del centro docente, a propuesta de los docentes del departamento",
-        "El Inspector comarcal directamente sin consultar al centro",
-        "El Ministro de Educación mediante Real Decreto"
+        "El Claustro, como órgano técnico-pedagógico",
+        "La Secretaría, como responsable documental",
+        "La Junta de Delegados, como cauce estudiantil",
+        "La administración local, como agente comunitario"
       ],
-      "correct": 1,
-      "explanation": "El Director nombra formalmente a los jefes de departamento entre los funcionarios que forman parte del mismo."
+      "correct": 0,
+      "explanation": "La respuesta correcta se ajusta a la función propia de Claustro; las restantes atribuyen competencias de otros órganos o confunden participación, coordinación y gestión."
     },
     {
       "id": 310,
       "topic": 3,
       "topicName": "Tema 3: Organización y Funcionamiento",
-      "question": "¿Qué función tiene encomendada el Departamento de Orientación en un IES?",
+      "question": "Al comparar funciones próximas, Claustro? ¿Qué órgano aborda la concreción curricular y los aspectos educativos de la PGA?",
       "options": [
-        "Impartir clases de dibujo técnico a grupos de diversificación",
-        "Asesorar en atención a la diversidad, planes de inclusión, evaluaciones psicopedagógicas y orientación vocacional",
-        "Arreglar las averías del cableado eléctrico del centro",
-        "Cobrar las tasas de matrícula escolar"
+        "La Secretaría, como responsable documental en este caso 1.",
+        "La Junta de Delegados, como cauce estudiantil en este caso 1.",
+        "La administración local, como agente comunitario en este caso 1.",
+        "El Claustro, como órgano técnico-pedagógico en este caso 1."
       ],
-      "correct": 1,
-      "explanation": "El Departamento de Orientación es el eje del asesoramiento psicopedagógico, la tutoría y la respuesta a la diversidad."
+      "correct": 3,
+      "explanation": "La respuesta correcta se ajusta a la función propia de Claustro; las restantes atribuyen competencias de otros órganos o confunden participación, coordinación y gestión."
     },
     {
       "id": 311,
       "topic": 3,
       "topicName": "Tema 3: Organización y Funcionamiento",
-      "question": "¿Qué requisito imprescindible se exige para aspirar a Director/a de un centro público?",
+      "question": "Ante una situación de centro, Claustro? ¿Qué órgano aborda la concreción curricular y los aspectos educativos de la PGA?",
       "options": [
-        "Tener menos de 35 años en el momento de la convocatoria",
-        "Tener un título universitario en Ciencias Económicas",
-        "Ser funcionario docente de carrera con mínimo 5 años de antigüedad y haber superado el curso de formación directiva",
-        "Haber nacido en el mismo municipio donde está el centro escolar"
+        "La Junta de Delegados, como cauce estudiantil en este caso 2.",
+        "La administración local, como agente comunitario en este caso 2.",
+        "El Claustro, como órgano técnico-pedagógico en este caso 2.",
+        "La Secretaría, como responsable documental en este caso 2."
       ],
       "correct": 2,
-      "explanation": "La normativa exige ser funcionario de carrera con antigüedad y formación acreditada en competencias directivas."
+      "explanation": "La respuesta correcta se ajusta a la función propia de Claustro; las restantes atribuyen competencias de otros órganos o confunden participación, coordinación y gestión."
     },
     {
       "id": 312,
       "topic": 3,
       "topicName": "Tema 3: Organización y Funcionamiento",
-      "question": "¿Cómo está formada la Comisión de Selección para el nombramiento del Director/a?",
+      "question": "¿Cuál es la respuesta más precisa sobre Claustro? ¿Qué órgano aborda la concreción curricular y los aspectos educativos de la PGA?",
       "options": [
-        "Exclusivamente por las familias del alumnado",
-        "Exclusivamente por inspectores de educación",
-        "Por los concejales del partido político gobernante",
-        "Por representantes del centro educativo (profesorado y resto del Consejo Escolar) y representantes de la Administración educativa"
+        "La administración local, como agente comunitario en este caso 3.",
+        "El Claustro, como órgano técnico-pedagógico en este caso 3.",
+        "La Secretaría, como responsable documental en este caso 3.",
+        "La Junta de Delegados, como cauce estudiantil en este caso 3."
       ],
-      "correct": 3,
-      "explanation": "La comisión tiene una estructura representativa paritaria/ponderada entre la comunidad escolar y la administración."
+      "correct": 1,
+      "explanation": "La respuesta correcta se ajusta a la función propia de Claustro; las restantes atribuyen competencias de otros órganos o confunden participación, coordinación y gestión."
     },
     {
       "id": 313,
       "topic": 3,
       "topicName": "Tema 3: Organización y Funcionamiento",
-      "question": "¿Qué singularidad define a un Centro Integrado de Formación Profesional (CIFP)?",
+      "question": "Una familia necesita una certificación y el centro debe actualizar su inventario. ¿Quién tramita ambas tareas?",
       "options": [
-        "Solo admite a estudiantes universitarios de postgrado",
-        "Solo imparte clases en horario nocturno a mayores de 65 años",
-        "Imparte conjuntamente la FP del sistema educativo (títulos oficiales) y la FP para el empleo (certificados profesionales)",
-        "Es un colegio privado sin reconocimiento del Ministerio"
+        "La Secretaría, por su función administrativa",
+        "La Jefatura, por organizar la actividad académica",
+        "La Vicedirección, por coordinar actividades",
+        "El Departamento de Orientación, por conocer al alumnado"
       ],
-      "correct": 2,
-      "explanation": "Los CIFP aúnan todas las ramas formativas de FP inicial y para el empleo en estrecha relación con el entorno laboral."
+      "correct": 0,
+      "explanation": "La respuesta correcta se ajusta a la función propia de Secretaría; las restantes atribuyen competencias de otros órganos o confunden participación, coordinación y gestión."
     },
     {
       "id": 314,
       "topic": 3,
       "topicName": "Tema 3: Organización y Funcionamiento",
-      "question": "¿Quién sustituye en primera instancia al Director/a en caso de enfermedad, ausencia o vacante?",
+      "question": "Al comparar funciones próximas, Secretaría? ¿Quién tramita ambas tareas?",
       "options": [
-        "El profesor más joven del claustro",
-        "El representante del Ayuntamiento en el Consejo Escolar",
-        "El conserje principal del edificio",
-        "El Vicedirector/a (o en su defecto el Jefe/a de Estudios)"
+        "La Jefatura, por organizar la actividad académica en este caso 1.",
+        "La Vicedirección, por coordinar actividades en este caso 1.",
+        "El Departamento de Orientación, por conocer al alumnado en este caso 1.",
+        "La Secretaría, por su función administrativa en este caso 1."
       ],
       "correct": 3,
-      "explanation": "La normativa de funcionamiento establece un orden formal de suplencia: Vicedirección, Jefatura de Estudios y Secretaría."
+      "explanation": "La respuesta correcta se ajusta a la función propia de Secretaría; las restantes atribuyen competencias de otros órganos o confunden participación, coordinación y gestión."
     },
     {
       "id": 315,
       "topic": 3,
       "topicName": "Tema 3: Organización y Funcionamiento",
-      "question": "¿Quién aprueba formalmente el Reglamento de Régimen Interior (RRI / ROF) de un centro público?",
+      "question": "Ante una situación de centro, Secretaría? ¿Quién tramita ambas tareas?",
       "options": [
-        "El Consejo Escolar del centro",
-        "El Director de forma unipersonal y secreta",
-        "El Claustro de Profesores",
-        "El sindicato de profesores con más votos"
+        "La Vicedirección, por coordinar actividades en este caso 2.",
+        "El Departamento de Orientación, por conocer al alumnado en este caso 2.",
+        "La Secretaría, por su función administrativa en este caso 2.",
+        "La Jefatura, por organizar la actividad académica en este caso 2."
       ],
-      "correct": 0,
-      "explanation": "El Consejo Escolar es el órgano soberano que aprueba las normas de convivencia y organización del centro escolar."
+      "correct": 2,
+      "explanation": "La respuesta correcta se ajusta a la función propia de Secretaría; las restantes atribuyen competencias de otros órganos o confunden participación, coordinación y gestión."
     },
     {
       "id": 316,
       "topic": 3,
       "topicName": "Tema 3: Organización y Funcionamiento",
-      "question": "¿Cuál es el papel del Claustro de Profesores respecto a la Concreción Curricular?",
+      "question": "¿Cuál es la respuesta más precisa sobre Secretaría? ¿Quién tramita ambas tareas?",
       "options": [
-        "Pagar las facturas de agua y luz",
-        "Designar al conserje de noche",
-        "Elaborar el presupuesto económico de calefacción",
-        "Aprobar y evaluar la Concreción del Currículo y todos los aspectos educativos de la programación del centro"
+        "El Departamento de Orientación, por conocer al alumnado en este caso 3.",
+        "La Secretaría, por su función administrativa en este caso 3.",
+        "La Jefatura, por organizar la actividad académica en este caso 3.",
+        "La Vicedirección, por coordinar actividades en este caso 3."
       ],
-      "correct": 3,
-      "explanation": "El Claustro ostenta la competencia técnica de aprobar los aspectos educativos y curriculares del centro."
+      "correct": 1,
+      "explanation": "La respuesta correcta se ajusta a la función propia de Secretaría; las restantes atribuyen competencias de otros órganos o confunden participación, coordinación y gestión."
     },
     {
       "id": 317,
       "topic": 3,
       "topicName": "Tema 3: Organización y Funcionamiento",
-      "question": "¿Cuál es una función esencial del Profesor/a Tutor de un grupo-clase?",
+      "question": "Se detectan solapamientos en grupos, guardias y horarios. ¿Qué cargo debe coordinar la solución?",
       "options": [
-        "Impartir todas las materias del curso él solo",
-        "Cobrar el dinero de las excursiones directamente",
-        "Coordinar al equipo docente del grupo, presidir las sesiones de evaluación y canalizar la comunicación con familias",
-        "Poner las notas de todas las materias aunque no sea su especialidad"
+        "La Jefatura de Estudios, por organizar la actividad académica",
+        "La Secretaría, por archivar los horarios aprobados",
+        "El Consejo Escolar, por representar a las familias",
+        "La COCOPE, por coordinar criterios curriculares"
       ],
-      "correct": 2,
-      "explanation": "El tutor es la figura de enlace y coordinación académica, personal y familiar del grupo de alumnos a su cargo."
+      "correct": 0,
+      "explanation": "La respuesta correcta se ajusta a la función propia de Jefatura de Estudios; las restantes atribuyen competencias de otros órganos o confunden participación, coordinación y gestión."
     },
     {
       "id": 318,
       "topic": 3,
       "topicName": "Tema 3: Organización y Funcionamiento",
-      "question": "¿Quién preside con voto de calidad las sesiones del Claustro de Profesores y del Consejo Escolar?",
+      "question": "Al comparar funciones próximas, Jefatura de Estudios? ¿Qué cargo debe coordinar la solución?",
       "options": [
-        "El concejal de educación",
-        "El delegado de 2º de bachillerato",
-        "El Director/a del centro educativo",
-        "El profesor de mayor antigüedad"
+        "La Secretaría, por archivar los horarios aprobados en este caso 1.",
+        "El Consejo Escolar, por representar a las familias en este caso 1.",
+        "La COCOPE, por coordinar criterios curriculares en este caso 1.",
+        "La Jefatura de Estudios, por organizar la actividad académica en este caso 1."
       ],
-      "correct": 2,
-      "explanation": "La Dirección convoca, preside y modera las reuniones de ambos órganos de gobierno dirimiendo los empates."
+      "correct": 3,
+      "explanation": "La respuesta correcta se ajusta a la función propia de Jefatura de Estudios; las restantes atribuyen competencias de otros órganos o confunden participación, coordinación y gestión."
     },
     {
       "id": 319,
       "topic": 3,
       "topicName": "Tema 3: Organización y Funcionamiento",
-      "question": "¿Qué función cumple la Comisión de Convivencia dentro del Consejo Escolar?",
+      "question": "Ante una situación de centro, Jefatura de Estudios? ¿Qué cargo debe coordinar la solución?",
       "options": [
-        "Elegir el uniforme del personal docente",
-        "Organizar los banquetes y fiestas de graduación",
-        "Informar sobre la aplicación de las normas de convivencia, seguimiento del plan de convivencia y mediación de conflictos",
-        "Calificar los exámenes de selectividad"
+        "El Consejo Escolar, por representar a las familias en este caso 2.",
+        "La COCOPE, por coordinar criterios curriculares en este caso 2.",
+        "La Jefatura de Estudios, por organizar la actividad académica en este caso 2.",
+        "La Secretaría, por archivar los horarios aprobados en este caso 2."
       ],
       "correct": 2,
-      "explanation": "La Comisión de Convivencia vela por un clima escolar pacífico y fomenta vías restaurativas ante conflictos graves."
+      "explanation": "La respuesta correcta se ajusta a la función propia de Jefatura de Estudios; las restantes atribuyen competencias de otros órganos o confunden participación, coordinación y gestión."
     },
     {
       "id": 320,
       "topic": 3,
       "topicName": "Tema 3: Organización y Funcionamiento",
-      "question": "¿Qué decreto del Consell regula la organización y funcionamiento de los IES públicos en la Comunitat Valenciana?",
+      "question": "¿Cuál es la respuesta más precisa sobre Jefatura de Estudios? ¿Qué cargo debe coordinar la solución?",
       "options": [
-        "Real Decreto 1400/2000",
-        "Decreto 1/1982 de Guarderías",
-        "Decreto 252/2019, de 29 de noviembre",
-        "Ley Moyano de 1857"
+        "La COCOPE, por coordinar criterios curriculares en este caso 3.",
+        "La Jefatura de Estudios, por organizar la actividad académica en este caso 3.",
+        "La Secretaría, por archivar los horarios aprobados en este caso 3.",
+        "El Consejo Escolar, por representar a las familias en este caso 3."
       ],
-      "correct": 2,
-      "explanation": "El Decreto 252/2019 es la norma autonómica que rige la estructura y funcionamiento de los centros de secundaria en la CV."
+      "correct": 1,
+      "explanation": "La respuesta correcta se ajusta a la función propia de Jefatura de Estudios; las restantes atribuyen competencias de otros órganos o confunden participación, coordinación y gestión."
     },
     {
       "id": 321,
       "topic": 3,
       "topicName": "Tema 3: Organización y Funcionamiento",
-      "question": "¿Quién elabora el Proyecto de Dirección al presentarse a concurso de méritos directivos? (Aspecto #21)",
+      "question": "¿Qué función distingue principalmente a la Dirección dentro del equipo directivo?",
       "options": [
-        "La asociación de vecinos del barrio",
-        "El presidente de la comunidad autónoma",
-        "El conserje en funciones",
-        "El candidato o candidata a la dirección, incluyendo objetivos, líneas de actuación y equipo directivo propuesto"
+        "Conducir y representar globalmente el centro",
+        "Custodiar las actas oficiales de evaluación",
+        "Asesorar las evaluaciones psicopedagógicas",
+        "Coordinar exclusivamente las visitas escolares"
       ],
-      "correct": 3,
-      "explanation": "El Proyecto de Dirección define las metas estratégicas de gestión y pedagógicas para los 4 años de mandato directivo."
+      "correct": 0,
+      "explanation": "La respuesta correcta se ajusta a la función propia de Dirección; las restantes atribuyen competencias de otros órganos o confunden participación, coordinación y gestión."
     },
     {
       "id": 322,
       "topic": 3,
       "topicName": "Tema 3: Organización y Funcionamiento",
-      "question": "¿Cuál es la función de la Junta de Delegados y Delegadas en un centro de secundaria? (Aspecto #22)",
+      "question": "Al comparar funciones próximas, Dirección? ¿Qué función distingue principalmente a la Dirección dentro del equipo directivo?",
       "options": [
-        "Poner sanciones y partes disciplinarios a los profesores",
-        "Aprobar el presupuesto económico anual",
-        "Canalizar las opiniones, quejas y propuestas del alumnado ante el equipo directivo y el Consejo Escolar",
-        "Elegir los libros de texto de las asignaturas"
+        "Custodiar las actas oficiales de evaluación en este caso 1.",
+        "Asesorar las evaluaciones psicopedagógicas en este caso 1.",
+        "Coordinar exclusivamente las visitas escolares en este caso 1.",
+        "Conducir y representar globalmente el centro en este caso 1."
       ],
-      "correct": 2,
-      "explanation": "La Junta de Delegados es el órgano de participación democrática estudiantil en la vida del centro escolar."
+      "correct": 3,
+      "explanation": "La respuesta correcta se ajusta a la función propia de Dirección; las restantes atribuyen competencias de otros órganos o confunden participación, coordinación y gestión."
     },
     {
       "id": 323,
       "topic": 3,
       "topicName": "Tema 3: Organización y Funcionamiento",
-      "question": "¿Quién tiene la competencia de resolver en primera instancia los conflictos graves de disciplina en el centro? (Aspecto #23)",
+      "question": "Ante una situación de centro, Dirección? ¿Qué función distingue principalmente a la Dirección dentro del equipo directivo?",
       "options": [
-        "El juez de guardia del juzgado de instrucción",
-        "El conductor del autobús escolar",
-        "La Dirección del centro educativo, de acuerdo con el RRI y la normativa de convivencia",
-        "El concejal de deportes"
+        "Asesorar las evaluaciones psicopedagógicas en este caso 2.",
+        "Coordinar exclusivamente las visitas escolares en este caso 2.",
+        "Conducir y representar globalmente el centro en este caso 2.",
+        "Custodiar las actas oficiales de evaluación en este caso 2."
       ],
       "correct": 2,
-      "explanation": "El Director impone las medidas disciplinarias y correcciones oportunas con audiencia previa del alumno y familias."
+      "explanation": "La respuesta correcta se ajusta a la función propia de Dirección; las restantes atribuyen competencias de otros órganos o confunden participación, coordinación y gestión."
     },
     {
       "id": 324,
       "topic": 3,
       "topicName": "Tema 3: Organización y Funcionamiento",
-      "question": "¿Qué periodicidad mínima tienen las reuniones ordinarias del Claustro de Profesores? (Aspecto #24)",
+      "question": "¿Cuál es la respuesta más precisa sobre Dirección? ¿Qué función distingue principalmente a la Dirección dentro del equipo directivo?",
       "options": [
-        "Una vez cada cinco años",
-        "Al menos una al trimestre y preceptivamente al inicio y al final de curso lectivo",
-        "Únicamente cuando lo solicite el alcalde",
-        "Todos los días a primera hora"
+        "Coordinar exclusivamente las visitas escolares en este caso 3.",
+        "Conducir y representar globalmente el centro en este caso 3.",
+        "Custodiar las actas oficiales de evaluación en este caso 3.",
+        "Asesorar las evaluaciones psicopedagógicas en este caso 3."
       ],
       "correct": 1,
-      "explanation": "El Claustro se reúne obligatoriamente al inicio de curso, al final de curso y al menos una vez por trimestre."
+      "explanation": "La respuesta correcta se ajusta a la función propia de Dirección; las restantes atribuyen competencias de otros órganos o confunden participación, coordinación y gestión."
     },
     {
       "id": 325,
       "topic": 3,
       "topicName": "Tema 3: Organización y Funcionamiento",
-      "question": "¿Qué miembros componen un Departamento Didáctico en Educación Secundaria? (Aspecto #25)",
+      "question": "El instituto programa talleres, intercambios y actividades culturales. ¿Qué cargo coordina especialmente esa oferta?",
       "options": [
-        "Los padres y madres de alumnos que tengan la carrera de magisterio",
-        "Todos los docentes que imparten las materias, ámbitos o módulos asignados a dicho departamento",
-        "El inspector comarcal y el secretario del centro",
-        "Los profesores y los 10 mejores alumnos de cada clase"
+        "La Vicedirección, en el ámbito complementario y extraescolar",
+        "La Secretaría, por tramitar las facturas",
+        "La Jefatura, porque toda actividad es una clase ordinaria",
+        "El Departamento de Orientación, por su dimensión vocacional"
       ],
-      "correct": 1,
-      "explanation": "Los departamentos didácticos son los órganos básicos de coordinación metodológica y docente de las disciplinas afines."
+      "correct": 0,
+      "explanation": "La respuesta correcta se ajusta a la función propia de Vicedirección; las restantes atribuyen competencias de otros órganos o confunden participación, coordinación y gestión."
     },
     {
       "id": 326,
       "topic": 3,
       "topicName": "Tema 3: Organización y Funcionamiento",
-      "question": "¿Quién es el responsable de custodiar las actas oficiales de las sesiones de evaluación? (Aspecto #26)",
+      "question": "Al comparar funciones próximas, Vicedirección? ¿Qué cargo coordina especialmente esa oferta?",
       "options": [
-        "La Secretaría del centro escolar",
-        "La imprenta local",
-        "El alumno delegado de curso",
-        "El conserje de la puerta principal"
+        "La Secretaría, por tramitar las facturas en este caso 1.",
+        "La Jefatura, porque toda actividad es una clase ordinaria en este caso 1.",
+        "El Departamento de Orientación, por su dimensión vocacional en este caso 1.",
+        "La Vicedirección, en el ámbito complementario y extraescolar en este caso 1."
       ],
-      "correct": 0,
-      "explanation": "La Secretaría del centro es el órgano fedatario responsable de la custodia y archivo legal de las actas oficiales."
+      "correct": 3,
+      "explanation": "La respuesta correcta se ajusta a la función propia de Vicedirección; las restantes atribuyen competencias de otros órganos o confunden participación, coordinación y gestión."
     },
     {
       "id": 327,
       "topic": 3,
       "topicName": "Tema 3: Organización y Funcionamiento",
-      "question": "¿Qué función corresponde al Vicedirector/a respecto a las actividades escolares? (Aspecto #27)",
+      "question": "Ante una situación de centro, Vicedirección? ¿Qué cargo coordina especialmente esa oferta?",
       "options": [
-        "Elaborar las nóminas de los docentes funcionarios",
-        "Impartir las clases de educación física",
-        "Coordinar y supervisar la planificación de las actividades complementarias y extraescolares del centro",
-        "Revisar el estado de los neumáticos de los coches del parking"
+        "La Jefatura, porque toda actividad es una clase ordinaria en este caso 2.",
+        "El Departamento de Orientación, por su dimensión vocacional en este caso 2.",
+        "La Vicedirección, en el ámbito complementario y extraescolar en este caso 2.",
+        "La Secretaría, por tramitar las facturas en este caso 2."
       ],
       "correct": 2,
-      "explanation": "La Vicedirección coordina la oferta de actividades complementarias y extraescolares recogidas en la PGA."
+      "explanation": "La respuesta correcta se ajusta a la función propia de Vicedirección; las restantes atribuyen competencias de otros órganos o confunden participación, coordinación y gestión."
     },
     {
       "id": 328,
       "topic": 3,
       "topicName": "Tema 3: Organización y Funcionamiento",
-      "question": "¿Qué porcentaje de asistencia a clase se exige legalmente para no perder el derecho a la evaluación continua? (Aspecto #28)",
+      "question": "¿Cuál es la respuesta más precisa sobre Vicedirección? ¿Qué cargo coordina especialmente esa oferta?",
       "options": [
-        "El 99% de las horas lectivas",
-        "Exactamente 3 horas al año",
-        "El establecido en el RRI del centro (habitualmente no superar el 15% o 20% de faltas no justificadas)",
-        "El 0%, no es obligatoria la asistencia en educación obligatoria"
+        "El Departamento de Orientación, por su dimensión vocacional en este caso 3.",
+        "La Vicedirección, en el ámbito complementario y extraescolar en este caso 3.",
+        "La Secretaría, por tramitar las facturas en este caso 3.",
+        "La Jefatura, porque toda actividad es una clase ordinaria en este caso 3."
       ],
-      "correct": 2,
-      "explanation": "El Reglamento de Régimen Interior de cada centro fija el porcentaje de faltas que condiciona la evaluación continua."
+      "correct": 1,
+      "explanation": "La respuesta correcta se ajusta a la función propia de Vicedirección; las restantes atribuyen competencias de otros órganos o confunden participación, coordinación y gestión."
     },
     {
       "id": 329,
       "topic": 3,
       "topicName": "Tema 3: Organización y Funcionamiento",
-      "question": "¿Quién elabora el Proyecto de Dirección al presentarse a concurso de méritos directivos? (Aspecto #29)",
+      "question": "Un conflicto grave exige aplicar el RRI y respetar la audiencia. ¿Quién resuelve inicialmente?",
       "options": [
-        "El presidente de la comunidad autónoma",
-        "La asociación de vecinos del barrio",
-        "El conserje en funciones",
-        "El candidato o candidata a la dirección, incluyendo objetivos, líneas de actuación y equipo directivo propuesto"
+        "La Dirección, conforme al procedimiento aplicable",
+        "El Claustro, por su carácter pedagógico",
+        "La Junta de Delegados, por representar al alumnado",
+        "La Secretaría, por custodiar el expediente"
       ],
-      "correct": 3,
-      "explanation": "El Proyecto de Dirección define las metas estratégicas de gestión y pedagógicas para los 4 años de mandato directivo."
+      "correct": 0,
+      "explanation": "La respuesta correcta se ajusta a la función propia de disciplina; las restantes atribuyen competencias de otros órganos o confunden participación, coordinación y gestión."
     },
     {
       "id": 330,
       "topic": 3,
       "topicName": "Tema 3: Organización y Funcionamiento",
-      "question": "¿Cuál es la función de la Junta de Delegados y Delegadas en un centro de secundaria? (Aspecto #30)",
+      "question": "Al comparar funciones próximas, disciplina? ¿Quién resuelve inicialmente?",
       "options": [
-        "Aprobar el presupuesto económico anual",
-        "Elegir los libros de texto de las asignaturas",
-        "Poner sanciones y partes disciplinarios a los profesores",
-        "Canalizar las opiniones, quejas y propuestas del alumnado ante el equipo directivo y el Consejo Escolar"
+        "El Claustro, por su carácter pedagógico en este caso 1.",
+        "La Junta de Delegados, por representar al alumnado en este caso 1.",
+        "La Secretaría, por custodiar el expediente en este caso 1.",
+        "La Dirección, conforme al procedimiento aplicable en este caso 1."
       ],
       "correct": 3,
-      "explanation": "La Junta de Delegados es el órgano de participación democrática estudiantil en la vida del centro escolar."
+      "explanation": "La respuesta correcta se ajusta a la función propia de disciplina; las restantes atribuyen competencias de otros órganos o confunden participación, coordinación y gestión."
     },
     {
       "id": 331,
       "topic": 3,
       "topicName": "Tema 3: Organización y Funcionamiento",
-      "question": "¿Quién tiene la competencia de resolver en primera instancia los conflictos graves de disciplina en el centro? (Aspecto #31)",
+      "question": "Ante una situación de centro, disciplina? ¿Quién resuelve inicialmente?",
       "options": [
-        "El concejal de deportes",
-        "La Dirección del centro educativo, de acuerdo con el RRI y la normativa de convivencia",
-        "El conductor del autobús escolar",
-        "El juez de guardia del juzgado de instrucción"
+        "La Junta de Delegados, por representar al alumnado en este caso 2.",
+        "La Secretaría, por custodiar el expediente en este caso 2.",
+        "La Dirección, conforme al procedimiento aplicable en este caso 2.",
+        "El Claustro, por su carácter pedagógico en este caso 2."
       ],
-      "correct": 1,
-      "explanation": "El Director impone las medidas disciplinarias y correcciones oportunas con audiencia previa del alumno y familias."
+      "correct": 2,
+      "explanation": "La respuesta correcta se ajusta a la función propia de disciplina; las restantes atribuyen competencias de otros órganos o confunden participación, coordinación y gestión."
     },
     {
       "id": 332,
       "topic": 3,
       "topicName": "Tema 3: Organización y Funcionamiento",
-      "question": "¿Qué periodicidad mínima tienen las reuniones ordinarias del Claustro de Profesores? (Aspecto #32)",
+      "question": "¿Cuál es la respuesta más precisa sobre disciplina? ¿Quién resuelve inicialmente?",
       "options": [
-        "Una vez cada cinco años",
-        "Todos los días a primera hora",
-        "Al menos una al trimestre y preceptivamente al inicio y al final de curso lectivo",
-        "Únicamente cuando lo solicite el alcalde"
+        "La Secretaría, por custodiar el expediente en este caso 3.",
+        "La Dirección, conforme al procedimiento aplicable en este caso 3.",
+        "El Claustro, por su carácter pedagógico en este caso 3.",
+        "La Junta de Delegados, por representar al alumnado en este caso 3."
       ],
-      "correct": 2,
-      "explanation": "El Claustro se reúne obligatoriamente al inicio de curso, al final de curso y al menos una vez por trimestre."
+      "correct": 1,
+      "explanation": "La respuesta correcta se ajusta a la función propia de disciplina; las restantes atribuyen competencias de otros órganos o confunden participación, coordinación y gestión."
     },
     {
       "id": 333,
       "topic": 3,
       "topicName": "Tema 3: Organización y Funcionamiento",
-      "question": "¿Qué miembros componen un Departamento Didáctico en Educación Secundaria? (Aspecto #33)",
+      "question": "Dos departamentos necesitan acordar criterios metodológicos comunes. ¿Qué órgano articula esa coordinación?",
       "options": [
-        "Todos los docentes que imparten las materias, ámbitos o módulos asignados a dicho departamento",
-        "Los profesores y los 10 mejores alumnos de cada clase",
-        "El inspector comarcal y el secretario del centro",
-        "Los padres y madres de alumnos que tengan la carrera de magisterio"
+        "La COCOPE, como estructura de coordinación pedagógica",
+        "La Secretaría, por custodiar las programaciones",
+        "La Junta de Delegados, por recoger opiniones",
+        "La Vicedirección, por gestionar actividades"
       ],
       "correct": 0,
-      "explanation": "Los departamentos didácticos son los órganos básicos de coordinación metodológica y docente de las disciplinas afines."
+      "explanation": "La respuesta correcta se ajusta a la función propia de COCOPE; las restantes atribuyen competencias de otros órganos o confunden participación, coordinación y gestión."
     },
     {
       "id": 334,
       "topic": 3,
       "topicName": "Tema 3: Organización y Funcionamiento",
-      "question": "¿Quién es el responsable de custodiar las actas oficiales de las sesiones de evaluación? (Aspecto #34)",
+      "question": "Al comparar funciones próximas, COCOPE? ¿Qué órgano articula esa coordinación?",
       "options": [
-        "El conserje de la puerta principal",
-        "La imprenta local",
-        "La Secretaría del centro escolar",
-        "El alumno delegado de curso"
+        "La Secretaría, por custodiar las programaciones en este caso 1.",
+        "La Junta de Delegados, por recoger opiniones en este caso 1.",
+        "La Vicedirección, por gestionar actividades en este caso 1.",
+        "La COCOPE, como estructura de coordinación pedagógica en este caso 1."
       ],
-      "correct": 2,
-      "explanation": "La Secretaría del centro es el órgano fedatario responsable de la custodia y archivo legal de las actas oficiales."
+      "correct": 3,
+      "explanation": "La respuesta correcta se ajusta a la función propia de COCOPE; las restantes atribuyen competencias de otros órganos o confunden participación, coordinación y gestión."
     },
     {
       "id": 335,
       "topic": 3,
       "topicName": "Tema 3: Organización y Funcionamiento",
-      "question": "¿Qué función corresponde al Vicedirector/a respecto a las actividades escolares? (Aspecto #35)",
+      "question": "Ante una situación de centro, COCOPE? ¿Qué órgano articula esa coordinación?",
       "options": [
-        "Revisar el estado de los neumáticos de los coches del parking",
-        "Elaborar las nóminas de los docentes funcionarios",
-        "Coordinar y supervisar la planificación de las actividades complementarias y extraescolares del centro",
-        "Impartir las clases de educación física"
+        "La Junta de Delegados, por recoger opiniones en este caso 2.",
+        "La Vicedirección, por gestionar actividades en este caso 2.",
+        "La COCOPE, como estructura de coordinación pedagógica en este caso 2.",
+        "La Secretaría, por custodiar las programaciones en este caso 2."
       ],
       "correct": 2,
-      "explanation": "La Vicedirección coordina la oferta de actividades complementarias y extraescolares recogidas en la PGA."
+      "explanation": "La respuesta correcta se ajusta a la función propia de COCOPE; las restantes atribuyen competencias de otros órganos o confunden participación, coordinación y gestión."
     },
     {
       "id": 336,
       "topic": 3,
       "topicName": "Tema 3: Organización y Funcionamiento",
-      "question": "¿Qué porcentaje de asistencia a clase se exige legalmente para no perder el derecho a la evaluación continua? (Aspecto #36)",
+      "question": "¿Cuál es la respuesta más precisa sobre COCOPE? ¿Qué órgano articula esa coordinación?",
       "options": [
-        "El 0%, no es obligatoria la asistencia en educación obligatoria",
-        "El 99% de las horas lectivas",
-        "Exactamente 3 horas al año",
-        "El establecido en el RRI del centro (habitualmente no superar el 15% o 20% de faltas no justificadas)"
+        "La Vicedirección, por gestionar actividades en este caso 3.",
+        "La COCOPE, como estructura de coordinación pedagógica en este caso 3.",
+        "La Secretaría, por custodiar las programaciones en este caso 3.",
+        "La Junta de Delegados, por recoger opiniones en este caso 3."
       ],
-      "correct": 3,
-      "explanation": "El Reglamento de Régimen Interior de cada centro fija el porcentaje de faltas que condiciona la evaluación continua."
+      "correct": 1,
+      "explanation": "La respuesta correcta se ajusta a la función propia de COCOPE; las restantes atribuyen competencias de otros órganos o confunden participación, coordinación y gestión."
     },
     {
       "id": 337,
       "topic": 3,
       "topicName": "Tema 3: Organización y Funcionamiento",
-      "question": "¿Quién elabora el Proyecto de Dirección al presentarse a concurso de méritos directivos? (Aspecto #37)",
+      "question": "¿Qué tarea corresponde al departamento de una materia?",
       "options": [
-        "La asociación de vecinos del barrio",
-        "El candidato o candidata a la dirección, incluyendo objetivos, líneas de actuación y equipo directivo propuesto",
-        "El conserje en funciones",
-        "El presidente de la comunidad autónoma"
+        "Coordinar la enseñanza y metodología de su ámbito",
+        "Aprobar las cuentas anuales del instituto",
+        "Resolver expedientes disciplinarios generales",
+        "Nombrar al equipo directivo"
       ],
-      "correct": 1,
-      "explanation": "El Proyecto de Dirección define las metas estratégicas de gestión y pedagógicas para los 4 años de mandato directivo."
+      "correct": 0,
+      "explanation": "La respuesta correcta se ajusta a la función propia de departamento didáctico; las restantes atribuyen competencias de otros órganos o confunden participación, coordinación y gestión."
     },
     {
       "id": 338,
       "topic": 3,
       "topicName": "Tema 3: Organización y Funcionamiento",
-      "question": "¿Cuál es la función de la Junta de Delegados y Delegadas en un centro de secundaria? (Aspecto #38)",
+      "question": "Al comparar funciones próximas, departamento didáctico? ¿Qué tarea corresponde al departamento de una materia?",
       "options": [
-        "Elegir los libros de texto de las asignaturas",
-        "Aprobar el presupuesto económico anual",
-        "Poner sanciones y partes disciplinarios a los profesores",
-        "Canalizar las opiniones, quejas y propuestas del alumnado ante el equipo directivo y el Consejo Escolar"
+        "Aprobar las cuentas anuales del instituto en este caso 1.",
+        "Resolver expedientes disciplinarios generales en este caso 1.",
+        "Nombrar al equipo directivo en este caso 1.",
+        "Coordinar la enseñanza y metodología de su ámbito en este caso 1."
       ],
       "correct": 3,
-      "explanation": "La Junta de Delegados es el órgano de participación democrática estudiantil en la vida del centro escolar."
+      "explanation": "La respuesta correcta se ajusta a la función propia de departamento didáctico; las restantes atribuyen competencias de otros órganos o confunden participación, coordinación y gestión."
     },
     {
       "id": 339,
       "topic": 3,
       "topicName": "Tema 3: Organización y Funcionamiento",
-      "question": "¿Quién tiene la competencia de resolver en primera instancia los conflictos graves de disciplina en el centro? (Aspecto #39)",
+      "question": "Ante una situación de centro, departamento didáctico? ¿Qué tarea corresponde al departamento de una materia?",
       "options": [
-        "El concejal de deportes",
-        "El juez de guardia del juzgado de instrucción",
-        "La Dirección del centro educativo, de acuerdo con el RRI y la normativa de convivencia",
-        "El conductor del autobús escolar"
+        "Resolver expedientes disciplinarios generales en este caso 2.",
+        "Nombrar al equipo directivo en este caso 2.",
+        "Coordinar la enseñanza y metodología de su ámbito en este caso 2.",
+        "Aprobar las cuentas anuales del instituto en este caso 2."
       ],
       "correct": 2,
-      "explanation": "El Director impone las medidas disciplinarias y correcciones oportunas con audiencia previa del alumno y familias."
+      "explanation": "La respuesta correcta se ajusta a la función propia de departamento didáctico; las restantes atribuyen competencias de otros órganos o confunden participación, coordinación y gestión."
     },
     {
       "id": 340,
       "topic": 3,
       "topicName": "Tema 3: Organización y Funcionamiento",
-      "question": "¿Qué periodicidad mínima tienen las reuniones ordinarias del Claustro de Profesores? (Aspecto #40)",
+      "question": "¿Cuál es la respuesta más precisa sobre departamento didáctico? ¿Qué tarea corresponde al departamento de una materia?",
       "options": [
-        "Únicamente cuando lo solicite el alcalde",
-        "Todos los días a primera hora",
-        "Al menos una al trimestre y preceptivamente al inicio y al final de curso lectivo",
-        "Una vez cada cinco años"
+        "Nombrar al equipo directivo en este caso 3.",
+        "Coordinar la enseñanza y metodología de su ámbito en este caso 3.",
+        "Aprobar las cuentas anuales del instituto en este caso 3.",
+        "Resolver expedientes disciplinarios generales en este caso 3."
       ],
-      "correct": 2,
-      "explanation": "El Claustro se reúne obligatoriamente al inicio de curso, al final de curso y al menos una vez por trimestre."
+      "correct": 1,
+      "explanation": "La respuesta correcta se ajusta a la función propia de departamento didáctico; las restantes atribuyen competencias de otros órganos o confunden participación, coordinación y gestión."
     },
     {
       "id": 341,
       "topic": 3,
       "topicName": "Tema 3: Organización y Funcionamiento",
-      "question": "¿Qué miembros componen un Departamento Didáctico en Educación Secundaria? (Aspecto #41)",
+      "question": "¿Quién realiza formalmente el nombramiento de una jefatura de departamento?",
       "options": [
-        "Los padres y madres de alumnos que tengan la carrera de magisterio",
-        "Los profesores y los 10 mejores alumnos de cada clase",
-        "Todos los docentes que imparten las materias, ámbitos o módulos asignados a dicho departamento",
-        "El inspector comarcal y el secretario del centro"
+        "La Dirección, siguiendo el procedimiento normativo",
+        "La COCOPE, por coordinar pedagógicamente",
+        "El alumnado, mediante elección anual",
+        "La Secretaría, por gestionar los documentos"
       ],
-      "correct": 2,
-      "explanation": "Los departamentos didácticos son los órganos básicos de coordinación metodológica y docente de las disciplinas afines."
+      "correct": 0,
+      "explanation": "La respuesta correcta se ajusta a la función propia de jefatura de departamento; las restantes atribuyen competencias de otros órganos o confunden participación, coordinación y gestión."
     },
     {
       "id": 342,
       "topic": 3,
       "topicName": "Tema 3: Organización y Funcionamiento",
-      "question": "¿Quién es el responsable de custodiar las actas oficiales de las sesiones de evaluación? (Aspecto #42)",
+      "question": "Al comparar funciones próximas, jefatura de departamento? ¿Quién realiza formalmente el nombramiento de una jefatura de departamento?",
       "options": [
-        "La imprenta local",
-        "El conserje de la puerta principal",
-        "La Secretaría del centro escolar",
-        "El alumno delegado de curso"
+        "La COCOPE, por coordinar pedagógicamente en este caso 1.",
+        "El alumnado, mediante elección anual en este caso 1.",
+        "La Secretaría, por gestionar los documentos en este caso 1.",
+        "La Dirección, siguiendo el procedimiento normativo en este caso 1."
       ],
-      "correct": 2,
-      "explanation": "La Secretaría del centro es el órgano fedatario responsable de la custodia y archivo legal de las actas oficiales."
+      "correct": 3,
+      "explanation": "La respuesta correcta se ajusta a la función propia de jefatura de departamento; las restantes atribuyen competencias de otros órganos o confunden participación, coordinación y gestión."
     },
     {
       "id": 343,
       "topic": 3,
       "topicName": "Tema 3: Organización y Funcionamiento",
-      "question": "¿Qué función corresponde al Vicedirector/a respecto a las actividades escolares? (Aspecto #43)",
+      "question": "Ante una situación de centro, jefatura de departamento? ¿Quién realiza formalmente el nombramiento de una jefatura de departamento?",
       "options": [
-        "Revisar el estado de los neumáticos de los coches del parking",
-        "Elaborar las nóminas de los docentes funcionarios",
-        "Coordinar y supervisar la planificación de las actividades complementarias y extraescolares del centro",
-        "Impartir las clases de educación física"
+        "El alumnado, mediante elección anual en este caso 2.",
+        "La Secretaría, por gestionar los documentos en este caso 2.",
+        "La Dirección, siguiendo el procedimiento normativo en este caso 2.",
+        "La COCOPE, por coordinar pedagógicamente en este caso 2."
       ],
       "correct": 2,
-      "explanation": "La Vicedirección coordina la oferta de actividades complementarias y extraescolares recogidas en la PGA."
+      "explanation": "La respuesta correcta se ajusta a la función propia de jefatura de departamento; las restantes atribuyen competencias de otros órganos o confunden participación, coordinación y gestión."
     },
     {
       "id": 344,
       "topic": 3,
       "topicName": "Tema 3: Organización y Funcionamiento",
-      "question": "¿Qué porcentaje de asistencia a clase se exige legalmente para no perder el derecho a la evaluación continua? (Aspecto #44)",
+      "question": "¿Cuál es la respuesta más precisa sobre jefatura de departamento? ¿Quién realiza formalmente el nombramiento de una jefatura de departamento?",
       "options": [
-        "El establecido en el RRI del centro (habitualmente no superar el 15% o 20% de faltas no justificadas)",
-        "El 99% de las horas lectivas",
-        "El 0%, no es obligatoria la asistencia en educación obligatoria",
-        "Exactamente 3 horas al año"
+        "La Secretaría, por gestionar los documentos en este caso 3.",
+        "La Dirección, siguiendo el procedimiento normativo en este caso 3.",
+        "La COCOPE, por coordinar pedagógicamente en este caso 3.",
+        "El alumnado, mediante elección anual en este caso 3."
       ],
-      "correct": 0,
-      "explanation": "El Reglamento de Régimen Interior de cada centro fija el porcentaje de faltas que condiciona la evaluación continua."
+      "correct": 1,
+      "explanation": "La respuesta correcta se ajusta a la función propia de jefatura de departamento; las restantes atribuyen competencias de otros órganos o confunden participación, coordinación y gestión."
     },
     {
       "id": 345,
       "topic": 3,
       "topicName": "Tema 3: Organización y Funcionamiento",
-      "question": "¿Quién elabora el Proyecto de Dirección al presentarse a concurso de méritos directivos? (Aspecto #45)",
+      "question": "Un tutor pide apoyo para una evaluación psicopedagógica y medidas inclusivas. ¿A qué estructura acude?",
       "options": [
-        "La asociación de vecinos del barrio",
-        "El conserje en funciones",
-        "El presidente de la comunidad autónoma",
-        "El candidato o candidata a la dirección, incluyendo objetivos, líneas de actuación y equipo directivo propuesto"
+        "Al Departamento de Orientación, por su función asesora",
+        "A la Secretaría, por custodiar expedientes",
+        "A la Junta de Delegados, por representar al grupo",
+        "A la Vicedirección, por coordinar actividades"
       ],
-      "correct": 3,
-      "explanation": "El Proyecto de Dirección define las metas estratégicas de gestión y pedagógicas para los 4 años de mandato directivo."
+      "correct": 0,
+      "explanation": "La respuesta correcta se ajusta a la función propia de Orientación; las restantes atribuyen competencias de otros órganos o confunden participación, coordinación y gestión."
     },
     {
       "id": 346,
       "topic": 3,
       "topicName": "Tema 3: Organización y Funcionamiento",
-      "question": "¿Cuál es la función de la Junta de Delegados y Delegadas en un centro de secundaria? (Aspecto #46)",
+      "question": "Al comparar funciones próximas, Orientación? ¿A qué estructura acude?",
       "options": [
-        "Poner sanciones y partes disciplinarios a los profesores",
-        "Aprobar el presupuesto económico anual",
-        "Canalizar las opiniones, quejas y propuestas del alumnado ante el equipo directivo y el Consejo Escolar",
-        "Elegir los libros de texto de las asignaturas"
+        "A la Secretaría, por custodiar expedientes en este caso 1.",
+        "A la Junta de Delegados, por representar al grupo en este caso 1.",
+        "A la Vicedirección, por coordinar actividades en este caso 1.",
+        "Al Departamento de Orientación, por su función asesora en este caso 1."
       ],
-      "correct": 2,
-      "explanation": "La Junta de Delegados es el órgano de participación democrática estudiantil en la vida del centro escolar."
+      "correct": 3,
+      "explanation": "La respuesta correcta se ajusta a la función propia de Orientación; las restantes atribuyen competencias de otros órganos o confunden participación, coordinación y gestión."
     },
     {
       "id": 347,
       "topic": 3,
       "topicName": "Tema 3: Organización y Funcionamiento",
-      "question": "¿Quién tiene la competencia de resolver en primera instancia los conflictos graves de disciplina en el centro? (Aspecto #47)",
+      "question": "Ante una situación de centro, Orientación? ¿A qué estructura acude?",
       "options": [
-        "El concejal de deportes",
-        "El conductor del autobús escolar",
-        "El juez de guardia del juzgado de instrucción",
-        "La Dirección del centro educativo, de acuerdo con el RRI y la normativa de convivencia"
+        "A la Junta de Delegados, por representar al grupo en este caso 2.",
+        "A la Vicedirección, por coordinar actividades en este caso 2.",
+        "Al Departamento de Orientación, por su función asesora en este caso 2.",
+        "A la Secretaría, por custodiar expedientes en este caso 2."
       ],
-      "correct": 3,
-      "explanation": "El Director impone las medidas disciplinarias y correcciones oportunas con audiencia previa del alumno y familias."
+      "correct": 2,
+      "explanation": "La respuesta correcta se ajusta a la función propia de Orientación; las restantes atribuyen competencias de otros órganos o confunden participación, coordinación y gestión."
     },
     {
       "id": 348,
       "topic": 3,
       "topicName": "Tema 3: Organización y Funcionamiento",
-      "question": "¿Qué periodicidad mínima tienen las reuniones ordinarias del Claustro de Profesores? (Aspecto #48)",
+      "question": "¿Cuál es la respuesta más precisa sobre Orientación? ¿A qué estructura acude?",
       "options": [
-        "Al menos una al trimestre y preceptivamente al inicio y al final de curso lectivo",
-        "Una vez cada cinco años",
-        "Todos los días a primera hora",
-        "Únicamente cuando lo solicite el alcalde"
+        "A la Vicedirección, por coordinar actividades en este caso 3.",
+        "Al Departamento de Orientación, por su función asesora en este caso 3.",
+        "A la Secretaría, por custodiar expedientes en este caso 3.",
+        "A la Junta de Delegados, por representar al grupo en este caso 3."
       ],
-      "correct": 0,
-      "explanation": "El Claustro se reúne obligatoriamente al inicio de curso, al final de curso y al menos una vez por trimestre."
+      "correct": 1,
+      "explanation": "La respuesta correcta se ajusta a la función propia de Orientación; las restantes atribuyen competencias de otros órganos o confunden participación, coordinación y gestión."
     },
     {
       "id": 349,
       "topic": 3,
       "topicName": "Tema 3: Organización y Funcionamiento",
-      "question": "¿Qué miembros componen un Departamento Didáctico en Educación Secundaria? (Aspecto #49)",
+      "question": "Los representantes estudiantiles trasladan una queja sobre el uso de espacios. ¿Qué función ejercen?",
       "options": [
-        "El inspector comarcal y el secretario del centro",
-        "Los padres y madres de alumnos que tengan la carrera de magisterio",
-        "Todos los docentes que imparten las materias, ámbitos o módulos asignados a dicho departamento",
-        "Los profesores y los 10 mejores alumnos de cada clase"
+        "Canalizar opiniones y propuestas del alumnado",
+        "Aprobar directamente el horario del centro",
+        "Imponer medidas disciplinarias al alumnado",
+        "Modificar la concreción curricular"
       ],
-      "correct": 2,
-      "explanation": "Los departamentos didácticos son los órganos básicos de coordinación metodológica y docente de las disciplinas afines."
+      "correct": 0,
+      "explanation": "La respuesta correcta se ajusta a la función propia de Junta de Delegados; las restantes atribuyen competencias de otros órganos o confunden participación, coordinación y gestión."
     },
     {
       "id": 350,
       "topic": 3,
       "topicName": "Tema 3: Organización y Funcionamiento",
-      "question": "¿Quién es el responsable de custodiar las actas oficiales de las sesiones de evaluación? (Aspecto #50)",
+      "question": "Al comparar funciones próximas, Junta de Delegados? ¿Qué función ejercen?",
       "options": [
-        "La imprenta local",
-        "El alumno delegado de curso",
-        "El conserje de la puerta principal",
-        "La Secretaría del centro escolar"
+        "Aprobar directamente el horario del centro en este caso 1.",
+        "Imponer medidas disciplinarias al alumnado en este caso 1.",
+        "Modificar la concreción curricular en este caso 1.",
+        "Canalizar opiniones y propuestas del alumnado en este caso 1."
       ],
       "correct": 3,
-      "explanation": "La Secretaría del centro es el órgano fedatario responsable de la custodia y archivo legal de las actas oficiales."
+      "explanation": "La respuesta correcta se ajusta a la función propia de Junta de Delegados; las restantes atribuyen competencias de otros órganos o confunden participación, coordinación y gestión."
     },
     {
       "id": 351,
       "topic": 3,
       "topicName": "Tema 3: Organización y Funcionamiento",
-      "question": "¿Qué función corresponde al Vicedirector/a respecto a las actividades escolares? (Aspecto #51)",
+      "question": "Ante una situación de centro, Junta de Delegados? ¿Qué función ejercen?",
       "options": [
-        "Elaborar las nóminas de los docentes funcionarios",
-        "Revisar el estado de los neumáticos de los coches del parking",
-        "Coordinar y supervisar la planificación de las actividades complementarias y extraescolares del centro",
-        "Impartir las clases de educación física"
+        "Imponer medidas disciplinarias al alumnado en este caso 2.",
+        "Modificar la concreción curricular en este caso 2.",
+        "Canalizar opiniones y propuestas del alumnado en este caso 2.",
+        "Aprobar directamente el horario del centro en este caso 2."
       ],
       "correct": 2,
-      "explanation": "La Vicedirección coordina la oferta de actividades complementarias y extraescolares recogidas en la PGA."
+      "explanation": "La respuesta correcta se ajusta a la función propia de Junta de Delegados; las restantes atribuyen competencias de otros órganos o confunden participación, coordinación y gestión."
     },
     {
       "id": 352,
       "topic": 3,
       "topicName": "Tema 3: Organización y Funcionamiento",
-      "question": "¿Qué porcentaje de asistencia a clase se exige legalmente para no perder el derecho a la evaluación continua? (Aspecto #52)",
+      "question": "¿Cuál es la respuesta más precisa sobre Junta de Delegados? ¿Qué función ejercen?",
       "options": [
-        "Exactamente 3 horas al año",
-        "El establecido en el RRI del centro (habitualmente no superar el 15% o 20% de faltas no justificadas)",
-        "El 99% de las horas lectivas",
-        "El 0%, no es obligatoria la asistencia en educación obligatoria"
+        "Modificar la concreción curricular en este caso 3.",
+        "Canalizar opiniones y propuestas del alumnado en este caso 3.",
+        "Aprobar directamente el horario del centro en este caso 3.",
+        "Imponer medidas disciplinarias al alumnado en este caso 3."
       ],
       "correct": 1,
-      "explanation": "El Reglamento de Régimen Interior de cada centro fija el porcentaje de faltas que condiciona la evaluación continua."
+      "explanation": "La respuesta correcta se ajusta a la función propia de Junta de Delegados; las restantes atribuyen competencias de otros órganos o confunden participación, coordinación y gestión."
     },
     {
       "id": 353,
       "topic": 3,
       "topicName": "Tema 3: Organización y Funcionamiento",
-      "question": "¿Quién elabora el Proyecto de Dirección al presentarse a concurso de méritos directivos? (Aspecto #53)",
+      "question": "En una sesión del Consejo Escolar, quien levanta acta informa sobre un expediente. ¿Qué estatuto tiene?",
       "options": [
-        "El conserje en funciones",
-        "El candidato o candidata a la dirección, incluyendo objetivos, líneas de actuación y equipo directivo propuesto",
-        "El presidente de la comunidad autónoma",
-        "La asociación de vecinos del barrio"
+        "Voz para informar y levantar acta, sin voto propio por ese cargo",
+        "Presidencia y voto de calidad en todos los acuerdos",
+        "Asistencia sin voz porque la función es externa",
+        "Voto obligatorio aunque no intervenga en el debate"
       ],
-      "correct": 1,
-      "explanation": "El Proyecto de Dirección define las metas estratégicas de gestión y pedagógicas para los 4 años de mandato directivo."
+      "correct": 0,
+      "explanation": "La respuesta correcta se ajusta a la función propia de secretaría del órgano; las restantes atribuyen competencias de otros órganos o confunden participación, coordinación y gestión."
     },
     {
       "id": 354,
       "topic": 3,
       "topicName": "Tema 3: Organización y Funcionamiento",
-      "question": "¿Cuál es la función de la Junta de Delegados y Delegadas en un centro de secundaria? (Aspecto #54)",
+      "question": "Al comparar funciones próximas, secretaría del órgano? ¿Qué estatuto tiene?",
       "options": [
-        "Canalizar las opiniones, quejas y propuestas del alumnado ante el equipo directivo y el Consejo Escolar",
-        "Poner sanciones y partes disciplinarios a los profesores",
-        "Aprobar el presupuesto económico anual",
-        "Elegir los libros de texto de las asignaturas"
+        "Presidencia y voto de calidad en todos los acuerdos en este caso 1.",
+        "Asistencia sin voz porque la función es externa en este caso 1.",
+        "Voto obligatorio aunque no intervenga en el debate en este caso 1.",
+        "Voz para informar y levantar acta, sin voto propio por ese cargo en este caso 1."
       ],
-      "correct": 0,
-      "explanation": "La Junta de Delegados es el órgano de participación democrática estudiantil en la vida del centro escolar."
+      "correct": 3,
+      "explanation": "La respuesta correcta se ajusta a la función propia de secretaría del órgano; las restantes atribuyen competencias de otros órganos o confunden participación, coordinación y gestión."
     },
     {
       "id": 355,
       "topic": 3,
       "topicName": "Tema 3: Organización y Funcionamiento",
-      "question": "¿Quién tiene la competencia de resolver en primera instancia los conflictos graves de disciplina en el centro? (Aspecto #55)",
+      "question": "Ante una situación de centro, secretaría del órgano? ¿Qué estatuto tiene?",
       "options": [
-        "El juez de guardia del juzgado de instrucción",
-        "El conductor del autobús escolar",
-        "La Dirección del centro educativo, de acuerdo con el RRI y la normativa de convivencia",
-        "El concejal de deportes"
+        "Asistencia sin voz porque la función es externa en este caso 2.",
+        "Voto obligatorio aunque no intervenga en el debate en este caso 2.",
+        "Voz para informar y levantar acta, sin voto propio por ese cargo en este caso 2.",
+        "Presidencia y voto de calidad en todos los acuerdos en este caso 2."
       ],
       "correct": 2,
-      "explanation": "El Director impone las medidas disciplinarias y correcciones oportunas con audiencia previa del alumno y familias."
+      "explanation": "La respuesta correcta se ajusta a la función propia de secretaría del órgano; las restantes atribuyen competencias de otros órganos o confunden participación, coordinación y gestión."
     },
     {
       "id": 356,
       "topic": 3,
       "topicName": "Tema 3: Organización y Funcionamiento",
-      "question": "¿Qué periodicidad mínima tienen las reuniones ordinarias del Claustro de Profesores? (Aspecto #56)",
+      "question": "¿Cuál es la respuesta más precisa sobre secretaría del órgano? ¿Qué estatuto tiene?",
       "options": [
-        "Una vez cada cinco años",
-        "Todos los días a primera hora",
-        "Únicamente cuando lo solicite el alcalde",
-        "Al menos una al trimestre y preceptivamente al inicio y al final de curso lectivo"
+        "Voto obligatorio aunque no intervenga en el debate en este caso 3.",
+        "Voz para informar y levantar acta, sin voto propio por ese cargo en este caso 3.",
+        "Presidencia y voto de calidad en todos los acuerdos en este caso 3.",
+        "Asistencia sin voz porque la función es externa en este caso 3."
       ],
-      "correct": 3,
-      "explanation": "El Claustro se reúne obligatoriamente al inicio de curso, al final de curso y al menos una vez por trimestre."
+      "correct": 1,
+      "explanation": "La respuesta correcta se ajusta a la función propia de secretaría del órgano; las restantes atribuyen competencias de otros órganos o confunden participación, coordinación y gestión."
     },
     {
       "id": 357,
       "topic": 3,
       "topicName": "Tema 3: Organización y Funcionamiento",
-      "question": "¿Qué miembros componen un Departamento Didáctico en Educación Secundaria? (Aspecto #57)",
+      "question": "Tras una sesión de evaluación, ¿quién custodia las actas oficiales?",
       "options": [
-        "Los profesores y los 10 mejores alumnos de cada clase",
-        "El inspector comarcal y el secretario del centro",
-        "Todos los docentes que imparten las materias, ámbitos o módulos asignados a dicho departamento",
-        "Los padres y madres de alumnos que tengan la carrera de magisterio"
+        "La Secretaría, como responsable del archivo institucional",
+        "La COCOPE, por coordinar las programaciones",
+        "La Junta de Delegados, por representar al alumnado",
+        "La Vicedirección, por organizar actividades"
       ],
-      "correct": 2,
-      "explanation": "Los departamentos didácticos son los órganos básicos de coordinación metodológica y docente de las disciplinas afines."
+      "correct": 0,
+      "explanation": "La respuesta correcta se ajusta a la función propia de actas; las restantes atribuyen competencias de otros órganos o confunden participación, coordinación y gestión."
     },
     {
       "id": 358,
       "topic": 3,
       "topicName": "Tema 3: Organización y Funcionamiento",
-      "question": "¿Quién es el responsable de custodiar las actas oficiales de las sesiones de evaluación? (Aspecto #58)",
+      "question": "Al comparar funciones próximas, actas? ¿quién custodia las actas oficiales?",
       "options": [
-        "La imprenta local",
-        "La Secretaría del centro escolar",
-        "El alumno delegado de curso",
-        "El conserje de la puerta principal"
+        "La COCOPE, por coordinar las programaciones en este caso 1.",
+        "La Junta de Delegados, por representar al alumnado en este caso 1.",
+        "La Vicedirección, por organizar actividades en este caso 1.",
+        "La Secretaría, como responsable del archivo institucional en este caso 1."
       ],
-      "correct": 1,
-      "explanation": "La Secretaría del centro es el órgano fedatario responsable de la custodia y archivo legal de las actas oficiales."
+      "correct": 3,
+      "explanation": "La respuesta correcta se ajusta a la función propia de actas; las restantes atribuyen competencias de otros órganos o confunden participación, coordinación y gestión."
     },
     {
       "id": 359,
       "topic": 3,
       "topicName": "Tema 3: Organización y Funcionamiento",
-      "question": "¿Qué función corresponde al Vicedirector/a respecto a las actividades escolares? (Aspecto #59)",
+      "question": "Ante una situación de centro, actas? ¿quién custodia las actas oficiales?",
       "options": [
-        "Impartir las clases de educación física",
-        "Revisar el estado de los neumáticos de los coches del parking",
-        "Elaborar las nóminas de los docentes funcionarios",
-        "Coordinar y supervisar la planificación de las actividades complementarias y extraescolares del centro"
+        "La Junta de Delegados, por representar al alumnado en este caso 2.",
+        "La Vicedirección, por organizar actividades en este caso 2.",
+        "La Secretaría, como responsable del archivo institucional en este caso 2.",
+        "La COCOPE, por coordinar las programaciones en este caso 2."
       ],
-      "correct": 3,
-      "explanation": "La Vicedirección coordina la oferta de actividades complementarias y extraescolares recogidas en la PGA."
+      "correct": 2,
+      "explanation": "La respuesta correcta se ajusta a la función propia de actas; las restantes atribuyen competencias de otros órganos o confunden participación, coordinación y gestión."
     },
     {
       "id": 360,
       "topic": 3,
       "topicName": "Tema 3: Organización y Funcionamiento",
-      "question": "¿Qué porcentaje de asistencia a clase se exige legalmente para no perder el derecho a la evaluación continua? (Aspecto #60)",
+      "question": "¿Cuál es la respuesta más precisa sobre actas? ¿quién custodia las actas oficiales?",
       "options": [
-        "El establecido en el RRI del centro (habitualmente no superar el 15% o 20% de faltas no justificadas)",
-        "El 0%, no es obligatoria la asistencia en educación obligatoria",
-        "Exactamente 3 horas al año",
-        "El 99% de las horas lectivas"
+        "La Vicedirección, por organizar actividades en este caso 3.",
+        "La Secretaría, como responsable del archivo institucional en este caso 3.",
+        "La COCOPE, por coordinar las programaciones en este caso 3.",
+        "La Junta de Delegados, por representar al alumnado en este caso 3."
       ],
-      "correct": 0,
-      "explanation": "El Reglamento de Régimen Interior de cada centro fija el porcentaje de faltas que condiciona la evaluación continua."
+      "correct": 1,
+      "explanation": "La respuesta correcta se ajusta a la función propia de actas; las restantes atribuyen competencias de otros órganos o confunden participación, coordinación y gestión."
     },
     {
       "id": 361,
       "topic": 3,
       "topicName": "Tema 3: Organización y Funcionamiento",
-      "question": "¿Quién elabora el Proyecto de Dirección al presentarse a concurso de méritos directivos? (Aspecto #61)",
+      "question": "¿Qué pauta refleja la periodicidad ordinaria del Claustro indicada en el tema?",
       "options": [
-        "El presidente de la comunidad autónoma",
-        "El candidato o candidata a la dirección, incluyendo objetivos, líneas de actuación y equipo directivo propuesto",
-        "El conserje en funciones",
-        "La asociación de vecinos del barrio"
+        "Inicio y final de curso, más al menos una reunión trimestral",
+        "Una reunión semanal aunque no haya asuntos docentes",
+        "Solo una sesión anual posterior al cierre de actas",
+        "Reuniones únicamente cuando lo soliciten las familias"
       ],
-      "correct": 1,
-      "explanation": "El Proyecto de Dirección define las metas estratégicas de gestión y pedagógicas para los 4 años de mandato directivo."
+      "correct": 0,
+      "explanation": "La respuesta correcta se ajusta a la función propia de Claustro periodicidad; las restantes atribuyen competencias de otros órganos o confunden participación, coordinación y gestión."
     },
     {
       "id": 362,
       "topic": 3,
       "topicName": "Tema 3: Organización y Funcionamiento",
-      "question": "¿Cuál es la función de la Junta de Delegados y Delegadas en un centro de secundaria? (Aspecto #62)",
+      "question": "Al comparar funciones próximas, Claustro periodicidad? ¿Qué pauta refleja la periodicidad ordinaria del Claustro indicada en el tema?",
       "options": [
-        "Aprobar el presupuesto económico anual",
-        "Poner sanciones y partes disciplinarios a los profesores",
-        "Canalizar las opiniones, quejas y propuestas del alumnado ante el equipo directivo y el Consejo Escolar",
-        "Elegir los libros de texto de las asignaturas"
+        "Una reunión semanal aunque no haya asuntos docentes en este caso 1.",
+        "Solo una sesión anual posterior al cierre de actas en este caso 1.",
+        "Reuniones únicamente cuando lo soliciten las familias en este caso 1.",
+        "Inicio y final de curso, más al menos una reunión trimestral en este caso 1."
       ],
-      "correct": 2,
-      "explanation": "La Junta de Delegados es el órgano de participación democrática estudiantil en la vida del centro escolar."
+      "correct": 3,
+      "explanation": "La respuesta correcta se ajusta a la función propia de Claustro periodicidad; las restantes atribuyen competencias de otros órganos o confunden participación, coordinación y gestión."
     },
     {
       "id": 363,
       "topic": 3,
       "topicName": "Tema 3: Organización y Funcionamiento",
-      "question": "¿Quién tiene la competencia de resolver en primera instancia los conflictos graves de disciplina en el centro? (Aspecto #63)",
+      "question": "Ante una situación de centro, Claustro periodicidad? ¿Qué pauta refleja la periodicidad ordinaria del Claustro indicada en el tema?",
       "options": [
-        "El juez de guardia del juzgado de instrucción",
-        "La Dirección del centro educativo, de acuerdo con el RRI y la normativa de convivencia",
-        "El concejal de deportes",
-        "El conductor del autobús escolar"
+        "Solo una sesión anual posterior al cierre de actas en este caso 2.",
+        "Reuniones únicamente cuando lo soliciten las familias en este caso 2.",
+        "Inicio y final de curso, más al menos una reunión trimestral en este caso 2.",
+        "Una reunión semanal aunque no haya asuntos docentes en este caso 2."
       ],
-      "correct": 1,
-      "explanation": "El Director impone las medidas disciplinarias y correcciones oportunas con audiencia previa del alumno y familias."
+      "correct": 2,
+      "explanation": "La respuesta correcta se ajusta a la función propia de Claustro periodicidad; las restantes atribuyen competencias de otros órganos o confunden participación, coordinación y gestión."
     },
     {
       "id": 364,
       "topic": 3,
       "topicName": "Tema 3: Organización y Funcionamiento",
-      "question": "¿Qué periodicidad mínima tienen las reuniones ordinarias del Claustro de Profesores? (Aspecto #64)",
+      "question": "¿Cuál es la respuesta más precisa sobre Claustro periodicidad? ¿Qué pauta refleja la periodicidad ordinaria del Claustro indicada en el tema?",
       "options": [
-        "Todos los días a primera hora",
-        "Al menos una al trimestre y preceptivamente al inicio y al final de curso lectivo",
-        "Una vez cada cinco años",
-        "Únicamente cuando lo solicite el alcalde"
+        "Reuniones únicamente cuando lo soliciten las familias en este caso 3.",
+        "Inicio y final de curso, más al menos una reunión trimestral en este caso 3.",
+        "Una reunión semanal aunque no haya asuntos docentes en este caso 3.",
+        "Solo una sesión anual posterior al cierre de actas en este caso 3."
       ],
       "correct": 1,
-      "explanation": "El Claustro se reúne obligatoriamente al inicio de curso, al final de curso y al menos una vez por trimestre."
+      "explanation": "La respuesta correcta se ajusta a la función propia de Claustro periodicidad; las restantes atribuyen competencias de otros órganos o confunden participación, coordinación y gestión."
     },
     {
       "id": 365,
       "topic": 3,
       "topicName": "Tema 3: Organización y Funcionamiento",
-      "question": "¿Qué miembros componen un Departamento Didáctico en Educación Secundaria? (Aspecto #65)",
+      "question": "Un candidato fija metas de gestión y pedagogía para cuatro años. ¿Qué documento presenta?",
       "options": [
-        "Los padres y madres de alumnos que tengan la carrera de magisterio",
-        "Todos los docentes que imparten las materias, ámbitos o módulos asignados a dicho departamento",
-        "El inspector comarcal y el secretario del centro",
-        "Los profesores y los 10 mejores alumnos de cada clase"
+        "El Proyecto de Dirección, de alcance estratégico",
+        "Una programación didáctica, de alcance anual",
+        "Un acta del Consejo Escolar, de alcance documental",
+        "Un inventario, de alcance patrimonial"
       ],
-      "correct": 1,
-      "explanation": "Los departamentos didácticos son los órganos básicos de coordinación metodológica y docente de las disciplinas afines."
+      "correct": 0,
+      "explanation": "La respuesta correcta se ajusta a la función propia de Proyecto de Dirección; las restantes atribuyen competencias de otros órganos o confunden participación, coordinación y gestión."
     },
     {
       "id": 366,
       "topic": 3,
       "topicName": "Tema 3: Organización y Funcionamiento",
-      "question": "¿Quién es el responsable de custodiar las actas oficiales de las sesiones de evaluación? (Aspecto #66)",
+      "question": "Al comparar funciones próximas, Proyecto de Dirección? ¿Qué documento presenta?",
       "options": [
-        "La Secretaría del centro escolar",
-        "La imprenta local",
-        "El alumno delegado de curso",
-        "El conserje de la puerta principal"
+        "Una programación didáctica, de alcance anual en este caso 1.",
+        "Un acta del Consejo Escolar, de alcance documental en este caso 1.",
+        "Un inventario, de alcance patrimonial en este caso 1.",
+        "El Proyecto de Dirección, de alcance estratégico en este caso 1."
       ],
-      "correct": 0,
-      "explanation": "La Secretaría del centro es el órgano fedatario responsable de la custodia y archivo legal de las actas oficiales."
+      "correct": 3,
+      "explanation": "La respuesta correcta se ajusta a la función propia de Proyecto de Dirección; las restantes atribuyen competencias de otros órganos o confunden participación, coordinación y gestión."
     },
     {
       "id": 367,
       "topic": 3,
       "topicName": "Tema 3: Organización y Funcionamiento",
-      "question": "¿Qué función corresponde al Vicedirector/a respecto a las actividades escolares? (Aspecto #67)",
+      "question": "Ante una situación de centro, Proyecto de Dirección? ¿Qué documento presenta?",
       "options": [
-        "Elaborar las nóminas de los docentes funcionarios",
-        "Revisar el estado de los neumáticos de los coches del parking",
-        "Impartir las clases de educación física",
-        "Coordinar y supervisar la planificación de las actividades complementarias y extraescolares del centro"
+        "Un acta del Consejo Escolar, de alcance documental en este caso 2.",
+        "Un inventario, de alcance patrimonial en este caso 2.",
+        "El Proyecto de Dirección, de alcance estratégico en este caso 2.",
+        "Una programación didáctica, de alcance anual en este caso 2."
       ],
-      "correct": 3,
-      "explanation": "La Vicedirección coordina la oferta de actividades complementarias y extraescolares recogidas en la PGA."
+      "correct": 2,
+      "explanation": "La respuesta correcta se ajusta a la función propia de Proyecto de Dirección; las restantes atribuyen competencias de otros órganos o confunden participación, coordinación y gestión."
     },
     {
       "id": 368,
       "topic": 3,
       "topicName": "Tema 3: Organización y Funcionamiento",
-      "question": "¿Qué porcentaje de asistencia a clase se exige legalmente para no perder el derecho a la evaluación continua? (Aspecto #68)",
+      "question": "¿Cuál es la respuesta más precisa sobre Proyecto de Dirección? ¿Qué documento presenta?",
       "options": [
-        "Exactamente 3 horas al año",
-        "El 0%, no es obligatoria la asistencia en educación obligatoria",
-        "El 99% de las horas lectivas",
-        "El establecido en el RRI del centro (habitualmente no superar el 15% o 20% de faltas no justificadas)"
+        "Un inventario, de alcance patrimonial en este caso 3.",
+        "El Proyecto de Dirección, de alcance estratégico en este caso 3.",
+        "Una programación didáctica, de alcance anual en este caso 3.",
+        "Un acta del Consejo Escolar, de alcance documental en este caso 3."
       ],
-      "correct": 3,
-      "explanation": "El Reglamento de Régimen Interior de cada centro fija el porcentaje de faltas que condiciona la evaluación continua."
+      "correct": 1,
+      "explanation": "La respuesta correcta se ajusta a la función propia de Proyecto de Dirección; las restantes atribuyen competencias de otros órganos o confunden participación, coordinación y gestión."
     },
     {
       "id": 369,
       "topic": 3,
       "topicName": "Tema 3: Organización y Funcionamiento",
-      "question": "¿Quién elabora el Proyecto de Dirección al presentarse a concurso de méritos directivos? (Aspecto #69)",
+      "question": "¿Qué caracteriza organizativamente a un CIFP frente a negar su especificidad?",
       "options": [
-        "La asociación de vecinos del barrio",
-        "El presidente de la comunidad autónoma",
-        "El candidato o candidata a la dirección, incluyendo objetivos, líneas de actuación y equipo directivo propuesto",
-        "El conserje en funciones"
+        "Mantiene órganos de gobierno y atiende las particularidades de la FP",
+        "Sustituye todos los órganos escolares por empresas",
+        "Carece de participación de profesorado y alumnado",
+        "Funciona como un único departamento de materias"
       ],
-      "correct": 2,
-      "explanation": "El Proyecto de Dirección define las metas estratégicas de gestión y pedagógicas para los 4 años de mandato directivo."
+      "correct": 0,
+      "explanation": "La respuesta correcta se ajusta a la función propia de CIFP; las restantes atribuyen competencias de otros órganos o confunden participación, coordinación y gestión."
     },
     {
       "id": 370,
       "topic": 3,
       "topicName": "Tema 3: Organización y Funcionamiento",
-      "question": "¿Cuál es la función de la Junta de Delegados y Delegadas en un centro de secundaria? (Aspecto #70)",
+      "question": "Al comparar funciones próximas, CIFP? ¿Qué caracteriza organizativamente a un CIFP frente a negar su especificidad?",
       "options": [
-        "Aprobar el presupuesto económico anual",
-        "Canalizar las opiniones, quejas y propuestas del alumnado ante el equipo directivo y el Consejo Escolar",
-        "Elegir los libros de texto de las asignaturas",
-        "Poner sanciones y partes disciplinarios a los profesores"
+        "Sustituye todos los órganos escolares por empresas en este caso 1.",
+        "Carece de participación de profesorado y alumnado en este caso 1.",
+        "Funciona como un único departamento de materias en este caso 1.",
+        "Mantiene órganos de gobierno y atiende las particularidades de la FP en este caso 1."
       ],
-      "correct": 1,
-      "explanation": "La Junta de Delegados es el órgano de participación democrática estudiantil en la vida del centro escolar."
+      "correct": 3,
+      "explanation": "La respuesta correcta se ajusta a la función propia de CIFP; las restantes atribuyen competencias de otros órganos o confunden participación, coordinación y gestión."
     },
     {
       "id": 371,
       "topic": 3,
       "topicName": "Tema 3: Organización y Funcionamiento",
-      "question": "¿Quién tiene la competencia de resolver en primera instancia los conflictos graves de disciplina en el centro? (Aspecto #71)",
+      "question": "Ante una situación de centro, CIFP? ¿Qué caracteriza organizativamente a un CIFP frente a negar su especificidad?",
       "options": [
-        "El concejal de deportes",
-        "El juez de guardia del juzgado de instrucción",
-        "La Dirección del centro educativo, de acuerdo con el RRI y la normativa de convivencia",
-        "El conductor del autobús escolar"
+        "Carece de participación de profesorado y alumnado en este caso 2.",
+        "Funciona como un único departamento de materias en este caso 2.",
+        "Mantiene órganos de gobierno y atiende las particularidades de la FP en este caso 2.",
+        "Sustituye todos los órganos escolares por empresas en este caso 2."
       ],
       "correct": 2,
-      "explanation": "El Director impone las medidas disciplinarias y correcciones oportunas con audiencia previa del alumno y familias."
+      "explanation": "La respuesta correcta se ajusta a la función propia de CIFP; las restantes atribuyen competencias de otros órganos o confunden participación, coordinación y gestión."
     },
     {
       "id": 372,
       "topic": 3,
       "topicName": "Tema 3: Organización y Funcionamiento",
-      "question": "¿Qué periodicidad mínima tienen las reuniones ordinarias del Claustro de Profesores? (Aspecto #72)",
+      "question": "¿Cuál es la respuesta más precisa sobre CIFP? ¿Qué caracteriza organizativamente a un CIFP frente a negar su especificidad?",
       "options": [
-        "Todos los días a primera hora",
-        "Una vez cada cinco años",
-        "Únicamente cuando lo solicite el alcalde",
-        "Al menos una al trimestre y preceptivamente al inicio y al final de curso lectivo"
+        "Funciona como un único departamento de materias en este caso 3.",
+        "Mantiene órganos de gobierno y atiende las particularidades de la FP en este caso 3.",
+        "Sustituye todos los órganos escolares por empresas en este caso 3.",
+        "Carece de participación de profesorado y alumnado en este caso 3."
       ],
-      "correct": 3,
-      "explanation": "El Claustro se reúne obligatoriamente al inicio de curso, al final de curso y al menos una vez por trimestre."
+      "correct": 1,
+      "explanation": "La respuesta correcta se ajusta a la función propia de CIFP; las restantes atribuyen competencias de otros órganos o confunden participación, coordinación y gestión."
     },
     {
       "id": 373,
       "topic": 3,
       "topicName": "Tema 3: Organización y Funcionamiento",
-      "question": "¿Qué miembros componen un Departamento Didáctico en Educación Secundaria? (Aspecto #73)",
+      "question": "¿Qué diferencia evita confundir participación estudiantil y potestad ejecutiva?",
       "options": [
-        "El inspector comarcal y el secretario del centro",
-        "Todos los docentes que imparten las materias, ámbitos o módulos asignados a dicho departamento",
-        "Los padres y madres de alumnos que tengan la carrera de magisterio",
-        "Los profesores y los 10 mejores alumnos de cada clase"
+        "La Junta canaliza propuestas; el órgano competente decide",
+        "La Junta decide cualquier asunto respaldado por mayoría",
+        "La Secretaría decide porque registra las peticiones",
+        "La COCOPE decide porque coordina la vida pedagógica"
       ],
-      "correct": 1,
-      "explanation": "Los departamentos didácticos son los órganos básicos de coordinación metodológica y docente de las disciplinas afines."
+      "correct": 0,
+      "explanation": "La respuesta correcta se ajusta a la función propia de participación y gobierno; las restantes atribuyen competencias de otros órganos o confunden participación, coordinación y gestión."
     },
     {
       "id": 374,
       "topic": 3,
       "topicName": "Tema 3: Organización y Funcionamiento",
-      "question": "¿Quién es el responsable de custodiar las actas oficiales de las sesiones de evaluación? (Aspecto #74)",
+      "question": "Al comparar funciones próximas, participación y gobierno? ¿Qué diferencia evita confundir participación estudiantil y potestad ejecutiva?",
       "options": [
-        "El conserje de la puerta principal",
-        "La Secretaría del centro escolar",
-        "El alumno delegado de curso",
-        "La imprenta local"
+        "La Junta decide cualquier asunto respaldado por mayoría en este caso 1.",
+        "La Secretaría decide porque registra las peticiones en este caso 1.",
+        "La COCOPE decide porque coordina la vida pedagógica en este caso 1.",
+        "La Junta canaliza propuestas; el órgano competente decide en este caso 1."
       ],
-      "correct": 1,
-      "explanation": "La Secretaría del centro es el órgano fedatario responsable de la custodia y archivo legal de las actas oficiales."
+      "correct": 3,
+      "explanation": "La respuesta correcta se ajusta a la función propia de participación y gobierno; las restantes atribuyen competencias de otros órganos o confunden participación, coordinación y gestión."
     },
     {
       "id": 375,
       "topic": 3,
       "topicName": "Tema 3: Organización y Funcionamiento",
-      "question": "¿Qué función corresponde al Vicedirector/a respecto a las actividades escolares? (Aspecto #75)",
+      "question": "Ante una situación de centro, participación y gobierno? ¿Qué diferencia evita confundir participación estudiantil y potestad ejecutiva?",
       "options": [
-        "Impartir las clases de educación física",
-        "Coordinar y supervisar la planificación de las actividades complementarias y extraescolares del centro",
-        "Revisar el estado de los neumáticos de los coches del parking",
-        "Elaborar las nóminas de los docentes funcionarios"
+        "La Secretaría decide porque registra las peticiones en este caso 2.",
+        "La COCOPE decide porque coordina la vida pedagógica en este caso 2.",
+        "La Junta canaliza propuestas; el órgano competente decide en este caso 2.",
+        "La Junta decide cualquier asunto respaldado por mayoría en este caso 2."
       ],
-      "correct": 1,
-      "explanation": "La Vicedirección coordina la oferta de actividades complementarias y extraescolares recogidas en la PGA."
+      "correct": 2,
+      "explanation": "La respuesta correcta se ajusta a la función propia de participación y gobierno; las restantes atribuyen competencias de otros órganos o confunden participación, coordinación y gestión."
     },
     {
       "id": 376,
       "topic": 3,
       "topicName": "Tema 3: Organización y Funcionamiento",
-      "question": "¿Qué porcentaje de asistencia a clase se exige legalmente para no perder el derecho a la evaluación continua? (Aspecto #76)",
+      "question": "¿Cuál es la respuesta más precisa sobre participación y gobierno? ¿Qué diferencia evita confundir participación estudiantil y potestad ejecutiva?",
       "options": [
-        "El 99% de las horas lectivas",
-        "Exactamente 3 horas al año",
-        "El establecido en el RRI del centro (habitualmente no superar el 15% o 20% de faltas no justificadas)",
-        "El 0%, no es obligatoria la asistencia en educación obligatoria"
+        "La COCOPE decide porque coordina la vida pedagógica en este caso 3.",
+        "La Junta canaliza propuestas; el órgano competente decide en este caso 3.",
+        "La Junta decide cualquier asunto respaldado por mayoría en este caso 3.",
+        "La Secretaría decide porque registra las peticiones en este caso 3."
       ],
-      "correct": 2,
-      "explanation": "El Reglamento de Régimen Interior de cada centro fija el porcentaje de faltas que condiciona la evaluación continua."
+      "correct": 1,
+      "explanation": "La respuesta correcta se ajusta a la función propia de participación y gobierno; las restantes atribuyen competencias de otros órganos o confunden participación, coordinación y gestión."
     },
     {
       "id": 377,
       "topic": 3,
       "topicName": "Tema 3: Organización y Funcionamiento",
-      "question": "¿Quién elabora el Proyecto de Dirección al presentarse a concurso de méritos directivos? (Aspecto #77)",
+      "question": "¿Qué interpretación de la autonomía organizativa respeta la distribución de competencias?",
       "options": [
-        "El candidato o candidata a la dirección, incluyendo objetivos, líneas de actuación y equipo directivo propuesto",
-        "La asociación de vecinos del barrio",
-        "El presidente de la comunidad autónoma",
-        "El conserje en funciones"
+        "Organizarse dentro de la norma sin borrar funciones diferenciadas",
+        "Permitir que cualquier órgano asuma cualquier competencia",
+        "Concentrar siempre las decisiones en la Dirección",
+        "Prescindir de actas si existe acuerdo unánime"
       ],
       "correct": 0,
-      "explanation": "El Proyecto de Dirección define las metas estratégicas de gestión y pedagógicas para los 4 años de mandato directivo."
+      "explanation": "La respuesta correcta se ajusta a la función propia de autonomía; las restantes atribuyen competencias de otros órganos o confunden participación, coordinación y gestión."
     },
     {
       "id": 378,
       "topic": 3,
       "topicName": "Tema 3: Organización y Funcionamiento",
-      "question": "¿Cuál es la función de la Junta de Delegados y Delegadas en un centro de secundaria? (Aspecto #78)",
+      "question": "Al comparar funciones próximas, autonomía? ¿Qué interpretación de la autonomía organizativa respeta la distribución de competencias?",
       "options": [
-        "Aprobar el presupuesto económico anual",
-        "Poner sanciones y partes disciplinarios a los profesores",
-        "Elegir los libros de texto de las asignaturas",
-        "Canalizar las opiniones, quejas y propuestas del alumnado ante el equipo directivo y el Consejo Escolar"
+        "Permitir que cualquier órgano asuma cualquier competencia en este caso 1.",
+        "Concentrar siempre las decisiones en la Dirección en este caso 1.",
+        "Prescindir de actas si existe acuerdo unánime en este caso 1.",
+        "Organizarse dentro de la norma sin borrar funciones diferenciadas en este caso 1."
       ],
       "correct": 3,
-      "explanation": "La Junta de Delegados es el órgano de participación democrática estudiantil en la vida del centro escolar."
+      "explanation": "La respuesta correcta se ajusta a la función propia de autonomía; las restantes atribuyen competencias de otros órganos o confunden participación, coordinación y gestión."
     },
     {
       "id": 379,
       "topic": 3,
       "topicName": "Tema 3: Organización y Funcionamiento",
-      "question": "¿Quién tiene la competencia de resolver en primera instancia los conflictos graves de disciplina en el centro? (Aspecto #79)",
+      "question": "Ante una situación de centro, autonomía? ¿Qué interpretación de la autonomía organizativa respeta la distribución de competencias?",
       "options": [
-        "El conductor del autobús escolar",
-        "El concejal de deportes",
-        "El juez de guardia del juzgado de instrucción",
-        "La Dirección del centro educativo, de acuerdo con el RRI y la normativa de convivencia"
+        "Concentrar siempre las decisiones en la Dirección en este caso 2.",
+        "Prescindir de actas si existe acuerdo unánime en este caso 2.",
+        "Organizarse dentro de la norma sin borrar funciones diferenciadas en este caso 2.",
+        "Permitir que cualquier órgano asuma cualquier competencia en este caso 2."
       ],
-      "correct": 3,
-      "explanation": "El Director impone las medidas disciplinarias y correcciones oportunas con audiencia previa del alumno y familias."
+      "correct": 2,
+      "explanation": "La respuesta correcta se ajusta a la función propia de autonomía; las restantes atribuyen competencias de otros órganos o confunden participación, coordinación y gestión."
     },
     {
       "id": 380,
       "topic": 3,
       "topicName": "Tema 3: Organización y Funcionamiento",
-      "question": "¿Qué periodicidad mínima tienen las reuniones ordinarias del Claustro de Profesores? (Aspecto #80)",
+      "question": "¿Cuál es la respuesta más precisa sobre autonomía? ¿Qué interpretación de la autonomía organizativa respeta la distribución de competencias?",
       "options": [
-        "Una vez cada cinco años",
-        "Únicamente cuando lo solicite el alcalde",
-        "Todos los días a primera hora",
-        "Al menos una al trimestre y preceptivamente al inicio y al final de curso lectivo"
+        "Prescindir de actas si existe acuerdo unánime en este caso 3.",
+        "Organizarse dentro de la norma sin borrar funciones diferenciadas en este caso 3.",
+        "Permitir que cualquier órgano asuma cualquier competencia en este caso 3.",
+        "Concentrar siempre las decisiones en la Dirección en este caso 3."
       ],
-      "correct": 3,
-      "explanation": "El Claustro se reúne obligatoriamente al inicio de curso, al final de curso y al menos una vez por trimestre."
+      "correct": 1,
+      "explanation": "La respuesta correcta se ajusta a la función propia de autonomía; las restantes atribuyen competencias de otros órganos o confunden participación, coordinación y gestión."
     },
     {
       "id": 401,
@@ -3473,9 +3473,9 @@ var DAC_DATA = {
       "question": "¿Cuáles son los tres ámbitos de autonomía que la ley confiere a los centros escolares?",
       "options": [
         "Autonomía pedagógica, organizativa y de gestión económica",
-        "Autonomía diplomática, militar y arancelaria",
-        "Autonomía jurídica, penal y penitenciaria",
-        "Autonomía sanitaria, farmacéutica y médica"
+        "El Proyecto de Gestión ordena recursos, instalaciones y criterios de uso sostenible",
+        "El PEC establece prioridades educativas que la gestión debe hacer viables",
+        "La PGA distribuye actuaciones y tiempos, pero no sustituye los criterios de gestión"
       ],
       "correct": 0,
       "explanation": "La LOMLOE consagra la triple autonomía pedagógica, organizativa y económica para adecuar la acción a su entorno."
@@ -3486,12 +3486,12 @@ var DAC_DATA = {
       "topicName": "Tema 4: Planificación Educativa y Documentos",
       "question": "¿Qué documento institucional constituye la 'máxima carta de identidad' de un centro docente?",
       "options": [
+        "El PEC, como marco estable, define identidad, valores y prioridades educativas del centro",
         "El Proyecto Educativo de Centro (PEC)",
-        "El libro mayor contable de secretaría",
-        "La Programación General Anual (PGA)",
-        "El parte diario de asistencia"
+        "La PGA concreta para un curso las líneas que el PEC mantiene como orientación institucional",
+        "El RRI/NOFC regula normas, derechos, deberes y convivencia conforme al proyecto educativo"
       ],
-      "correct": 0,
+      "correct": 1,
       "explanation": "El PEC define las señas de identidad, valores y principios pedagógicos que orientan toda la vida del centro."
     },
     {
@@ -3500,12 +3500,12 @@ var DAC_DATA = {
       "topicName": "Tema 4: Planificación Educativa y Documentos",
       "question": "¿Qué carácter temporal distingue a la Programación General Anual (PGA)?",
       "options": [
+        "El PEC fija orientaciones estables que no se agotan en un único curso",
+        "La PGA concreta y temporaliza las prioridades del PEC para un curso académico",
         "Es un documento temporal de vigencia estrictamente anual que organiza el funcionamiento para un único curso escolar",
-        "Es un documento atemporal que nunca se puede modificar",
-        "Caduca al terminar cada semana lectiva",
-        "Tiene una duración de 25 años"
+        "La Memoria contrasta el grado de cumplimiento y fundamenta propuestas de mejora"
       ],
-      "correct": 0,
+      "correct": 2,
       "explanation": "La PGA planifica las actividades, proyectos, horarios y metas específicas para un curso académico determinado."
     },
     {
@@ -3514,12 +3514,12 @@ var DAC_DATA = {
       "topicName": "Tema 4: Planificación Educativa y Documentos",
       "question": "¿Qué regula el Reglamento de Régimen Interior (RRI / ROF)?",
       "options": [
-        "Los sueldos brutos del personal docente",
-        "Las normas de convivencia escolar, derechos y deberes del alumnado, y los procedimientos disciplinarios y mediadores",
-        "El menú alimentario de los profesores",
-        "Las rutas del transporte de autobuses de línea"
+        "La PGA organiza actuaciones y tiempos del curso, con responsables y seguimiento",
+        "El RRI/NOFC concreta derechos, deberes, normas y procedimientos de convivencia",
+        "El PEC formula valores y finalidades educativas que orientan la vida del centro",
+        "Las normas de convivencia escolar, derechos y deberes del alumnado, y los procedimientos disciplinarios y mediadores"
       ],
-      "correct": 1,
+      "correct": 3,
       "explanation": "El RRI es la norma interna de funcionamiento que garantiza la convivencia pacífica y el ejercicio de derechos y deberes."
     },
     {
@@ -3528,12 +3528,12 @@ var DAC_DATA = {
       "topicName": "Tema 4: Planificación Educativa y Documentos",
       "question": "¿Qué documento recoge la evaluación institucional y el grado de cumplimiento de los objetivos de la PGA al final de curso?",
       "options": [
-        "El acta de selectividad",
-        "El Proyecto Educativo de Centro",
         "La Memoria Anual / Memoria Final de Curso",
-        "El balance bancario mensual"
+        "La Memoria valora cumplimiento, resultados y dificultades del curso ya desarrollado",
+        "La PGA anticipa actuaciones, responsables, recursos y seguimiento para el curso",
+        "El PEC ofrece el marco identitario y pedagógico de alcance plurianual"
       ],
-      "correct": 2,
+      "correct": 0,
       "explanation": "La Memoria Final valora los resultados obtenidos y formula propuestas de mejora para la PGA del curso siguiente."
     },
     {
@@ -3542,10 +3542,10 @@ var DAC_DATA = {
       "topicName": "Tema 4: Planificación Educativa y Documentos",
       "question": "¿Cuál de los siguientes planes institucionales forma parte estructural del PEC?",
       "options": [
-        "La lista de la compra del supermercado",
+        "El RRI/NOFC concreta derechos, deberes, normas y procedimientos de convivencia",
         "El Plan de Convivencia, el Plan de Inclusión, el PAT, el Plan Digital de Centro (PDC) y el Plan de Fomento de la Lectura",
-        "El menú de bodas de la localidad",
-        "El catálogo de coches del claustro de profesores"
+        "El PEC formula valores y finalidades educativas que orientan la vida del centro",
+        "La PGA organiza actuaciones y tiempos del curso, con responsables y seguimiento"
       ],
       "correct": 1,
       "explanation": "El PEC engloba todos los planes transversales de convivencia, inclusión, acción tutorial, lectura y digitalización."
@@ -3556,12 +3556,12 @@ var DAC_DATA = {
       "topicName": "Tema 4: Planificación Educativa y Documentos",
       "question": "¿A quién corresponde la elaboración de las Programaciones Didácticas de cada materia?",
       "options": [
-        "A la empresa que fabrica el software de notas",
-        "A la junta directiva de la asociación de familias",
-        "Al alcalde de la localidad",
-        "Al profesorado integrado en el correspondiente Departamento Didáctico"
+        "La PGA concreta para un curso las líneas que el PEC mantiene como orientación institucional",
+        "El PEC, como marco estable, define identidad, valores y prioridades educativas del centro",
+        "Al profesorado integrado en el correspondiente Departamento Didáctico",
+        "El RRI/NOFC regula normas, derechos, deberes y convivencia conforme al proyecto educativo"
       ],
-      "correct": 3,
+      "correct": 2,
       "explanation": "Los departamentos didácticos diseñan anualmente la programación docente de cada una de sus asignaturas."
     },
     {
@@ -3570,12 +3570,12 @@ var DAC_DATA = {
       "topicName": "Tema 4: Planificación Educativa y Documentos",
       "question": "¿Qué órgano aprueba formalmente el Proyecto Educativo de Centro (PEC) según la LOMLOE?",
       "options": [
-        "El conserje principal",
-        "El Claustro en exclusiva",
-        "El Consejo Escolar del centro",
-        "El delegado del gobierno"
+        "El equipo directivo impulsa la elaboración y coordinación de los documentos del centro",
+        "El Consejo Escolar participa en decisiones institucionales conforme a sus competencias",
+        "El Claustro interviene especialmente en los aspectos pedagógicos y docentes",
+        "El Consejo Escolar del centro"
       ],
-      "correct": 2,
+      "correct": 3,
       "explanation": "La LOMLOE devolvió al Consejo Escolar la competencia resolutiva de aprobar y evaluar el Proyecto Educativo de Centro."
     },
     {
@@ -3584,12 +3584,12 @@ var DAC_DATA = {
       "topicName": "Tema 4: Planificación Educativa y Documentos",
       "question": "¿Qué es el Plan de Actuación para la Mejora (PAM) en los centros valencianos?",
       "options": [
-        "La lista de material deportivo para gimnasia",
-        "Un plan de asfaltado del patio escolar",
         "El documento anual que concreta las medidas de respuesta a la inclusión, apoyo educativo y prevención del fracaso escolar",
-        "Un seguro de vida colectivo para el alumnado"
+        "El Proyecto de Gestión ordena recursos, instalaciones y criterios de uso sostenible",
+        "El PEC establece prioridades educativas que la gestión debe hacer viables",
+        "La PGA distribuye actuaciones y tiempos, pero no sustituye los criterios de gestión"
       ],
-      "correct": 2,
+      "correct": 0,
       "explanation": "El PAM canaliza los recursos humanos y organizativos de apoyo e inclusión en la Comunitat Valenciana."
     },
     {
@@ -3598,10 +3598,10 @@ var DAC_DATA = {
       "topicName": "Tema 4: Planificación Educativa y Documentos",
       "question": "¿Por qué se clasifica al PEC como un documento 'Atemporal' o plurianual?",
       "options": [
-        "Porque se escribió antes de que existieran los relojes",
+        "El PEC, como marco estable, define identidad, valores y prioridades educativas del centro",
         "Porque tiene vocación de permanencia a medio y largo plazo y no caduca con el cierre de cada curso lectivo",
-        "Porque carece de números en sus páginas",
-        "Porque no se puede cambiar jamás bajo ninguna circunstancia"
+        "La PGA concreta para un curso las líneas que el PEC mantiene como orientación institucional",
+        "El RRI/NOFC regula normas, derechos, deberes y convivencia conforme al proyecto educativo"
       ],
       "correct": 1,
       "explanation": "El PEC define la identidad y pilares educativos del centro con vocación estable, revisándose ante cambios estructurales."
@@ -3612,12 +3612,12 @@ var DAC_DATA = {
       "topicName": "Tema 4: Planificación Educativa y Documentos",
       "question": "¿Qué documento institucional concreta la ordenación y gestión de los recursos económicos y materiales del centro?",
       "options": [
-        "El Acta de Evaluación",
+        "El PEC establece prioridades educativas que la gestión debe hacer viables",
+        "El Proyecto de Gestión ordena recursos, instalaciones y criterios de uso sostenible",
         "El Proyecto de Gestión",
-        "El Plan de Lectura",
-        "El Boletín de Notas"
+        "La PGA distribuye actuaciones y tiempos, pero no sustituye los criterios de gestión"
       ],
-      "correct": 1,
+      "correct": 2,
       "explanation": "El Proyecto de Gestión expresa la ordenación y utilización de los recursos materiales y presupuestarios del centro."
     },
     {
@@ -3626,9 +3626,9 @@ var DAC_DATA = {
       "topicName": "Tema 4: Planificación Educativa y Documentos",
       "question": "¿Qué elementos mínimos debe contener una Programación Didáctica según el currículo competencial?",
       "options": [
-        "El nombre de los profesores que no imparten clase",
-        "El índice de capítulos del manual escolar",
-        "Únicamente el precio del libro de texto y la fecha del examen final",
+        "La PGA coordina el conjunto de actuaciones del curso y sus tiempos",
+        "La programación didáctica concreta currículo, metodología, evaluación y atención a la diversidad",
+        "La programación de aula adapta esa planificación a grupos, sesiones y situaciones concretas",
         "Competencias específicas, saberes básicos, criterios de evaluación, situaciones de aprendizaje y medidas de respuesta a la diversidad"
       ],
       "correct": 3,
@@ -3640,12 +3640,12 @@ var DAC_DATA = {
       "topicName": "Tema 4: Planificación Educativa y Documentos",
       "question": "¿En qué periodo del curso escolar se elabora y aprueba obligatoriamente la Programación General Anual (PGA)?",
       "options": [
-        "Durante las vacaciones de Navidad",
-        "En el mes de julio una vez terminadas todas las clases",
-        "En Semana Santa exclusivamente",
-        "Al inicio del curso escolar (habitualmente durante el mes de octubre)"
+        "Al inicio del curso escolar (habitualmente durante el mes de octubre)",
+        "La PGA concreta y temporaliza las prioridades del PEC para un curso académico",
+        "El PEC fija orientaciones estables que no se agotan en un único curso",
+        "La Memoria contrasta el grado de cumplimiento y fundamenta propuestas de mejora"
       ],
-      "correct": 3,
+      "correct": 0,
       "explanation": "La PGA se aprueba en octubre para planificar y organizar todo el año escolar antes de enviarse a la Inspección Educativa."
     },
     {
@@ -3654,10 +3654,10 @@ var DAC_DATA = {
       "topicName": "Tema 4: Planificación Educativa y Documentos",
       "question": "¿Cuál es el propósito del Plan Digital de Centro (PDC)?",
       "options": [
-        "Comprar teléfonos móviles a todos los estudiantes con dinero público",
+        "El PEC, como marco estable, define identidad, valores y prioridades educativas del centro",
         "Impulsar la transformación digital del centro mejorando infraestructuras, pedagogías digitales y competencias de docentes y alumnos",
-        "Instalar videojuegos de ocio en los ordenadores de la sala de profesores",
-        "Crear una página de memes en redes sociales"
+        "La PGA concreta para un curso las líneas que el PEC mantiene como orientación institucional",
+        "El RRI/NOFC regula normas, derechos, deberes y convivencia conforme al proyecto educativo"
       ],
       "correct": 1,
       "explanation": "El PDC guía la madurez digital y el uso pedagógico eficaz de las tecnologías educativas."
@@ -3668,12 +3668,12 @@ var DAC_DATA = {
       "topicName": "Tema 4: Planificación Educativa y Documentos",
       "question": "¿Cuál de las siguientes es una finalidad esencial de la planificación institucional en un centro educativo?",
       "options": [
-        "Cerrar la escuela a las familias del entorno",
+        "La PGA concreta para un curso las líneas que el PEC mantiene como orientación institucional",
+        "El PEC, como marco estable, define identidad, valores y prioridades educativas del centro",
         "Reducir incertidumbres, dar coherencia pedagógica y promover el trabajo colaborativo de la comunidad escolar",
-        "Incrementar los trámites burocráticos sin sentido pedagógico",
-        "Impedir la libertad de cátedra de los docentes"
+        "El RRI/NOFC regula normas, derechos, deberes y convivencia conforme al proyecto educativo"
       ],
-      "correct": 1,
+      "correct": 2,
       "explanation": "La planificación evita la improvisación, articula los esfuerzos colectivos y optimiza el rendimiento del alumnado."
     },
     {
@@ -3682,12 +3682,12 @@ var DAC_DATA = {
       "topicName": "Tema 4: Planificación Educativa y Documentos",
       "question": "¿Dónde se recogen los criterios objetivos para la asignación de tutorías y cursos al profesorado del centro?",
       "options": [
-        "En las normas de organización y funcionamiento (RRI) de acuerdo con la resolución de inicio de curso autonómica",
-        "En el contrato de arrendamiento del edificio",
-        "En el menú del comedor escolar",
-        "En un sorteo de lotería benéfica"
+        "La PGA organiza actuaciones y tiempos del curso, con responsables y seguimiento",
+        "El RRI/NOFC concreta derechos, deberes, normas y procedimientos de convivencia",
+        "El PEC formula valores y finalidades educativas que orientan la vida del centro",
+        "En las normas de organización y funcionamiento (RRI) de acuerdo con la resolución de inicio de curso autonómica"
       ],
-      "correct": 0,
+      "correct": 3,
       "explanation": "La asignación de grupos y tutorías sigue pautas objetivas normadas en el RRI respetando la prelación del profesorado."
     },
     {
@@ -3696,12 +3696,12 @@ var DAC_DATA = {
       "topicName": "Tema 4: Planificación Educativa y Documentos",
       "question": "¿Qué documento marco orienta y coordina las tutorías y el seguimiento del alumnado a lo largo de toda su escolaridad?",
       "options": [
-        "La factura del suministro de gas natural",
         "El Plan de Acción Tutorial (PAT), integrado en el PEC",
-        "El plano de evacuación de incendios",
-        "El contrato de alquiler de fotocopiadoras"
+        "El PEC, como marco estable, define identidad, valores y prioridades educativas del centro",
+        "La PGA concreta para un curso las líneas que el PEC mantiene como orientación institucional",
+        "El RRI/NOFC regula normas, derechos, deberes y convivencia conforme al proyecto educativo"
       ],
-      "correct": 1,
+      "correct": 0,
       "explanation": "El PAT articula las actividades de tutoría grupal e individual, orientación académica y colaboración con familias."
     },
     {
@@ -3710,12 +3710,12 @@ var DAC_DATA = {
       "topicName": "Tema 4: Planificación Educativa y Documentos",
       "question": "¿Cuál es la función evaluadora primordial de la Memoria Anual respecto al curso siguiente?",
       "options": [
-        "Destruir todos los exámenes de los alumnos",
-        "Cerrar la contabilidad fiscal para pagar impuestos comerciales",
+        "La Memoria valora cumplimiento, resultados y dificultades del curso ya desarrollado",
         "Servir de instrumento reflexivo de mejora continua para retroalimentar y definir los objetivos de la siguiente PGA",
-        "Sancionar a los docentes que hayan puesto más suspensos"
+        "La PGA anticipa actuaciones, responsables, recursos y seguimiento para el curso",
+        "El PEC ofrece el marco identitario y pedagógico de alcance plurianual"
       ],
-      "correct": 2,
+      "correct": 1,
       "explanation": "La Memoria Anual conecta el balance de logros con las prioridades de mejora de la PGA venidera."
     },
     {
@@ -3724,869 +3724,867 @@ var DAC_DATA = {
       "topicName": "Tema 4: Planificación Educativa y Documentos",
       "question": "¿Cuál es la relación de jerarquía y coherencia entre el PEC y la PGA?",
       "options": [
+        "El PEC formula valores y finalidades educativas que orientan la vida del centro",
+        "El RRI/NOFC concreta derechos, deberes, normas y procedimientos de convivencia",
         "El PEC fija las directrices estables a medio/largo plazo, y la PGA concreta y temporaliza esas metas para el curso escolar corriente",
-        "La PGA tiene mayor rango y puede contradecir los principios del PEC",
-        "Son dos documentos idénticos que se pueden usar indistintamente",
-        "El PEC solo es válido en verano y la PGA en invierno"
+        "La PGA organiza actuaciones y tiempos del curso, con responsables y seguimiento"
       ],
-      "correct": 0,
+      "correct": 2,
       "explanation": "El PEC actúa como carta magna del centro y la PGA es el plan operativo anual que aterriza sus principios."
     },
     {
-      "id": 410,
+      "id": 420,
       "topic": 4,
       "topicName": "Tema 4: Planificación Educativa y Documentos",
       "question": "¿Qué es la 'Concreción Curricular de Centro' incluida en el PEC?",
       "options": [
-        "El plano de arquitecto de las aulas",
-        "La adaptación que realiza el claustro de las directrices autonómicas al contexto socioeducativo de su propio alumnado",
-        "El horario de los autobuses escolares",
-        "La lista de compras de material escolar"
+        "La PGA organiza actuaciones y tiempos del curso, con responsables y seguimiento",
+        "El RRI/NOFC concreta derechos, deberes, normas y procedimientos de convivencia",
+        "El PEC formula valores y finalidades educativas que orientan la vida del centro",
+        "La adaptación que realiza el claustro de las directrices autonómicas al contexto socioeducativo de su propio alumnado"
       ],
-      "correct": 1,
+      "correct": 3,
       "explanation": "La Concreción Curricular contextualiza los criterios de evaluación y saberes básicos a la realidad singular del instituto."
     },
     {
       "id": 421,
       "topic": 4,
       "topicName": "Tema 4: Planificación Educativa y Documentos",
-      "question": "¿Quién informa preceptivamente la Programación General Anual (PGA) antes de su aprobación final por el Consejo Escolar? (Aspecto #21)",
+      "question": "En la PGA, una prioridad del PEC se convierte en un plan operativo cuando incluye:",
       "options": [
-        "El párroco de la localidad",
-        "El Claustro de Profesores (evaluando los aspectos educativos y pedagógicos)",
-        "La Policía Local del municipio",
-        "La asociación de comerciantes del barrio"
+        "acciones, responsables, recursos e indicadores de seguimiento",
+        "La PGA concreta y temporaliza las prioridades del PEC para un curso académico",
+        "El PEC fija orientaciones estables que no se agotan en un único curso",
+        "La Memoria contrasta el grado de cumplimiento y fundamenta propuestas de mejora"
       ],
-      "correct": 1,
-      "explanation": "El Claustro emite informe previo sobre los aspectos pedagógicos y educativos de la PGA antes de su elevación al Consejo Escolar."
+      "correct": 0,
+      "explanation": "La PGA debe hacer operativas las orientaciones del PEC mediante actuaciones trazables y evaluables."
     },
     {
       "id": 422,
       "topic": 4,
       "topicName": "Tema 4: Planificación Educativa y Documentos",
-      "question": "¿Qué plazo temporal abarca la Programación Didáctica de un departamento docente? (Aspecto #22)",
+      "question": "¿Qué evidencia mostraría mejor que una actuación de la PGA se ejecutó?",
       "options": [
-        "Tres días lectivos",
-        "Una única semana lectiva",
-        "Un curso escolar completo, con revisiones y seguimiento trimestral",
-        "Diez años consecutivos sin cambios"
+        "La PGA concreta y temporaliza las prioridades del PEC para un curso académico",
+        "un registro de la actuación y productos vinculados al objetivo",
+        "El PEC fija orientaciones estables que no se agotan en un único curso",
+        "La Memoria contrasta el grado de cumplimiento y fundamenta propuestas de mejora"
       ],
-      "correct": 2,
-      "explanation": "La programación didáctica organiza las enseñanzas a lo largo de todo el curso lectivo escolar."
+      "correct": 1,
+      "explanation": "Aprobar una previsión no demuestra ejecución; se necesitan evidencias vinculadas a la finalidad."
     },
     {
       "id": 423,
       "topic": 4,
       "topicName": "Tema 4: Planificación Educativa y Documentos",
-      "question": "¿Qué apartado del Proyecto de Gestión define cómo se mantienen y conservan los edificios e instalaciones? (Aspecto #23)",
+      "question": "Una memoria que solo enumera actividades realizadas incurre en el riesgo de:",
       "options": [
-        "La lista de profesores con coche propio",
-        "Las medidas para la conservación, renovación y uso sostenible de las instalaciones escolares",
-        "El precio de los periódicos de biblioteca",
-        "Las recetas de la cocina escolar"
+        "La PGA anticipa actuaciones, responsables, recursos y seguimiento para el curso",
+        "La Memoria valora cumplimiento, resultados y dificultades del curso ya desarrollado",
+        "confundir actividad con logro y omitir el análisis de resultados",
+        "El PEC ofrece el marco identitario y pedagógico de alcance plurianual"
       ],
-      "correct": 1,
-      "explanation": "El Proyecto de Gestión contempla el mantenimiento del patrimonio mobiliario e inmobiliario del centro escolar."
+      "correct": 2,
+      "explanation": "La memoria debe valorar cumplimiento, resultados, causas y mejoras, no solo contar actividades."
     },
     {
       "id": 424,
       "topic": 4,
       "topicName": "Tema 4: Planificación Educativa y Documentos",
-      "question": "¿Qué instrumento institucional articula las medidas frente al acoso escolar y ciberacoso? (Aspecto #24)",
+      "question": "Si una medida mejora en un grupo pero no en otro, la conclusión más prudente es:",
       "options": [
-        "El Plan de Convivencia (integrado en el PEC), con sus protocolos específicos de prevención e intervención",
-        "El catálogo de excursiones de fin de curso",
-        "El parte de incidencias meteorológicas",
-        "La factura telefónica del centro"
+        "El RRI/NOFC regula normas, derechos, deberes y convivencia conforme al proyecto educativo",
+        "El PEC, como marco estable, define identidad, valores y prioridades educativas del centro",
+        "La PGA concreta para un curso las líneas que el PEC mantiene como orientación institucional",
+        "analizar condiciones de aplicación antes de generalizar el resultado"
       ],
-      "correct": 0,
-      "explanation": "El Plan de Convivencia contiene los protocolos de actuación inmediata ante situaciones de violencia o acoso escolar."
+      "correct": 3,
+      "explanation": "Los resultados situados requieren examinar contexto e implementación antes de extender o descartar una medida."
     },
     {
       "id": 425,
       "topic": 4,
       "topicName": "Tema 4: Planificación Educativa y Documentos",
-      "question": "¿Qué colectivo tiene derecho a formular propuestas para la elaboración del Proyecto Educativo de Centro (PEC)? (Aspecto #25)",
+      "question": "La revisión del PEC por un cambio importante del contexto debería partir de:",
       "options": [
-        "Solo los alumnos con matrícula de honor",
-        "Exclusivamente el director del centro",
-        "Únicamente los inspectores de carrera",
-        "Todos los sectores de la comunidad escolar: profesorado, familias, alumnado y personal no docente"
+        "un diagnóstico actualizado y la participación de la comunidad educativa",
+        "El Consejo Escolar participa en decisiones institucionales conforme a sus competencias",
+        "El Claustro interviene especialmente en los aspectos pedagógicos y docentes",
+        "El equipo directivo impulsa la elaboración y coordinación de los documentos del centro"
       ],
-      "correct": 3,
-      "explanation": "La ley garantiza la participación democrática de toda la comunidad en la definición de las líneas del PEC."
+      "correct": 0,
+      "explanation": "El PEC se contextualiza; por eso los cambios deben apoyarse en diagnóstico y participación."
     },
     {
       "id": 426,
       "topic": 4,
       "topicName": "Tema 4: Planificación Educativa y Documentos",
-      "question": "¿Qué se hace con la Memoria Anual una vez aprobada por el Consejo Escolar a finales de curso? (Aspecto #26)",
+      "question": "¿Qué contenido pertenece principalmente al RRI o NOFC?",
       "options": [
-        "Se remite a la Dirección Territorial / Inspección Educativa para su supervisión y control",
-        "Se quema en la hoguera de San Juan",
-        "Se envía a la imprenta para venderla en quioscos",
-        "Se guarda bajo llave sin que nadie pueda leerla"
+        "La Memoria valora cumplimiento, resultados y dificultades del curso ya desarrollado",
+        "procedimientos de convivencia, derechos, deberes y organización cotidiana",
+        "La PGA anticipa actuaciones, responsables, recursos y seguimiento para el curso",
+        "El PEC ofrece el marco identitario y pedagógico de alcance plurianual"
       ],
-      "correct": 0,
-      "explanation": "La Memoria Anual es fiscalizada por la Inspección Educativa como balance oficial del curso escolar."
+      "correct": 1,
+      "explanation": "El RRI/NOFC regula funcionamiento y convivencia; los otros contenidos corresponden a PEC, programación o memoria."
     },
     {
       "id": 427,
       "topic": 4,
       "topicName": "Tema 4: Planificación Educativa y Documentos",
-      "question": "¿Cuál es la función del 'Plan de Fomento de la Lectura' integrado en el PEC? (Aspecto #27)",
+      "question": "Una norma interna que contradice un derecho reconocido debe:",
       "options": [
-        "Promover el hábito lector, la comprensión lectora y la alfabetización informacional en todas las materias",
-        "Vender novelas caras a los estudiantes",
-        "Cerrar la biblioteca escolar durante las horas de recreo",
-        "Obligar a leer exclusivamente libros de leyes educativas"
+        "El PEC formula valores y finalidades educativas que orientan la vida del centro",
+        "El RRI/NOFC concreta derechos, deberes, normas y procedimientos de convivencia",
+        "revisarse mediante el procedimiento correspondiente y el marco superior",
+        "La PGA organiza actuaciones y tiempos del curso, con responsables y seguimiento"
       ],
-      "correct": 0,
-      "explanation": "El plan de lectura transversal favorece la competencia lectora y el pensamiento crítico en todas las disciplinas."
+      "correct": 2,
+      "explanation": "La autonomía normativa está subordinada a las normas superiores y a las garantías de derechos."
     },
     {
       "id": 428,
       "topic": 4,
       "topicName": "Tema 4: Planificación Educativa y Documentos",
-      "question": "¿Qué ocurre si un departamento no cumple los objetivos previstos en su Programación Didáctica? (Aspecto #28)",
+      "question": "¿Qué diferencia funcional hay entre una norma y un protocolo de convivencia?",
       "options": [
-        "Se expulsa a todos los profesores del instituto",
-        "Debe reflejar las desviaciones y las medidas correctoras en la memoria final de departamento para corregirlo en la siguiente",
-        "Se prohíbe a los alumnos matricularse en esa materia",
-        "Se cierran las aulas del departamento durante un año"
+        "La PGA organiza actuaciones y tiempos del curso, con responsables y seguimiento",
+        "El RRI/NOFC concreta derechos, deberes, normas y procedimientos de convivencia",
+        "El PEC formula valores y finalidades educativas que orientan la vida del centro",
+        "la norma fija pautas generales y el protocolo secuencia una respuesta concreta"
       ],
-      "correct": 1,
-      "explanation": "La evaluación de la programación didáctica exige analizar las causas de los desajustes e introducir propuestas de mejora."
+      "correct": 3,
+      "explanation": "El protocolo concreta actuaciones ante un supuesto; la norma establece reglas generales de convivencia."
     },
     {
       "id": 429,
       "topic": 4,
       "topicName": "Tema 4: Planificación Educativa y Documentos",
-      "question": "¿Quién informa preceptivamente la Programación General Anual (PGA) antes de su aprobación final por el Consejo Escolar? (Aspecto #29)",
+      "question": "Ante un posible caso de acoso, citar el RRI sin activar medidas específicas sería insuficiente porque:",
       "options": [
-        "El Claustro de Profesores (evaluando los aspectos educativos y pedagógicos)",
-        "El párroco de la localidad",
-        "La asociación de comerciantes del barrio",
-        "La Policía Local del municipio"
+        "la situación requiere protección, coordinación, investigación y seguimiento",
+        "El RRI/NOFC concreta derechos, deberes, normas y procedimientos de convivencia",
+        "El PEC formula valores y finalidades educativas que orientan la vida del centro",
+        "La PGA organiza actuaciones y tiempos del curso, con responsables y seguimiento"
       ],
       "correct": 0,
-      "explanation": "El Claustro emite informe previo sobre los aspectos pedagógicos y educativos de la PGA antes de su elevación al Consejo Escolar."
+      "explanation": "El reglamento aporta marco, pero un caso de acoso exige respuesta protocolizada y garantista."
     },
     {
       "id": 430,
       "topic": 4,
       "topicName": "Tema 4: Planificación Educativa y Documentos",
-      "question": "¿Qué plazo temporal abarca la Programación Didáctica de un departamento docente? (Aspecto #30)",
+      "question": "El PAM se diferencia de un diagnóstico porque:",
       "options": [
-        "Diez años consecutivos sin cambios",
-        "Tres días lectivos",
-        "Un curso escolar completo, con revisiones y seguimiento trimestral",
-        "Una única semana lectiva"
+        "El PAM organiza medidas de apoyo y mejora a partir de necesidades detectadas",
+        "organiza actuaciones de mejora y apoyos a partir de necesidades detectadas",
+        "La PGA integra y temporaliza las actuaciones del centro durante el curso",
+        "El PEC fija prioridades institucionales con horizonte más estable"
       ],
-      "correct": 2,
-      "explanation": "La programación didáctica organiza las enseñanzas a lo largo de todo el curso lectivo escolar."
+      "correct": 1,
+      "explanation": "El diagnóstico explica necesidades; el PAM articula respuestas operativas, apoyos y seguimiento."
     },
     {
       "id": 431,
       "topic": 4,
       "topicName": "Tema 4: Planificación Educativa y Documentos",
-      "question": "¿Qué apartado del Proyecto de Gestión define cómo se mantienen y conservan los edificios e instalaciones? (Aspecto #31)",
+      "question": "Un PAM ante absentismo y desfase curricular debería combinar:",
       "options": [
-        "La lista de profesores con coche propio",
-        "Las medidas para la conservación, renovación y uso sostenible de las instalaciones escolares",
-        "Las recetas de la cocina escolar",
-        "El precio de los periódicos de biblioteca"
+        "El PEC formula valores y finalidades educativas que orientan la vida del centro",
+        "El RRI/NOFC concreta derechos, deberes, normas y procedimientos de convivencia",
+        "prevención, coordinación, apoyos y seguimiento con indicadores",
+        "La PGA organiza actuaciones y tiempos del curso, con responsables y seguimiento"
       ],
-      "correct": 1,
-      "explanation": "El Proyecto de Gestión contempla el mantenimiento del patrimonio mobiliario e inmobiliario del centro escolar."
+      "correct": 2,
+      "explanation": "La complejidad del problema exige medidas coordinadas y evaluables, no una única respuesta indiferenciada."
     },
     {
       "id": 432,
       "topic": 4,
       "topicName": "Tema 4: Planificación Educativa y Documentos",
-      "question": "¿Qué instrumento institucional articula las medidas frente al acoso escolar y ciberacoso? (Aspecto #32)",
+      "question": "Una medida del PAM pasa a una línea estable cuando:",
       "options": [
-        "La factura telefónica del centro",
-        "El catálogo de excursiones de fin de curso",
-        "El parte de incidencias meteorológicas",
-        "El Plan de Convivencia (integrado en el PEC), con sus protocolos específicos de prevención e intervención"
+        "El PEC fija prioridades institucionales con horizonte más estable",
+        "El PAM organiza medidas de apoyo y mejora a partir de necesidades detectadas",
+        "La PGA integra y temporaliza las actuaciones del centro durante el curso",
+        "la evidencia justifica su continuidad y encaja con las prioridades del PEC"
       ],
       "correct": 3,
-      "explanation": "El Plan de Convivencia contiene los protocolos de actuación inmediata ante situaciones de violencia o acoso escolar."
+      "explanation": "La institucionalización requiere necesidad, eficacia, viabilidad y coherencia con el proyecto educativo."
     },
     {
       "id": 433,
       "topic": 4,
       "topicName": "Tema 4: Planificación Educativa y Documentos",
-      "question": "¿Qué colectivo tiene derecho a formular propuestas para la elaboración del Proyecto Educativo de Centro (PEC)? (Aspecto #33)",
+      "question": "El Proyecto de Gestión debe vincular sus decisiones de recursos con:",
       "options": [
-        "Exclusivamente el director del centro",
-        "Todos los sectores de la comunidad escolar: profesorado, familias, alumnado y personal no docente",
-        "Solo los alumnos con matrícula de honor",
-        "Únicamente los inspectores de carrera"
+        "las prioridades educativas y organizativas definidas por el centro",
+        "El Proyecto de Gestión ordena recursos, instalaciones y criterios de uso sostenible",
+        "El PEC establece prioridades educativas que la gestión debe hacer viables",
+        "La PGA distribuye actuaciones y tiempos, pero no sustituye los criterios de gestión"
       ],
-      "correct": 1,
-      "explanation": "La ley garantiza la participación democrática de toda la comunidad en la definición de las líneas del PEC."
+      "correct": 0,
+      "explanation": "La gestión material y económica es un medio para hacer viables las finalidades institucionales."
     },
     {
       "id": 434,
       "topic": 4,
       "topicName": "Tema 4: Planificación Educativa y Documentos",
-      "question": "¿Qué se hace con la Memoria Anual una vez aprobada por el Consejo Escolar a finales de curso? (Aspecto #34)",
+      "question": "Un criterio de buena gestión ante un presupuesto limitado es:",
       "options": [
-        "Se quema en la hoguera de San Juan",
-        "Se remite a la Dirección Territorial / Inspección Educativa para su supervisión y control",
-        "Se guarda bajo llave sin que nadie pueda leerla",
-        "Se envía a la imprenta para venderla en quioscos"
+        "El Proyecto de Gestión ordena recursos, instalaciones y criterios de uso sostenible",
+        "priorizar necesidades educativas, eficiencia, transparencia y sostenibilidad",
+        "El PEC establece prioridades educativas que la gestión debe hacer viables",
+        "La PGA distribuye actuaciones y tiempos, pero no sustituye los criterios de gestión"
       ],
       "correct": 1,
-      "explanation": "La Memoria Anual es fiscalizada por la Inspección Educativa como balance oficial del curso escolar."
+      "explanation": "La gestión responsable combina finalidad educativa, eficiencia, transparencia y sostenibilidad."
     },
     {
       "id": 435,
       "topic": 4,
       "topicName": "Tema 4: Planificación Educativa y Documentos",
-      "question": "¿Cuál es la función del 'Plan de Fomento de la Lectura' integrado en el PEC? (Aspecto #35)",
+      "question": "La conservación de edificios aparece en el Proyecto de Gestión porque implica:",
       "options": [
-        "Vender novelas caras a los estudiantes",
-        "Obligar a leer exclusivamente libros de leyes educativas",
-        "Cerrar la biblioteca escolar durante las horas de recreo",
-        "Promover el hábito lector, la comprensión lectora y la alfabetización informacional en todas las materias"
+        "El PEC establece prioridades educativas que la gestión debe hacer viables",
+        "El Proyecto de Gestión ordena recursos, instalaciones y criterios de uso sostenible",
+        "planificar mantenimiento, uso, renovación y recursos del patrimonio",
+        "La PGA distribuye actuaciones y tiempos, pero no sustituye los criterios de gestión"
       ],
-      "correct": 3,
-      "explanation": "El plan de lectura transversal favorece la competencia lectora y el pensamiento crítico en todas las disciplinas."
+      "correct": 2,
+      "explanation": "La conservación requiere decisiones planificadas sobre recursos, instalaciones y sostenibilidad."
     },
     {
       "id": 436,
       "topic": 4,
       "topicName": "Tema 4: Planificación Educativa y Documentos",
-      "question": "¿Qué ocurre si un departamento no cumple los objetivos previstos en su Programación Didáctica? (Aspecto #36)",
+      "question": "La programación didáctica se diferencia de la programación de aula porque:",
       "options": [
-        "Se expulsa a todos los profesores del instituto",
-        "Debe reflejar las desviaciones y las medidas correctoras en la memoria final de departamento para corregirlo en la siguiente",
-        "Se prohíbe a los alumnos matricularse en esa materia",
-        "Se cierran las aulas del departamento durante un año"
+        "La PGA coordina el conjunto de actuaciones del curso y sus tiempos",
+        "La programación didáctica concreta currículo, metodología, evaluación y atención a la diversidad",
+        "La programación de aula adapta esa planificación a grupos, sesiones y situaciones concretas",
+        "la primera organiza un área o departamento y la segunda concreta grupos y sesiones"
       ],
-      "correct": 1,
-      "explanation": "La evaluación de la programación didáctica exige analizar las causas de los desajustes e introducir propuestas de mejora."
+      "correct": 3,
+      "explanation": "La diferencia principal es el nivel de concreción: área/departamento frente a aula y grupo."
     },
     {
       "id": 437,
       "topic": 4,
       "topicName": "Tema 4: Planificación Educativa y Documentos",
-      "question": "¿Quién informa preceptivamente la Programación General Anual (PGA) antes de su aprobación final por el Consejo Escolar? (Aspecto #37)",
+      "question": "Una programación didáctica coherente relaciona:",
       "options": [
-        "El párroco de la localidad",
-        "El Claustro de Profesores (evaluando los aspectos educativos y pedagógicos)",
-        "La asociación de comerciantes del barrio",
-        "La Policía Local del municipio"
+        "criterios, saberes, competencias, actividades y evidencias de evaluación",
+        "El RRI/NOFC concreta derechos, deberes, normas y procedimientos de convivencia",
+        "El PEC formula valores y finalidades educativas que orientan la vida del centro",
+        "La PGA organiza actuaciones y tiempos del curso, con responsables y seguimiento"
       ],
-      "correct": 1,
-      "explanation": "El Claustro emite informe previo sobre los aspectos pedagógicos y educativos de la PGA antes de su elevación al Consejo Escolar."
+      "correct": 0,
+      "explanation": "La coherencia curricular conecta enseñanza, aprendizaje y evaluación mediante evidencias."
     },
     {
       "id": 438,
       "topic": 4,
       "topicName": "Tema 4: Planificación Educativa y Documentos",
-      "question": "¿Qué plazo temporal abarca la Programación Didáctica de un departamento docente? (Aspecto #38)",
+      "question": "Adaptar metodología y apoyos sin cambiar el referente de evaluación constituye:",
       "options": [
-        "Una única semana lectiva",
-        "Un curso escolar completo, con revisiones y seguimiento trimestral",
-        "Diez años consecutivos sin cambios",
-        "Tres días lectivos"
+        "El PAM organiza medidas de apoyo y mejora a partir de necesidades detectadas",
+        "una respuesta de acceso o inclusión compatible con mantener criterios comunes",
+        "La PGA integra y temporaliza las actuaciones del centro durante el curso",
+        "El PEC fija prioridades institucionales con horizonte más estable"
       ],
       "correct": 1,
-      "explanation": "La programación didáctica organiza las enseñanzas a lo largo de todo el curso lectivo escolar."
+      "explanation": "No todo ajuste inclusivo altera los referentes: pueden modificarse acceso, apoyos o metodología."
     },
     {
       "id": 439,
       "topic": 4,
       "topicName": "Tema 4: Planificación Educativa y Documentos",
-      "question": "¿Qué apartado del Proyecto de Gestión define cómo se mantienen y conservan los edificios e instalaciones? (Aspecto #39)",
+      "question": "La temporalización de una programación sirve principalmente para:",
       "options": [
-        "Las recetas de la cocina escolar",
-        "Las medidas para la conservación, renovación y uso sostenible de las instalaciones escolares",
-        "El precio de los periódicos de biblioteca",
-        "La lista de profesores con coche propio"
+        "La programación de aula adapta esa planificación a grupos, sesiones y situaciones concretas",
+        "La programación didáctica concreta currículo, metodología, evaluación y atención a la diversidad",
+        "ordenar la progresión, los hitos y los momentos de revisión del aprendizaje",
+        "La PGA coordina el conjunto de actuaciones del curso y sus tiempos"
       ],
-      "correct": 1,
-      "explanation": "El Proyecto de Gestión contempla el mantenimiento del patrimonio mobiliario e inmobiliario del centro escolar."
+      "correct": 2,
+      "explanation": "Temporalizar hace viable el plan y permite revisar el ritmo y las decisiones durante el curso."
     },
     {
       "id": 440,
       "topic": 4,
       "topicName": "Tema 4: Planificación Educativa y Documentos",
-      "question": "¿Qué instrumento institucional articula las medidas frente al acoso escolar y ciberacoso? (Aspecto #40)",
+      "question": "Detectar solapamientos entre departamentos debería llevar a:",
       "options": [
-        "El parte de incidencias meteorológicas",
-        "La factura telefónica del centro",
-        "El catálogo de excursiones de fin de curso",
-        "El Plan de Convivencia (integrado en el PEC), con sus protocolos específicos de prevención e intervención"
+        "La PGA organiza actuaciones y tiempos del curso, con responsables y seguimiento",
+        "El RRI/NOFC concreta derechos, deberes, normas y procedimientos de convivencia",
+        "El PEC formula valores y finalidades educativas que orientan la vida del centro",
+        "acordar una secuencia complementaria y revisar las programaciones"
       ],
       "correct": 3,
-      "explanation": "El Plan de Convivencia contiene los protocolos de actuación inmediata ante situaciones de violencia o acoso escolar."
+      "explanation": "La coordinación docente mejora la continuidad y evita redundancias o vacíos curriculares."
     },
     {
       "id": 441,
       "topic": 4,
       "topicName": "Tema 4: Planificación Educativa y Documentos",
-      "question": "¿Qué colectivo tiene derecho a formular propuestas para la elaboración del Proyecto Educativo de Centro (PEC)? (Aspecto #41)",
+      "question": "La coherencia horizontal se refiere especialmente a:",
       "options": [
-        "Exclusivamente el director del centro",
-        "Todos los sectores de la comunidad escolar: profesorado, familias, alumnado y personal no docente",
-        "Únicamente los inspectores de carrera",
-        "Solo los alumnos con matrícula de honor"
+        "la coordinación entre áreas, equipos y medidas del mismo curso",
+        "El PEC, como marco estable, define identidad, valores y prioridades educativas del centro",
+        "La PGA concreta para un curso las líneas que el PEC mantiene como orientación institucional",
+        "El RRI/NOFC regula normas, derechos, deberes y convivencia conforme al proyecto educativo"
       ],
-      "correct": 1,
-      "explanation": "La ley garantiza la participación democrática de toda la comunidad en la definición de las líneas del PEC."
+      "correct": 0,
+      "explanation": "Horizontal alude a conexiones simultáneas; vertical, a la alineación entre niveles y momentos."
     },
     {
       "id": 442,
       "topic": 4,
       "topicName": "Tema 4: Planificación Educativa y Documentos",
-      "question": "¿Qué se hace con la Memoria Anual una vez aprobada por el Consejo Escolar a finales de curso? (Aspecto #42)",
+      "question": "La coherencia vertical se aprecia cuando:",
       "options": [
-        "Se quema en la hoguera de San Juan",
-        "Se envía a la imprenta para venderla en quioscos",
-        "Se guarda bajo llave sin que nadie pueda leerla",
-        "Se remite a la Dirección Territorial / Inspección Educativa para su supervisión y control"
+        "El RRI/NOFC concreta derechos, deberes, normas y procedimientos de convivencia",
+        "las decisiones de aula se alinean con programación, PGA, PEC y currículo",
+        "El PEC formula valores y finalidades educativas que orientan la vida del centro",
+        "La PGA organiza actuaciones y tiempos del curso, con responsables y seguimiento"
       ],
-      "correct": 3,
-      "explanation": "La Memoria Anual es fiscalizada por la Inspección Educativa como balance oficial del curso escolar."
+      "correct": 1,
+      "explanation": "La alineación entre niveles conecta decisiones concretas con orientaciones institucionales y curriculares."
     },
     {
       "id": 443,
       "topic": 4,
       "topicName": "Tema 4: Planificación Educativa y Documentos",
-      "question": "¿Cuál es la función del 'Plan de Fomento de la Lectura' integrado en el PEC? (Aspecto #43)",
+      "question": "Un indicador útil para una prioridad de lectura debería:",
       "options": [
-        "Vender novelas caras a los estudiantes",
-        "Obligar a leer exclusivamente libros de leyes educativas",
-        "Cerrar la biblioteca escolar durante las horas de recreo",
-        "Promover el hábito lector, la comprensión lectora y la alfabetización informacional en todas las materias"
+        "La PGA concreta para un curso las líneas que el PEC mantiene como orientación institucional",
+        "El PEC, como marco estable, define identidad, valores y prioridades educativas del centro",
+        "mostrar implementación y progreso lector relacionado con el objetivo",
+        "El RRI/NOFC regula normas, derechos, deberes y convivencia conforme al proyecto educativo"
       ],
-      "correct": 3,
-      "explanation": "El plan de lectura transversal favorece la competencia lectora y el pensamiento crítico en todas las disciplinas."
+      "correct": 2,
+      "explanation": "Un indicador pertinente observa ejecución y resultados relevantes, no solo productos administrativos."
     },
     {
       "id": 444,
       "topic": 4,
       "topicName": "Tema 4: Planificación Educativa y Documentos",
-      "question": "¿Qué ocurre si un departamento no cumple los objetivos previstos en su Programación Didáctica? (Aspecto #44)",
+      "question": "En una autoevaluación, separar datos, interpretación y decisión permite:",
       "options": [
-        "Se expulsa a todos los profesores del instituto",
-        "Debe reflejar las desviaciones y las medidas correctoras en la memoria final de departamento para corregirlo en la siguiente",
-        "Se cierran las aulas del departamento durante un año",
-        "Se prohíbe a los alumnos matricularse en esa materia"
+        "El PEC ofrece el marco identitario y pedagógico de alcance plurianual",
+        "La Memoria valora cumplimiento, resultados y dificultades del curso ya desarrollado",
+        "La PGA anticipa actuaciones, responsables, recursos y seguimiento para el curso",
+        "evitar atribuciones excesivas y justificar mejor las propuestas de mejora"
       ],
-      "correct": 1,
-      "explanation": "La evaluación de la programación didáctica exige analizar las causas de los desajustes e introducir propuestas de mejora."
+      "correct": 3,
+      "explanation": "Distinguir niveles de razonamiento mejora la validez y transparencia de la evaluación institucional."
     },
     {
       "id": 445,
       "topic": 4,
       "topicName": "Tema 4: Planificación Educativa y Documentos",
-      "question": "¿Quién informa preceptivamente la Programación General Anual (PGA) antes de su aprobación final por el Consejo Escolar? (Aspecto #45)",
+      "question": "Una actividad complementaria repetida cada curso:",
       "options": [
-        "El párroco de la localidad",
-        "La asociación de comerciantes del barrio",
-        "El Claustro de Profesores (evaluando los aspectos educativos y pedagógicos)",
-        "La Policía Local del municipio"
+        "requiere concreción, recursos y evaluación anual aunque sea una línea estable",
+        "El PEC, como marco estable, define identidad, valores y prioridades educativas del centro",
+        "La PGA concreta para un curso las líneas que el PEC mantiene como orientación institucional",
+        "El RRI/NOFC regula normas, derechos, deberes y convivencia conforme al proyecto educativo"
       ],
-      "correct": 2,
-      "explanation": "El Claustro emite informe previo sobre los aspectos pedagógicos y educativos de la PGA antes de su elevación al Consejo Escolar."
+      "correct": 0,
+      "explanation": "La continuidad no elimina la necesidad de planificar y valorar cada nueva edición."
     },
     {
       "id": 446,
       "topic": 4,
       "topicName": "Tema 4: Planificación Educativa y Documentos",
-      "question": "¿Qué plazo temporal abarca la Programación Didáctica de un departamento docente? (Aspecto #46)",
+      "question": "La trazabilidad de una decisión institucional exige relacionar:",
       "options": [
-        "Tres días lectivos",
-        "Una única semana lectiva",
-        "Diez años consecutivos sin cambios",
-        "Un curso escolar completo, con revisiones y seguimiento trimestral"
+        "El RRI/NOFC concreta derechos, deberes, normas y procedimientos de convivencia",
+        "diagnóstico, objetivo, acción, responsable, evidencia y decisión posterior",
+        "El PEC formula valores y finalidades educativas que orientan la vida del centro",
+        "La PGA organiza actuaciones y tiempos del curso, con responsables y seguimiento"
       ],
-      "correct": 3,
-      "explanation": "La programación didáctica organiza las enseñanzas a lo largo de todo el curso lectivo escolar."
+      "correct": 1,
+      "explanation": "La cadena completa permite saber por qué se actuó, qué ocurrió y cómo se decidió continuar o ajustar."
     },
     {
       "id": 447,
       "topic": 4,
       "topicName": "Tema 4: Planificación Educativa y Documentos",
-      "question": "¿Qué apartado del Proyecto de Gestión define cómo se mantienen y conservan los edificios e instalaciones? (Aspecto #47)",
+      "question": "La memoria puede proponer prioridades, pero la PGA siguiente debe:",
       "options": [
-        "Las recetas de la cocina escolar",
-        "La lista de profesores con coche propio",
-        "El precio de los periódicos de biblioteca",
-        "Las medidas para la conservación, renovación y uso sostenible de las instalaciones escolares"
+        "La PGA anticipa actuaciones, responsables, recursos y seguimiento para el curso",
+        "La Memoria valora cumplimiento, resultados y dificultades del curso ya desarrollado",
+        "elaborarse y aprobarse mediante las competencias y el procedimiento aplicables",
+        "El PEC ofrece el marco identitario y pedagógico de alcance plurianual"
       ],
-      "correct": 3,
-      "explanation": "El Proyecto de Gestión contempla el mantenimiento del patrimonio mobiliario e inmobiliario del centro escolar."
+      "correct": 2,
+      "explanation": "La memoria fundamenta decisiones; no sustituye el proceso institucional de elaboración y aprobación de la PGA."
     },
     {
       "id": 448,
       "topic": 4,
       "topicName": "Tema 4: Planificación Educativa y Documentos",
-      "question": "¿Qué instrumento institucional articula las medidas frente al acoso escolar y ciberacoso? (Aspecto #48)",
+      "question": "Simplificar la documentación de centro significa:",
       "options": [
-        "El catálogo de excursiones de fin de curso",
-        "La factura telefónica del centro",
-        "El parte de incidencias meteorológicas",
-        "El Plan de Convivencia (integrado en el PEC), con sus protocolos específicos de prevención e intervención"
+        "El RRI/NOFC regula normas, derechos, deberes y convivencia conforme al proyecto educativo",
+        "El PEC, como marco estable, define identidad, valores y prioridades educativas del centro",
+        "La PGA concreta para un curso las líneas que el PEC mantiene como orientación institucional",
+        "integrar contenidos relacionados sin borrar las funciones diferenciadas"
       ],
       "correct": 3,
-      "explanation": "El Plan de Convivencia contiene los protocolos de actuación inmediata ante situaciones de violencia o acoso escolar."
+      "explanation": "La eficiencia documental coordina y evita duplicidades, pero mantiene la finalidad propia de cada instrumento."
     },
     {
       "id": 449,
       "topic": 4,
       "topicName": "Tema 4: Planificación Educativa y Documentos",
-      "question": "¿Qué colectivo tiene derecho a formular propuestas para la elaboración del Proyecto Educativo de Centro (PEC)? (Aspecto #49)",
+      "question": "La flexibilidad de la PGA permite:",
       "options": [
-        "Solo los alumnos con matrícula de honor",
-        "Únicamente los inspectores de carrera",
-        "Todos los sectores de la comunidad escolar: profesorado, familias, alumnado y personal no docente",
-        "Exclusivamente el director del centro"
+        "ajustar actuaciones ante evidencias sin perder las prioridades institucionales",
+        "La PGA concreta y temporaliza las prioridades del PEC para un curso académico",
+        "El PEC fija orientaciones estables que no se agotan en un único curso",
+        "La Memoria contrasta el grado de cumplimiento y fundamenta propuestas de mejora"
       ],
-      "correct": 2,
-      "explanation": "La ley garantiza la participación democrática de toda la comunidad en la definición de las líneas del PEC."
+      "correct": 0,
+      "explanation": "Flexibilidad es ajuste fundamentado dentro del marco institucional, no ausencia de objetivos ni de seguimiento."
     },
     {
       "id": 450,
       "topic": 4,
       "topicName": "Tema 4: Planificación Educativa y Documentos",
-      "question": "¿Qué se hace con la Memoria Anual una vez aprobada por el Consejo Escolar a finales de curso? (Aspecto #50)",
+      "question": "Si una prioridad del PEC tiene indicadores distintos en dos cursos, el cambio puede ser válido cuando:",
       "options": [
-        "Se guarda bajo llave sin que nadie pueda leerla",
-        "Se remite a la Dirección Territorial / Inspección Educativa para su supervisión y control",
-        "Se quema en la hoguera de San Juan",
-        "Se envía a la imprenta para venderla en quioscos"
+        "El PEC, como marco estable, define identidad, valores y prioridades educativas del centro",
+        "mejora la observación del avance y se documentan sus razones y condiciones",
+        "La PGA concreta para un curso las líneas que el PEC mantiene como orientación institucional",
+        "El RRI/NOFC regula normas, derechos, deberes y convivencia conforme al proyecto educativo"
       ],
       "correct": 1,
-      "explanation": "La Memoria Anual es fiscalizada por la Inspección Educativa como balance oficial del curso escolar."
+      "explanation": "Los indicadores anuales pueden adaptarse, siempre que se conserve la prioridad y se justifique el cambio."
     },
     {
       "id": 451,
       "topic": 4,
       "topicName": "Tema 4: Planificación Educativa y Documentos",
-      "question": "¿Cuál es la función del 'Plan de Fomento de la Lectura' integrado en el PEC? (Aspecto #51)",
+      "question": "La comparación de resultados entre cursos es más sólida cuando se mantienen:",
       "options": [
-        "Cerrar la biblioteca escolar durante las horas de recreo",
-        "Vender novelas caras a los estudiantes",
-        "Obligar a leer exclusivamente libros de leyes educativas",
-        "Promover el hábito lector, la comprensión lectora y la alfabetización informacional en todas las materias"
+        "La PGA concreta para un curso las líneas que el PEC mantiene como orientación institucional",
+        "El PEC, como marco estable, define identidad, valores y prioridades educativas del centro",
+        "definiciones e indicadores suficientemente estables y se documenta el contexto",
+        "El RRI/NOFC regula normas, derechos, deberes y convivencia conforme al proyecto educativo"
       ],
-      "correct": 3,
-      "explanation": "El plan de lectura transversal favorece la competencia lectora y el pensamiento crítico en todas las disciplinas."
+      "correct": 2,
+      "explanation": "La comparabilidad depende de continuidad metodológica y de conocer las condiciones de cada aplicación."
     },
     {
       "id": 452,
       "topic": 4,
       "topicName": "Tema 4: Planificación Educativa y Documentos",
-      "question": "¿Qué ocurre si un departamento no cumple los objetivos previstos en su Programación Didáctica? (Aspecto #52)",
+      "question": "Participación de la comunidad educativa no equivale necesariamente a:",
       "options": [
-        "Debe reflejar las desviaciones y las medidas correctoras en la memoria final de departamento para corregirlo en la siguiente",
-        "Se cierran las aulas del departamento durante un año",
-        "Se prohíbe a los alumnos matricularse en esa materia",
-        "Se expulsa a todos los profesores del instituto"
+        "El equipo directivo impulsa la elaboración y coordinación de los documentos del centro",
+        "El Consejo Escolar participa en decisiones institucionales conforme a sus competencias",
+        "El Claustro interviene especialmente en los aspectos pedagógicos y docentes",
+        "unanimidad absoluta sobre cada decisión institucional"
       ],
-      "correct": 0,
-      "explanation": "La evaluación de la programación didáctica exige analizar las causas de los desajustes e introducir propuestas de mejora."
+      "correct": 3,
+      "explanation": "La participación requiere intervención informada, pero las decisiones pueden adoptarse con procedimientos que no exigen unanimidad."
     },
     {
       "id": 453,
       "topic": 4,
       "topicName": "Tema 4: Planificación Educativa y Documentos",
-      "question": "¿Quién informa preceptivamente la Programación General Anual (PGA) antes de su aprobación final por el Consejo Escolar? (Aspecto #53)",
+      "question": "Un procedimiento disciplinario sin audiencia ni garantías presenta sobre todo:",
       "options": [
-        "La asociación de comerciantes del barrio",
-        "El Claustro de Profesores (evaluando los aspectos educativos y pedagógicos)",
-        "La Policía Local del municipio",
-        "El párroco de la localidad"
+        "riesgo de arbitrariedad y falta de protección de los derechos implicados",
+        "El RRI/NOFC concreta derechos, deberes, normas y procedimientos de convivencia",
+        "El PEC formula valores y finalidades educativas que orientan la vida del centro",
+        "La PGA organiza actuaciones y tiempos del curso, con responsables y seguimiento"
       ],
-      "correct": 1,
-      "explanation": "El Claustro emite informe previo sobre los aspectos pedagógicos y educativos de la PGA antes de su elevación al Consejo Escolar."
+      "correct": 0,
+      "explanation": "Las normas de convivencia deben aplicarse mediante procedimientos garantistas, especialmente si afectan a derechos."
     },
     {
       "id": 454,
       "topic": 4,
       "topicName": "Tema 4: Planificación Educativa y Documentos",
-      "question": "¿Qué plazo temporal abarca la Programación Didáctica de un departamento docente? (Aspecto #54)",
+      "question": "Una prioridad del PEC está realmente desplegada cuando:",
       "options": [
-        "Una única semana lectiva",
-        "Diez años consecutivos sin cambios",
-        "Un curso escolar completo, con revisiones y seguimiento trimestral",
-        "Tres días lectivos"
+        "El PEC, como marco estable, define identidad, valores y prioridades educativas del centro",
+        "aparecen actuaciones, responsables e indicadores en la PGA y en las programaciones",
+        "La PGA concreta para un curso las líneas que el PEC mantiene como orientación institucional",
+        "El RRI/NOFC regula normas, derechos, deberes y convivencia conforme al proyecto educativo"
       ],
-      "correct": 2,
-      "explanation": "La programación didáctica organiza las enseñanzas a lo largo de todo el curso lectivo escolar."
+      "correct": 1,
+      "explanation": "El despliegue se demuestra en decisiones operativas y evidencias, no en extensión o visibilidad documental."
     },
     {
       "id": 455,
       "topic": 4,
       "topicName": "Tema 4: Planificación Educativa y Documentos",
-      "question": "¿Qué apartado del Proyecto de Gestión define cómo se mantienen y conservan los edificios e instalaciones? (Aspecto #55)",
+      "question": "Reservar tiempos de coordinación para una medida inclusiva afecta principalmente a:",
       "options": [
-        "Las recetas de la cocina escolar",
-        "Las medidas para la conservación, renovación y uso sostenible de las instalaciones escolares",
-        "El precio de los periódicos de biblioteca",
-        "La lista de profesores con coche propio"
+        "La PGA integra y temporaliza las actuaciones del centro durante el curso",
+        "El PAM organiza medidas de apoyo y mejora a partir de necesidades detectadas",
+        "la autonomía organizativa al servicio de una prioridad pedagógica",
+        "El PEC fija prioridades institucionales con horizonte más estable"
       ],
-      "correct": 1,
-      "explanation": "El Proyecto de Gestión contempla el mantenimiento del patrimonio mobiliario e inmobiliario del centro escolar."
+      "correct": 2,
+      "explanation": "Distribuir tiempos y estructuras es organizativo, aunque apoye directamente objetivos pedagógicos e inclusivos."
     },
     {
       "id": 456,
       "topic": 4,
       "topicName": "Tema 4: Planificación Educativa y Documentos",
-      "question": "¿Qué instrumento institucional articula las medidas frente al acoso escolar y ciberacoso? (Aspecto #56)",
+      "question": "Una mejora posterior a un plan permite afirmar con prudencia que:",
       "options": [
-        "El parte de incidencias meteorológicas",
-        "La factura telefónica del centro",
-        "El catálogo de excursiones de fin de curso",
-        "El Plan de Convivencia (integrado en el PEC), con sus protocolos específicos de prevención e intervención"
+        "El RRI/NOFC regula normas, derechos, deberes y convivencia conforme al proyecto educativo",
+        "El PEC, como marco estable, define identidad, valores y prioridades educativas del centro",
+        "La PGA concreta para un curso las líneas que el PEC mantiene como orientación institucional",
+        "coincide con la intervención, pero deben considerarse otras condiciones y evidencias"
       ],
       "correct": 3,
-      "explanation": "El Plan de Convivencia contiene los protocolos de actuación inmediata ante situaciones de violencia o acoso escolar."
+      "explanation": "La evaluación responsable no atribuye causalidad total sin controlar contexto, implementación y explicaciones alternativas."
     },
     {
       "id": 457,
       "topic": 4,
       "topicName": "Tema 4: Planificación Educativa y Documentos",
-      "question": "¿Qué colectivo tiene derecho a formular propuestas para la elaboración del Proyecto Educativo de Centro (PEC)? (Aspecto #57)",
+      "question": "La evaluación formativa dentro de una programación consiste en:",
       "options": [
-        "Todos los sectores de la comunidad escolar: profesorado, familias, alumnado y personal no docente",
-        "Exclusivamente el director del centro",
-        "Únicamente los inspectores de carrera",
-        "Solo los alumnos con matrícula de honor"
+        "usar evidencias durante el proceso para retroalimentar y ajustar la enseñanza",
+        "El PEC, como marco estable, define identidad, valores y prioridades educativas del centro",
+        "La PGA concreta para un curso las líneas que el PEC mantiene como orientación institucional",
+        "El RRI/NOFC regula normas, derechos, deberes y convivencia conforme al proyecto educativo"
       ],
       "correct": 0,
-      "explanation": "La ley garantiza la participación democrática de toda la comunidad en la definición de las líneas del PEC."
+      "explanation": "La evaluación formativa informa decisiones durante el proceso y permite ajustar enseñanza y aprendizaje."
     },
     {
       "id": 458,
       "topic": 4,
       "topicName": "Tema 4: Planificación Educativa y Documentos",
-      "question": "¿Qué se hace con la Memoria Anual una vez aprobada por el Consejo Escolar a finales de curso? (Aspecto #58)",
+      "question": "Una conclusión de memoria orientada a mejora debe traducirse en:",
       "options": [
-        "Se guarda bajo llave sin que nadie pueda leerla",
-        "Se envía a la imprenta para venderla en quioscos",
-        "Se quema en la hoguera de San Juan",
-        "Se remite a la Dirección Territorial / Inspección Educativa para su supervisión y control"
+        "La Memoria valora cumplimiento, resultados y dificultades del curso ya desarrollado",
+        "prioridades concretas incorporables a la siguiente PGA",
+        "La PGA anticipa actuaciones, responsables, recursos y seguimiento para el curso",
+        "El PEC ofrece el marco identitario y pedagógico de alcance plurianual"
       ],
-      "correct": 3,
-      "explanation": "La Memoria Anual es fiscalizada por la Inspección Educativa como balance oficial del curso escolar."
+      "correct": 1,
+      "explanation": "El valor prospectivo de la memoria está en convertir el análisis en decisiones planificables y evaluables."
     },
     {
       "id": 459,
       "topic": 4,
       "topicName": "Tema 4: Planificación Educativa y Documentos",
-      "question": "¿Cuál es la función del 'Plan de Fomento de la Lectura' integrado en el PEC? (Aspecto #59)",
+      "question": "Cuando una programación adapta apoyos según necesidades, pero mantiene criterios comunes, muestra:",
       "options": [
-        "Obligar a leer exclusivamente libros de leyes educativas",
-        "Vender novelas caras a los estudiantes",
-        "Promover el hábito lector, la comprensión lectora y la alfabetización informacional en todas las materias",
-        "Cerrar la biblioteca escolar durante las horas de recreo"
+        "La PGA integra y temporaliza las actuaciones del centro durante el curso",
+        "El PAM organiza medidas de apoyo y mejora a partir de necesidades detectadas",
+        "contextualización inclusiva sin renunciar a referentes compartidos",
+        "El PEC fija prioridades institucionales con horizonte más estable"
       ],
       "correct": 2,
-      "explanation": "El plan de lectura transversal favorece la competencia lectora y el pensamiento crítico en todas las disciplinas."
+      "explanation": "La respuesta inclusiva puede diversificar apoyos y metodologías manteniendo referentes compartidos."
     },
     {
       "id": 460,
       "topic": 4,
       "topicName": "Tema 4: Planificación Educativa y Documentos",
-      "question": "¿Qué ocurre si un departamento no cumple los objetivos previstos en su Programación Didáctica? (Aspecto #60)",
+      "question": "En el ciclo documental, la secuencia más completa es:",
       "options": [
-        "Se cierran las aulas del departamento durante un año",
-        "Se prohíbe a los alumnos matricularse en esa materia",
-        "Debe reflejar las desviaciones y las medidas correctoras en la memoria final de departamento para corregirlo en la siguiente",
-        "Se expulsa a todos los profesores del instituto"
+        "El RRI/NOFC regula normas, derechos, deberes y convivencia conforme al proyecto educativo",
+        "El PEC, como marco estable, define identidad, valores y prioridades educativas del centro",
+        "La PGA concreta para un curso las líneas que el PEC mantiene como orientación institucional",
+        "diagnosticar, planificar, actuar, evaluar y reajustar"
       ],
-      "correct": 2,
-      "explanation": "La evaluación de la programación didáctica exige analizar las causas de los desajustes e introducir propuestas de mejora."
+      "correct": 3,
+      "explanation": "El ciclo de mejora conecta diagnóstico, acción y evaluación con decisiones de reajuste."
     },
     {
       "id": 461,
       "topic": 4,
       "topicName": "Tema 4: Planificación Educativa y Documentos",
-      "question": "¿Quién informa preceptivamente la Programación General Anual (PGA) antes de su aprobación final por el Consejo Escolar? (Aspecto #61)",
+      "question": "Una PGA muy detallada pero sin conexión con el PEC es:",
       "options": [
-        "El Claustro de Profesores (evaluando los aspectos educativos y pedagógicos)",
-        "La Policía Local del municipio",
-        "La asociación de comerciantes del barrio",
-        "El párroco de la localidad"
+        "operativamente rica, pero institucionalmente desalineada",
+        "La PGA concreta y temporaliza las prioridades del PEC para un curso académico",
+        "El PEC fija orientaciones estables que no se agotan en un único curso",
+        "La Memoria contrasta el grado de cumplimiento y fundamenta propuestas de mejora"
       ],
       "correct": 0,
-      "explanation": "El Claustro emite informe previo sobre los aspectos pedagógicos y educativos de la PGA antes de su elevación al Consejo Escolar."
+      "explanation": "El detalle no compensa la falta de coherencia con el horizonte institucional."
     },
     {
       "id": 462,
       "topic": 4,
       "topicName": "Tema 4: Planificación Educativa y Documentos",
-      "question": "¿Qué plazo temporal abarca la Programación Didáctica de un departamento docente? (Aspecto #62)",
+      "question": "Para evitar duplicidades, dos planes que comparten una prioridad deberían:",
       "options": [
-        "Una única semana lectiva",
-        "Diez años consecutivos sin cambios",
-        "Un curso escolar completo, con revisiones y seguimiento trimestral",
-        "Tres días lectivos"
+        "El PEC, como marco estable, define identidad, valores y prioridades educativas del centro",
+        "coordinar objetivos e indicadores y asignar funciones distintas a cada uno",
+        "La PGA concreta para un curso las líneas que el PEC mantiene como orientación institucional",
+        "El RRI/NOFC regula normas, derechos, deberes y convivencia conforme al proyecto educativo"
       ],
-      "correct": 2,
-      "explanation": "La programación didáctica organiza las enseñanzas a lo largo de todo el curso lectivo escolar."
+      "correct": 1,
+      "explanation": "La coordinación conserva funciones diferenciadas y facilita un seguimiento común de la prioridad."
     },
     {
       "id": 463,
       "topic": 4,
       "topicName": "Tema 4: Planificación Educativa y Documentos",
-      "question": "¿Qué apartado del Proyecto de Gestión define cómo se mantienen y conservan los edificios e instalaciones? (Aspecto #63)",
+      "question": "Un indicador que solo cuenta reuniones realizadas mide principalmente:",
       "options": [
-        "Las recetas de la cocina escolar",
-        "El precio de los periódicos de biblioteca",
-        "La lista de profesores con coche propio",
-        "Las medidas para la conservación, renovación y uso sostenible de las instalaciones escolares"
+        "La PGA concreta para un curso las líneas que el PEC mantiene como orientación institucional",
+        "El PEC, como marco estable, define identidad, valores y prioridades educativas del centro",
+        "una actividad de implementación, no necesariamente el logro de la prioridad",
+        "El RRI/NOFC regula normas, derechos, deberes y convivencia conforme al proyecto educativo"
       ],
-      "correct": 3,
-      "explanation": "El Proyecto de Gestión contempla el mantenimiento del patrimonio mobiliario e inmobiliario del centro escolar."
+      "correct": 2,
+      "explanation": "Las reuniones pueden ser un medio; no prueban por sí solas resultados ni impacto."
     },
     {
       "id": 464,
       "topic": 4,
       "topicName": "Tema 4: Planificación Educativa y Documentos",
-      "question": "¿Qué instrumento institucional articula las medidas frente al acoso escolar y ciberacoso? (Aspecto #64)",
+      "question": "Al actualizar documentos por un cambio normativo conviene:",
       "options": [
-        "El parte de incidencias meteorológicas",
-        "La factura telefónica del centro",
-        "El Plan de Convivencia (integrado en el PEC), con sus protocolos específicos de prevención e intervención",
-        "El catálogo de excursiones de fin de curso"
+        "La PGA coordina el conjunto de actuaciones del curso y sus tiempos",
+        "La programación didáctica concreta currículo, metodología, evaluación y atención a la diversidad",
+        "La programación de aula adapta esa planificación a grupos, sesiones y situaciones concretas",
+        "identificar partes afectadas, conservar lo compatible y tramitar la revisión"
       ],
-      "correct": 2,
-      "explanation": "El Plan de Convivencia contiene los protocolos de actuación inmediata ante situaciones de violencia o acoso escolar."
+      "correct": 3,
+      "explanation": "Actualizar con criterio evita cambios innecesarios y asegura coherencia con el nuevo marco."
     },
     {
       "id": 465,
       "topic": 4,
       "topicName": "Tema 4: Planificación Educativa y Documentos",
-      "question": "¿Qué colectivo tiene derecho a formular propuestas para la elaboración del Proyecto Educativo de Centro (PEC)? (Aspecto #65)",
+      "question": "Evaluar un documento y revisarlo no son lo mismo porque:",
       "options": [
-        "Solo los alumnos con matrícula de honor",
-        "Únicamente los inspectores de carrera",
-        "Todos los sectores de la comunidad escolar: profesorado, familias, alumnado y personal no docente",
-        "Exclusivamente el director del centro"
+        "evaluar analiza evidencias y revisar modifica decisiones a partir de ellas",
+        "El PEC, como marco estable, define identidad, valores y prioridades educativas del centro",
+        "La PGA concreta para un curso las líneas que el PEC mantiene como orientación institucional",
+        "El RRI/NOFC regula normas, derechos, deberes y convivencia conforme al proyecto educativo"
       ],
-      "correct": 2,
-      "explanation": "La ley garantiza la participación democrática de toda la comunidad en la definición de las líneas del PEC."
+      "correct": 0,
+      "explanation": "La evaluación produce información; la revisión es la decisión de ajustar el instrumento usando esa información."
     },
     {
       "id": 466,
       "topic": 4,
       "topicName": "Tema 4: Planificación Educativa y Documentos",
-      "question": "¿Qué se hace con la Memoria Anual una vez aprobada por el Consejo Escolar a finales de curso? (Aspecto #66)",
+      "question": "Si una medida aparece en el PEC pero nunca en la PGA, existe:",
       "options": [
-        "Se quema en la hoguera de San Juan",
-        "Se envía a la imprenta para venderla en quioscos",
-        "Se guarda bajo llave sin que nadie pueda leerla",
-        "Se remite a la Dirección Territorial / Inspección Educativa para su supervisión y control"
+        "La PGA concreta y temporaliza las prioridades del PEC para un curso académico",
+        "desconexión entre orientación institucional y despliegue operativo",
+        "El PEC fija orientaciones estables que no se agotan en un único curso",
+        "La Memoria contrasta el grado de cumplimiento y fundamenta propuestas de mejora"
       ],
-      "correct": 3,
-      "explanation": "La Memoria Anual es fiscalizada por la Inspección Educativa como balance oficial del curso escolar."
+      "correct": 1,
+      "explanation": "Las líneas del PEC necesitan concreción anual para convertirse en acciones y seguimiento."
     },
     {
       "id": 467,
       "topic": 4,
       "topicName": "Tema 4: Planificación Educativa y Documentos",
-      "question": "¿Cuál es la función del 'Plan de Fomento de la Lectura' integrado en el PEC? (Aspecto #67)",
+      "question": "Una decisión es más trazable cuando además de la acción registra:",
       "options": [
-        "Cerrar la biblioteca escolar durante las horas de recreo",
-        "Promover el hábito lector, la comprensión lectora y la alfabetización informacional en todas las materias",
-        "Obligar a leer exclusivamente libros de leyes educativas",
-        "Vender novelas caras a los estudiantes"
+        "El PEC establece prioridades educativas que la gestión debe hacer viables",
+        "El Proyecto de Gestión ordena recursos, instalaciones y criterios de uso sostenible",
+        "quién la ejecuta, con qué recursos, qué evidencia se espera y cuándo se revisa",
+        "La PGA distribuye actuaciones y tiempos, pero no sustituye los criterios de gestión"
       ],
-      "correct": 1,
-      "explanation": "El plan de lectura transversal favorece la competencia lectora y el pensamiento crítico en todas las disciplinas."
+      "correct": 2,
+      "explanation": "Responsables, recursos, evidencias y revisión permiten seguir la implementación y valorar resultados."
     },
     {
       "id": 468,
       "topic": 4,
       "topicName": "Tema 4: Planificación Educativa y Documentos",
-      "question": "¿Qué ocurre si un departamento no cumple los objetivos previstos en su Programación Didáctica? (Aspecto #68)",
+      "question": "La memoria debe tratar un objetivo no alcanzado como:",
       "options": [
-        "Se expulsa a todos los profesores del instituto",
-        "Se prohíbe a los alumnos matricularse en esa materia",
-        "Debe reflejar las desviaciones y las medidas correctoras en la memoria final de departamento para corregirlo en la siguiente",
-        "Se cierran las aulas del departamento durante un año"
+        "El PEC ofrece el marco identitario y pedagógico de alcance plurianual",
+        "La Memoria valora cumplimiento, resultados y dificultades del curso ya desarrollado",
+        "La PGA anticipa actuaciones, responsables, recursos y seguimiento para el curso",
+        "una oportunidad de analizar causas y definir ajustes realistas"
       ],
-      "correct": 2,
-      "explanation": "La evaluación de la programación didáctica exige analizar las causas de los desajustes e introducir propuestas de mejora."
+      "correct": 3,
+      "explanation": "Un resultado insuficiente exige análisis contextual y decisiones de mejora, no ocultación ni culpabilización automática."
     },
     {
       "id": 469,
       "topic": 4,
       "topicName": "Tema 4: Planificación Educativa y Documentos",
-      "question": "¿Quién informa preceptivamente la Programación General Anual (PGA) antes de su aprobación final por el Consejo Escolar? (Aspecto #69)",
+      "question": "Un documento institucional gana validez práctica cuando:",
       "options": [
-        "La Policía Local del municipio",
-        "El Claustro de Profesores (evaluando los aspectos educativos y pedagógicos)",
-        "El párroco de la localidad",
-        "La asociación de comerciantes del barrio"
+        "es conocido, aplicable, coherente con otros documentos y objeto de seguimiento",
+        "El PEC, como marco estable, define identidad, valores y prioridades educativas del centro",
+        "La PGA concreta para un curso las líneas que el PEC mantiene como orientación institucional",
+        "El RRI/NOFC regula normas, derechos, deberes y convivencia conforme al proyecto educativo"
       ],
-      "correct": 1,
-      "explanation": "El Claustro emite informe previo sobre los aspectos pedagógicos y educativos de la PGA antes de su elevación al Consejo Escolar."
+      "correct": 0,
+      "explanation": "La utilidad institucional depende de coherencia, conocimiento, aplicabilidad y evaluación continua."
     },
     {
       "id": 470,
       "topic": 4,
       "topicName": "Tema 4: Planificación Educativa y Documentos",
-      "question": "¿Qué plazo temporal abarca la Programación Didáctica de un departamento docente? (Aspecto #70)",
+      "question": "La autonomía pedagógica se aprecia mejor cuando el centro:",
       "options": [
-        "Tres días lectivos",
-        "Una única semana lectiva",
-        "Diez años consecutivos sin cambios",
-        "Un curso escolar completo, con revisiones y seguimiento trimestral"
+        "El RRI/NOFC concreta derechos, deberes, normas y procedimientos de convivencia",
+        "selecciona enfoques y medidas contextualizadas dentro del currículo vigente",
+        "El PEC formula valores y finalidades educativas que orientan la vida del centro",
+        "La PGA organiza actuaciones y tiempos del curso, con responsables y seguimiento"
       ],
-      "correct": 3,
-      "explanation": "La programación didáctica organiza las enseñanzas a lo largo de todo el curso lectivo escolar."
+      "correct": 1,
+      "explanation": "La autonomía pedagógica permite decidir cómo enseñar y contextualizar, respetando el marco curricular."
     },
     {
       "id": 471,
       "topic": 4,
       "topicName": "Tema 4: Planificación Educativa y Documentos",
-      "question": "¿Qué apartado del Proyecto de Gestión define cómo se mantienen y conservan los edificios e instalaciones? (Aspecto #71)",
+      "question": "La autonomía organizativa se concreta principalmente en:",
       "options": [
-        "Las medidas para la conservación, renovación y uso sostenible de las instalaciones escolares",
-        "El precio de los periódicos de biblioteca",
-        "Las recetas de la cocina escolar",
-        "La lista de profesores con coche propio"
+        "La autonomía organizativa ordena tiempos, agrupamientos, coordinación y responsabilidades",
+        "La autonomía pedagógica permite contextualizar métodos y medidas dentro del currículo vigente",
+        "estructurar tiempos, agrupamientos, coordinación y responsabilidades del centro",
+        "La autonomía de gestión administra recursos con criterios educativos y transparentes"
       ],
-      "correct": 0,
-      "explanation": "El Proyecto de Gestión contempla el mantenimiento del patrimonio mobiliario e inmobiliario del centro escolar."
+      "correct": 2,
+      "explanation": "Organizar estructuras y funcionamiento pertenece a la autonomía organizativa; no implica legislar ni ignorar el currículo."
     },
     {
       "id": 472,
       "topic": 4,
       "topicName": "Tema 4: Planificación Educativa y Documentos",
-      "question": "¿Qué instrumento institucional articula las medidas frente al acoso escolar y ciberacoso? (Aspecto #72)",
+      "question": "La autonomía de gestión se demuestra cuando el centro:",
       "options": [
-        "El parte de incidencias meteorológicas",
-        "La factura telefónica del centro",
-        "El Plan de Convivencia (integrado en el PEC), con sus protocolos específicos de prevención e intervención",
-        "El catálogo de excursiones de fin de curso"
+        "La PGA distribuye actuaciones y tiempos, pero no sustituye los criterios de gestión",
+        "El Proyecto de Gestión ordena recursos, instalaciones y criterios de uso sostenible",
+        "El PEC establece prioridades educativas que la gestión debe hacer viables",
+        "asigna y controla recursos con criterios educativos, eficientes y transparentes"
       ],
-      "correct": 2,
-      "explanation": "El Plan de Convivencia contiene los protocolos de actuación inmediata ante situaciones de violencia o acoso escolar."
+      "correct": 3,
+      "explanation": "Gestionar implica decidir y rendir cuentas sobre recursos al servicio de las finalidades educativas."
     },
     {
       "id": 473,
       "topic": 4,
       "topicName": "Tema 4: Planificación Educativa y Documentos",
-      "question": "¿Qué colectivo tiene derecho a formular propuestas para la elaboración del Proyecto Educativo de Centro (PEC)? (Aspecto #73)",
+      "question": "La relación entre PGA y memoria es cíclica porque:",
       "options": [
-        "Exclusivamente el director del centro",
-        "Todos los sectores de la comunidad escolar: profesorado, familias, alumnado y personal no docente",
-        "Únicamente los inspectores de carrera",
-        "Solo los alumnos con matrícula de honor"
+        "los resultados y propuestas de la memoria informan la planificación del curso siguiente",
+        "La Memoria valora cumplimiento, resultados y dificultades del curso ya desarrollado",
+        "La PGA anticipa actuaciones, responsables, recursos y seguimiento para el curso",
+        "El PEC ofrece el marco identitario y pedagógico de alcance plurianual"
       ],
-      "correct": 1,
-      "explanation": "La ley garantiza la participación democrática de toda la comunidad en la definición de las líneas del PEC."
+      "correct": 0,
+      "explanation": "La memoria cierra un ciclo y aporta evidencia para priorizar y ajustar la siguiente PGA."
     },
     {
       "id": 474,
       "topic": 4,
       "topicName": "Tema 4: Planificación Educativa y Documentos",
-      "question": "¿Qué se hace con la Memoria Anual una vez aprobada por el Consejo Escolar a finales de curso? (Aspecto #74)",
+      "question": "En una revisión documental, conservar una prioridad y cambiar una acción significa:",
       "options": [
-        "Se quema en la hoguera de San Juan",
-        "Se guarda bajo llave sin que nadie pueda leerla",
-        "Se remite a la Dirección Territorial / Inspección Educativa para su supervisión y control",
-        "Se envía a la imprenta para venderla en quioscos"
+        "El PEC, como marco estable, define identidad, valores y prioridades educativas del centro",
+        "mantener el fin institucional y adaptar el medio a la evidencia o al contexto",
+        "La PGA concreta para un curso las líneas que el PEC mantiene como orientación institucional",
+        "El RRI/NOFC regula normas, derechos, deberes y convivencia conforme al proyecto educativo"
       ],
-      "correct": 2,
-      "explanation": "La Memoria Anual es fiscalizada por la Inspección Educativa como balance oficial del curso escolar."
+      "correct": 1,
+      "explanation": "Los fines pueden mantenerse mientras se ajustan medios y actuaciones con base en resultados y condiciones."
     },
     {
       "id": 475,
       "topic": 4,
       "topicName": "Tema 4: Planificación Educativa y Documentos",
-      "question": "¿Cuál es la función del 'Plan de Fomento de la Lectura' integrado en el PEC? (Aspecto #75)",
+      "question": "Un plan inclusivo es más sólido cuando define:",
       "options": [
-        "Vender novelas caras a los estudiantes",
-        "Obligar a leer exclusivamente libros de leyes educativas",
-        "Promover el hábito lector, la comprensión lectora y la alfabetización informacional en todas las materias",
-        "Cerrar la biblioteca escolar durante las horas de recreo"
+        "La PGA integra y temporaliza las actuaciones del centro durante el curso",
+        "El PAM organiza medidas de apoyo y mejora a partir de necesidades detectadas",
+        "barreras, medidas, responsables, coordinación, recursos y seguimiento",
+        "El PEC fija prioridades institucionales con horizonte más estable"
       ],
       "correct": 2,
-      "explanation": "El plan de lectura transversal favorece la competencia lectora y el pensamiento crítico en todas las disciplinas."
+      "explanation": "La inclusión requiere identificar barreras y organizar una respuesta coordinada y evaluable."
     },
     {
       "id": 476,
       "topic": 4,
       "topicName": "Tema 4: Planificación Educativa y Documentos",
-      "question": "¿Qué ocurre si un departamento no cumple los objetivos previstos en su Programación Didáctica? (Aspecto #76)",
+      "question": "Si una actuación no tiene indicador, el problema principal es que:",
       "options": [
-        "Debe reflejar las desviaciones y las medidas correctoras en la memoria final de departamento para corregirlo en la siguiente",
-        "Se expulsa a todos los profesores del instituto",
-        "Se prohíbe a los alumnos matricularse en esa materia",
-        "Se cierran las aulas del departamento durante un año"
+        "La PGA coordina el conjunto de actuaciones del curso y sus tiempos",
+        "La programación didáctica concreta currículo, metodología, evaluación y atención a la diversidad",
+        "La programación de aula adapta esa planificación a grupos, sesiones y situaciones concretas",
+        "será difícil valorar su grado de cumplimiento y decidir su continuidad"
       ],
-      "correct": 0,
-      "explanation": "La evaluación de la programación didáctica exige analizar las causas de los desajustes e introducir propuestas de mejora."
+      "correct": 3,
+      "explanation": "Sin un criterio de observación, la evaluación queda reducida a impresiones y no orienta bien las decisiones."
     },
     {
       "id": 477,
       "topic": 4,
       "topicName": "Tema 4: Planificación Educativa y Documentos",
-      "question": "¿Quién informa preceptivamente la Programación General Anual (PGA) antes de su aprobación final por el Consejo Escolar? (Aspecto #77)",
+      "question": "La mejor síntesis del sistema documental de centro es:",
       "options": [
-        "El Claustro de Profesores (evaluando los aspectos educativos y pedagógicos)",
-        "La asociación de comerciantes del barrio",
-        "El párroco de la localidad",
-        "La Policía Local del municipio"
+        "identidad, regulación, recursos, planificación anual y evaluación se complementan",
+        "El PEC, como marco estable, define identidad, valores y prioridades educativas del centro",
+        "La PGA concreta para un curso las líneas que el PEC mantiene como orientación institucional",
+        "El RRI/NOFC regula normas, derechos, deberes y convivencia conforme al proyecto educativo"
       ],
       "correct": 0,
-      "explanation": "El Claustro emite informe previo sobre los aspectos pedagógicos y educativos de la PGA antes de su elevación al Consejo Escolar."
+      "explanation": "Cada instrumento cumple una función y su valor aparece en la coherencia del conjunto y el ciclo de mejora."
     },
     {
       "id": 478,
       "topic": 4,
       "topicName": "Tema 4: Planificación Educativa y Documentos",
-      "question": "¿Qué plazo temporal abarca la Programación Didáctica de un departamento docente? (Aspecto #78)",
+      "question": "¿Qué debe hacer la memoria con una desviación respecto de la PGA?",
       "options": [
-        "Una única semana lectiva",
-        "Diez años consecutivos sin cambios",
-        "Un curso escolar completo, con revisiones y seguimiento trimestral",
-        "Tres días lectivos"
+        "La Memoria valora cumplimiento, resultados y dificultades del curso ya desarrollado",
+        "describirla, analizar sus causas y decidir una respuesta de mejora",
+        "La PGA anticipa actuaciones, responsables, recursos y seguimiento para el curso",
+        "El PEC ofrece el marco identitario y pedagógico de alcance plurianual"
       ],
-      "correct": 2,
-      "explanation": "La programación didáctica organiza las enseñanzas a lo largo de todo el curso lectivo escolar."
+      "correct": 1,
+      "explanation": "La desviación es información evaluable: debe explicarse y orientar decisiones, no ocultarse ni personalizarse sin base."
     },
     {
       "id": 479,
       "topic": 4,
       "topicName": "Tema 4: Planificación Educativa y Documentos",
-      "question": "¿Qué apartado del Proyecto de Gestión define cómo se mantienen y conservan los edificios e instalaciones? (Aspecto #79)",
+      "question": "Una programación de calidad ajusta las actividades cuando:",
       "options": [
-        "El precio de los periódicos de biblioteca",
-        "Las recetas de la cocina escolar",
-        "Las medidas para la conservación, renovación y uso sostenible de las instalaciones escolares",
-        "La lista de profesores con coche propio"
+        "La PGA concreta para un curso las líneas que el PEC mantiene como orientación institucional",
+        "El PEC, como marco estable, define identidad, valores y prioridades educativas del centro",
+        "las evidencias muestran necesidades distintas a las previstas",
+        "El RRI/NOFC regula normas, derechos, deberes y convivencia conforme al proyecto educativo"
       ],
       "correct": 2,
-      "explanation": "El Proyecto de Gestión contempla el mantenimiento del patrimonio mobiliario e inmobiliario del centro escolar."
+      "explanation": "La programación es planificada pero revisable: las evidencias permiten adaptar la enseñanza sin perder los objetivos."
     },
     {
       "id": 480,
       "topic": 4,
       "topicName": "Tema 4: Planificación Educativa y Documentos",
-      "question": "¿Qué instrumento institucional articula las medidas frente al acoso escolar y ciberacoso? (Aspecto #80)",
+      "question": "La coherencia entre documentos se rompe especialmente cuando:",
       "options": [
-        "El parte de incidencias meteorológicas",
-        "El catálogo de excursiones de fin de curso",
-        "La factura telefónica del centro",
-        "El Plan de Convivencia (integrado en el PEC), con sus protocolos específicos de prevención e intervención"
+        "El RRI/NOFC regula normas, derechos, deberes y convivencia conforme al proyecto educativo",
+        "El PEC, como marco estable, define identidad, valores y prioridades educativas del centro",
+        "La PGA concreta para un curso las líneas que el PEC mantiene como orientación institucional",
+        "un objetivo institucional no tiene acciones ni evidencias en los documentos operativos"
       ],
       "correct": 3,
-      "explanation": "El Plan de Convivencia contiene los protocolos de actuación inmediata ante situaciones de violencia o acoso escolar."
+      "explanation": "Un objetivo sin despliegue operativo queda desconectado y no puede seguirse ni evaluarse."
     }
   ]
 };
-if (typeof window !== 'undefined') { window.DAC_DATA = DAC_DATA; }
-if (typeof module !== 'undefined' && module.exports) { module.exports = DAC_DATA; }
